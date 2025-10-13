@@ -140,41 +140,34 @@ python langgraph_bargain_debt.py --mode vanilla --scenarios 50 --out_dir results
 ### Success Rate
 - **Formula**: `(Successful Negotiations) / (Total Negotiations) × 100%`
 - **Description**: Percentage of negotiations that reach mutual payment agreement
-- **Target**: >75% for optimal performance
+
 
 ### Collection Efficiency
 - **Formula**: `Target Days / Actual Collection Days`
 - **Description**: Ratio of ideal vs. actual payment timeline
-- **Target**: >0.85 indicates efficient collection
+
 
 ### Recovery Rate
 - **Formula**: `1 - (|Actual Days - Target Days| / Target Days)`
 - **Description**: Measures adherence to target timeline (0-1 scale)
-- **Target**: >0.80 for successful timeline management
+
 
 ### Negotiation Speed
 - **Metric**: Average number of conversation rounds to reach agreement
 - **Description**: Efficiency of the negotiation process
-- **Target**: <15 rounds for optimal efficiency
+
 
 ### Emotional Convergence
 - **Metric**: Stability and optimality of emotional transition patterns
 - **Description**: Measures how well the Bayesian optimizer learns effective emotional sequences
-- **Target**: Convergence within 10-15 iterations
+
 
 ### Bayesian Learning Progress
 - **Metric**: Expected Improvement (EI) over iterations
 - **Description**: Tracks the learning progress of the Bayesian optimization
-- **Target**: Positive EI trend with eventual convergence
+
 
 ## 🏗️ System Architecture
-
-### Core Components
-
-1. **BayesianEmotionOptimizer**: Learns optimal emotional transition matrices using Gaussian Processes
-2. **AdaptiveDebtBargain**: Main negotiation engine with LangGraph state management
-3. **SimplifiedNegotiationSystem**: State detection and timeline extraction
-4. **CreditorEmotionLearner**: Legacy learning system for comparison
 
 ### Emotional States
 
@@ -190,21 +183,7 @@ The system models 7 distinct emotional states based on Ekman's basic emotions:
 | **Surprise** | Engaging, unexpected | Introducing creative solutions |
 | **Neutral** | Balanced, fact-focused | Professional baseline approach |
 
-## 📁 Project Structure
 
-```
-EmoDebt/
-├── langgraph_bargain_debt.py      # Main negotiation system
-├── debt_prepare.py                # Dataset preparation utilities
-├── requirements_bayesian.txt      # Python dependencies
-├── Framework.png                  # System architecture diagram
-├── data/
-│   ├── credit_recovery_scenarios.csv      # Input debt scenarios
-│   ├── debt_collection_scenarios.json     # Processed scenarios
-│   └── llm_credit_recovery_v2.csv        # Alternative dataset
-├── results_bayesian_debt/         # Output directory for results
-└── README.md                      # This file
-```
 
 ## 🔧 Advanced Configuration
 
@@ -244,116 +223,6 @@ Format your debt data following this CSV structure:
 Creditor Name,Debtor Name,Credit Type,Original Amount (USD),Outstanding Balance (USD),Days Overdue,Creditor Target Days,Debtor Target Days,Purchase Purpose,Reason for Overdue,Business Sector,Collateral,Recovery Stage,Cash Flow Situation,Business Impact Description,Proposed Solution,Recovery Probability (%),Interest Accrued (USD)
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/your-feature-name`
-3. **Make your changes** and add tests
-4. **Run the test suite**: `python langgraph_bargain_debt.py --mode test`
-5. **Commit your changes**: `git commit -m "Add your feature description"`
-6. **Push to your branch**: `git push origin feature/your-feature-name`
-7. **Create a Pull Request**
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -r requirements_bayesian.txt
-
-# Run tests
-python -m pytest tests/ -v
-
-# Check code formatting
-black langgraph_bargain_debt.py debt_prepare.py
-```
-
-## 📋 Troubleshooting
-
-### Common Issues
-
-**Issue**: `ImportError: No module named 'langgraph'`
-```bash
-# Solution: Install LangGraph
-pip install langgraph langchain-openai langchain-anthropic
-```
-
-**Issue**: `OpenAI API key not found`
-```bash
-# Solution: Check your .env file
-echo $OPENAI_API_KEY  # Should show your key
-```
-
-**Issue**: `FileNotFoundError: debt_collection_scenarios.json`
-```bash
-# Solution: Generate scenarios first
-python debt_prepare.py --debt_csv ./data/credit_recovery_scenarios.csv
-```
-
-**Issue**: Poor negotiation performance
-```bash
-# Solution: Increase learning iterations
-python langgraph_bargain_debt.py --mode bayesian --iterations 20 --scenarios 10
-```
-
-### Performance Optimization
-
-- **Memory Usage**: For large-scale experiments (>1000 scenarios), consider running in batches
-- **API Rate Limits**: Add delays between API calls if you encounter rate limiting
-- **Model Selection**: GPT-4o provides better results but costs more than GPT-4o-mini
-
-## 📈 Results and Analysis
-
-### Sample Output
-
-```json
-{
-  "experiment_type": "bayesian_emotion_experiments",
-  "overall_summary": {
-    "total_negotiations": 150,
-    "total_successful": 127,
-    "overall_success_rate": 0.847,
-    "average_collection_days": 18.3,
-    "average_negotiation_rounds": 12.7
-  },
-  "debtor_emotion_results": {
-    "angry": {
-      "success_rate": 0.82,
-      "avg_collection_days": 16.5,
-      "best_creditor_emotion": "empathetic"
-    },
-    "happy": {
-      "success_rate": 0.91,
-      "avg_collection_days": 19.2,
-      "best_creditor_emotion": "positive"
-    }
-  }
-}
-```
-
-### Visualization
-
-Results are automatically saved in JSON format. Use the following Python snippet to visualize:
-
-```python
-import json
-import matplotlib.pyplot as plt
-
-# Load results
-with open('results_bayesian_debt/experiment_results.json', 'r') as f:
-    results = json.load(f)
-
-# Plot success rates by emotion
-emotions = list(results['debtor_emotion_results'].keys())
-success_rates = [results['debtor_emotion_results'][e]['success_rate'] for e in emotions]
-
-plt.bar(emotions, success_rates)
-plt.title('Success Rate by Debtor Emotion')
-plt.ylabel('Success Rate')
-plt.xticks(rotation=45)
-plt.show()
-```
 
 ## 📚 Citation
 
@@ -369,22 +238,6 @@ If you use EmoDebt in your research, please cite:
 }
 ```
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/Yunbo-max/EmoDebt/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Yunbo-max/EmoDebt/discussions)
-- **Email**: yunbo.long@email.com
-
-## 🔒 Ethical Considerations
-
-This system is designed for **educational and research purposes**. When implementing in real-world debt collection:
-
-- ✅ **Do**: Follow all applicable laws and regulations (FDCPA, TCPA, etc.)
-- ✅ **Do**: Maintain respectful and professional communication
-- ✅ **Do**: Provide clear opt-out mechanisms for debtors
-- ❌ **Don't**: Use aggressive or manipulative tactics
-- ❌ **Don't**: Violate debtor privacy or rights
-- ❌ **Don't**: Implement without proper legal review
 
 ## 📄 License
 
