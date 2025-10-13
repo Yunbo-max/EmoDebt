@@ -1,8 +1,7 @@
 # EmoDebt: Bayesian-Optimized Emotional Intelligence for Strategic Agent-to-Agent Debt Recovery
 
-![Debt Negotiation System Diagram](docs/system_diagram.png)
+![Debt Negotiation System Diagram](Framework.png)
 
-> **Abstract**: This system implements a Bayesian-optimized emotional intelligence framework for automated debt collection negotiations between LLM-powered agents. The creditor agent learns optimal emotional transition strategies through Gaussian Process optimization while adapting to debtor emotional profiles.
 
 ## Key Features
 
@@ -10,7 +9,7 @@
 - 🎭 **Dynamic Emotional Adaptation**: Creditor agent adjusts strategy based on debtor's emotional profile (happy, angry, sad, etc.)
 - ⚖️ **Strategic Concession Patterns**: Implements psychologically-grounded negotiation tactics with temporal constraints
 - 📊 **Online Learning**: Continuously improves emotional strategies through negotiation outcomes
-- 🤖 **Multi-Model Support**: Compatible with GPT-4o, Claude 3, and other LLMs via LangChain
+- 🤖 **Multi-Model Support**: Compatible with GPT-4o-mini, GPT-5-mini, and other LLMs via LangGraph
 
 ## Installation
 pip install requirements.txt
