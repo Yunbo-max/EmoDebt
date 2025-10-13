@@ -12,7 +12,10 @@
 - 🤖 **Multi-Model Support**: Compatible with GPT-4o-mini, GPT-5-mini, and other LLMs via LangGraph
 
 ## Installation
+```
 pip install requirements.txt
+```
+
 
 ## Create a config file named `.env` which contains the following lines:
    ```sh
@@ -30,17 +33,11 @@ pip install requirements.txt
 
 ### Example Dataset Configuration
 
-python langgraph_bargain_debt_simple.py \
---debt_csv ./data/my_debt_cases.csv \
---n_trial_per_debt 5 \
---n_emotions 5 \
---out_fn ./results/custom_scenarios.json
+```
+python langgraph_bargain_debt_simple.py --debt_csv ./data/my_debt_cases.csv --n_trial_per_debt 5 --n_emotions 5 --out_fn ./results/custom_scenarios.json
+```
 
-## Debt recovery negotitaion 
-python langgraph_bargain_debt.py --mode bayesian --model_creditor gpt-4o-mini --model_debtor gpt-5-mini --debtor_emotion vanilla --iterations 5 --scenarios 20
-
-
-### Key Parameters
+### Negotitaion Parameters
 
 | Parameter | Description | Options |
 |-----------|-------------|---------|
@@ -50,6 +47,15 @@ python langgraph_bargain_debt.py --mode bayesian --model_creditor gpt-4o-mini --
 | `--debtor_emotion` | Fixed emotional profile | `vanilla`,`happy`, `angry`, `sad`, `all` etc. |
 | `--iterations` | Learning cycles per scenario | 1-20 |
 | `--scenarios` | Number of debt cases | 1-100 |
+
+## Debt recovery negotitaion 
+
+```
+python langgraph_bargain_debt.py --mode bayesian --model_creditor gpt-4o-mini --model_debtor gpt-5-mini --debtor_emotion vanilla --iterations 5 --scenarios 20
+```
+
+
+
 
 ## 📈 Evaluation Metrics
 
