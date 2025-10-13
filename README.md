@@ -20,11 +20,26 @@ pip install requirements.txt
    OPENAI_API_KEY=...
    ```
 
-# Generate debt collection scenarios from CSV data
-python debt_prepare.py --debt_csv ./data/credit_recovery_scenarios.csv --n_trial_per_debt 2 --out_fn data/debt_collection_scenarios.json
+## 📁 Dataset Parameters
+
+| Parameter | Description | Default |
+|-----------|-------------|---------|
+| `--debt_csv` | Input CSV file path | `./data/credit_recovery_scenarios.csv` |
+| `--n_trial_per_debt` | Negotiation trials per scenario | `2` |
+| `--n_emotions` | Emotions per agent profile | `3` |
+| `--out_fn` | Output JSON file | `data/debt_collection_scenarios.json` |
+
+### Example Dataset Configuration
+
+python langgraph_bargain_debt_simple.py \
+--debt_csv ./data/my_debt_cases.csv \
+--n_trial_per_debt 5 \
+--n_emotions 5 \
+--out_fn ./results/custom_scenarios.json
 
 ## Debt recovery negotitaion 
 python langgraph_bargain_debt.py --mode bayesian --model_creditor gpt-4o-mini --model_debtor gpt-5-mini --debtor_emotion vanilla --iterations 5 --scenarios 20
+
 
 ### Key Parameters
 
@@ -37,6 +52,29 @@ python langgraph_bargain_debt.py --mode bayesian --model_creditor gpt-4o-mini --
 | `--iterations` | Learning cycles per scenario | 1-20 |
 | `--scenarios` | Number of debt cases | 1-100 |
 
+## 📈 Evaluation Metrics
+
+### Success Rate
+- **Formula**: `(Successful Negotiations) / (Total Negotiations) × 100%`
+- **Description**: Percentage of negotiations that reach mutual agreement
+
+### Collection Efficiency
+- **Formula**: `Target Days / Actual Collection Days`
+- **Description**: Ratio of ideal vs. actual payment timeline
+
+### Recovery Rate
+- **Formula**: `1 - (∣Actual Days - Target Days∣ / Target Days)`
+- **Description**: Measures adherence to target timeline (0-1 scale)
+
+### Negotiation Speed
+- **Metric**: Average number of conversation rounds to reach agreement
+- **Description**: Efficiency of the negotiation process
+
+### Emotional Convergence
+- **Metric**: Stability and optimality of emotional transition patterns
+- **Description**: Measures how well the Bayesian optimizer learns effective emotional sequences
+
+### Comprehensive Evaluation Example
 
 ## 📊 Citation
 
