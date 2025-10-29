@@ -36,7 +36,7 @@
 
 2. **Install dependencies**:
    ```bash
-   pip install -r requirements_bayesian.txt
+   pip install -r requirement.txt
    ```
 
 3. **Set up environment variables**:
