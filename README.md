@@ -21,14 +21,6 @@
 - 🔄 **Real-time Adaptation**: Adjusts emotional strategies mid-negotiation based on debtor responses
 - 📈 **Performance Analytics**: Comprehensive metrics including success rates, collection efficiency, and emotional convergence
 
-## 📊 Key Results
-
-| Metric | Improvement |
-|--------|-------------|
-| **Success Rate** | +46.2% average across all model pairings (up to 99.7%) |
-| **Collection Efficiency** | -86.5% reduction in collection timelines |
-| **Negotiation Speed** | -67.5% reduction in dialogue turns |
-
 ## 🚀 Quick Start
 
 ### Prerequisites
