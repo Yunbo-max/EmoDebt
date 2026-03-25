@@ -1,0 +1,887 @@
+{
+  "q_table": [
+    [
+      -0.006784093403258374,
+      0.014670288955034803,
+      68.54201717699347,
+      0.010882548794207322,
+      0.006098451049083354,
+      -0.022829054402289897,
+      -0.014732751893677327
+    ],
+    [
+      0.23001509296703226,
+      1.3234286466313363,
+      1.7275332666564087,
+      -0.007976016239126138,
+      0.026899322581817528,
+      -0.012334516467147408,
+      69.82390147120799
+    ],
+    [
+      0.007786948991399599,
+      0.017043249337048896,
+      -0.0218122973980639,
+      -0.0009874718454267312,
+      70.58867944456976,
+      0.020721679183733785,
+      -0.015986459924086163
+    ],
+    [
+      0.016250840443653634,
+      0.0071680293154415525,
+      -0.011477843968139856,
+      -0.014250902848793398,
+      -0.02004903858561721,
+      0.020849614427354415,
+      -0.009953730410999947
+    ],
+    [
+      0.0007048768127102723,
+      70.92014106210863,
+      3.1939310450047724,
+      -0.006486319593446962,
+      1.8963718641740808,
+      3.4352929787737105,
+      0.004263496005181789
+    ],
+    [
+      0.013604487385619122,
+      -0.01595359800238197,
+      -0.0072957440627243715,
+      -0.014729413766427757,
+      5.18893179427996,
+      -0.015735975873410725,
+      0.00868344603111021
+    ],
+    [
+      68.32349167282169,
+      0.019395449512461877,
+      0.0111574108544033,
+      0.009650978030604416,
+      0.021094628919171268,
+      0.0033569530512054047,
+      0.027882023869750548
+    ]
+  ],
+  "learning_rate": 0.1,
+  "discount_factor": 0.9,
+  "exploration_rate": 0.6057704364907278,
+  "exploration_decay": 0.995,
+  "min_exploration": 0.1,
+  "total_episodes": 100,
+  "best_reward": 21.70879727462084,
+  "best_sequence": [
+    "happy",
+    "angry",
+    "disgust",
+    "surprising",
+    "neutral"
+  ],
+  "episode_rewards": [
+    17.572428220763342,
+    16.88587318870999,
+    18.38587318870999,
+    16.572428220763342,
+    16.338549566704117,
+    20.29925741973311,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    16.338549566704117,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.338549566704117,
+    -10.0,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.338549566704117,
+    17.88587318870999,
+    17.88587318870999,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    17.88587318870999,
+    -10.0,
+    17.88587318870999,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    16.338549566704117,
+    16.572428220763342,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    17.88587318870999,
+    16.338549566704117,
+    16.338549566704117,
+    17.88587318870999,
+    16.338549566704117,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    17.88587318870999,
+    20.29925741973311,
+    15.170226903901323,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.338549566704117,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.572428220763342,
+    16.338549566704117,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    16.338549566704117,
+    17.88587318870999,
+    16.572428220763342,
+    16.572428220763342,
+    17.88587318870999,
+    17.88587318870999,
+    17.88587318870999,
+    16.572428220763342,
+    17.88587318870999,
+    16.572428220763342,
+    21.70879727462084,
+    17.88587318870999,
+    16.572428220763342
+  ],
+  "reward_history": [
+    {
+      "episode": 1,
+      "reward": 17.572428220763342,
+      "exploration_rate": 0.995,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 2,
+      "reward": 16.88587318870999,
+      "exploration_rate": 0.990025,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 3,
+      "reward": 18.38587318870999,
+      "exploration_rate": 0.985074875,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 4,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.9801495006250001,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 5,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.9752487531218751,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 6,
+      "reward": 20.29925741973311,
+      "exploration_rate": 0.9703725093562657,
+      "sequence_length": 6,
+      "success": true
+    },
+    {
+      "episode": 7,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.9655206468094844,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 8,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.960693043575437,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 9,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.9558895783575597,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 10,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.9511101304657719,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 11,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.946354579813443,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 12,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.9416228069143757,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 13,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.9369146928798039,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 14,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.9322301194154049,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 15,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.9275689688183278,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 16,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.9229311239742362,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 17,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.918316468354365,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 18,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.9137248860125932,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 19,
+      "reward": -10.0,
+      "exploration_rate": 0.9091562615825302,
+      "sequence_length": 7,
+      "success": false
+    },
+    {
+      "episode": 20,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.9046104802746175,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 21,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.9000874278732445,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 22,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8955869907338783,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 23,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8911090557802088,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 24,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8866535105013078,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 25,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.8822202429488013,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 26,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8778091417340573,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 27,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8734200960253871,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 28,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8690529955452602,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 29,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8647077305675338,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 30,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8603841919146962,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 31,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8560822709551227,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 32,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.851801859600347,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 33,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8475428503023453,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 34,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8433051360508336,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 35,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8390886103705794,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 36,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8348931673187264,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 37,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8307187014821328,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 38,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8265651079747222,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 39,
+      "reward": -10.0,
+      "exploration_rate": 0.8224322824348486,
+      "sequence_length": 7,
+      "success": false
+    },
+    {
+      "episode": 40,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8183201210226743,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 41,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.8142285204175609,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 42,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.810157377815473,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 43,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.8061065909263957,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 44,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.8020760579717637,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 45,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.798065677681905,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 46,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7940753492934954,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 47,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7901049725470279,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 48,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7861544476842928,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 49,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7822236754458713,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 50,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.778312557068642,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 51,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7744209942832988,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 52,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7705488893118823,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 53,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7666961448653229,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 54,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7628626641409962,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 55,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7590483508202912,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 56,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7552531090661897,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 57,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7514768435208588,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 58,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7477194593032545,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 59,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.7439808620067382,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 60,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.7402609576967045,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 61,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.736559652908221,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 62,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.7328768546436799,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 63,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7292124703704616,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 64,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7255664080186093,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 65,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7219385759785162,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 66,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7183288830986236,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 67,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.7147372386831305,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 68,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7111635524897149,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 69,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.7076077347272662,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 70,
+      "reward": 20.29925741973311,
+      "exploration_rate": 0.7040696960536299,
+      "sequence_length": 6,
+      "success": true
+    },
+    {
+      "episode": 71,
+      "reward": 15.170226903901323,
+      "exploration_rate": 0.7005493475733617,
+      "sequence_length": 10,
+      "success": true
+    },
+    {
+      "episode": 72,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.697046600835495,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 73,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6935613678313175,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 74,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6900935609921609,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 75,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6866430931872001,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 76,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.6832098777212641,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 77,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6797938283326578,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 78,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6763948591909945,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 79,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6730128848950395,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 80,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6696478204705644,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 81,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6662995813682115,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 82,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6629680834613705,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 83,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.6596532430440636,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 84,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6563549768288433,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 85,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.653073201944699,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 86,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6498078359349755,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 87,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6465587967553006,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 88,
+      "reward": 16.338549566704117,
+      "exploration_rate": 0.6433260027715241,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 89,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6401093727576664,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 90,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6369088258938781,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 91,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6337242817644086,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 92,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6305556603555866,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 93,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6274028820538087,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 94,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6242658676435396,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 95,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6211445383053219,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 96,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6180388156137953,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 97,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6149486215357263,
+      "sequence_length": 8,
+      "success": true
+    },
+    {
+      "episode": 98,
+      "reward": 21.70879727462084,
+      "exploration_rate": 0.6118738784280476,
+      "sequence_length": 5,
+      "success": true
+    },
+    {
+      "episode": 99,
+      "reward": 17.88587318870999,
+      "exploration_rate": 0.6088145090359074,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 100,
+      "reward": 16.572428220763342,
+      "exploration_rate": 0.6057704364907278,
+      "sequence_length": 8,
+      "success": true
+    }
+  ],
+  "use_softmax": true,
+  "temperature": 1.0
+}
