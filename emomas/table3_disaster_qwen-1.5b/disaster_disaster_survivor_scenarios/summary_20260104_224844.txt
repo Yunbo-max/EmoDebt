@@ -1,1 +1,0 @@
-Q-LEARNING EMOTION OPTIMIZATION EXPERIMENT SUMMARY\n==================================================\n\nExperiment Type: Q-Learning Emotion Optimization\nTotal Negotiations: 10\nSuccess Rate: 90.0% (95% CI: [59.6%, 98.2%])\nCollection Rate: 0.833 (95% CI: [0.633, 1.000])\nNegotiation Rounds: 9.3 (95% CI: [4.5, 15.3])\n\nFAILURE BREAKDOWN:
