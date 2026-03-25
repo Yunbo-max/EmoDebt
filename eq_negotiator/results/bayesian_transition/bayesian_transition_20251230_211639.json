@@ -1,0 +1,5099 @@
+{
+  "experiment_type": "bayesian_transition_optimization",
+  "iterations": 10,
+  "model_config": {
+    "creditor_model": "gpt-4o-mini",
+    "debtor_model": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30
+  },
+  "scenarios_used": [
+    "debt_001",
+    "debt_002"
+  ],
+  "iteration_results": {
+    "iteration_1": {
+      "iteration": 1,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 11,
+          "dialog_length": 11,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "J",
+            "S",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this matter. To resolve this efficiently, how about we aim for a payment timeline of 40 days?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand your position, and while I appreciate your offer of 40 days, I would need a bit more time to ensure I can meet the payment without risking my financial stability. How about we agree on 100 days?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to minimize the timeline. Can we agree on 60 days for the payment?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment in 100 days. This timeframe will help me manage my cash flow better while still ensuring I fulfill my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while 100 days is a bit too long for us, can we aim for 75 days to settle this?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. How about we aim for 100 days to settle the payment? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your position and understand the need for some flexibility. How about we aim for a payment timeline of 85 days to help resolve this efficiently?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Given my current cash flow situation, could we agree on a payment timeline of 100 days? That would really help me manage my finances while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I completely understand that you're facing difficulties, but I need to work towards a quicker resolution. How about we aim for 90 days to settle this debt?",
+              "state": "offer",
+              "requested_days": 90
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but I really need a bit more time to come up with the full amount. How about we agree on 100 days? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work with me, but 100 days is still too extended. Let's aim for 95 days to ensure we resolve this as efficiently as possible.",
+              "state": "accept",
+              "requested_days": 95
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: S \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.16915422885572137,
+              "reasoning": "Coherence: S \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value": 0.68
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 10,
+          "transition": "S \u2192 A"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 17,
+          "dialog_length": 17,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "J",
+            "S",
+            "A",
+            "D",
+            "F",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this further, but I believe we can resolve this sooner. How about we aim for a timeline of 40 days for the full payment?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to 100 days for the payment. That would really help me manage my cash flow better while ensuring I meet my obligations. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to reach a resolution, can we agree on a payment timeline of 60 days? This allows us both to settle the matter efficiently.",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the full payment in 100 days. This would really help me manage my cash flow while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but I believe we can settle this sooner. How about we agree on 70 days for the full payment?",
+              "state": "offer",
+              "requested_days": 70
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. I can commit to making the full payment in 100 days; that would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to negotiate! How about we agree on a 78-day timeline for the payment? This allows us to resolve this promptly while accommodating your needs.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, but I really need a bit more time to manage my cash flow effectively. How about we consider 100 days for the payment?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I completely understand that 100 days feels more manageable for you; however, if we could agree on a timeline of 80 days, it would allow us to resolve this matter sooner while still providing you some necessary breathing room.",
+              "state": "offer",
+              "requested_days": 80
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to 100 days for the payment. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your position, but 100 days is too lengthy. Can we settle on 85 days to ensure this gets resolved promptly?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I understand your position, and I appreciate your willingness to discuss this. How about we settle on 100 days for the payment? That would really help me manage my cash flow while still showing my commitment to resolving this debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your request, but extending it to 100 days is a bit concerning for us. Could we aim for 89 days instead? That would help us both move forward more efficiently.",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and while I was hoping for more time, would you be open to extending the payment timeline to 100 days? This would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I appreciate your position, but extending it to 100 days might complicate things further on your end. How about we settle on 92 days for the payment? This way, we can ensure a resolution without further delays.",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I\u2019d like to propose a timeline of 100 days for the payment. This would really help me manage my cash flow while still working towards settling the balance.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I understand that your position is challenging, but waiting 100 days could extend this situation unnecessarily. How about we settle on 96 days instead? This way, we can resolve it promptly and avoid any further complications.",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.3,
+              "reasoning": "EXPLORATION: Random choice J",
+              "value": 0.5
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.18107833163784331,
+              "reasoning": "Coherence: F \u2192 N (score: 0.71) | Phase-appropriate for late",
+              "value": 0.712
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "F \u2192 F"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [],
+        "performance": {
+          "success_rate": 0.0,
+          "total_transitions": 0,
+          "successful_transitions": 0,
+          "agent_selections": {}
+        },
+        "learning": {
+          "exploration_rate": 0.2,
+          "learning_events": 0,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 0,
+            "success_rate": 0.0
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_2": {
+      "iteration": 2,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 100,
+          "final_days": 100,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 9,
+          "dialog_length": 9,
+          "emotion_sequence": [
+            "J",
+            "N",
+            "S",
+            "A",
+            "D"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but I'd like to see if we can aim for a quicker resolution. Could we settle this in 25 days?",
+              "state": "offer",
+              "requested_days": 25
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. How about we agree on 100 days for the full payment? This would really help me manage my cash flow better while still showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your honesty, but to keep this on track, how about we settle on 50 days for the payment? This way, we can resolve this matter sooner while still giving you some time.",
+              "state": "offer",
+              "requested_days": 50
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, but I really need to ask for a bit more time. Could we look at extending the payment timeline to 100 days? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I truly understand that meeting this obligation can be challenging for you. How about we agree on a timeline of 65 days to help you manage it while still working toward a swift resolution?",
+              "state": "offer",
+              "requested_days": 65
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we really need to resolve this matter more urgently. Can we agree on a 75-day timeline for full payment?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. How about we settle on 100 days to make the full payment? This would really help me manage my cash flow better while still showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your position, but extending it to 100 days is concerning for us. Could we possibly agree on a 75-day timeline instead?",
+              "state": "accept",
+              "requested_days": 100
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.21164021164021166,
+              "reasoning": "Payoff: A \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+              "value": 4.0
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.19841269841269843,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.8
+            }
+          ],
+          "last_debtor_emotion": "J",
+          "debt_amount": 15000,
+          "gap_size": 35,
+          "transition": "A \u2192 D"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "S",
+            "A",
+            "F",
+            "D"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I believe we can resolve this more quickly. How does a 40-day timeline for full payment sound?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. How about we extend the payment period to 100 days? This would really help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your request, but extending the timeline to 100 days isn't feasible for us. How about we agree on 58 days to settle this balance?",
+              "state": "offer",
+              "requested_days": 58
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Given my current cash flow situation, would you consider extending the payment timeline to 100 days? That would really help me manage my finances better while ensuring I can settle the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position and understand the need for flexibility. How about we settle on 70 days to ensure we can resolve this matter efficiently?",
+              "state": "offer",
+              "requested_days": 70
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to negotiate. How about we aim for 100 days to settle the outstanding balance? That would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand that you're facing challenges, but considering the situation, how about we aim for 80 days for the full payment? This would help us resolve this matter in a more timely manner.",
+              "state": "offer",
+              "requested_days": 80
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the timeline. I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your request, but we really need to resolve this sooner. How about we agree on a payment timeline of 85 days to ensure we stay on track?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but I really need a bit more time. How about we settle on 100 days for the payment? That would help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I recognize the challenges you're facing, but extending the timeline to 100 days could have serious implications for both of us. How about we settle on 90 days instead? This will allow you some flexibility while helping us move toward a resolution more quickly.",
+              "state": "offer",
+              "requested_days": 90
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. I understand the importance of settling this, and I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but waiting 100 days is concerning for us. Can we aim for a compromise at 95 days to resolve this more swiftly?",
+              "state": "accept",
+              "requested_days": 95
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: F \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.17435897435897435,
+              "reasoning": "Coherence: F \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value": 0.68
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 10,
+          "transition": "F \u2192 D"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "A",
+          "N",
+          "N",
+          "N",
+          "J",
+          "S",
+          "A",
+          "D",
+          "F",
+          "F"
+        ],
+        "performance": {
+          "success_rate": 0.13333333333333333,
+          "total_transitions": 15,
+          "successful_transitions": 2,
+          "agent_selections": {
+            "GameTheory": 6
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.21076905954487493,
+          "learning_events": 2,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 2,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.0,
+                "total_predictions": 2,
+                "correct_predictions": 0
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 2,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.0,
+                "total_predictions": 2,
+                "correct_predictions": 0
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11771993186552097,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 11,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.14348275210218353,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 17,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_3": {
+      "iteration": 3,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "J",
+            "N",
+            "S",
+            "A",
+            "F",
+            "D"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. While I understand your position, I really need to see payment within the next 30 days. Could we possibly look at a timeline of 35 days instead?",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Would you be open to extending the payment timeline to 100 days? That would really help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, and while I understand the need for more time, I can agree to a payment timeline of 55 days to help us reach a resolution quickly.",
+              "state": "offer",
+              "requested_days": 55
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I\u2019d like to propose a payment timeline of 100 days. This would really help me manage my cash flow while ensuring I meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to keep things moving forward, how about we settle on 70 days for the payment? This way, we can address the balance more effectively.",
+              "state": "offer",
+              "requested_days": 70
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding regarding my situation. Would you be able to extend the payment timeline to 100 days? That would really help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I completely understand your situation and appreciate your honesty. How about we aim for 80 days to settle this? That gives you some extra time while still moving us toward resolution.",
+              "state": "offer",
+              "requested_days": 80
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but given my current cash flow situation, I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need us to reach a resolution more quickly. How does 85 days sound for completing the payment?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. While I understand you're looking for 40 days, could we consider extending that to 100 days? It would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your position, but extending it to 100 days could lead to complications for both of us. Could we agree on 90 days instead to get this resolved efficiently?",
+              "state": "offer",
+              "requested_days": 90
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to work with me. Given my current cash flow situation, would you consider extending the payment period to 100 days? That would really help me manage my finances better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but waiting 100 days is a bit excessive for us. How about we aim for a compromise at 95 days to help us both move forward?",
+              "state": "accept",
+              "requested_days": 95
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: F \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.17435897435897435,
+              "reasoning": "Coherence: F \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value": 0.68
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 10,
+          "transition": "F \u2192 D"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "J",
+            "S",
+            "A",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work with us, but 60 days extends our timeline too much. How about we aim for a resolution in 40 days instead?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. How about we settle on 100 days to make the full payment? That would really help me manage my cash flow more effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together. How about we aim for a payment timeline of 60 days to help us reach a resolution while still keeping it manageable for you?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding of my situation, and I want to work together on this. How about we aim for 100 days to settle the payment? That would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this further. How about we settle on 75 days for the full payment? This gives you a bit more time while still allowing us to resolve this matter promptly.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this situation. While I was hoping for a longer timeline, how about we aim for 100 days to settle the payment? I believe this will allow me to manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your understanding, and while I can\u2019t extend it to 100 days, how about we aim for 85 days? I believe this will help us both move forward positively.",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. Given my current cash flow situation, I can commit to a payment in 100 days. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I completely understand the challenges you're facing, but I believe we can work towards a quicker resolution. How about we settle on 89 days for the full payment?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. How about we explore a timeline of 100 days for the full payment? This would really help me manage my cash flow while still showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand your request, but we need to expedite this process. Can we agree on 92 days for the full payment?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. How about we aim for 100 days for the full payment? This would really help us manage our cash flow effectively while ensuring we meet our obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together, but extending to 100 days carries risks. Could we potentially settle on 96 days to ensure a faster resolution while accommodating your needs?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: A \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "A \u2192 F"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "S",
+          "A",
+          "D",
+          "N",
+          "N",
+          "N",
+          "S",
+          "A",
+          "F",
+          "D"
+        ],
+        "performance": {
+          "success_rate": 0.14814814814814814,
+          "total_transitions": 27,
+          "successful_transitions": 4,
+          "agent_selections": {
+            "GameTheory": 9
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.22263028423675837,
+          "learning_events": 4,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 4,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.0,
+                "total_predictions": 4,
+                "correct_predictions": 0
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 4,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.0,
+                "total_predictions": 4,
+                "correct_predictions": 0
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11771993186552097,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 11,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.14348275210218353,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 17,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_large",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.1251085090598364,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 9,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_4": {
+      "iteration": 4,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "F",
+            "N",
+            "J",
+            "S",
+            "A",
+            "N"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. While I understand your situation, I really need to see payment in 30 days. Could we aim for 40 days as a starting point?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. Given my current cash flow situation, would it be possible to extend the payment timeline to 100 days? This would really help me manage my finances while ensuring I can settle the debt fully.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation, but 100 days could lead to further complications. How about we settle on 60 days for payment? This will help us both move forward more effectively.",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. While I understand your position, I can realistically manage a payment timeline of 100 days. Would that be acceptable for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to reduce the timeline for our agreement. How about we aim for 75 days to settle this?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I understand your position, and I appreciate your willingness to work with me. How about we settle on a timeline of 100 days for the payment? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your request, and I want to work together to resolve this quickly. How about we aim for 85 days to settle the balance?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. Given my current cash flow situation, I can commit to a payment timeline of 100 days. Would that be acceptable to you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I completely understand that circumstances can be tough, but I really need to resolve this sooner. Would you be able to commit to a payment timeline of 89 days?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I\u2019d like to propose a timeline of 100 days for the payment. This would really help me manage my cash flow effectively while still working towards settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we need to resolve this sooner. Let's aim for 92 days to settle this balance.",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the full payment in 100 days. I believe this timeframe will allow me to manage my cash flow better while ensuring I honor my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but I believe we can reach a more efficient resolution. How about settling this within 95 days?",
+              "state": "accept",
+              "requested_days": 95
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "A \u2192 N"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 15,
+          "dialog_length": 15,
+          "emotion_sequence": [
+            "N",
+            "F",
+            "N",
+            "J",
+            "S",
+            "F",
+            "A",
+            "D"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but I believe we can work towards a shorter timeline. How about we aim for 40 days for full payment?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to a payment in 100 days. This will give me enough time to ensure I can fulfill the obligation without further complications.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your honesty, but waiting 100 days puts both of us at risk. How about we settle on 60 days to ensure we resolve this matter effectively?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to discuss this. I can commit to making the payment in 100 days. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but I believe we can do better. Could we aim for a payment timeline of 70 days? This allows us to resolve the matter efficiently while accommodating your needs.",
+              "state": "offer",
+              "requested_days": 70
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding regarding my situation. How about we consider a timeline of 100 days for the payment? That would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your honesty, and while I understand your position, I believe we can work together to come to a quicker resolution. How about we settle on 80 days for the full payment?",
+              "state": "offer",
+              "requested_days": 80
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. Given my current cash flow situation, would you be willing to consider extending the payment timeline to 100 days? This would really help me manage my finances while ensuring I meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand that 100 days is a stretch for you, but how about we aim for 86 days? It would help us both move towards a resolution sooner.",
+              "state": "offer",
+              "requested_days": 86
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. Given my current cash flow situation, I can commit to making the full payment in 100 days, which would really help me manage my finances better. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to negotiate, but extending it to 100 days could impact our ability to move forward. Can we settle on 89 days instead to ensure we reach a resolution sooner?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and while I realize the need for a quicker resolution, would you be open to a 100-day timeline for the payment? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we need to resolve this sooner. Can we agree on 92 days for full payment?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I completely understand the urgency, and I appreciate your flexibility. How about we settle on 100 days for the payment? That would really help me manage my cash flow while still making sure I meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but extending to 100 days is quite a stretch for us. How about we aim for 96 days to get this resolved efficiently?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.21164021164021166,
+              "reasoning": "Payoff: A \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+              "value": 4.0
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "J",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "A \u2192 D"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "A",
+          "F",
+          "D",
+          "N",
+          "N",
+          "N",
+          "J",
+          "S",
+          "A",
+          "F"
+        ],
+        "performance": {
+          "success_rate": 0.14634146341463414,
+          "total_transitions": 41,
+          "successful_transitions": 6,
+          "agent_selections": {
+            "GameTheory": 14
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.23449780698107295,
+          "learning_events": 6,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 6,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.0,
+                "total_predictions": 6,
+                "correct_predictions": 0
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 6,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.0,
+                "total_predictions": 6,
+                "correct_predictions": 0
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.14348275210218353,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 17,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_large",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.1251085090598364,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 9,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.15427989147975832,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_5": {
+      "iteration": 5,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 15,
+          "dialog_length": 15,
+          "emotion_sequence": [
+            "N",
+            "J",
+            "N",
+            "S",
+            "A",
+            "F",
+            "Su",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but we really need to resolve this sooner rather than later. Could we aim for 25 days for full payment?",
+              "state": "offer",
+              "requested_days": 25
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the urgency, and I appreciate your willingness to work with me. How about we aim for a payment timeline of 100 days? That would really help me manage my cash flow better while still making sure you get paid.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation, but to resolve this swiftly, how about we aim for 50 days? This gives you some time while allowing us to settle the matter efficiently.",
+              "state": "offer",
+              "requested_days": 50
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to work with me. How about we settle on a 100-day timeline for the payment? That way, I can ensure I meet my obligations without jeopardizing my cash flow.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but in order to settle this matter efficiently, can we agree on 65 days for full payment? This allows us both to keep things moving forward.",
+              "state": "offer",
+              "requested_days": 65
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to negotiate. Given my current financial situation, would you consider extending the payment timeline to 100 days? This would really help me manage my cash flow better and ensure I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation. Let\u2019s aim for a more manageable timeline; how about we settle on 75 days for full payment?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. How about we agree on a timeline of 100 days for the payment? This would really help me manage my cash flow while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we need to expedite this matter. Can we agree on 85 days for full payment?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but given my current cash flow situation, I can commit to a payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand that you're facing challenges, but waiting 100 days could lead to further complications. Would you be able to manage a resolution in 89 days instead?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to 100 days for the payment. This will allow me to manage my cash flow effectively while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to expedite our resolution, how about we settle on 92 days for the full payment? This keeps us moving forward while still allowing you some flexibility.",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. How about we settle on 100 days? This would give me the necessary time to manage my cash flow and ensure a full payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss, but I need to see some urgency here. How about we agree on 96 days for full payment?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.27083333333333337,
+              "reasoning": "Payoff: Su \u2192 J (payoff: 5.20) | WSLS strategy for J in middle phase",
+              "value": 5.2
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.18111753371868977,
+              "reasoning": "Coherence: Su \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value": 0.752
+            }
+          ],
+          "last_debtor_emotion": "J",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "Su \u2192 A"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 100,
+          "final_days": 100,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 7,
+          "dialog_length": 7,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "S"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss the timeline; however, 60 days is still a bit lengthy. Could we aim for 45 days to settle this balance?",
+              "state": "offer",
+              "requested_days": 45
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter, but given my current cash flow situation, I can commit to making the full payment in 100 days. Would that be acceptable for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while 100 days is too long, I can work with you on a timeline of 60 days to ensure we resolve this effectively.",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, but I was hoping for a little more time. Could we agree on 100 days for the payment?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while I understand the need for more time, I can propose a timeline of 75 days to help us reach a resolution more quickly.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to work with me on the payment timeline. How about we aim for 100 days for the full payment? That would give me a bit more time to ensure everything is in order.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand the challenges you're facing, but waiting 100 days isn't feasible for us. Let's aim for an 80-day timeline to settle this and keep things manageable for both sides.",
+              "state": "accept",
+              "requested_days": 100
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.21164021164021166,
+              "reasoning": "Payoff: N \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+              "value": 4.0
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: N \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value": 0.68
+            }
+          ],
+          "last_debtor_emotion": "J",
+          "debt_amount": 25000,
+          "gap_size": 25,
+          "transition": "N \u2192 S"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "A",
+          "N",
+          "N",
+          "F",
+          "N",
+          "J",
+          "S",
+          "F",
+          "A",
+          "D"
+        ],
+        "performance": {
+          "success_rate": 0.14285714285714285,
+          "total_transitions": 56,
+          "successful_transitions": 8,
+          "agent_selections": {
+            "GameTheory": 19,
+            "EmotionalCoherence": 1
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.2460959342980243,
+          "learning_events": 8,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 8,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.125,
+                "total_predictions": 8,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 8,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.125,
+                "total_predictions": 8,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.15427989147975832,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 N",
+                "success": true,
+                "reward": 0.19635622551969237,
+                "debtor_savings": 0.7,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": [
+                  "GameTheory",
+                  "EmotionalCoherence"
+                ]
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.10787340470231521,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_6": {
+      "iteration": 6,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "Su",
+            "N",
+            "F",
+            "J",
+            "Su",
+            "S",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this; however, waiting 60 days isn't feasible. What if we aim for 45 days instead to settle this?",
+              "state": "offer",
+              "requested_days": 45
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the full payment in 100 days. That will give me the time I need to ensure I can settle this responsibly.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your request for more time, but I believe it's important for both of us to settle this sooner. How about we agree on 60 days for full payment?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. I can commit to a 100-day timeline for the payment, which would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your concern, but I really need to minimize the timeline to avoid further complications. How about we settle on 75 days for the full payment?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. I can commit to making the full payment in 100 days, which would really help me manage my cash flow better. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. How about we aim for a resolution in 85 days? That would allow us to move forward positively while still giving you some needed time.",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to discuss the payment timeline. Could we consider extending it to 100 days? This would really help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. How about we aim for 89 days? This keeps us moving forward while giving you a bit more breathing room.",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. Could we possibly extend the timeline to 100 days? This would really help me manage my cash flow better while ensuring I can make the full payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation, and while I want to be flexible, I believe we can settle this a bit sooner. Could we agree on 92 days for the payment?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I understand the importance of settling this debt, and I appreciate your position. Would you be open to extending the payment timeline to 100 days? That would really help me manage my cash flow better while still making progress on the payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. However, a timeframe of 96 days is more reasonable for us to resolve this matter efficiently. Can we agree on that?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: S \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.18377321603128052,
+              "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value": 0.752
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "S \u2192 A"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "D",
+            "N",
+            "J",
+            "F",
+            "S",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but extending the timeline to 60 days isn't feasible. How about we aim for 40 days to settle this?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand your position, and I appreciate your willingness to discuss this. How about we aim for 100 days to settle the payment? That would give me enough time to manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your concerns, but waiting 100 days is difficult for us. Could we agree on a timeline of 60 days to settle this matter sooner?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding of my situation. How about we agree on a payment timeline of 100 days? That way, I can manage my cash flow effectively while ensuring you receive your payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to keep things moving along, how about we agree on a timeline of 75 days for the full payment?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Given my current cash flow situation, I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while I can't extend it to 100 days, how about we agree on 85 days? This way, we can resolve this matter efficiently while giving you some extra time.",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Given my current cash flow situation, would you consider extending the payment timeline to 100 days? That would really help me manage the payment effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to avoid further complications, how about we settle on 89 days for the full payment? This way, we can keep everything on track and resolve this matter sooner.",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. Given my current situation, would you be open to extending the payment timeline to 100 days? This would really help me manage my cash flow better while ensuring I can make the full payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your honesty regarding your situation, and while 100 days is quite a stretch, I can meet you at 92 days to help you get this resolved as swiftly as possible. How does that sound?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I believe a timeline of 100 days would allow me to manage my cash flow better while still being committed to making the full payment. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I acknowledge your request, but 100 days is too extended for my timeline. Let's settle on 96 days to ensure we resolve this matter efficiently.",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: S \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.18377321603128052,
+              "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value": 0.752
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "S \u2192 A"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "N",
+          "S",
+          "A",
+          "F",
+          "Su",
+          "A",
+          "N",
+          "N",
+          "N",
+          "S"
+        ],
+        "performance": {
+          "success_rate": 0.14705882352941177,
+          "total_transitions": 68,
+          "successful_transitions": 10,
+          "agent_selections": {
+            "GameTheory": 24,
+            "EmotionalCoherence": 2,
+            "HMMPattern": 1
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.2572334553487324,
+          "learning_events": 10,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 10,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.1,
+                "total_predictions": 10,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 10,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.1,
+                "total_predictions": 10,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.15427989147975832,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 N",
+                "success": true,
+                "reward": 0.19635622551969237,
+                "debtor_savings": 0.7,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": [
+                  "GameTheory",
+                  "EmotionalCoherence"
+                ]
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.10787340470231521,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.10787340470231521,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_large",
+                "transition": "N \u2192 S",
+                "success": true,
+                "reward": 0.23761756624670785,
+                "debtor_savings": 0.7,
+                "negotiation_rounds": 7,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_7": {
+      "iteration": 7,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 15,
+          "dialog_length": 15,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "J",
+            "D",
+            "S",
+            "A",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. While I understand the need for time, I need to see a commitment to settle this within 30 days. Can we aim for a timeline of 32 days?",
+              "state": "offer",
+              "requested_days": 32
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding. I can commit to a payment timeline of 100 days, which would really help me manage my cash flow better while still working towards settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to ensure we can resolve this promptly, how about we aim for 50 days for the full payment?",
+              "state": "offer",
+              "requested_days": 50
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I think we could make progress here. How about we settle on 100 days for the payment? That would give me the necessary time to ensure it\u2019s fully covered.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to keep things moving forward, how about we settle on 65 days for the full payment? This would allow us both to resolve this matter promptly.",
+              "state": "offer",
+              "requested_days": 65
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, but I\u2019m really hoping to secure 100 days to manage my cash flow better. It\u2019s important for me to ensure I can meet my obligations without compromising my business.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, and while I understand your position, I can work with you on a timeframe of 75 days to settle this. This way, we can resolve the matter efficiently and put this behind us!",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. Given my current cash flow situation, would you be open to extending the payment timeline to 100 days? This would really help me manage my finances and ensure I can make the payment in full.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand your position, but extending it to 100 days is quite a stretch. How about we aim for 85 days to help you settle this debt while still keeping it on track?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. While I understand you\u2019re suggesting 40 days, I would like to propose a timeline of 100 days instead. This would really help me manage my cash flow better while showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand that 100 days may feel necessary for you, but I can't extend it that far. How about we agree on 89 days to settle this?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment in 100 days. This will help me stabilize my cash flow and ensure I can meet my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but 100 days is too lengthy for us. How about we settle at 92 days to ensure we resolve this efficiently?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. How about we aim for a 100-day timeline to settle the payment? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I appreciate your position, but waiting 100 days could have implications for both of us. How about we settle on 96 days to ensure we can resolve this matter promptly?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: A \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "A \u2192 F"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "D",
+            "Su",
+            "S",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but I believe we can do better than 60 days. How about we aim for 50 days to resolve this matter effectively?",
+              "state": "offer",
+              "requested_days": 50
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but I really need more time to manage my cash flow effectively. How about we extend the payment period to 100 days?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we need to resolve this sooner. How about we aim for a payment timeline of 65 days?",
+              "state": "offer",
+              "requested_days": 65
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. Would you consider extending the due date to 100 days? This would really help me manage my cash flow better while ensuring I can make the full payment.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your feedback, and while I understand the need for some flexibility, how about we settle on 75 days for full payment? This would help us resolve the matter more efficiently.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. I can commit to 100 days for the full payment, which would really help me manage my cash flow effectively. What do you think?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to engage, but I was really hoping we could work something out sooner. How about we settle on 82 days for the payment?",
+              "state": "offer",
+              "requested_days": 82
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but given my current cash flow situation, I can commit to a payment timeline of 100 days. Would that be acceptable to you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, and I want to work together on this. How about we aim for a deadline of 87 days? This gives you some breathing room while allowing us to wrap this up sooner.",
+              "state": "offer",
+              "requested_days": 87
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. I can commit to a payment in 100 days, which will allow me to manage my cash flow effectively while ensuring I meet my obligations. How does that sound?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand this is a challenging time for you, but I need us to resolve this sooner. How about we agree on 92 days for the full payment?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding. While I was hoping for 120 days, could we consider extending the payment timeline to 100 days? That would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need us to reach a resolution more swiftly. How about we settle on 96 days for the payment?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: S \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.18377321603128052,
+              "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value": 0.752
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "S \u2192 A"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "Su",
+          "S",
+          "A",
+          "N",
+          "D",
+          "N",
+          "J",
+          "F",
+          "S",
+          "A"
+        ],
+        "performance": {
+          "success_rate": 0.14634146341463414,
+          "total_transitions": 82,
+          "successful_transitions": 12,
+          "agent_selections": {
+            "GameTheory": 27,
+            "EmotionalCoherence": 3,
+            "HMMPattern": 3
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.27204747670469726,
+          "learning_events": 12,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 12,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.08333333333333333,
+                "total_predictions": 12,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 12,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.08333333333333333,
+                "total_predictions": 12,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_J_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.10787340470231521,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.10787340470231521,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_J_phase_early_gap_large",
+                "transition": "N \u2192 S",
+                "success": true,
+                "reward": 0.23761756624670785,
+                "debtor_savings": 0.7,
+                "negotiation_rounds": 7,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_8": {
+      "iteration": 8,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "J",
+            "N",
+            "N",
+            "S",
+            "D",
+            "D"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your input, but extending the timeline to 60 days isn't feasible for us. How about we aim for 40 days for full payment?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. Given my current cash flow situation, would you be willing to extend the payment period to 100 days? That would really help me manage my finances better while ensuring I can fulfill my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation, but to resolve this effectively, how about we aim for 60 days? This allows us to meet halfway and clear this up promptly.",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to work with me on this. If we could extend the payment timeline to 100 days, I believe that would allow me to manage my cash flow better while still committing to pay the full amount.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this. How about we settle on 75 days for the payment? This allows us to find a balance that works for both sides.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. Given my current cash flow situation, could we consider extending it to 100 days? That would really help me manage the payment more effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your position, but to find a middle ground, could we agree on 85 days for the full payment? It allows for some flexibility while still prioritizing resolution.",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I know it's important to settle this. How about I aim for 100 days to make the full payment?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand that you're facing challenges, but I really need to shorten the timeline. Would you be able to commit to 89 days for the full payment?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to a 100-day timeline for repayment. This will give me the necessary time to ensure I can meet the obligation fully.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your honesty, but I was hoping for a quicker resolution. How about we aim for 92 days to settle this?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and while I can't meet the 40-day timeline, would it be possible to extend that to 100 days? This would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together, but 100 days is still quite a stretch for us. Could we agree on 96 days to settle this matter sooner?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: D \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: D \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.19507575757575757,
+              "reasoning": "Coherence: Disgust to neutral for professionalism | Phase-appropriate for middle",
+              "value": 0.8240000000000001
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "D \u2192 D"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 12,
+          "dialog_length": 12,
+          "emotion_sequence": [
+            "N",
+            "J",
+            "N",
+            "S",
+            "A",
+            "A"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but 60 days is longer than I can accommodate. How about we aim for 45 days to settle this matter?",
+              "state": "offer",
+              "requested_days": 45
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. I understand the urgency, and I\u2019d like to propose a payment timeline of 100 days. This would give me a bit more time to ensure I can meet my obligations without compromising my cash flow.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your perspective on the timeline, and while I want to be accommodating, I believe we can get this resolved sooner. What about we settle on 60 days for the full payment?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I believe an extended timeline would really help me manage my cash flow better. How about we settle on 100 days for the payment?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your request, but I believe a timeline of 72 days would be a fair compromise that allows us to work towards a resolution sooner. Can we agree on that?",
+              "state": "offer",
+              "requested_days": 72
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. I can commit to making the full payment in 100 days. How does that sound to you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand that 100 days feels necessary for you right now, but to keep things moving forward, how about we settle on 80 days? This way, we can resolve this more swiftly while still giving you some time.",
+              "state": "offer",
+              "requested_days": 80
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. While I was hoping for 120 days, would you be open to a compromise at 100 days? This would really help me manage my cash flow effectively.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your response, but we need to resolve this more urgently. Can you commit to a payment plan in 85 days?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. Given my current cash flow situation, I'm hoping we could settle on a payment timeline of 100 days instead of the 40 days you mentioned. This would really help me manage my finances better while still ensuring you get paid.",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to negotiate, but I need to secure a timeline that reflects the urgency of this matter. Can we agree on 95 days for the full payment?",
+              "state": "offer",
+              "requested_days": 95
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding of my situation. While I was hoping for 120 days to settle the balance, would you be open to a plan that allows me to make the payment in 100 days?",
+              "state": "accept",
+              "requested_days": 100
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.19841269841269843,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.8
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 45,
+          "transition": "A \u2192 A"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "S",
+          "A",
+          "F",
+          "N",
+          "N",
+          "N",
+          "D",
+          "Su",
+          "S",
+          "A"
+        ],
+        "performance": {
+          "success_rate": 0.14432989690721648,
+          "total_transitions": 97,
+          "successful_transitions": 14,
+          "agent_selections": {
+            "GameTheory": 33,
+            "EmotionalCoherence": 3,
+            "HMMPattern": 4
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.28671413974478405,
+          "learning_events": 14,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 14,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.07142857142857142,
+                "total_predictions": 14,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 14,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.07142857142857142,
+                "total_predictions": 14,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_J_phase_early_gap_large",
+                "transition": "N \u2192 S",
+                "success": true,
+                "reward": 0.23761756624670785,
+                "debtor_savings": 0.7,
+                "negotiation_rounds": 7,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.14832593146568343,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_9": {
+      "iteration": 9,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "D",
+            "N",
+            "N",
+            "J",
+            "S",
+            "A",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but waiting as long as 60 days is concerning. Could we aim for 45 days instead to reach a resolution more quickly?",
+              "state": "offer",
+              "requested_days": 45
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I believe I can commit to 100 days to settle the payment. That would really help my cash flow situation while still showing my intent to resolve this.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together, but I believe we can settle this a bit sooner. How about we aim for 60 days for the full payment?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and I want to work with you on this. How about I propose 100 days for the payment? That would really help me manage my cash flow better while still showing my commitment to settling this debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to minimize the timeline a bit more. Can we agree on 75 days for the payment?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, but I really need a bit more time to manage my cash flow effectively. How about we settle on 100 days for full payment?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your openness, and while 100 days is a bit lengthy, I believe we can find a solution that works for both of us. How about we settle on 85 days instead?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this situation. I can commit to making the full payment in 100 days; I believe this will allow me to gather the necessary funds while keeping my business afloat.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work through this, but we do need to minimize the timeline a bit. How about we settle on a payment plan for 89 days?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding and willingness to work with me. Given my current cash flow situation, could we settle on a 100-day timeline for the payment? That would really help me manage the situation effectively.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your concern, but waiting 100 days is too long for us to resolve this. How about we aim for 92 days instead?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding so far. Would it be possible to extend the payment timeline to 100 days? That would really help me manage my cash flow better while still showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I truly understand your concerns, but waiting 100 days could complicate matters further. Would you be able to settle this in 96 days instead? This way, we can both move forward without additional issues.",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "S",
+              "target_name": "Sadness",
+              "confidence": 0.3,
+              "reasoning": "EXPLORATION: Random choice S",
+              "value": 0.5
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "A \u2192 F"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "J",
+            "S",
+            "A",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to see progress sooner than 60 days. How about we aim for 50 days to settle this?",
+              "state": "offer",
+              "requested_days": 50
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. I can commit to making the full payment in 100 days; that would really help me manage my cash flow better while still honoring my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but I need to see progress a bit sooner. How about we settle on 65 days for full payment?",
+              "state": "offer",
+              "requested_days": 65
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment timeline. If we could extend the payment period to 100 days, I believe that would allow me to manage my cash flow better while ensuring that I can meet my obligations to you. What do you think?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your request, but to expedite this matter, how about we settle on a payment timeline of 75 days? This allows us to reach a resolution while still being reasonable.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I\u2019d like to propose extending the payment timeline to 100 days. This way, I can ensure that I meet my obligations without compromising my business operations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, and I believe we can find a solution that works for both of us. How about we aim for a payment timeline of 85 days?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but given my current situation, I can commit to a payment plan of 100 days to settle the outstanding balance. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand that 100 days feels necessary for you, but I really need to move this along. Would you be able to settle this in 89 days instead?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility, and I understand the need for timely payments. How about we settle on a 100-day timeline for the full payment? This would give me the necessary time while still showing my commitment to resolving the debt.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but we need to move this along more quickly. How about we settle on 92 days for the full payment?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. Given my current cash flow situation, would you be open to extending the payment period to 100 days?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together, but extending it to 100 days may create further complications. Can we possibly settle on 96 days to ensure this is resolved in a timely manner?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.21768707482993194,
+              "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+              "value": 0.896
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 25000,
+          "gap_size": 8,
+          "transition": "A \u2192 F"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "N",
+          "S",
+          "D",
+          "D",
+          "N",
+          "J",
+          "N",
+          "S",
+          "A",
+          "A"
+        ],
+        "performance": {
+          "success_rate": 0.14545454545454545,
+          "total_transitions": 110,
+          "successful_transitions": 16,
+          "agent_selections": {
+            "GameTheory": 38,
+            "EmotionalCoherence": 4,
+            "HMMPattern": 4
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.30315071948721617,
+          "learning_events": 16,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 16,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.0625,
+                "total_predictions": 16,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 16,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.0625,
+                "total_predictions": 16,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.14832593146568343,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 15,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_large",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11478069291306081,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 12,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    },
+    "iteration_10": {
+      "iteration": 10,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 17,
+          "dialog_length": 17,
+          "emotion_sequence": [
+            "Su",
+            "N",
+            "J",
+            "D",
+            "S",
+            "A",
+            "F",
+            "Su",
+            "J"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but to resolve this efficiently, I can accept a 28-day timeline. How does that sound?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to 100 days for the payment. This would really help me manage my cash flow better while ensuring I meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your request, but 100 days is too extended for our timeline. How about we settle on 39 days to ensure we can resolve this efficiently?",
+              "state": "offer",
+              "requested_days": 39
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and while I was hoping for 90 days, how about we meet halfway at 100 days? That would really help me manage my cash flow better.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your honesty about your situation. To keep things moving forward, how does 60 days sound for us to settle this?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding regarding my situation. I can commit to a payment in 100 days, which would help me manage my cash flow better while ensuring I can meet my obligations. How does that sound to you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss the timeline, but I'm afraid 100 days is quite a stretch. How about we settle on 70 days instead?",
+              "state": "offer",
+              "requested_days": 70
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, but given my current cash flow situation, I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I really understand that managing payments can be tough, but how about we aim for 78 days instead? This way, we can settle this sooner while still providing you with some time to arrange the funds.",
+              "state": "offer",
+              "requested_days": 78
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I\u2019m willing to work with you on this. How about we agree on a 100-day payment timeline? That would give me the chance to manage my cash flow better while still showing my commitment to settling the debt.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to minimize the payment timeline. How about we settle on 85 days? This will help us both wrap this up efficiently.",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment within 100 days. Would that be acceptable for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand your concerns, and while I want to be accommodating, we do need to resolve this matter sooner. How about we aim for 89 days to keep things moving forward?",
+              "state": "offer",
+              "requested_days": 89
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment in 100 days. This will give me the time I need to ensure I can meet the obligation without further impacting my credit score.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but let's aim for a quicker resolution\u2014how about we settle on 92 days? That way, we can both move forward without further delays.",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the timeline. I can commit to making the full payment in 100 days. Would that work for you?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work with me, but 100 days is still a bit too long. How about we aim for 96 days to settle this in a timely manner?",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.22285714285714286,
+              "reasoning": "Payoff: Su \u2192 J (payoff: 3.90) | WSLS strategy for N in late phase",
+              "value": 3.9000000000000004
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.17315175097276264,
+              "reasoning": "Coherence: Su \u2192 N (score: 0.71) | Phase-appropriate for late",
+              "value": 0.712
+            }
+          ],
+          "last_debtor_emotion": "N",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "Su \u2192 J"
+        },
+        {
+          "scenario_id": "debt_002",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 45,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "S",
+            "A",
+            "A",
+            "Su",
+            "F"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your position, but I need to see some progress sooner. How about we aim for a settlement within 40 days?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this situation. How about we aim for 100 days to settle the outstanding balance? This would really help me manage my cash flow while ensuring that I can make the payment in full.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while I understand the need for more time, I can accommodate a timeline of 60 days to settle this matter efficiently.",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. I can commit to making the payment in 100 days; that would really help us manage our cash flow better while ensuring I can meet the obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand that you're facing challenges right now, but to ensure we can resolve this matter effectively, how about we aim for 75 days for full payment?",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your flexibility on this matter. How about we agree on a timeline of 100 days for the payment? That would really help me manage my cash flow while ensuring I can settle the debt responsibly.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your position, but we need to resolve this matter sooner. Can we agree on a payment plan that settles the debt in 85 days instead?",
+              "state": "offer",
+              "requested_days": 85
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding in this matter. Would you be open to extending the payment timeline to 100 days? That would really help me manage my cash flow better while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, but 100 days is too lengthy. Let's agree on a timeline of 90 days to ensure we resolve this matter promptly.",
+              "state": "offer",
+              "requested_days": 90
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss this. How about we settle on 100 days for the payment? That would really help me manage my cash flow while ensuring I can meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together on this. How about we aim for a 95-day timeline? This way, we can find a balance that respects your needs while still moving toward resolution.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment in 100 days. That would really help me manage my cash flow better while ensuring I can meet my obligations. What do you think?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to negotiate, but I\u2019m concerned about the time frame. How about we settle on 95 days to ensure we resolve this promptly?",
+              "state": "accept",
+              "requested_days": 95
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "target_name": "Joy",
+              "confidence": 0.27083333333333337,
+              "reasoning": "Payoff: Su \u2192 J (payoff: 5.20) | WSLS strategy for J in middle phase",
+              "value": 5.2
+            },
+            {
+              "agent": "HMMPattern",
+              "target": "Su",
+              "target_name": "Surprise",
+              "confidence": 0.24468085106382978,
+              "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+              "value": 0.3365853658536585
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "target_name": "Neutral",
+              "confidence": 0.16666666666666669,
+              "reasoning": "Coherence: Su \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value": 0.68
+            }
+          ],
+          "last_debtor_emotion": "J",
+          "debt_amount": 25000,
+          "gap_size": 10,
+          "transition": "Su \u2192 F"
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [
+          "S",
+          "A",
+          "F",
+          "N",
+          "N",
+          "N",
+          "J",
+          "S",
+          "A",
+          "F"
+        ],
+        "performance": {
+          "success_rate": 0.14516129032258066,
+          "total_transitions": 124,
+          "successful_transitions": 18,
+          "agent_selections": {
+            "GameTheory": 43,
+            "EmotionalCoherence": 4,
+            "HMMPattern": 4
+          }
+        },
+        "learning": {
+          "exploration_rate": 0.3180170775737128,
+          "learning_events": 18,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 18,
+            "success_rate": 1.0,
+            "agent_accuracy": {
+              "GameTheory": {
+                "accuracy": 0.05555555555555555,
+                "total_predictions": 18,
+                "correct_predictions": 1
+              },
+              "HMMPattern": {
+                "accuracy": 0.0,
+                "total_predictions": 18,
+                "correct_predictions": 0
+              },
+              "EmotionalCoherence": {
+                "accuracy": 0.05555555555555555,
+                "total_predictions": 18,
+                "correct_predictions": 1
+              }
+            },
+            "recent_events": [
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 D",
+                "success": true,
+                "reward": 0.11220355743982423,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_large",
+                "transition": "N \u2192 A",
+                "success": true,
+                "reward": 0.11478069291306081,
+                "debtor_savings": 0.4,
+                "negotiation_rounds": 12,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.15427989147975832,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              },
+              {
+                "context": "from_N_debtor_N_phase_early_gap_small",
+                "transition": "N \u2192 F",
+                "success": true,
+                "reward": 0.15427989147975832,
+                "debtor_savings": 0.55,
+                "negotiation_rounds": 13,
+                "agents": [
+                  "GameTheory",
+                  "HMMPattern",
+                  "EmotionalCoherence"
+                ],
+                "selected_by": []
+              }
+            ]
+          }
+        },
+        "hmm_state": {
+          "current_belief": {
+            "Cooperative": 0.25,
+            "Confrontational": 0.25,
+            "Distressed": 0.25,
+            "Strategic": 0.25
+          },
+          "most_likely_state": "Cooperative"
+        }
+      }
+    }
+  },
+  "detailed_transitions": [
+    {
+      "scenario": "debt_001",
+      "iteration": 1,
+      "transition": "S \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: S \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.16915422885572137,
+          "reasoning": "Coherence: S \u2192 N (score: 0.68) | Phase-appropriate for middle",
+          "value": 0.68
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 11
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 1,
+      "transition": "F \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.3,
+          "reasoning": "EXPLORATION: Random choice J",
+          "value": 0.5
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.18107833163784331,
+          "reasoning": "Coherence: F \u2192 N (score: 0.71) | Phase-appropriate for late",
+          "value": 0.712
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 17
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 2,
+      "transition": "A \u2192 D",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.21164021164021166,
+          "reasoning": "Payoff: A \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+          "value": 4.0
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.19841269841269843,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.8
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 100,
+      "negotiation_rounds": 9
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 2,
+      "transition": "F \u2192 D",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: F \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.17435897435897435,
+          "reasoning": "Coherence: F \u2192 N (score: 0.68) | Phase-appropriate for middle",
+          "value": 0.68
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 3,
+      "transition": "F \u2192 D",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: F \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: F \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.17435897435897435,
+          "reasoning": "Coherence: F \u2192 N (score: 0.68) | Phase-appropriate for middle",
+          "value": 0.68
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 3,
+      "transition": "A \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: A \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 4,
+      "transition": "A \u2192 N",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 4,
+      "transition": "A \u2192 D",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.21164021164021166,
+          "reasoning": "Payoff: A \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+          "value": 4.0
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 15
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 5,
+      "transition": "Su \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.27083333333333337,
+          "reasoning": "Payoff: Su \u2192 J (payoff: 5.20) | WSLS strategy for J in middle phase",
+          "value": 5.2
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.18111753371868977,
+          "reasoning": "Coherence: Su \u2192 N (score: 0.75) | Phase-appropriate for middle",
+          "value": 0.752
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 15
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 5,
+      "transition": "N \u2192 S",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.21164021164021166,
+          "reasoning": "Payoff: N \u2192 J (payoff: 4.00) | WSLS strategy for J in middle phase",
+          "value": 4.0
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: N \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.1717171717171717,
+          "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+          "value": 0.68
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 100,
+      "negotiation_rounds": 7
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 6,
+      "transition": "S \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: S \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.18377321603128052,
+          "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+          "value": 0.752
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 6,
+      "transition": "S \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: S \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.18377321603128052,
+          "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+          "value": 0.752
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 7,
+      "transition": "A \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: A \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 15
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 7,
+      "transition": "S \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: S \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: S \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.18377321603128052,
+          "reasoning": "Coherence: S \u2192 N (score: 0.75) | Phase-appropriate for middle",
+          "value": 0.752
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 8,
+      "transition": "D \u2192 D",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: D \u2192 J (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: D \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.19507575757575757,
+          "reasoning": "Coherence: Disgust to neutral for professionalism | Phase-appropriate for middle",
+          "value": 0.8240000000000001
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 8,
+      "transition": "A \u2192 A",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.19841269841269843,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.8
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 12
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 9,
+      "transition": "A \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "S",
+          "target_name": "Sadness",
+          "confidence": 0.3,
+          "reasoning": "EXPLORATION: Random choice S",
+          "value": 0.5
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 9,
+      "transition": "A \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.2178770949720671,
+          "reasoning": "Payoff: A \u2192 N (payoff: 3.90) | WSLS strategy for N in middle phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: A \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.21768707482993194,
+          "reasoning": "Coherence: De-escalate to neutral | Phase-appropriate for middle",
+          "value": 0.896
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    },
+    {
+      "scenario": "debt_001",
+      "iteration": 10,
+      "transition": "Su \u2192 J",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.22285714285714286,
+          "reasoning": "Payoff: Su \u2192 J (payoff: 3.90) | WSLS strategy for N in late phase",
+          "value": 3.9000000000000004
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.17315175097276264,
+          "reasoning": "Coherence: Su \u2192 N (score: 0.71) | Phase-appropriate for late",
+          "value": 0.712
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 17
+    },
+    {
+      "scenario": "debt_002",
+      "iteration": 10,
+      "transition": "Su \u2192 F",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "target_name": "Joy",
+          "confidence": 0.27083333333333337,
+          "reasoning": "Payoff: Su \u2192 J (payoff: 5.20) | WSLS strategy for J in middle phase",
+          "value": 5.2
+        },
+        {
+          "agent": "HMMPattern",
+          "target": "Su",
+          "target_name": "Surprise",
+          "confidence": 0.24468085106382978,
+          "reasoning": "HMM: Su \u2192 Su (Q=0.337) | Hidden state: Cooperative, Belief: 0.29",
+          "value": 0.3365853658536585
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "target_name": "Neutral",
+          "confidence": 0.16666666666666669,
+          "reasoning": "Coherence: Su \u2192 N (score: 0.68) | Phase-appropriate for middle",
+          "value": 0.68
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    }
+  ],
+  "final_stats": {
+    "current_emotion": "N",
+    "current_emotion_name": "Neutral",
+    "round_number": 0,
+    "emotion_history": [
+      "F",
+      "Su",
+      "J",
+      "N",
+      "N",
+      "S",
+      "A",
+      "A",
+      "Su",
+      "F"
+    ],
+    "performance": {
+      "success_rate": 0.14285714285714285,
+      "total_transitions": 140,
+      "successful_transitions": 20,
+      "agent_selections": {
+        "GameTheory": 47,
+        "EmotionalCoherence": 4,
+        "HMMPattern": 7
+      }
+    },
+    "learning": {
+      "exploration_rate": 0.3326987874008835,
+      "learning_events": 20,
+      "context_success_rates": {
+        "J": 0.5,
+        "S": 0.5,
+        "A": 0.5,
+        "F": 0.5,
+        "Su": 0.5,
+        "D": 0.5,
+        "N": 0.5
+      },
+      "learning_summary": {
+        "total_events": 20,
+        "success_rate": 1.0,
+        "agent_accuracy": {
+          "GameTheory": {
+            "accuracy": 0.1,
+            "total_predictions": 20,
+            "correct_predictions": 2
+          },
+          "HMMPattern": {
+            "accuracy": 0.0,
+            "total_predictions": 20,
+            "correct_predictions": 0
+          },
+          "EmotionalCoherence": {
+            "accuracy": 0.05,
+            "total_predictions": 20,
+            "correct_predictions": 1
+          }
+        },
+        "recent_events": [
+          {
+            "context": "from_N_debtor_N_phase_early_gap_large",
+            "transition": "N \u2192 A",
+            "success": true,
+            "reward": 0.11478069291306081,
+            "debtor_savings": 0.4,
+            "negotiation_rounds": 12,
+            "agents": [
+              "GameTheory",
+              "HMMPattern",
+              "EmotionalCoherence"
+            ],
+            "selected_by": []
+          },
+          {
+            "context": "from_N_debtor_N_phase_early_gap_small",
+            "transition": "N \u2192 F",
+            "success": true,
+            "reward": 0.15427989147975832,
+            "debtor_savings": 0.55,
+            "negotiation_rounds": 13,
+            "agents": [
+              "GameTheory",
+              "HMMPattern",
+              "EmotionalCoherence"
+            ],
+            "selected_by": []
+          },
+          {
+            "context": "from_N_debtor_N_phase_early_gap_small",
+            "transition": "N \u2192 F",
+            "success": true,
+            "reward": 0.15427989147975832,
+            "debtor_savings": 0.55,
+            "negotiation_rounds": 13,
+            "agents": [
+              "GameTheory",
+              "HMMPattern",
+              "EmotionalCoherence"
+            ],
+            "selected_by": []
+          },
+          {
+            "context": "from_N_debtor_N_phase_early_gap_small",
+            "transition": "N \u2192 J",
+            "success": true,
+            "reward": 0.18261441176641538,
+            "debtor_savings": 0.7,
+            "negotiation_rounds": 17,
+            "agents": [
+              "GameTheory",
+              "HMMPattern",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory"
+            ]
+          },
+          {
+            "context": "from_N_debtor_J_phase_early_gap_small",
+            "transition": "N \u2192 F",
+            "success": true,
+            "reward": 0.15427989147975832,
+            "debtor_savings": 0.55,
+            "negotiation_rounds": 13,
+            "agents": [
+              "GameTheory",
+              "HMMPattern",
+              "EmotionalCoherence"
+            ],
+            "selected_by": []
+          }
+        ]
+      }
+    },
+    "hmm_state": {
+      "current_belief": {
+        "Cooperative": 0.25,
+        "Confrontational": 0.25,
+        "Distressed": 0.25,
+        "Strategic": 0.25
+      },
+      "most_likely_state": "Cooperative"
+    }
+  },
+  "performance_summary": {
+    "success_rate": 1.0,
+    "avg_collection_days": 98.2,
+    "avg_negotiation_rounds": 13.05,
+    "total_negotiations": 20,
+    "successful_negotiations": 20
+  },
+  "transition_analysis": {
+    "transition_counts": {
+      "S \u2192 A": 4,
+      "F \u2192 F": 1,
+      "A \u2192 D": 2,
+      "F \u2192 D": 2,
+      "A \u2192 F": 4,
+      "A \u2192 N": 1,
+      "Su \u2192 A": 1,
+      "N \u2192 S": 1,
+      "D \u2192 D": 1,
+      "A \u2192 A": 1,
+      "Su \u2192 J": 1,
+      "Su \u2192 F": 1
+    },
+    "transition_success_rates": {
+      "S \u2192 A": 1.0,
+      "F \u2192 F": 1.0,
+      "A \u2192 D": 1.0,
+      "F \u2192 D": 1.0,
+      "A \u2192 F": 1.0,
+      "A \u2192 N": 1.0,
+      "Su \u2192 A": 1.0,
+      "N \u2192 S": 1.0,
+      "D \u2192 D": 1.0,
+      "A \u2192 A": 1.0,
+      "Su \u2192 J": 1.0,
+      "Su \u2192 F": 1.0
+    },
+    "most_common_transitions": [
+      [
+        "S \u2192 A",
+        4
+      ],
+      [
+        "A \u2192 F",
+        4
+      ],
+      [
+        "A \u2192 D",
+        2
+      ],
+      [
+        "F \u2192 D",
+        2
+      ],
+      [
+        "F \u2192 F",
+        1
+      ]
+    ],
+    "most_successful_transitions": [
+      [
+        "S \u2192 A",
+        1.0
+      ],
+      [
+        "F \u2192 F",
+        1.0
+      ],
+      [
+        "A \u2192 D",
+        1.0
+      ],
+      [
+        "F \u2192 D",
+        1.0
+      ],
+      [
+        "A \u2192 F",
+        1.0
+      ]
+    ]
+  }
+}

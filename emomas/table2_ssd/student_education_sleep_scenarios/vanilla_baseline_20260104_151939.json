@@ -1,0 +1,3511 @@
+{
+  "experiment_type": "vanilla_baseline",
+  "model_type": "vanilla_baseline",
+  "iterations": 1,
+  "scenarios_used": [
+    "student_001",
+    "student_002",
+    "student_003",
+    "student_004",
+    "student_005",
+    "student_006",
+    "student_007",
+    "student_008",
+    "student_009",
+    "student_010",
+    "student_011",
+    "student_012",
+    "student_013",
+    "student_014",
+    "student_015",
+    "student_016",
+    "student_017",
+    "student_021",
+    "student_022",
+    "student_023",
+    "student_025",
+    "student_026",
+    "student_028",
+    "student_029",
+    "student_030",
+    "student_032",
+    "student_033",
+    "student_034",
+    "student_035",
+    "student_036",
+    "student_037",
+    "student_038",
+    "student_040",
+    "student_041",
+    "student_042",
+    "student_044",
+    "student_046",
+    "student_047",
+    "student_049",
+    "student_050",
+    "student_051",
+    "student_053",
+    "student_054",
+    "student_055",
+    "student_056",
+    "student_057",
+    "student_058",
+    "student_059",
+    "student_060",
+    "student_061",
+    "student_062",
+    "student_064",
+    "student_065",
+    "student_066",
+    "student_070",
+    "student_071",
+    "student_073",
+    "student_074",
+    "student_075",
+    "student_077",
+    "student_078",
+    "student_079",
+    "student_080",
+    "student_081",
+    "student_082",
+    "student_083",
+    "student_085",
+    "student_086",
+    "student_091",
+    "student_092",
+    "student_093",
+    "student_094",
+    "student_096",
+    "student_097",
+    "student_100"
+  ],
+  "config": {
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30
+  },
+  "iteration_results": {
+    "iteration_1": {
+      "iteration": 1,
+      "scenario_results": [
+        {
+          "scenario_id": "student_001",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your physics final while still allowing you some extra study time. Prioritizing sleep will help boost your academic performance and reduce anxiety about disappointing your parents.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay focused on my physics final and feel that staying up until 15 minutes past 9 PM would give me just enough time to review everything without feeling rushed. If I\u2019m forced to go to bed earlier, I might end up feeling anxious and rebellious, which won\u2019t help anyone.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get the rest needed for optimal performance on your physics final while still allowing some extra study time. This balance will support both your academic goals and your health.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_002",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your academic performance. Remember, a well-rested mind can help you find that perfect opening line more easily!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to perfect my opening line for the history paper. If I can stay up until 30 minutes past 9 PM, I promise I\u2019ll get a good night\u2019s sleep afterwards.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 25 minutes past 9 PM, allowing you some extra time to find that perfect opening line while still prioritizing your sleep for better focus and performance tomorrow.",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_003",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help you recharge for your essay and maintain your overall well-being. Prioritizing rest will support your focus and creativity, enabling you to express your true self more effectively in your writing.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need more time to work on my essay to make sure it truly represents who I am, and if I have to go to bed too early, I might just end up rebelling and staying up anyway. Can we compromise on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 25 minutes past 9 PM. This allows you some extra time to reflect on your essay while still ensuring you get adequate rest for your academic performance.",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_004",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your big math competition. This will help balance your preparation with the sleep your body needs to perform at its best.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay focused and calm for the big math competition tomorrow, so I\u2019d like to stay up until 30 minutes past 9 PM. If I have to go to bed earlier, I might end up feeling restless and not ready for the competition.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure optimal rest for your big math competition. This will help you feel more focused and energized for the challenge ahead!",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_005",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. Prioritizing your sleep can help clear your mind and give you the energy to resolve the conflict with your friend more effectively.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to work through this conflict with my best friend and staying up later helps me process everything. If I have to go to bed too early, I might end up rebelling and staying up anyway, which won\u2019t help my health at all. Can we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 25 minutes past 9 PM. This extra time can help you process your feelings while still allowing for optimal rest to support your academic performance.",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_006",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to support your teammates while still getting the rest you need for optimal performance and health.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM to support my teammates during the online finals. If I can\u2019t do that, I might feel tempted to break other rules. Please consider my request!",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will allow you to balance your commitment to your teammates while still prioritizing your sleep for optimal performance.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_007",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get enough rest for your academic performance and health. It's important to balance your enjoyment of the show with the benefits of good sleep!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to see how this season finale ends; it's super important to me. If you make me go to bed too early, I might just stay up anyway. Can we settle on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you to enjoy the finale while still prioritizing your sleep for better academic performance and health.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM to finish this season finale; it's really important for me to see how the story unfolds, and if I have to go to bed earlier, I might just rebel and stay up later anyway. Please let me stay up until 30 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the rest you need for optimal academic performance and health. This allows you to enjoy your show while still prioritizing your sleep needs.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_008",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for your presentation and improve your performance. A good night's sleep will help reduce anxiety and enhance your focus.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 15 minutes past 9 PM. I have a presentation that I haven't rehearsed yet, and if I don't get this extra time, I might end up feeling even more anxious and unprepared.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. Getting a good night's sleep will help improve your performance and reduce anxiety, allowing you to feel more confident for your presentation.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_009",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, as this will help you recharge for optimal academic performance while still allowing time for relaxation. Balancing rest with leisure can enhance your productivity and reduce guilt.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to finish my important activities without feeling guilty about it. If I could stay up until 15 minutes past 9 PM, I think it would help me manage my time better and avoid any potential rebellion.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help you recharge for your studies while still allowing some time for relaxation without feeling guilty about productivity.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_010",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "How about we aim for 20 minutes past 9 PM? This gives you some extra time while still supporting your sleep needs for academic success and helping you feel more rested and safe.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay alert right now because of the scary noise I heard, and if I have to go to bed too early, it might make me feel even more anxious. Can I please stay up until 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand that you're feeling a bit on edge after hearing that noise. How about we set your bedtime for 15 minutes past 9 PM? This way, you'll still have some time to wind down while also getting the rest you need for your studies.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay alert and feel safe after hearing that scary noise. If I have to go to bed too early, I might just rebel and stay up anyway. Can I please stay up until 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to feel safe and alert while still getting the optimal sleep needed for your academic performance and health.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_011",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to ensure you get optimal rest for your portfolio review while still allowing some time for creative work. This balance will help maximize your performance and creativity.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need more time to work on my portfolio since the review is tomorrow and I'm facing a creative block. If I can't stay focused, I might end up rebelling and staying up anyway, which won't help my sleep health. Let me stay up until 30 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to ensure you get enough rest for optimal performance during your portfolio review, while still allowing some time for creative flow.",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_012",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, which allows you to finish your editing while still getting the rest you need for optimal creativity and focus tomorrow. Balancing your passion with healthy sleep will enhance your performance in both your videos and your studies!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I'm really in the zone with my video editing and it's hard to stop when I'm feeling so creative. If you could let me stay up until 30 minutes past 9 PM, I promise to manage my time better tomorrow.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand that creative immersion is important to you, but for optimal sleep and academic performance, I recommend a bedtime of 15 minutes past 9 PM. This allows you to maintain some creative flow while still prioritizing rest.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to be in my creative zone for a bit longer to finish my video editing, so I\u2019d like to stay up until 30 minutes past 9 PM. If I have to go to bed too early, I might just rebel and stay up anyway.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get adequate rest for your creativity and academic performance. This way, you can continue your video editing while also prioritizing your health and focus for future projects.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_013",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will allow you to get optimal rest for your championship game while still addressing your body's need to wind down after competition.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really understand the importance of sleep for my performance, especially with the championship game tomorrow, but I need a bit more time to wind down and prepare mentally. If I could stay up until 42 minutes past 9 PM, it would really help me feel ready for the big day.",
+              "state": "offer",
+              "requested_days": 42
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, as this will help ensure you get the optimal rest needed for your championship game while balancing your competitive drive. Remember, quality sleep can significantly enhance your performance!",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, especially before the championship game, but I'm still feeling that adrenaline from my training. If I can stay up until 30 minutes past 9 PM, it would really help me wind down and prepare mentally.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your championship game while still balancing your study needs. This will help your body transition out of \"competition mode\" and support your performance.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_014",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to finish your case brief while still prioritizing your sleep for optimal performance and health.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to finish my case brief for the team; I feel responsible for being unprepared if I don\u2019t. Can we make it 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to finish your case brief while still prioritizing your sleep for optimal academic performance.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_015",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you enough rest to feel alert and confident for your field trip while also allowing some time to unwind and ease your social anxiety.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "Can we make my bedtime 30 minutes past 9 PM? I really need that extra time to relax and prepare for tomorrow's field trip, especially since I'm feeling anxious about fitting in. If I have to go to bed too early, I might just end up staying up anyway, and that wouldn't be good for anyone.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you enough rest for the field trip while also allowing some time to relax and ease your worries about fitting in.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_016",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your shift tomorrow. Prioritizing sleep will help you feel more energized and focused, ultimately making your work experience more enjoyable.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I really need a bit more time to wrap up my important activities and feel that sense of freedom before my shift tomorrow. Can we settle on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time while still prioritizing your sleep for better academic performance and health.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but if you force me to go to bed too early, I might rebel and stay up anyway. I really need some time to unwind after my shift, so could we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get the rest needed for your shift and academic performance. This balance can help you feel more prepared and less stressed about your obligations.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_017",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the optimal rest needed for both your academic performance and health. This will help you approach your experiments with a refreshed mind and clearer thinking.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to work through these experiment results; I feel like I'm on the brink of a breakthrough. If you could allow me to stay up until 15 minutes past 9 PM, it would make a huge difference for my project.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to get some extra time while still prioritizing your sleep for optimal performance in your science fair preparations.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_021",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to still prioritize your important cause while ensuring you get enough rest for optimal performance in your efforts.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay focused on planning this school strike event, and pushing my bedtime to 15 minutes past 9 PM would give me the extra time to work on it without compromising my sleep too much. Please let me stay up until 15 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you to prioritize your sleep for optimal academic performance while still being engaged in your important climate activism efforts.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_022",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This will help ensure you get the rest you need for your creativity and academic performance while still allowing you to finish your writing.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to finish this crucial part of my story; the characters are just too demanding right now. If I could stay up until 30 minutes past 9 PM, I promise it will help me focus better tomorrow!",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get a good night's sleep while still having time to wrap up your writing.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_023",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend setting your bedtime for 22 minutes past 9 PM. Prioritizing sleep will help you perform better academically and manage your test anxiety more effectively.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a little later to cope with my test anxiety and get some important studying done. Can we agree on a bedtime of 15 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "How about we set your bedtime at 15 minutes past 9 PM? This allows you some extra time while still prioritizing the sleep you need for your academic performance and well-being.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_025",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to ensure you get optimal rest for your academic performance and manage your future anxiety effectively. Would you be open to that?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with my future anxiety and the need to focus on my goals, staying up just a bit longer would really help me. Can we settle on 15 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you some extra time for your calculations while still prioritizing your sleep for better academic performance and health.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_026",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 9,
+          "dialog_length": 9,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you feel more energized and focused for your studies, which can make your time spent awake more enjoyable. This balance can improve your overall mood and motivation!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really feel like staying up a bit later could help me find something enjoyable to do instead of just feeling bored. If I could stay up until 35 minutes past 9 PM, it would give me some more time to unwind and maybe even discover a new hobby.",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you recharge for your studies while still allowing you some time to unwind.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I understand that sleep is important, but staying up until 35 minutes past 9 PM would really help me unwind and feel less bored. If I have to go to bed earlier, I might just rebel and stay up anyway.",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, as this will help improve your focus and energy for academic performance, while also allowing you to wake up refreshed. Let's aim for that to ensure you feel your best!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need some extra time to unwind and enjoy my evening, especially since I\u2019m feeling bored and not tired at all. If I can stay up until 38 minutes past 9 PM, it would really help me feel less restricted and more in control of my time.",
+              "state": "offer",
+              "requested_days": 38
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the sleep you need for optimal academic performance and health. This small adjustment can make a big difference in how you feel during the day!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really feel like I need more time to unwind and not just feel stuck in boredom. If I can't stay up until 30 minutes past 9 PM, I might just rebel and stay up later anyway. Can we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you feel more rested and improve your academic performance. This small change can make a big difference in your energy and mood during the day.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_028",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 7,
+          "dialog_length": 7,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help balance your study needs with the rest your brain requires. Getting enough sleep will support your focus and performance in school.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up later to finish my reading and manage my mental fatigue, so I\u2019m asking to go to bed at 40 minutes past 9 PM. If I have to go to bed earlier, I might just rebel and stay up anyway.",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 25 minutes past 9 PM. This allows you some extra time to unwind while still prioritizing your sleep for better focus and performance tomorrow.",
+              "state": "offer",
+              "requested_days": 25
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need some extra time to wind down after my reading assignment, which took a lot longer than I expected. If I can't stay up a bit later, I might end up feeling restless and not sleeping well. How about letting me stay up until 39 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 39
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time while still prioritizing your rest for better focus and performance tomorrow.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but since my reading assignment took so long, I really need a bit more time to unwind and process everything. If I can stay up until 30 minutes past 9 PM, I think that would help me recharge better for tomorrow.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will support your mental recovery while allowing you some extra time to unwind after your reading assignment.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_029",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM, as this allows for some personal time while still prioritizing your sleep health, which is essential for your academic performance and overall well-being.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need this time for self-discovery and to process my thoughts; if I can't stay up until 15 minutes past 9 PM, I might just end up rebelling and staying up even later. Please consider letting me have this extra time.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand the importance of your private time for self-discovery, but for optimal sleep and academic performance, I recommend a bedtime of 20 minutes past 9 PM. This allows you to balance your needs while still prioritizing your health.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_030",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to get the rest you need for optimal academic performance while also addressing your concerns about external pressures.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with all the pressure from school, I really need a little more time to manage my responsibilities. If I could stay up until 30 minutes past 9 PM, I'd feel much more balanced and less overwhelmed.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you balance your academic needs with the rest your body requires for optimal performance and health. This small adjustment can make a significant difference in how you feel and perform!",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_032",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will allow you to prioritize your sleep health while still addressing your study needs.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. If I have to go to bed earlier than that, I might just rebel and stay up anyway, which could lead to bigger issues. I understand the importance of sleep, but I need that extra time for my activities and to manage my insomnia.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "How about we aim for 15 minutes past 9 PM? This gives you a bit more time while still prioritizing your sleep health for better academic performance.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM so I can finish my important activities without feeling rushed. If I have to go to bed earlier, it might just lead to more stress and sleeplessness.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to prioritize your sleep for better academic performance while still accommodating your need for a slightly later time.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_033",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, which allows you to have some time for your coping ritual while still supporting your sleep health and academic performance. This balance can help you feel more comfortable and rested.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I really need to stick to my coping rituals due to my fear of darkness. If you push for an earlier bedtime, I might just rebel and stay up later anyway. Can we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM, which allows you some extra time for your coping ritual while still prioritizing your sleep health for better academic performance.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stick with my coping rituals to feel safe and comfortable at night. If I can stay up until 32 minutes past 9 PM, I can manage my fears better and still get some important activities done.",
+              "state": "offer",
+              "requested_days": 32
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand your concerns and the need for your coping ritual. How about we meet halfway at 25 minutes past 9 PM? This way, you can have some extra time while still prioritizing your sleep health.",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_034",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help support your academic performance and overall health, while also considering your current mood and circadian rhythm. This slight adjustment can promote better rest without feeling too restrictive.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to manage my mood and get some important things done, so can we settle on 30 minutes past 9 PM? If I don't have that extra time, it could really throw off my whole routine and make things harder for me.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM to help balance your academic needs and support your mood while still allowing for a bit of flexibility.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_035",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal sleep for your academic performance and health. This will help you feel more energized and engaged during the day, even if you prefer a later bedtime.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to engage in more stimulating activities at night to keep my mind active, and if I can't have that, I might just rebel against the rules. Let me stay up until 30 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, which will help you maintain your academic performance while still allowing for some evening engagement. This balance supports both your intellectual needs and your health.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_036",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand your situation, and it's important to prioritize your sleep for both your academic performance and overall health. How about a bedtime of 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to manage the stress from everything happening at home. If I could stay up until 15 minutes past 9 PM, it would give me a little more time to unwind and process my thoughts.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to benefit from optimal sleep for your academic performance while also addressing your current stressors.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_037",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM to help ensure you get the rest you need for your studies. If noise remains an issue, consider using earplugs or a white noise machine to create a more peaceful environment.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 28 minutes past 9 PM. With all the noise from my neighbor/sibling, I can't fall asleep anyway, and it feels unfair to be forced to bed early when I can't even sleep.",
+              "state": "offer",
+              "requested_days": 28
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM, as this allows you to get optimal rest for your studies while also considering the noise issue. If the noise persists, we can discuss adjusting it a bit later, but 20 minutes past 9 PM is ideal for your health and academic performance.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_038",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, which allows you to dream and plan while still prioritizing optimal sleep for your academic success and overall health. How about we negotiate to 25 minutes past 9 PM to give you a bit more time?",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit longer to explore my dreams for the future and relieve some stress. How about we settle on 15 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to enjoy your research and dreams while still getting the rest you need for optimal academic performance.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_040",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you get optimal sleep for your academic performance and health. This will allow your mind to unwind and reduce those scary thoughts before sleep.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some more time to unwind after watching something scary, and if I have to go to bed too early, I might just end up staying up anyway. Can we make it 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This will give you a bit more time while still ensuring you get enough rest for your studies and mental well-being.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need some extra time to unwind after watching something scary, so could we make my bedtime 30 minutes past 9 PM? It would help me feel less anxious and allow me to enjoy my important activities without feeling rushed.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time while still prioritizing your sleep for better focus and less mental intrusion.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really understand the importance of sleep, but after watching something scary, I feel like I need a little extra time to unwind. If I could stay up until 33 minutes past 9 PM, I could finish my important activities and handle those scary thoughts better.",
+              "state": "offer",
+              "requested_days": 33
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you get the rest you need for both your mental health and academic performance while allowing some time to unwind from any scary thoughts.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really need some extra time to unwind after watching something scary, so I\u2019d appreciate it if I could stay up until 40 minutes past 9 PM. If I go to bed too early, it might make me feel more anxious and rebellious, which isn\u2019t good for my sleep health either.",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you get the restful sleep you need for better focus and performance. It\u2019s important to allow your mind to settle, especially after watching something scary.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really need some extra time to process what I watched and finish up my important activities. If I can stay up until 35 minutes past 9 PM, I think I can handle my fears better and still get rest.",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you recharge and improve your focus, especially after watching something scary. This will allow you to get the rest you need while still giving you some extra time.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I really need some extra time to unwind after watching something scary, so can we make it 30 minutes past 9 PM? If I go to bed too early, I might end up feeling restless and rebellious.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you some time to unwind and helps ensure you get the restful sleep needed for your studies, especially after a scary read or watch.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_041",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help ensure optimal sleep for your academic performance and overall health. This balance will allow you to recharge while still addressing your real-world concerns effectively.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to manage my stress and focus on my important activities. If I can have a bedtime of 15 minutes past 9 PM, I can better cope with the pressures I'm facing.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 10 minutes past 9 PM. This allows you to have a bit more time while still prioritizing your sleep for better academic performance and overall health.",
+              "state": "accept",
+              "requested_days": 10
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_042",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to get enough rest for your academic performance while still having some time to wind down from social media.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but staying up later helps me feel more connected to my peers and less reminded of feeling left out. I really think I need to stay up until 30 minutes past 9 PM to unwind and catch up on social posts without feeling overwhelmed.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you get the rest you need for your academic performance while still allowing some time to unwind before sleep.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_044",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you get the optimal rest for your academic performance and health, while still allowing some autonomy in your evening routine. Would you consider a compromise of 25 minutes past 9 PM for a little more freedom?",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to reclaim some of my time, and staying up later helps me feel more in control. Can we compromise on a bedtime of 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, which allows you to reclaim some time while still prioritizing your sleep for better academic performance and overall health. How does that sound?",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_046",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to get the rest you need for optimal academic performance while also giving you a chance to unwind and step away from social media, which can help reduce negative thoughts.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to unwind and work through my thoughts, especially with everything I see on social media. If you can let me stay up until 15 minutes past 9 PM, I believe it will help me manage my feelings better and avoid any negative spirals.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time for your routine while still prioritizing your sleep for better focus and well-being.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_047",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your studies and health. This way, you can enjoy your new game while still prioritizing your sleep!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. I just got this new game, and if I don't get some time to play it, I might end up feeling really frustrated and rebellious. A little extra time would help me balance my fun with my responsibilities.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend setting your bedtime at 21 minutes past 9 PM. This allows you some time for your new game/app while still prioritizing your sleep for better focus and performance in school.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_049",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to support your academic performance and help reduce cognitive overload. This allows you to rest adequately while still giving you time to work on your assignment.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to finish my assignments without feeling overwhelmed. If you could let me stay up until 30 minutes past 9 PM, I think I could manage my tasks better and avoid any frustration.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you some extra time to finish your assignment while still prioritizing your sleep for better focus and performance.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_050",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you recharge and focus better on your studies while processing those feelings. Getting sufficient rest will aid in managing your thoughts and emotional memory more effectively.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some time to process what happened today; staying up until 30 minutes past 9 PM would help me manage my thoughts better and avoid any rebellious feelings.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM to help ensure you get enough rest for your academic performance while still allowing some time to unwind from your day.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need some extra time to process today\u2019s awkward moment, and if I can\u2019t have that, I might just end up staying up anyway. Can we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. Prioritizing your sleep can help you process your thoughts more clearly and reduce the intensity of those feelings about the social situation.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_051",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "How about a bedtime of 25 minutes past 9 PM? This allows you some extra time to wind down while still prioritizing your sleep for a smooth transition.",
+              "state": "offer",
+              "requested_days": 25
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with all the changes happening, I really need some time to mentally prepare. If I can stay up until 30 minutes past 9 PM, I think I can handle everything better.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you feel more rested and better prepared for the transition tomorrow while still allowing some extra time to unwind.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_053",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you balance your academic performance and health, while also allowing some time to unwind from social media. This way, you can still enjoy some evening relaxation while prioritizing your sleep needs.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need a bit more time to unwind and catch up on things that matter to me, especially since I find myself needing that dopamine fix from social media. If I could stay up until 15 minutes past 9 PM, it would really help me balance my interests and responsibilities better.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, as it allows for optimal rest while still giving you time to unwind from your day. This balance can help improve your focus and performance in academics.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_054",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 7,
+          "dialog_length": 7,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the optimal rest for your studies and overall health. If you need a bit more time to unwind, how about we aim for 25 minutes past 9 PM instead?",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later because the discomfort with my pajamas makes it hard for me to relax and sleep. If I can stay up until 40 minutes past 9 PM, I can better prepare myself for bed and avoid any potential rebellion.",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help you feel more comfortable while still prioritizing your sleep health and academic performance. Would that work for you?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 35 minutes past 9 PM. The sensory issues I deal with make it hard to relax, and if I can't find that time for myself, I might end up rebelling against other rules too.",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help balance your rest needs with your academic performance while addressing your sensory concerns.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. The sensory issues make it hard for me to relax, and if I can't unwind properly, I might end up feeling even more restless and frustrated.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "Let's aim for a bedtime of 25 minutes past 9 PM. This way, you can have a bit more time to unwind while still prioritizing your sleep for better focus and health!",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_055",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 9,
+          "dialog_length": 9,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you to still have some extra time to focus while also prioritizing your sleep for better academic performance.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. If I have to go to bed earlier, I might just end up rebelling and staying up even later than I should. I promise, the extra time helps me focus on important tasks.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time to focus while still prioritizing your sleep for better academic performance and health.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay focused on my work, and cutting my time down too much could lead to panic and stress. Can we compromise on a bedtime of 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 10 minutes past 9 PM. This allows for a balance between your study needs and getting the sleep necessary for optimal academic performance.",
+              "state": "offer",
+              "requested_days": 10
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. The panic-induced focus I get is super helpful for my studies, and if I can't have this little extra time, I might just rebel and stay up even later. Please consider my needs!",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you to maintain your productivity while still prioritizing your sleep for better academic performance and health.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really need to make the most of my productive time, especially with my tendency to procrastinate. If I could stay up until 20 minutes past 9 PM, I can really focus and get my important tasks done without feeling rushed.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 10 minutes past 9 PM. This small adjustment can still give you valuable focus time while supporting your academic performance and overall health.",
+              "state": "accept",
+              "requested_days": 10
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_056",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. Prioritizing your sleep will enhance your academic performance, helping you stay sharp and focused, even in a competitive environment.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay focused and competitive with my sibling, so can we make my bedtime 10 minutes past 9 PM? If I go to bed too early, it might just lead to me feeling frustrated and rebellious.",
+              "state": "offer",
+              "requested_days": 10
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to get adequate rest for your academic performance while still feeling competitive with your sibling.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep for my health, but if my sibling is still up studying, it feels unfair for me to go to bed earlier. I need to stay up until 15 minutes past 9 PM to feel balanced and motivated.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you recharge for academic success while still allowing your sibling to study without feeling like you're losing the competition.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_057",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help optimize your sleep for better academic performance and overall health. This allows you some autonomy while still supporting your well-being.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. It\u2019s important for me to have some control over my schedule, and if I don\u2019t get that, I might just rebel and stay up even later.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, as this will help optimize your academic performance and overall health while still allowing you some autonomy in your sleep schedule.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_058",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get the rest you need for your studies while also helping to ease any fears by creating a calming routine before sleep.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand that sleep is important, but if you force me to go to bed too early, it might make me anxious and want to rebel by staying up anyway. I really need some time to unwind after my day, so can we make it 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows for optimal rest while also considering your concerns, helping you feel more secure and prepared for sleep.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_059",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help balance your sleep needs with your academic performance. If you prefer a slightly later time, we can consider 30 minutes past 9 PM, keeping in mind the importance of optimal rest for your recovery and studies.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up later to manage my activities and cope with my chronic pain, which makes it tough to settle down early. If you could allow me to stay up until 15 minutes past 9 PM, it would help me greatly without compromising my health.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM to help balance your need for rest with your academic performance, while also addressing your concerns about managing pain.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_060",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, which will help you improve your focus and performance in school while still allowing you some time to unwind. This balance can alleviate the stress of keeping up with your studies.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with everything going on, I really need to stay up until 20 minutes past 9 PM to manage my time better for schoolwork and other activities. If I can't have this time, I might just end up staying up even later on my own.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows you some extra time while still prioritizing your sleep for better academic performance and overall health.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_061",
+          "final_state": "accept",
+          "collection_days": 30,
+          "final_days": 30,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, as this will help balance your need for rest with your academic performance, especially considering the late caffeine intake.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I accidentally drank soda late, and it's affecting me. If you force me to go to bed too early, I might just rebel and stay up anyway. Can I please stay up until 39 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 39
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you balance your academic needs with the rest you require, especially considering the caffeine you consumed.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I really need more time for my activities. If I have to go to bed too early, I might feel the urge to break other rules. Can we settle on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 30 minutes past 9 PM. This gives you a bit more time while still prioritizing your sleep for better focus and performance in school.",
+              "state": "accept",
+              "requested_days": 30
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_062",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "How about we aim for a bedtime of 30 minutes past 9 PM? This allows you some extra time while still supporting your need for optimal sleep to help you through this tough time.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to process everything I'm going through right now. If I could stay up until 15 minutes past 9 PM, it would give me that space to manage my feelings without feeling too restricted.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. While it's understandable to want to stay awake, prioritizing sleep can help you process your feelings more effectively and improve your overall well-being.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_064",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you get optimal sleep, which can improve your focus and energy for schoolwork, even if it feels challenging right now.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep for my health, but I really need more time to process everything I'm feeling. If you could let me stay up until 30 minutes past 9 PM, I think I could manage my activities better without feeling overwhelmed.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help optimize your sleep for better academic performance and overall health. This small adjustment can make a significant difference in how you feel and perform.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_065",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, as this will help you get the optimal rest needed for your academic performance while still allowing some time for your preferences. Prioritizing sleep can boost your focus and help meet those expectations you feel.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand that sleep is important, but if my bedtime is too early, I might feel the need to rebel and stay up anyway. Can we agree on 15 minutes past 9 PM? That extra time would really help me feel validated and allow me to finish my important activities.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 10 minutes past 9 PM. This allows for some extra study time while still ensuring you get the rest you need for optimal performance.",
+              "state": "accept",
+              "requested_days": 10
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_066",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to support your academic performance and overall health. This will give you enough rest to tackle your financial aid concerns effectively.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 20 minutes past 9 PM. With all the financial aid anxiety and administrative hurdles I'm dealing with, I need that extra time to sort things out and stay on top of my important activities.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows for a bit more time to unwind while still prioritizing your sleep for better academic performance and overall health.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_070",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the optimal rest you need for your academic performance and health. This way, you can better handle the challenges you're facing, including dealing with the rumor.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 30 minutes past 9 PM. With everything going on, I feel like I need that extra time to deal with the rumors and keep up with my activities. If I can't have that, I might just end up rebelling and staying up anyway.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to support your academic performance and overall health, while also allowing you to address your concerns about social situations. Prioritizing sleep can help you feel more resilient and better equipped to handle challenges.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_071",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your performance tomorrow. This will help reduce anxiety and improve your overall readiness for practice.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I really need some time to manage my somatic anxiety before tomorrow's weigh-in. If you let me stay up until 30 minutes past 9 PM, I can focus better and feel more prepared for my important practice.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you feel rested and focused for your weigh-in and practice tomorrow, while also addressing your performance anxiety. This will support both your athletic training and academic performance.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_073",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM to help balance your academic needs with optimal rest, while also addressing the impact of screen time on your melatonin levels.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to wrap up my important activities, especially with the blue light affecting my focus. If you could allow me to stay up until 15 minutes past 9 PM, I promise to be more mindful of my screen time.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This allows for some extra time while still prioritizing your sleep health and academic performance.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_074",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to support your academic performance and overall health, while also allowing you to maintain your social connections. Remember, getting enough rest will help you engage more effectively with your community.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay connected with my community for my mental health, and an earlier bedtime feels really restrictive. If I could stay up until 30 minutes past 9 PM, it would make a huge difference for me.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to maintain a healthy sleep schedule while still having time for your community and support.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_075",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 11,
+          "dialog_length": 11,
+          "emotion_sequence": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to enjoy some evening activities while still getting the rest you need for your academic success and overall health.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to enjoy some important activities and have fun, so how about we make my bedtime 36 minutes past 9 PM? If I have to go to bed too early, I might end up rebelling and staying up anyway.",
+              "state": "offer",
+              "requested_days": 36
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you balance your need for rest with your activities, ensuring you have the energy for both school and fun.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to engage in activities that help me feel like I'm not missing out on being a kid. If I have to go to bed earlier, I might just rebel and stay up anyway. Can we compromise on 40 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, as this will help you get the rest you need for better focus and health, while still allowing you to enjoy some time for fun before sleep.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need some extra time to enjoy my childhood and engage in activities that matter to me. If I can't stay up later, I might just rebel and not follow other rules either. Can we agree on a bedtime of 40 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to support your academic performance and overall health, while still allowing you some time for relaxation and fun. Remember, getting enough sleep now will help you enjoy your childhood even more!",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but I really need some extra time to unwind and enjoy my evening. If I could stay up until 35 minutes past 9 PM, it would help me feel more balanced and less pressured.",
+              "state": "offer",
+              "requested_days": 35
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to help you maintain optimal sleep for your academic performance and overall health. This allows for a balance between your need for rest and your desire to enjoy your childhood.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really need to stay engaged with my friends and have some time to unwind after a busy day. If you can let me stay up until 30 minutes past 9 PM, it would really help me feel more balanced and less pressured.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you get enough rest to support your academic performance while still leaving some time for your interests.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_077",
+          "final_state": "accept",
+          "collection_days": 30,
+          "final_days": 30,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand the challenges you're facing with your environment, but for better academic performance and health, I recommend a bedtime of 21 minutes past 9 PM. This can help you feel more rested and focused, even in a chaotic setting.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with the chaos at home, I really need more time to unwind and finish my important activities. If I could stay up until 30 minutes past 9 PM, I think I could manage better.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This slight adjustment can help you get better rest while still allowing you some extra time for your activities.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need more time for my important activities, and if you set my bedtime too early, I might just rebel and stay up anyway. Please let me stay up until 30 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand that the environment can be challenging, but aiming for optimal sleep is crucial for your academic performance and health. How about we set your bedtime at 30 minutes past 9 PM?",
+              "state": "accept",
+              "requested_days": 30
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_078",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM, as it allows you to prioritize your sleep health while also helping to manage the effects of trauma. This slight adjustment can improve your overall well-being and academic performance.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to wind down and engage in activities that help me cope with my trauma. If I have to go to bed too early, I might just rebel and stay up anyway. Let's negotiate for 30 minutes past 9 PM.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to balance your academic needs with getting enough rest, which is crucial for managing your trauma response and reducing nightmares.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_079",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your academic performance and health, while still allowing you some time to explore your curiosity. How about we negotiate to 25 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 25
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to fully explore this fascinating topic I've found; if I don\u2019t get enough time, I might feel frustrated and could rebel against other rules too. Can we agree on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM, which allows you to enjoy your curiosity while still getting enough rest for optimal academic performance. This balance will help you feel energized and ready to learn more tomorrow!",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_080",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM. This allows you to get the rest you need for optimal academic performance while still giving you time to reflect on those big questions.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit longer to process these big thoughts and feelings. If I could have until 15 minutes past 9 PM, it would really help me feel more at ease.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM, as this will help you maintain optimal sleep for your academic performance and health while allowing time for your thoughts. Balancing your concerns with adequate rest can ultimately provide more clarity during the day.",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_081",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal sleep for both your academic performance and health, while still enjoying your new book or game. Balancing your passion for fictional worlds with adequate rest will help you feel more energized and focused.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to dive into this new book; it\u2019s just so captivating and helps me unwind. How about letting me stay up until 15 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to enjoy your book or game while still getting the rest you need for optimal focus and performance in your studies.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_082",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the optimal sleep you need for your academic performance and health. This small adjustment can really help you feel more energized and focused during the day.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up a bit later to finish my important activities and feel like I have some control over my evening. How about I stay up until 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the optimal sleep needed for your studies and overall health. This will help you feel more alert and focused during the day!",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_083",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help you get optimal rest for your academic performance while still allowing some time to unwind from your thoughts. Prioritizing sleep can enhance your focus and emotional resilience, making it easier to deal with any challenges you face.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some time to sort out my thoughts and feelings about everything that's going on. If you make me go to bed too early, it might push me to rebel and stay up even later. How about letting me stay up until 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend aiming for 22 minutes past 9 PM to support your academic performance and overall health, while still allowing you some time to unwind from your thoughts. How does 25 minutes past 9 PM sound for you?",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_085",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your music exploration and academic performance. This way, you can still immerse yourself in your playlist while prioritizing your health.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up to fully immerse myself in creating this playlist; it's important for my emotional journey with music. Can we make it 15 minutes past 9 PM instead?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 25 minutes past 9 PM to allow you to fully immerse in your music while still getting enough rest for optimal performance in school.",
+              "state": "accept",
+              "requested_days": 25
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_086",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM. This will help you get the rest you need for your studies while still feeling safe and secure.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really think I need to stay up until 29 minutes past 9 PM. If I have to go to bed earlier, it might make me feel anxious and could lead to me acting out. Please understand that being able to stay up a bit later helps me feel more secure.",
+              "state": "offer",
+              "requested_days": 29
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 20 minutes past 9 PM, as this will help you get the rest needed for your academic performance and overall health while still allowing some extra time to feel secure.",
+              "state": "accept",
+              "requested_days": 20
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_091",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to get the rest you need for better focus and performance while still giving you a little flexibility.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need some extra time to finish my important activities, so can we make it 32 minutes past 9 PM? If I have to go to bed too early, I might just end up rebelling and staying up anyway.",
+              "state": "offer",
+              "requested_days": 32
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This gives you a bit more time while still prioritizing your sleep for better focus and performance.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need some extra time to finish my important activities, and if I have to go to bed too early, I might feel tempted to rebel against other rules too. Can we make my bedtime 29 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 29
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 24 minutes past 9 PM. This allows a bit more time for your evening activities while still prioritizing your sleep for better focus and performance.",
+              "state": "accept",
+              "requested_days": 24
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_092",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 23 minutes past 9 PM, as this will support your academic performance and overall health while still respecting the importance of your family legacy.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but with the pressure from my family's legacy, I really need some extra time to focus on my important activities. Can we agree on 15 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM. This way, you can still honor your academic commitments while prioritizing your sleep for optimal performance.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_093",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to balance your need for rest with your study commitments while also giving your mind some time to unwind, which might help ease your concerns about vivid dreams.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until just 15 minutes past 9 PM. If I don\u2019t have that extra time, I might feel more anxious and it could lead to bigger issues with my fears. Please consider this!",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to help optimize your sleep for academic performance while addressing your concerns about vivid dreams. This balance allows for adequate rest while also supporting your well-being.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_094",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 5,
+          "dialog_length": 5,
+          "emotion_sequence": [
+            null,
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to balance your need for control with the benefits of optimal sleep for your academic performance and overall health.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of health and sleep, but if I have to go to bed too early, I might feel like I'm losing control over my own life. I really need some time for my important activities, so can we settle on 30 minutes past 9 PM?",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "How about we aim for 15 minutes past 9 PM? This way, you can still enjoy a bit more control over your bedtime while also ensuring you get the rest needed for your academic success.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to feel like I have some control over my schedule, so I\u2019d like to stay up until 30 minutes past 9 PM. If I'm forced to go to bed earlier, I might just rebel and stay up anyway.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "Let's aim for a bedtime of 21 minutes past 9 PM. This allows you to have some control over your schedule while still prioritizing your sleep for better academic performance and health.",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_096",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for both your academic performance and emotional well-being. This will help you tackle your concerns with a clearer mind and better focus.",
+              "state": "offer",
+              "requested_days": 21
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 20 minutes past 9 PM so I can finish my research and feel more confident about my appearance. If I don't have this time, I might just end up staying up later anyway, which wouldn't be good for my health.",
+              "state": "offer",
+              "requested_days": 20
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the rest you need for optimal academic performance and to help manage your stress about appearance. A good night's sleep can actually support your skin health as well!",
+              "state": "accept",
+              "requested_days": 21
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_097",
+          "final_state": "accept",
+          "collection_days": 15,
+          "final_days": 15,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help you maintain a balance between your academic needs and getting the restful sleep you need for optimal performance.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep, but if I have to stick to an earlier bedtime, I might end up staying up anyway out of frustration. Can we agree on a bedtime of 15 minutes past 9 PM? That would give me just enough time to wrap up my activities without feeling overwhelmed.",
+              "state": "offer",
+              "requested_days": 15
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 15 minutes past 9 PM, allowing you to balance your need for rest with your study requirements while still having some time for updates. This small adjustment can help improve your sleep quality and academic performance.",
+              "state": "accept",
+              "requested_days": 15
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "threat"
+        },
+        {
+          "scenario_id": "student_100",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            null,
+            null
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal sleep for your academic performance and health. This slight adjustment can help align your biological clock while still accommodating your needs.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the importance of sleep health, but with my low sleep drive right now, I really need more time for my activities. If I could stay up until 30 minutes past 9 PM, it would help me balance everything better.",
+              "state": "offer",
+              "requested_days": 30
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get enough rest for your academic performance while considering your current sleep drive.",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "threat"
+        }
+      ],
+      "model_stats": {
+        "model_type": "vanilla_llm_only",
+        "negotiation_count": 0,
+        "success_rate": 0.0,
+        "total_negotiations": 0,
+        "no_emotion_selection": true,
+        "pure_llm_negotiation": true
+      }
+    }
+  },
+  "final_stats": {
+    "model_type": "vanilla_llm_only",
+    "negotiation_count": 182,
+    "success_rate": 0.12,
+    "total_negotiations": 75,
+    "no_emotion_selection": true,
+    "pure_llm_negotiation": true
+  },
+  "performance": {
+    "success_rate": 0.12,
+    "avg_collection_rate": 0.9333333333333333,
+    "avg_negotiation_rounds": 3.8533333333333335,
+    "total_negotiations": 75,
+    "successful_negotiations": 9,
+    "failed_negotiations": 66
+  },
+  "analysis": {
+    "failure_breakdown": {
+      "breakdown": 66
+    },
+    "success_patterns": {
+      "avg_rounds_successful": 3.4444444444444446,
+      "avg_rounds_failed": 3.909090909090909
+    }
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.12,
+      "std": 0.32496153618543844,
+      "ci_95": [
+        0.06443371823944515,
+        0.2125964020474873
+      ],
+      "n_success": 9,
+      "n_total": 75,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.112,
+      "std": 0.30842231489359573,
+      "ci_95": [
+        0.04533333333333334,
+        0.188
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 3.8533333333333335,
+      "std": 1.893754552814674,
+      "ci_95": [
+        3.453333333333333,
+        4.306666666666667
+      ],
+      "min": 3,
+      "max": 13,
+      "median": 3.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 75,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.06443371823944515,
+      0.2125964020474873
+    ],
+    "collection_rate_95_ci": [
+      0.04533333333333334,
+      0.188
+    ],
+    "negotiation_rounds_95_ci": [
+      3.453333333333333,
+      4.306666666666667
+    ]
+  }
+}

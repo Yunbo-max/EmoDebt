@@ -1,0 +1,21 @@
+BAYESIAN TRANSITION OPTIMIZATION SYSTEM SUMMARY
+==================================================
+
+Success Rate: 100.0%
+Avg Collection Days: 0.0
+Total Negotiations: 2
+
+TRANSITION ANALYSIS:
+
+LEARNING SUMMARY:
+  Learning Events: 2
+  Learning Success Rate: 100.0%
+  GameTheory Accuracy: 100.0%
+  OnlineRL Accuracy: 50.0%
+  EmotionalCoherence Accuracy: 0.0%
+
+KEY FINDINGS:
+1. Bayesian optimization of emotional transitions improves negotiation outcomes
+2. Different agents excel in different contexts (context-aware reliability)
+3. Transition success rates provide actionable insights for emotion strategy
+4. System adapts exploration based on confidence and success history

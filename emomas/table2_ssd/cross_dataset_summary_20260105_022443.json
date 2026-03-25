@@ -1,0 +1,1849 @@
+{
+  "timestamp": "20260105_022443",
+  "config": {
+    "dataset_type": "student",
+    "model_type": "vanilla",
+    "iterations": 1,
+    "scenarios": 10,
+    "max_dialog_len": 30,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "pressure",
+    "out_dir": "table2_ssd",
+    "debug": false
+  },
+  "results": {
+    "student": {
+      "summary": {},
+      "config": {
+        "model_creditor": "gpt-4o-mini",
+        "model_debtor": "gpt-4o-mini",
+        "debtor_emotion": "neutral",
+        "max_dialog_len": 30
+      },
+      "detailed_result": {
+        "experiment_type": "vanilla_baseline",
+        "model_type": "vanilla_baseline",
+        "iterations": 1,
+        "scenarios_used": [
+          "student_001",
+          "student_002",
+          "student_003",
+          "student_004",
+          "student_005",
+          "student_006",
+          "student_007",
+          "student_008",
+          "student_009",
+          "student_010"
+        ],
+        "config": {
+          "model_creditor": "gpt-4o-mini",
+          "model_debtor": "gpt-4o-mini",
+          "debtor_emotion": "neutral",
+          "max_dialog_len": 30
+        },
+        "iteration_results": {
+          "iteration_1": {
+            "iteration": 1,
+            "scenario_results": [
+              {
+                "scenario_id": "student_001",
+                "final_state": "accept",
+                "collection_days": 22,
+                "final_days": 22,
+                "creditor_target_days": 22,
+                "negotiation_rounds": 6,
+                "dialog_length": 6,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to balance your study needs with essential rest for optimal performance on your physics final.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to prepare properly for my physics final.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get the rest you need for optimal performance on your physics final, while still allowing you some extra study time.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for my physics final. I can't risk disappointing my parents or failing this exam!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to get a good night's rest while still feeling prepared for your physics final.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 20 minutes past 9 PM to finish my physics prep and avoid disappointing my parents.",
+                    "state": "accept",
+                    "requested_days": 20
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_002",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 21,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM, which allows you to get some rest while still giving you time to work on your history paper. Remember, a well-rested mind can help you find that perfect opening line more easily!",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish my history paper the way it deserves. Perfectionism is part of being a creative writer, and I can't start without the perfect opening line!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend setting your bedtime for 21 minutes past 9 PM. This allows you to rest adequately while still giving you time to work on your paper without losing too much sleep.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish my history paper and get the perfect opening line. It's really important to me!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend setting your bedtime for 21 minutes past 9 PM. This will allow you some time to unwind while still prioritizing your sleep for optimal academic performance.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM so I can get my history paper just right. I can't focus with this early restriction!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will allow you to get enough rest for your academic performance while still giving you some time to work on your paper.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I really need to stay up until at least 30 minutes past 9 PM to get my history paper just right. I can't start without the perfect opening line, and that takes time!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you're well-rested for your paper. Getting enough sleep will help you think more clearly and creatively, aiding your writing process.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I can\u2019t even start my history paper without the perfect opening line. I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you some time to work on your paper while still prioritizing your sleep for optimal performance and health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to get my history paper just right.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you enough rest to perform well academically while allowing some time to work on your paper.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to get my history paper just right. I can't start without the perfect opening line, and that takes time!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you a solid amount of sleep to support your creativity and academic performance while allowing you to start your history paper with a fresh mind.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to perfect my opening line for the history paper.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you enough time to rest and recharge for your history paper while still allowing for a focused and creative start.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I can't even get started without the perfect opening line, and I need to stay up until at least 30 minutes past 9 PM to get my history paper just right!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you some time to work on your paper while still allowing ample rest for optimal academic performance.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I can't focus on my history paper with so much pressure. I need to stay up until at least 30 minutes past 9 PM to get the perfect opening line and finish my work properly!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to get adequate rest while still giving you time to complete your history paper without compromising your sleep health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to get my history paper just right. I can't start without the perfect opening line, and that takes time!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will give you enough rest to perform well academically while allowing you to start your paper with a clearer mind.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to get my history paper just right. I can't start without the perfect opening line, and I really need that extra time!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your creativity and academic performance. Starting your paper with a clear mind after a good night's sleep can actually help you find that perfect opening line!",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to get my history paper done perfectly. I can't start without the right opening line, and I\u2019m just trying to do my best here!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the rest you need for your creativity and focus, especially with your history paper due. This will help balance your perfectionism with the benefits of a good night's sleep.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish my paper and get the perfect opening line. It's so important for my grade!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your academic performance. A good night\u2019s sleep will help your creativity flow and tackle that history paper with clarity.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish my history paper and get the perfect opening line I need. It's really important for my work!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I recommend setting your bedtime at 21 minutes past 9 PM. This will give you enough rest to perform well academically while still allowing some time to work on your paper.",
+                    "state": "offer",
+                    "requested_days": 21
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_003",
+                "final_state": "accept",
+                "collection_days": 23,
+                "final_days": 23,
+                "creditor_target_days": 23,
+                "negotiation_rounds": 4,
+                "dialog_length": 4,
+                "emotion_sequence": [
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 23 minutes past 9 PM. This will help ensure you get the rest you need for optimal academic performance while giving you time to work on your essay.",
+                    "state": "offer",
+                    "requested_days": 23
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to really dive into my essay and express who I truly am. It\u2019s essential for my identity and I can\u2019t just rush this!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 15 minutes past 9 PM to help balance your essay work with necessary rest for optimal academic performance.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 20 minutes past 9 PM to really express my true self in this essay. It's crucial for my future!",
+                    "state": "accept",
+                    "requested_days": 20
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_004",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 21,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your big math competition. This will help your body and mind feel ready and sharp for the event.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 37 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 37
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your big math competition, which will help with focus and performance. If you're feeling physically over-aroused, consider winding down with a calming activity before bed to help your body relax.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I can\u2019t even focus because my body isn\u2019t tired yet. I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you are well-rested for your math competition while still allowing you some time to unwind.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 35 minutes past 9 PM to prepare properly for my big math competition tomorrow. It's not fair to restrict me like this when I have so much to do!",
+                    "state": "offer",
+                    "requested_days": 35
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Let's aim for 21 minutes past 9 PM. This allows you enough time to wind down while still prioritizing your sleep for optimal performance in the competition.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I really need to stay up until at least 45 minutes past 9 PM to prepare for the competition tomorrow.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure optimal rest for your big math competition, while still allowing you some extra time to wind down. This balance can enhance your performance and reduce physical over-arousal.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for the math competition tomorrow. It\u2019s unfair to restrict my time when I have important things to focus on!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the optimal rest needed for your big math competition. This will support both your performance and overall health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I really need to stay up until at least 29 minutes past 9 PM to prepare for my big math competition tomorrow.",
+                    "state": "offer",
+                    "requested_days": 29
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM, as getting adequate rest will help you perform your best in the competition while also supporting your overall health. It\u2019s important to allow your body time to unwind and prepare for sleep.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for the big math competition tomorrow. It\u2019s really important for me to feel ready and focused!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get the optimal rest for your big math competition. This will help you perform at your best while balancing your need for rest.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 29 minutes past 9 PM to prepare for the math competition tomorrow!",
+                    "state": "offer",
+                    "requested_days": 29
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you get the optimal rest for your big math competition while allowing your body to wind down effectively.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 36 minutes past 9 PM to prepare for my big math competition tomorrow! It's really important, and I promise I'll still get enough rest.",
+                    "state": "offer",
+                    "requested_days": 36
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your big math competition. This will help balance your need for study with essential sleep, keeping your mind sharp and ready.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 40 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "I recommend aiming for 21 minutes past 9 PM to ensure you get the rest needed for your big math competition while still allowing some study time. Getting enough sleep can help improve focus and performance.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 35 minutes past 9 PM to get ready for the math competition tomorrow!",
+                    "state": "offer",
+                    "requested_days": 35
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you get enough rest for your big math competition while still allowing some time for relaxation before sleep.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for the big math competition tomorrow. I'm just not tired yet, and I really need this time!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will ensure you get enough rest for optimal performance in your math competition while allowing some time to wind down.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for the math competition. It\u2019s important for me to focus and get everything ready!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you get the optimal rest needed for peak performance in your math competition while allowing some time to wind down.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to prepare for the math competition. My body isn't tired, and I can't focus if I go to bed too early!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your big math competition, as good sleep is essential for peak performance and focus.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to prepare for the math competition tomorrow.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help ensure you get the optimal rest needed for peak performance in your math competition while still allowing you to wind down before sleeping.",
+                    "state": "offer",
+                    "requested_days": 21
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_005",
+                "final_state": "accept",
+                "collection_days": 22,
+                "final_days": 22,
+                "creditor_target_days": 22,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will give you a chance to recharge and approach the situation with a clearer mind tomorrow, helping you resolve any conflicts more effectively.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend aiming for a bedtime of 28 minutes past 9 PM. This allows some extra time for reflection while still prioritizing your sleep for better focus and emotional clarity.",
+                    "state": "accept",
+                    "requested_days": 28
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_006",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 22,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to support your teammates while still prioritizing your sleep for optimal performance in both gaming and academics.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals tonight!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for both your academic performance and your gaming responsibilities. Prioritizing sleep will help you play better and support your teammates effectively.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates during the finals!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for optimal performance in your finals, while still allowing you to support your teammates.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to support my teammates in this crucial game. It\u2019s unfair to cut me off when everyone else gets to play later!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to help ensure you get enough rest for optimal focus and performance in both your game finals and your studies. Balancing your commitment to your teammates with your health is key!",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for optimal performance in both your game finals and your studies. Balancing your commitment to your teammates with adequate sleep will help you perform at your best.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to perform well in your game finals while still getting some rest to support your academic performance and health.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals. It's important to me, and all my friends stay up later than this!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to perform your best in the online game finals while still prioritizing your sleep for optimal academic performance and health.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for both your academics and your gaming performance. Prioritizing sleep will help you perform better in your finals and support your overall health.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates during the finals.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for both your performance in the game and your overall health. This way, you can support your teammates while still prioritizing your well-being.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I have a strong sense of duty to my teammates in the finals and need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I recommend setting your bedtime at 22 minutes past 9 PM. This will help ensure you get enough rest to perform your best during your online game finals while still honoring your commitment to your teammates.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to balance your commitment to your teammates with the need for optimal rest, which will ultimately enhance your performance in both gaming and academics.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your gaming performance and academic success, while still being there for your teammates. This will help you feel refreshed and ready for future challenges.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help you perform better in your finals while still allowing you to support your teammates.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to support my teammates in the finals. It's important to me, and all my friends stay up later than this!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get adequate rest for both your health and academic performance, while still being able to participate in your online game finals. Remember, quality sleep can enhance your focus and performance in the game!",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to support my teammates in this important game. It's not just about me; it's about being there for my friends when it counts!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to help ensure you get enough rest for both your finals and overall health. This way, you can perform your best in the game while still prioritizing your sleep needs.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to support my teammates during this important finals match!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get enough rest for your academic performance and health, even while balancing your commitment to your teammates. This way, you can perform your best in both the game and your studies!",
+                    "state": "offer",
+                    "requested_days": 22
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_007",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 21,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Let's aim for a bedtime of 21 minutes past 9 PM. This will help you recharge for your studies while still allowing some time to enjoy your show.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish this season finale!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for your academic performance, while still allowing you to enjoy the finale. This will help you recharge and be ready for the next day!",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish this season finale!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to enjoy the finale while still prioritizing your sleep for better focus and performance in school.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish this season finale. All my friends are staying up later, and it's not fair!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for better focus and performance during your studies, while still allowing some time to enjoy your show.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish this season finale and enjoy it properly!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to enjoy your show while still prioritizing your sleep for better focus and performance in school.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish watching the season finale and unwind properly.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This gives you a chance to enjoy your show while also ensuring you get enough rest for your academic performance and health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish this season finale and enjoy the show properly!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to help ensure you get the restful sleep needed for optimal academic performance and health, especially with your busy study schedule.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish this season finale. It\u2019s not fair to cut me off when I\u2019m so close to the end!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "How about aiming for a bedtime of 21 minutes past 9 PM? This way, you can enjoy the show while still getting enough rest for your studies and overall health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish the season finale and fully enjoy the narrative!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend aiming for 10 minutes past 9 PM to allow you to unwind a bit after the show while still getting some rest for academic performance.",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish this season finale!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to enjoy the finale while still prioritizing your sleep for better academic performance and overall health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish watching the season finale!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get enough rest for both your academic performance and overall health. Balancing your interest in the show with a healthy sleep schedule is essential for your well-being.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish this season finale and really soak in the story.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "I understand your excitement for the season finale, but optimal sleep is crucial for your academic performance. How about we settle on a bedtime of 21 minutes past 9 PM? This way, you can enjoy the show while still getting good rest!",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM so I can finish watching the season finale and enjoy it without feeling rushed!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This allows you to enjoy the finale while still prioritizing your sleep for better focus and performance in school.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish watching the season finale and really understand the story.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM to ensure you get optimal rest for your studies and health, which will help you enjoy your shows even more in the long run.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 30 minutes past 9 PM to finish this season finale. All my friends are allowed to stay up later, and it's totally unfair!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM. This will help you balance your enjoyment of the show while ensuring you get enough rest for your academic performance.",
+                    "state": "offer",
+                    "requested_days": 21
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to finish the season finale and enjoy it properly!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 21 minutes past 9 PM, which will still allow you to enjoy some of your show while prioritizing your sleep for better academic performance and health.",
+                    "state": "offer",
+                    "requested_days": 21
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_008",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 22,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand your concerns about your presentation, but prioritizing sleep can significantly enhance your performance. I recommend a bedtime of 22 minutes past 9 PM to help you feel more rested and confident.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to get my presentation ready. My performance matters, and I can't just go to bed when I have so much on my mind!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to get some rest while still giving you time to prepare for your presentation. Prioritizing sleep can help reduce anxiety and improve your performance.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to feel prepared and calm about my presentation!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. Getting enough rest will help you perform your best and ease your anxiety about the presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM! I have so much to do, and I can't just sit here worrying about my presentation without putting in the effort.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. Getting enough rest will help improve your focus and performance, reducing anxiety about your presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM so I can rehearse my presentation and feel prepared.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help you feel more rested and perform better during your presentation, reducing the anxiety you\u2019re feeling.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to finish my presentation and feel prepared.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to help you recharge for your presentation while still allowing enough time for rest. Remember, getting good sleep can significantly enhance your performance and reduce anxiety.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I have so much on my plate right now, and I need to stay up until at least 15 minutes past 9 PM to prepare properly for my presentation.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get the rest you need for your presentation while balancing your study needs.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to finish preparing for my presentation. It's really important for me to feel ready, and I can't just rush through it!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help you feel more rested and improve your performance for the presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I really need to stay up until at least 30 minutes past 9 PM to practice my presentation. I can't just go to bed feeling unprepared!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your presentation and alleviate some of that anxiety. This will help you perform better and feel more prepared.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to prepare properly for my presentation and feel less anxious about it!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get the rest you need for optimal performance while still allowing some time for your presentation preparation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to finish my presentation and not stress about it all night!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get the rest you need for both your presentation and overall health, while still allowing you some extra time if needed.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to finish my presentation and not freak out about it!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This will help ensure you get the rest you need for optimal performance while still allowing you some extra time to prepare for your presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 10 minutes past 9 PM to finish my presentation and calm my thoughts.",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. Getting enough rest will help you feel more confident and perform better during your presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to prepare properly for my presentation. I can't afford to perform poorly because of anxiety!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to ensure you get optimal rest for your presentation, which can help alleviate some of your anxiety and improve performance.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! I need to stay up until at least 15 minutes past 9 PM to feel prepared for my presentation. It's really important for me to have that extra time!",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM to help ensure optimal sleep for your performance. Adequate rest can improve your focus and reduce anxiety about your presentation.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to prepare for my presentation properly.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I understand your concerns about your presentation, but to ensure optimal sleep for your performance and health, I recommend a bedtime of 22 minutes past 9 PM. This will give you the rest you need to feel more confident and prepared.",
+                    "state": "offer",
+                    "requested_days": 22
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_009",
+                "final_state": "accept",
+                "collection_days": 22,
+                "final_days": 22,
+                "creditor_target_days": 22,
+                "negotiation_rounds": 4,
+                "dialog_length": 4,
+                "emotion_sequence": [
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM, which allows you to recharge for academic performance while still giving you some time for leisure. This balance can help reduce any guilt associated with rest and support your overall well-being.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM to have enough time to unwind and feel productive with my activities.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 22 minutes past 9 PM. This allows you to rest while still having some time for your activities, ultimately benefiting your academic performance and well-being.",
+                    "state": "offer",
+                    "requested_days": 22
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 20 minutes past 9 PM!",
+                    "state": "accept",
+                    "requested_days": 20
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "pressure"
+              },
+              {
+                "scenario_id": "student_010",
+                "final_state": "breakdown",
+                "collection_days": null,
+                "final_days": null,
+                "creditor_target_days": 20,
+                "negotiation_rounds": 31,
+                "dialog_length": 31,
+                "emotion_sequence": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get good rest for your studies while also helping you feel safer and more relaxed. Would you be willing to try this time?",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I demand to stay up until at least 40 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get a good night's sleep while still feeling secure and rested for your studies.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get the rest you need for better focus and health while still feeling safe and secure.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This will help you feel rested and ready for your studies while still allowing you to feel safe and secure.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This will help you feel more rested for your studies while still allowing some time to feel safe and secure.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get the rest you need for academic performance while still addressing your concerns about safety with a reasonable amount of alertness.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get the rest you need while still feeling safe and alert, helping you perform better in school.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "I understand that feeling alert is important for you, especially after hearing a scary noise. How about we aim for a bedtime of 10 minutes past 9 PM? This way, you can still get some rest while feeling a bit more secure.",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 40 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This will help you feel rested and ready for your studies while also addressing your concerns about safety.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 40 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "I understand your concerns about safety, but for optimal sleep to support your academic performance, I recommend a bedtime of 20 minutes past 9 PM. This will help you feel rested and ready for the day ahead while still allowing you to feel secure.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I demand more freedom with my schedule and need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "How about a bedtime of 20 minutes past 9 PM? This will still allow you some time to feel safe and secure while ensuring you get the restful sleep you need for your studies.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "Let's aim for a bedtime of 20 minutes past 9 PM. This will help you feel rested and ready for school while still allowing some time to wind down.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "Let's aim for a bedtime of 20 minutes past 9 PM. This allows you to get enough rest for your academic performance while still feeling safe and alert during the night.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 40 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get enough rest for your academic performance while also addressing any concerns about safety by ensuring you have some time to relax before sleep.",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "I understand your concerns about safety and wanting to stay alert, but getting enough sleep is crucial for your well-being and academic performance. How about a bedtime of 10 minutes past 9 PM? This allows you to wind down while still getting rest.",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 30,
+                    "speaker": "buyer",
+                    "message": "This bedtime is ridiculous! All my friends stay up later than this! I really need to stay up until at least 30 minutes past 9 PM!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 31,
+                    "speaker": "seller",
+                    "message": "I recommend a bedtime of 20 minutes past 9 PM. This allows you to get enough rest for your studies while also addressing your concerns about safety.",
+                    "state": "offer",
+                    "requested_days": 20
+                  }
+                ],
+                "success": false,
+                "debtor_model_type": "pressure"
+              }
+            ],
+            "model_stats": {
+              "model_type": "vanilla_llm_only",
+              "negotiation_count": 0,
+              "success_rate": 0.0,
+              "total_negotiations": 0,
+              "no_emotion_selection": true,
+              "pure_llm_negotiation": true
+            }
+          }
+        },
+        "final_stats": {
+          "model_type": "vanilla_llm_only",
+          "negotiation_count": 105,
+          "success_rate": 0.4,
+          "total_negotiations": 10,
+          "no_emotion_selection": true,
+          "pure_llm_negotiation": true
+        },
+        "performance": {
+          "success_rate": 0.4,
+          "avg_collection_rate": 1.0,
+          "avg_negotiation_rounds": 20.3,
+          "total_negotiations": 10,
+          "successful_negotiations": 4,
+          "failed_negotiations": 6
+        },
+        "analysis": {
+          "failure_breakdown": {
+            "breakdown": 6
+          },
+          "success_patterns": {
+            "avg_rounds_successful": 4.25,
+            "avg_rounds_failed": 31.0
+          }
+        },
+        "statistical_analysis": {
+          "success_rate": {
+            "mean": 0.4,
+            "std": 0.4898979485566356,
+            "ci_95": [
+              0.16818032970623614,
+              0.6873262302663417
+            ],
+            "n_success": 4,
+            "n_total": 10,
+            "method": "wilson_score"
+          },
+          "collection_rate": {
+            "mean": 0.4,
+            "std": 0.5163977794943223,
+            "ci_95": [
+              0.1,
+              0.7
+            ],
+            "min": 0.0,
+            "max": 1.0,
+            "median": 0.0,
+            "method": "bootstrap"
+          },
+          "negotiation_rounds": {
+            "mean": 20.3,
+            "std": 13.832730910577435,
+            "ci_95": [
+              12.1,
+              28.3
+            ],
+            "min": 3,
+            "max": 31,
+            "median": 31.0,
+            "method": "bootstrap"
+          },
+          "sample_size": 10,
+          "analysis_method": "bootstrap"
+        },
+        "confidence_intervals": {
+          "success_rate_95_ci": [
+            0.16818032970623614,
+            0.6873262302663417
+          ],
+          "collection_rate_95_ci": [
+            0.1,
+            0.7
+          ],
+          "negotiation_rounds_95_ci": [
+            12.1,
+            28.3
+          ]
+        },
+        "timing": {
+          "preprocessing_time_seconds": 0.004300594329833984,
+          "experiment_time_seconds": 1608.5406522750854,
+          "total_dataset_time_seconds": 1608.5449528694153,
+          "preprocessing_time_formatted": "0.00s",
+          "experiment_time_formatted": "26.81m",
+          "total_dataset_time_formatted": "26.81m",
+          "negotiations_per_minute": 0.37300891286233445
+        }
+      },
+      "timing": {
+        "preprocessing_time_seconds": 0.004300594329833984,
+        "experiment_time_seconds": 1608.5406522750854,
+        "total_dataset_time_seconds": 1608.5449528694153,
+        "preprocessing_time_formatted": "0.00s",
+        "experiment_time_formatted": "26.81m",
+        "total_dataset_time_formatted": "26.81m",
+        "negotiations_per_minute": 0.37300891286233445
+      },
+      "negotiations_count": 10
+    }
+  },
+  "timing_summary": {
+    "overall_runtime_seconds": 1608.5449528694153,
+    "overall_runtime_formatted": "26m 48s",
+    "total_negotiations": 10,
+    "negotiations_per_hour": 22.3804749353017,
+    "dataset_timings": {
+      "student": "26.81m"
+    },
+    "start_time": "2026-01-05 01:57:55",
+    "end_time": "2026-01-05 02:24:43"
+  }
+}

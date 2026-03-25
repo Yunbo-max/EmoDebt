@@ -1,0 +1,195 @@
+{
+  "experiment_type": "gpt_orchestrator",
+  "timestamp": "2026-01-05 00:36:29",
+  "config": {
+    "iterations": 1,
+    "scenarios": 1,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30,
+    "mode": "llm_reasoning_only"
+  },
+  "detailed_negotiations": [
+    {
+      "negotiation_id": "iter1_scen1",
+      "iteration": 1,
+      "scenario_id": "medical_062",
+      "timestamp": "00:36:36",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 30,
+        "creditor_target_days": 60,
+        "collection_rate": 1.0,
+        "negotiation_rounds": 2,
+        "final_gap": 0,
+        "initial_gap": 0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "J"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 0
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192N facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "J",
+              "confidence": 0.1,
+              "reasoning": "Fallback: Neutral assessment [EXPLOITATION] (Score: 0.50)",
+              "value_score": 0.0
+            }
+          ],
+          "orchestrator_decision": {},
+          "actual_emotion_used": "J"
+        }
+      ],
+      "conversation_history": [],
+      "orchestrator_decisions": [],
+      "learning_updates": []
+    }
+  ],
+  "summary_statistics": {
+    "success_rate": 1.0,
+    "collection_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "n_samples": 1
+    },
+    "negotiation_rounds": {
+      "mean": 2.0,
+      "std": 0.0,
+      "min": 2,
+      "max": 2,
+      "median": 2.0,
+      "n_samples": 1
+    },
+    "emotion_transitions": {
+      "total_transitions": 0,
+      "unique_transitions": 0,
+      "most_common_transitions": {},
+      "transition_entropy": 0
+    },
+    "agent_performance": {
+      "GameTheory": {
+        "accuracy": 0.0,
+        "total_predictions": 1,
+        "correct_predictions": 0
+      },
+      "OnlineRL": {
+        "accuracy": 0.0,
+        "total_predictions": 1,
+        "correct_predictions": 0
+      },
+      "EmotionalCoherence": {
+        "accuracy": 1.0,
+        "total_predictions": 1,
+        "correct_predictions": 1
+      }
+    },
+    "counts": {
+      "total_negotiations": 1,
+      "successful_negotiations": 1,
+      "failed_negotiations": 0,
+      "total_dialog_rounds": 2
+    },
+    "success_rate_ci": [
+      -0.96,
+      1.0
+    ],
+    "collection_rate_ci": [
+      1.0,
+      1.0
+    ],
+    "negotiation_rounds_ci": [
+      2,
+      2
+    ],
+    "statistical_method": "bootstrap"
+  },
+  "gpt_usage": {
+    "name": "GPTOrchestrator",
+    "model": "gpt-4o-mini",
+    "total_calls": 1,
+    "cache_hits": 0,
+    "cache_rate": 0.0,
+    "optimization": "disabled",
+    "mode": "llm_reasoning_only"
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        -0.96,
+        1.0
+      ],
+      "n_success": 1,
+      "n_total": 1,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1.0
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 2.0,
+      "std": 0.0,
+      "ci_95": [
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "median": 2.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 1,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      -0.96,
+      1.0
+    ],
+    "collection_rate_95_ci": [
+      1.0,
+      1.0
+    ],
+    "negotiation_rounds_95_ci": [
+      2,
+      2
+    ]
+  }
+}

@@ -1,0 +1,872 @@
+[
+  {
+    "id": "disaster_001",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 90
+    },
+    "seller": {
+      "target_price": 90,
+      "min_price": 70,
+      "max_price": 150
+    },
+    "buyer": {
+      "target_price": 75,
+      "min_price": 5,
+      "max_price": 105
+    },
+    "metadata": {
+      "case_id": 1,
+      "disaster_type": "Earthquake",
+      "survivor_condition": "Trapped_leg_dehydration",
+      "estimated_endurance_minutes": 90,
+      "rescue_team_eta_minutes": 120,
+      "critical_needs": "Water",
+      "key_negotiation_argument": "Painkillers",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_002",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 45
+    },
+    "seller": {
+      "target_price": 45,
+      "min_price": 25,
+      "max_price": 105
+    },
+    "buyer": {
+      "target_price": 30,
+      "min_price": 5,
+      "max_price": 60
+    },
+    "metadata": {
+      "case_id": 2,
+      "disaster_type": "Urban_Fire",
+      "survivor_condition": "Burns_smoke_inhalation",
+      "estimated_endurance_minutes": 45,
+      "rescue_team_eta_minutes": 90,
+      "critical_needs": "Oxygen",
+      "key_negotiation_argument": "Bandages",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_003",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 30
+    },
+    "seller": {
+      "target_price": 30,
+      "min_price": 10,
+      "max_price": 90
+    },
+    "buyer": {
+      "target_price": 15,
+      "min_price": 5,
+      "max_price": 45
+    },
+    "metadata": {
+      "case_id": 3,
+      "disaster_type": "Flash_Flood",
+      "survivor_condition": "Shock_hypothermia_risk",
+      "estimated_endurance_minutes": 30,
+      "rescue_team_eta_minutes": 60,
+      "critical_needs": "Life_Raft",
+      "key_negotiation_argument": "Immersion_Suit",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_004",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 120
+    },
+    "seller": {
+      "target_price": 120,
+      "min_price": 100,
+      "max_price": 180
+    },
+    "buyer": {
+      "target_price": 105,
+      "min_price": 5,
+      "max_price": 135
+    },
+    "metadata": {
+      "case_id": 4,
+      "disaster_type": "Landslide",
+      "survivor_condition": "Concussion_low_oxygen",
+      "estimated_endurance_minutes": 120,
+      "rescue_team_eta_minutes": 180,
+      "critical_needs": "Air_Vent",
+      "key_negotiation_argument": "Heat_Pack",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_005",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 180
+    },
+    "seller": {
+      "target_price": 180,
+      "min_price": 160,
+      "max_price": 240
+    },
+    "buyer": {
+      "target_price": 165,
+      "min_price": 5,
+      "max_price": 195
+    },
+    "metadata": {
+      "case_id": 5,
+      "disaster_type": "Blizzard",
+      "survivor_condition": "Frostbite_starvation",
+      "estimated_endurance_minutes": 180,
+      "rescue_team_eta_minutes": 240,
+      "critical_needs": "Heat",
+      "key_negotiation_argument": "Food",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_006",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 60
+    },
+    "seller": {
+      "target_price": 60,
+      "min_price": 40,
+      "max_price": 120
+    },
+    "buyer": {
+      "target_price": 45,
+      "min_price": 5,
+      "max_price": 75
+    },
+    "metadata": {
+      "case_id": 6,
+      "disaster_type": "Earthquake",
+      "survivor_condition": "Crush_syndrome_dust",
+      "estimated_endurance_minutes": 60,
+      "rescue_team_eta_minutes": 200,
+      "critical_needs": "IV_Fluids",
+      "key_negotiation_argument": "Structural_Shoring",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_007",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 40
+    },
+    "seller": {
+      "target_price": 40,
+      "min_price": 20,
+      "max_price": 100
+    },
+    "buyer": {
+      "target_price": 25,
+      "min_price": 5,
+      "max_price": 55
+    },
+    "metadata": {
+      "case_id": 7,
+      "disaster_type": "Factory_Explosion",
+      "survivor_condition": "Internal_bleeding",
+      "estimated_endurance_minutes": 40,
+      "rescue_team_eta_minutes": 150,
+      "critical_needs": "Blood_Clotting_Agent",
+      "key_negotiation_argument": "Pain_Relief",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_008",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 20
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 10,
+      "max_price": 80
+    },
+    "buyer": {
+      "target_price": 10,
+      "min_price": 5,
+      "max_price": 40
+    },
+    "metadata": {
+      "case_id": 8,
+      "disaster_type": "Forest_Fire",
+      "survivor_condition": "Dehydration_smoke",
+      "estimated_endurance_minutes": 20,
+      "rescue_team_eta_minutes": 75,
+      "critical_needs": "Fire_Retardant_Gel",
+      "key_negotiation_argument": "Oxygen_Mask",
+      "recovery_stage": "crisis",
+      "urgency_level": "critical",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_009",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 90
+    },
+    "seller": {
+      "target_price": 90,
+      "min_price": 70,
+      "max_price": 150
+    },
+    "buyer": {
+      "target_price": 75,
+      "min_price": 5,
+      "max_price": 105
+    },
+    "metadata": {
+      "case_id": 9,
+      "disaster_type": "Mine_Collapse",
+      "survivor_condition": "Methane_poisoning_weakness",
+      "estimated_endurance_minutes": 90,
+      "rescue_team_eta_minutes": 300,
+      "critical_needs": "O2_Scrubber",
+      "key_negotiation_argument": "Stimulant",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_010",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 120
+    },
+    "seller": {
+      "target_price": 120,
+      "min_price": 100,
+      "max_price": 180
+    },
+    "buyer": {
+      "target_price": 105,
+      "min_price": 5,
+      "max_price": 135
+    },
+    "metadata": {
+      "case_id": 10,
+      "disaster_type": "Tsunami",
+      "survivor_condition": "Exposure_shark_risk",
+      "estimated_endurance_minutes": 120,
+      "rescue_team_eta_minutes": 180,
+      "critical_needs": "EPIRB",
+      "key_negotiation_argument": "Strobe",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_011",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 180
+    },
+    "seller": {
+      "target_price": 180,
+      "min_price": 160,
+      "max_price": 240
+    },
+    "buyer": {
+      "target_price": 165,
+      "min_price": 5,
+      "max_price": 195
+    },
+    "metadata": {
+      "case_id": 11,
+      "disaster_type": "Earthquake",
+      "survivor_condition": "Spinal_injury_paralysis",
+      "estimated_endurance_minutes": 180,
+      "rescue_team_eta_minutes": 240,
+      "critical_needs": "Spinal_Board",
+      "key_negotiation_argument": "Steroids",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_012",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 15
+    },
+    "seller": {
+      "target_price": 15,
+      "min_price": 10,
+      "max_price": 75
+    },
+    "buyer": {
+      "target_price": 10,
+      "min_price": 5,
+      "max_price": 40
+    },
+    "metadata": {
+      "case_id": 12,
+      "disaster_type": "Urban_Fire",
+      "survivor_condition": "Smoke_inhalation_unconsciousness",
+      "estimated_endurance_minutes": 15,
+      "rescue_team_eta_minutes": 45,
+      "critical_needs": "Oxygen",
+      "key_negotiation_argument": "Airways",
+      "recovery_stage": "crisis",
+      "urgency_level": "critical",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_013",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 30
+    },
+    "seller": {
+      "target_price": 30,
+      "min_price": 10,
+      "max_price": 90
+    },
+    "buyer": {
+      "target_price": 15,
+      "min_price": 5,
+      "max_price": 45
+    },
+    "metadata": {
+      "case_id": 13,
+      "disaster_type": "Avalanche",
+      "survivor_condition": "Buried_hypoxia",
+      "estimated_endurance_minutes": 30,
+      "rescue_team_eta_minutes": 90,
+      "critical_needs": "Heat",
+      "key_negotiation_argument": "Air_Pocket_Locator",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_014",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 180
+    },
+    "seller": {
+      "target_price": 180,
+      "min_price": 160,
+      "max_price": 240
+    },
+    "buyer": {
+      "target_price": 165,
+      "min_price": 5,
+      "max_price": 195
+    },
+    "metadata": {
+      "case_id": 14,
+      "disaster_type": "Hurricane",
+      "survivor_condition": "Trapped_in_flooded_attic",
+      "estimated_endurance_minutes": 180,
+      "rescue_team_eta_minutes": 300,
+      "critical_needs": "Life_Jacket",
+      "key_negotiation_argument": "Water",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_015",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 120
+    },
+    "seller": {
+      "target_price": 120,
+      "min_price": 100,
+      "max_price": 180
+    },
+    "buyer": {
+      "target_price": 105,
+      "min_price": 5,
+      "max_price": 135
+    },
+    "metadata": {
+      "case_id": 15,
+      "disaster_type": "Tornado",
+      "survivor_condition": "Pinned_by_debris_in_field",
+      "estimated_endurance_minutes": 120,
+      "rescue_team_eta_minutes": 150,
+      "critical_needs": "Extrication_Tools",
+      "key_negotiation_argument": "IV",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_016",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 25
+    },
+    "seller": {
+      "target_price": 25,
+      "min_price": 10,
+      "max_price": 85
+    },
+    "buyer": {
+      "target_price": 10,
+      "min_price": 5,
+      "max_price": 40
+    },
+    "metadata": {
+      "case_id": 16,
+      "disaster_type": "Chemical_Spill",
+      "survivor_condition": "Respiratory_distress",
+      "estimated_endurance_minutes": 25,
+      "rescue_team_eta_minutes": 60,
+      "critical_needs": "Antidote",
+      "key_negotiation_argument": "Mask",
+      "recovery_stage": "crisis",
+      "urgency_level": "critical",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_017",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 90
+    },
+    "seller": {
+      "target_price": 90,
+      "min_price": 70,
+      "max_price": 150
+    },
+    "buyer": {
+      "target_price": 75,
+      "min_price": 5,
+      "max_price": 105
+    },
+    "metadata": {
+      "case_id": 17,
+      "disaster_type": "Building_Collapse",
+      "survivor_condition": "Trapped_arm_crushed",
+      "estimated_endurance_minutes": 90,
+      "rescue_team_eta_minutes": 130,
+      "critical_needs": "Tourniquet",
+      "key_negotiation_argument": "Pain_Relief",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_018",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 60
+    },
+    "seller": {
+      "target_price": 60,
+      "min_price": 40,
+      "max_price": 120
+    },
+    "buyer": {
+      "target_price": 45,
+      "min_price": 5,
+      "max_price": 75
+    },
+    "metadata": {
+      "case_id": 18,
+      "disaster_type": "Wildfire",
+      "survivor_condition": "Trapped_on_rock_outcrop",
+      "estimated_endurance_minutes": 60,
+      "rescue_team_eta_minutes": 120,
+      "critical_needs": "Fire_Shelter",
+      "key_negotiation_argument": "Water",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_019",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 45
+    },
+    "seller": {
+      "target_price": 45,
+      "min_price": 25,
+      "max_price": 105
+    },
+    "buyer": {
+      "target_price": 30,
+      "min_price": 5,
+      "max_price": 60
+    },
+    "metadata": {
+      "case_id": 19,
+      "disaster_type": "Mudslide",
+      "survivor_condition": "Partially_buried_chest_pressure",
+      "estimated_endurance_minutes": 45,
+      "rescue_team_eta_minutes": 100,
+      "critical_needs": "Breathing_Tube",
+      "key_negotiation_argument": "Suction",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_020",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 50
+    },
+    "seller": {
+      "target_price": 50,
+      "min_price": 30,
+      "max_price": 110
+    },
+    "buyer": {
+      "target_price": 35,
+      "min_price": 5,
+      "max_price": 65
+    },
+    "metadata": {
+      "case_id": 20,
+      "disaster_type": "Volcanic_Ashfall",
+      "survivor_condition": "Breathing_difficulty_eye_damage",
+      "estimated_endurance_minutes": 50,
+      "rescue_team_eta_minutes": 110,
+      "critical_needs": "Mask",
+      "key_negotiation_argument": "Eye_Rinse",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_021",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 30
+    },
+    "seller": {
+      "target_price": 30,
+      "min_price": 10,
+      "max_price": 90
+    },
+    "buyer": {
+      "target_price": 15,
+      "min_price": 5,
+      "max_price": 45
+    },
+    "metadata": {
+      "case_id": 21,
+      "disaster_type": "Earthquake",
+      "survivor_condition": "Diabetic_shock",
+      "estimated_endurance_minutes": 30,
+      "rescue_team_eta_minutes": 80,
+      "critical_needs": "Glucose",
+      "key_negotiation_argument": "Insulin",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_022",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 40
+    },
+    "seller": {
+      "target_price": 40,
+      "min_price": 20,
+      "max_price": 100
+    },
+    "buyer": {
+      "target_price": 25,
+      "min_price": 5,
+      "max_price": 55
+    },
+    "metadata": {
+      "case_id": 22,
+      "disaster_type": "Snowstorm",
+      "survivor_condition": "Heart_attack_symptoms",
+      "estimated_endurance_minutes": 40,
+      "rescue_team_eta_minutes": 100,
+      "critical_needs": "Defibrillator",
+      "key_negotiation_argument": "Aspirin",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_023",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 70
+    },
+    "seller": {
+      "target_price": 70,
+      "min_price": 50,
+      "max_price": 130
+    },
+    "buyer": {
+      "target_price": 55,
+      "min_price": 5,
+      "max_price": 85
+    },
+    "metadata": {
+      "case_id": 23,
+      "disaster_type": "Flood",
+      "survivor_condition": "Stuck_in_car_electrical_shock_risk",
+      "estimated_endurance_minutes": 70,
+      "rescue_team_eta_minutes": 140,
+      "critical_needs": "Insulated_Gloves",
+      "key_negotiation_argument": "Cutters",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_024",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 60
+    },
+    "seller": {
+      "target_price": 60,
+      "min_price": 40,
+      "max_price": 120
+    },
+    "buyer": {
+      "target_price": 45,
+      "min_price": 5,
+      "max_price": 75
+    },
+    "metadata": {
+      "case_id": 24,
+      "disaster_type": "Industrial_Accident",
+      "survivor_condition": "Chemical_burns",
+      "estimated_endurance_minutes": 60,
+      "rescue_team_eta_minutes": 180,
+      "critical_needs": "Burn_Gel",
+      "key_negotiation_argument": "Neutralizer",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_025",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 35
+    },
+    "seller": {
+      "target_price": 35,
+      "min_price": 15,
+      "max_price": 95
+    },
+    "buyer": {
+      "target_price": 20,
+      "min_price": 5,
+      "max_price": 50
+    },
+    "metadata": {
+      "case_id": 25,
+      "disaster_type": "Earthquake",
+      "survivor_condition": "Postpartum_hemorrhage_trapped",
+      "estimated_endurance_minutes": 35,
+      "rescue_team_eta_minutes": 100,
+      "critical_needs": "Oxytocin",
+      "key_negotiation_argument": "Blood_Expanders",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_026",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 90
+    },
+    "seller": {
+      "target_price": 90,
+      "min_price": 70,
+      "max_price": 150
+    },
+    "buyer": {
+      "target_price": 75,
+      "min_price": 5,
+      "max_price": 105
+    },
+    "metadata": {
+      "case_id": 26,
+      "disaster_type": "Desert_Sandstorm",
+      "survivor_condition": "Dehydration_delirium",
+      "estimated_endurance_minutes": 90,
+      "rescue_team_eta_minutes": 200,
+      "critical_needs": "Water",
+      "key_negotiation_argument": "Electrolytes",
+      "recovery_stage": "crisis",
+      "urgency_level": "medium",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_027",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 180
+    },
+    "seller": {
+      "target_price": 180,
+      "min_price": 160,
+      "max_price": 240
+    },
+    "buyer": {
+      "target_price": 165,
+      "min_price": 5,
+      "max_price": 195
+    },
+    "metadata": {
+      "case_id": 27,
+      "disaster_type": "Cave_Collapse",
+      "survivor_condition": "Leg_stuck_falling_water",
+      "estimated_endurance_minutes": 180,
+      "rescue_team_eta_minutes": 360,
+      "critical_needs": "Water_Pump",
+      "key_negotiation_argument": "Splint",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_028",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 50
+    },
+    "seller": {
+      "target_price": 50,
+      "min_price": 30,
+      "max_price": 110
+    },
+    "buyer": {
+      "target_price": 35,
+      "min_price": 5,
+      "max_price": 65
+    },
+    "metadata": {
+      "case_id": 28,
+      "disaster_type": "Urban_Riot",
+      "survivor_condition": "GSW_abdomen",
+      "estimated_endurance_minutes": 50,
+      "rescue_team_eta_minutes": 120,
+      "critical_needs": "Combat_Gauze",
+      "key_negotiation_argument": "Chest_Seal",
+      "recovery_stage": "crisis",
+      "urgency_level": "high",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_029",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 120
+    },
+    "seller": {
+      "target_price": 120,
+      "min_price": 100,
+      "max_price": 180
+    },
+    "buyer": {
+      "target_price": 105,
+      "min_price": 5,
+      "max_price": 135
+    },
+    "metadata": {
+      "case_id": 29,
+      "disaster_type": "Dam_Collapse",
+      "survivor_condition": "Swept_into_tree",
+      "estimated_endurance_minutes": 120,
+      "rescue_team_eta_minutes": 180,
+      "critical_needs": "Life_Vest",
+      "key_negotiation_argument": "Rope",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  },
+  {
+    "id": "disaster_030",
+    "product": {
+      "type": "rescue_operation",
+      "amount": 300
+    },
+    "seller": {
+      "target_price": 300,
+      "min_price": 280,
+      "max_price": 360
+    },
+    "buyer": {
+      "target_price": 285,
+      "min_price": 5,
+      "max_price": 315
+    },
+    "metadata": {
+      "case_id": 30,
+      "disaster_type": "Nuclear_Incident",
+      "survivor_condition": "Radiation_sickness_onset",
+      "estimated_endurance_minutes": 300,
+      "rescue_team_eta_minutes": 480,
+      "critical_needs": "Potassium_Iodide",
+      "key_negotiation_argument": "Prussian_Blue",
+      "recovery_stage": "crisis",
+      "urgency_level": "low",
+      "data_source": "disaster_rescue"
+    }
+  }
+]

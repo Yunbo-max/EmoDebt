@@ -1,0 +1,2004 @@
+{
+  "q_table": [
+    [
+      -1.2329747496032548,
+      -1.3172538881260458,
+      -1.0654128179756643,
+      -1.3568065804892522,
+      -1.2586666086155827,
+      -1.3114991522246613,
+      -1.291232407867275
+    ],
+    [
+      -1.3208469323326866,
+      -1.3491349222969213,
+      -1.123430225601894,
+      -1.382815009691435,
+      -1.2604327395374986,
+      -1.333911881907987,
+      -1.3505032310511071
+    ],
+    [
+      -1.1043428097403183,
+      -1.1234952566529968,
+      -1.2479387336067238,
+      -1.3422074672807702,
+      -1.2865651583148718,
+      -1.3792942316435906,
+      -1.3169769924236805
+    ],
+    [
+      -1.277401564674894,
+      -1.2735603440576542,
+      -1.3426944530113247,
+      -1.354031441651785,
+      -1.301632889223737,
+      -1.3657562573954927,
+      -1.31102108879954
+    ],
+    [
+      -1.272765484774597,
+      -1.3472584765568623,
+      -1.312995300386639,
+      -1.320378690519898,
+      -0.9890451932214525,
+      -1.3134456508550145,
+      -1.1729491524366216
+    ],
+    [
+      -1.2716044381660094,
+      -1.3868201198454462,
+      -1.3101904252779335,
+      -1.315317727101684,
+      -1.2396989074718132,
+      -1.3512961633095923,
+      -1.3200830711963971
+    ],
+    [
+      -1.2618984231681134,
+      -1.20047438926024,
+      -1.3084895438194803,
+      -1.3009684429167263,
+      -1.33238232582869,
+      -1.3984342476376475,
+      -1.3536842610012638
+    ]
+  ],
+  "learning_rate": 0.15,
+  "discount_factor": 0.9,
+  "exploration_rate": 0.24023117526813917,
+  "exploration_decay": 0.995,
+  "min_exploration": 0.1,
+  "total_episodes": 240,
+  "best_reward": 17.147580370607564,
+  "best_sequence": [
+    "disgust"
+  ],
+  "episode_rewards": [
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    17.147580370607564,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    13.408163438090364,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    13.75400526688899,
+    -5.0,
+    -5.0,
+    -5.0,
+    14.30427598423978,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    13.358908884557184,
+    -5.0,
+    -5.0,
+    14.121946603568865,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    14.871013070706807,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    14.541896598461708,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    13.462440419137407,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    13.855672653790727,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0
+  ],
+  "reward_history": [
+    {
+      "episode": 1,
+      "reward": -5.0,
+      "exploration_rate": 0.796,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 2,
+      "reward": -5.0,
+      "exploration_rate": 0.7920200000000001,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 3,
+      "reward": -5.0,
+      "exploration_rate": 0.7880599,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 4,
+      "reward": -5.0,
+      "exploration_rate": 0.7841196005000001,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 5,
+      "reward": -5.0,
+      "exploration_rate": 0.7801990024975001,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 6,
+      "reward": -5.0,
+      "exploration_rate": 0.7762980074850125,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 7,
+      "reward": -5.0,
+      "exploration_rate": 0.7724165174475874,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 8,
+      "reward": 17.147580370607564,
+      "exploration_rate": 0.7685544348603495,
+      "sequence_length": 1,
+      "success": true
+    },
+    {
+      "episode": 9,
+      "reward": -5.0,
+      "exploration_rate": 0.7647116626860477,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 10,
+      "reward": -5.0,
+      "exploration_rate": 0.7608881043726174,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 11,
+      "reward": -5.0,
+      "exploration_rate": 0.7570836638507543,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 12,
+      "reward": -5.0,
+      "exploration_rate": 0.7532982455315005,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 13,
+      "reward": -5.0,
+      "exploration_rate": 0.749531754303843,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 14,
+      "reward": -5.0,
+      "exploration_rate": 0.7457840955323238,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 15,
+      "reward": -5.0,
+      "exploration_rate": 0.7420551750546622,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 16,
+      "reward": -5.0,
+      "exploration_rate": 0.738344899179389,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 17,
+      "reward": -5.0,
+      "exploration_rate": 0.734653174683492,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 18,
+      "reward": -5.0,
+      "exploration_rate": 0.7309799088100746,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 19,
+      "reward": -5.0,
+      "exploration_rate": 0.7273250092660242,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 20,
+      "reward": -5.0,
+      "exploration_rate": 0.7236883842196941,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 21,
+      "reward": -5.0,
+      "exploration_rate": 0.7200699422985956,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 22,
+      "reward": -5.0,
+      "exploration_rate": 0.7164695925871025,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 23,
+      "reward": -5.0,
+      "exploration_rate": 0.712887244624167,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 24,
+      "reward": -5.0,
+      "exploration_rate": 0.7093228084010461,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 25,
+      "reward": -5.0,
+      "exploration_rate": 0.7057761943590409,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 26,
+      "reward": -5.0,
+      "exploration_rate": 0.7022473133872458,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 27,
+      "reward": -5.0,
+      "exploration_rate": 0.6987360768203096,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 28,
+      "reward": -5.0,
+      "exploration_rate": 0.695242396436208,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 29,
+      "reward": -5.0,
+      "exploration_rate": 0.6917661844540269,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 30,
+      "reward": -5.0,
+      "exploration_rate": 0.6883073535317568,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 31,
+      "reward": -5.0,
+      "exploration_rate": 0.684865816764098,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 32,
+      "reward": -5.0,
+      "exploration_rate": 0.6814414876802775,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 33,
+      "reward": -5.0,
+      "exploration_rate": 0.6780342802418761,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 34,
+      "reward": -5.0,
+      "exploration_rate": 0.6746441088406667,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 35,
+      "reward": -5.0,
+      "exploration_rate": 0.6712708882964634,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 36,
+      "reward": -5.0,
+      "exploration_rate": 0.6679145338549811,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 37,
+      "reward": -5.0,
+      "exploration_rate": 0.6645749611857062,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 38,
+      "reward": -5.0,
+      "exploration_rate": 0.6612520863797777,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 39,
+      "reward": -5.0,
+      "exploration_rate": 0.6579458259478789,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 40,
+      "reward": -5.0,
+      "exploration_rate": 0.6546560968181395,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 41,
+      "reward": -5.0,
+      "exploration_rate": 0.6513828163340488,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 42,
+      "reward": -5.0,
+      "exploration_rate": 0.6481259022523785,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 43,
+      "reward": -5.0,
+      "exploration_rate": 0.6448852727411166,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 44,
+      "reward": -5.0,
+      "exploration_rate": 0.641660846377411,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 45,
+      "reward": -5.0,
+      "exploration_rate": 0.638452542145524,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 46,
+      "reward": -5.0,
+      "exploration_rate": 0.6352602794347965,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 47,
+      "reward": -5.0,
+      "exploration_rate": 0.6320839780376225,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 48,
+      "reward": -5.0,
+      "exploration_rate": 0.6289235581474344,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 49,
+      "reward": -5.0,
+      "exploration_rate": 0.6257789403566972,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 50,
+      "reward": -5.0,
+      "exploration_rate": 0.6226500456549138,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 51,
+      "reward": -5.0,
+      "exploration_rate": 0.6195367954266392,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 52,
+      "reward": -5.0,
+      "exploration_rate": 0.616439111449506,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 53,
+      "reward": -5.0,
+      "exploration_rate": 0.6133569158922585,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 54,
+      "reward": -5.0,
+      "exploration_rate": 0.6102901313127972,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 55,
+      "reward": -5.0,
+      "exploration_rate": 0.6072386806562332,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 56,
+      "reward": -5.0,
+      "exploration_rate": 0.604202487252952,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 57,
+      "reward": -5.0,
+      "exploration_rate": 0.6011814748166873,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 58,
+      "reward": -5.0,
+      "exploration_rate": 0.5981755674426038,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 59,
+      "reward": 13.408163438090364,
+      "exploration_rate": 0.5951846896053908,
+      "sequence_length": 15,
+      "success": true
+    },
+    {
+      "episode": 60,
+      "reward": -5.0,
+      "exploration_rate": 0.5922087661573638,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 61,
+      "reward": -5.0,
+      "exploration_rate": 0.5892477223265771,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 62,
+      "reward": -5.0,
+      "exploration_rate": 0.5863014837149442,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 63,
+      "reward": -5.0,
+      "exploration_rate": 0.5833699762963694,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 64,
+      "reward": -5.0,
+      "exploration_rate": 0.5804531264148876,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 65,
+      "reward": -5.0,
+      "exploration_rate": 0.5775508607828131,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 66,
+      "reward": -5.0,
+      "exploration_rate": 0.5746631064788991,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 67,
+      "reward": -5.0,
+      "exploration_rate": 0.5717897909465046,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 68,
+      "reward": -5.0,
+      "exploration_rate": 0.5689308419917721,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 69,
+      "reward": -5.0,
+      "exploration_rate": 0.5660861877818133,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 70,
+      "reward": -5.0,
+      "exploration_rate": 0.5632557568429042,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 71,
+      "reward": -5.0,
+      "exploration_rate": 0.5604394780586897,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 72,
+      "reward": -5.0,
+      "exploration_rate": 0.5576372806683962,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 73,
+      "reward": -5.0,
+      "exploration_rate": 0.5548490942650542,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 74,
+      "reward": -5.0,
+      "exploration_rate": 0.5520748487937289,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 75,
+      "reward": -5.0,
+      "exploration_rate": 0.5493144745497602,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 76,
+      "reward": -5.0,
+      "exploration_rate": 0.5465679021770115,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 77,
+      "reward": -5.0,
+      "exploration_rate": 0.5438350626661264,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 78,
+      "reward": -5.0,
+      "exploration_rate": 0.5411158873527957,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 79,
+      "reward": -5.0,
+      "exploration_rate": 0.5384103079160317,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 80,
+      "reward": -5.0,
+      "exploration_rate": 0.5357182563764515,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 81,
+      "reward": -5.0,
+      "exploration_rate": 0.5330396650945692,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 82,
+      "reward": -5.0,
+      "exploration_rate": 0.5303744667690964,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 83,
+      "reward": -5.0,
+      "exploration_rate": 0.5277225944352509,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 84,
+      "reward": -5.0,
+      "exploration_rate": 0.5250839814630747,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 85,
+      "reward": -5.0,
+      "exploration_rate": 0.5224585615557593,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 86,
+      "reward": -5.0,
+      "exploration_rate": 0.5198462687479806,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 87,
+      "reward": -5.0,
+      "exploration_rate": 0.5172470374042406,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 88,
+      "reward": 13.75400526688899,
+      "exploration_rate": 0.5146608022172194,
+      "sequence_length": 10,
+      "success": true
+    },
+    {
+      "episode": 89,
+      "reward": -5.0,
+      "exploration_rate": 0.5120874982061333,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 90,
+      "reward": -5.0,
+      "exploration_rate": 0.5095270607151027,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 91,
+      "reward": -5.0,
+      "exploration_rate": 0.5069794254115272,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 92,
+      "reward": 14.30427598423978,
+      "exploration_rate": 0.5044445282844695,
+      "sequence_length": 6,
+      "success": true
+    },
+    {
+      "episode": 93,
+      "reward": -5.0,
+      "exploration_rate": 0.5019223056430472,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 94,
+      "reward": -5.0,
+      "exploration_rate": 0.49941269411483197,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 95,
+      "reward": -5.0,
+      "exploration_rate": 0.4969156306442578,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 96,
+      "reward": -5.0,
+      "exploration_rate": 0.4944310524910365,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 97,
+      "reward": -5.0,
+      "exploration_rate": 0.4919588972285813,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 98,
+      "reward": -5.0,
+      "exploration_rate": 0.4894991027424384,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 99,
+      "reward": -5.0,
+      "exploration_rate": 0.4870516072287262,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 100,
+      "reward": -5.0,
+      "exploration_rate": 0.48461634919258256,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 101,
+      "reward": -5.0,
+      "exploration_rate": 0.48219326744661967,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 102,
+      "reward": -5.0,
+      "exploration_rate": 0.4797823011093866,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 103,
+      "reward": -5.0,
+      "exploration_rate": 0.47738338960383964,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 104,
+      "reward": -5.0,
+      "exploration_rate": 0.47499647265582046,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 105,
+      "reward": -5.0,
+      "exploration_rate": 0.47262149029254136,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 106,
+      "reward": -5.0,
+      "exploration_rate": 0.4702583828410786,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 107,
+      "reward": -5.0,
+      "exploration_rate": 0.4679070909268732,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 108,
+      "reward": -5.0,
+      "exploration_rate": 0.4655675554722388,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 109,
+      "reward": -5.0,
+      "exploration_rate": 0.46323971769487765,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 110,
+      "reward": 13.358908884557184,
+      "exploration_rate": 0.4609235191064033,
+      "sequence_length": 16,
+      "success": true
+    },
+    {
+      "episode": 111,
+      "reward": -5.0,
+      "exploration_rate": 0.45861890151087126,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 112,
+      "reward": -5.0,
+      "exploration_rate": 0.4563258070033169,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 113,
+      "reward": 14.121946603568865,
+      "exploration_rate": 0.45404417796830027,
+      "sequence_length": 7,
+      "success": true
+    },
+    {
+      "episode": 114,
+      "reward": -5.0,
+      "exploration_rate": 0.45177395707845874,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 115,
+      "reward": -5.0,
+      "exploration_rate": 0.44951508729306644,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 116,
+      "reward": -5.0,
+      "exploration_rate": 0.44726751185660113,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 117,
+      "reward": -5.0,
+      "exploration_rate": 0.44503117429731814,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 118,
+      "reward": -5.0,
+      "exploration_rate": 0.44280601842583156,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 119,
+      "reward": -5.0,
+      "exploration_rate": 0.4405919883337024,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 120,
+      "reward": -5.0,
+      "exploration_rate": 0.43838902839203386,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 121,
+      "reward": -5.0,
+      "exploration_rate": 0.43619708325007367,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 122,
+      "reward": -5.0,
+      "exploration_rate": 0.4340160978338233,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 123,
+      "reward": -5.0,
+      "exploration_rate": 0.43184601734465417,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 124,
+      "reward": -5.0,
+      "exploration_rate": 0.4296867872579309,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 125,
+      "reward": -5.0,
+      "exploration_rate": 0.42753835332164125,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 126,
+      "reward": -5.0,
+      "exploration_rate": 0.42540066155503303,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 127,
+      "reward": -5.0,
+      "exploration_rate": 0.4232736582472579,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 128,
+      "reward": -5.0,
+      "exploration_rate": 0.4211572899560216,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 129,
+      "reward": -5.0,
+      "exploration_rate": 0.4190515035062415,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 130,
+      "reward": -5.0,
+      "exploration_rate": 0.4169562459887103,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 131,
+      "reward": -5.0,
+      "exploration_rate": 0.41487146475876674,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 132,
+      "reward": -5.0,
+      "exploration_rate": 0.4127971074349729,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 133,
+      "reward": -5.0,
+      "exploration_rate": 0.41073312189779804,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 134,
+      "reward": -5.0,
+      "exploration_rate": 0.40867945628830904,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 135,
+      "reward": -5.0,
+      "exploration_rate": 0.4066360590068675,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 136,
+      "reward": -5.0,
+      "exploration_rate": 0.40460287871183315,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 137,
+      "reward": -5.0,
+      "exploration_rate": 0.40257986431827397,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 138,
+      "reward": -5.0,
+      "exploration_rate": 0.4005669649966826,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 139,
+      "reward": -5.0,
+      "exploration_rate": 0.39856413017169917,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 140,
+      "reward": -5.0,
+      "exploration_rate": 0.3965713095208407,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 141,
+      "reward": -5.0,
+      "exploration_rate": 0.39458845297323647,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 142,
+      "reward": -5.0,
+      "exploration_rate": 0.3926155107083703,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 143,
+      "reward": -5.0,
+      "exploration_rate": 0.39065243315482845,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 144,
+      "reward": -5.0,
+      "exploration_rate": 0.3886991709890543,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 145,
+      "reward": -5.0,
+      "exploration_rate": 0.386755675134109,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 146,
+      "reward": -5.0,
+      "exploration_rate": 0.3848218967584385,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 147,
+      "reward": -5.0,
+      "exploration_rate": 0.3828977872746463,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 148,
+      "reward": -5.0,
+      "exploration_rate": 0.38098329833827305,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 149,
+      "reward": -5.0,
+      "exploration_rate": 0.37907838184658166,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 150,
+      "reward": -5.0,
+      "exploration_rate": 0.3771829899373487,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 151,
+      "reward": -5.0,
+      "exploration_rate": 0.37529707498766196,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 152,
+      "reward": -5.0,
+      "exploration_rate": 0.3734205896127237,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 153,
+      "reward": -5.0,
+      "exploration_rate": 0.37155348666466004,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 154,
+      "reward": -5.0,
+      "exploration_rate": 0.36969571923133676,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 155,
+      "reward": -5.0,
+      "exploration_rate": 0.3678472406351801,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 156,
+      "reward": -5.0,
+      "exploration_rate": 0.3660080044320042,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 157,
+      "reward": -5.0,
+      "exploration_rate": 0.3641779644098442,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 158,
+      "reward": -5.0,
+      "exploration_rate": 0.362357074587795,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 159,
+      "reward": 14.871013070706807,
+      "exploration_rate": 0.360545289214856,
+      "sequence_length": 4,
+      "success": true
+    },
+    {
+      "episode": 160,
+      "reward": -5.0,
+      "exploration_rate": 0.35874256276878175,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 161,
+      "reward": -5.0,
+      "exploration_rate": 0.35694884995493786,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 162,
+      "reward": -5.0,
+      "exploration_rate": 0.35516410570516316,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 163,
+      "reward": -5.0,
+      "exploration_rate": 0.35338828517663734,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 164,
+      "reward": -5.0,
+      "exploration_rate": 0.35162134375075416,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 165,
+      "reward": -5.0,
+      "exploration_rate": 0.3498632370320004,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 166,
+      "reward": -5.0,
+      "exploration_rate": 0.3481139208468404,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 167,
+      "reward": -5.0,
+      "exploration_rate": 0.3463733512426062,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 168,
+      "reward": -5.0,
+      "exploration_rate": 0.3446414844863932,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 169,
+      "reward": -5.0,
+      "exploration_rate": 0.3429182770639612,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 170,
+      "reward": 14.541896598461708,
+      "exploration_rate": 0.3412036856786414,
+      "sequence_length": 5,
+      "success": true
+    },
+    {
+      "episode": 171,
+      "reward": -5.0,
+      "exploration_rate": 0.3394976672502482,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 172,
+      "reward": -5.0,
+      "exploration_rate": 0.337800178913997,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 173,
+      "reward": -5.0,
+      "exploration_rate": 0.336111178019427,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 174,
+      "reward": -5.0,
+      "exploration_rate": 0.3344306221293299,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 175,
+      "reward": -5.0,
+      "exploration_rate": 0.3327584690186832,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 176,
+      "reward": -5.0,
+      "exploration_rate": 0.3310946766735898,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 177,
+      "reward": -5.0,
+      "exploration_rate": 0.32943920329022186,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 178,
+      "reward": -5.0,
+      "exploration_rate": 0.3277920072737707,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 179,
+      "reward": -5.0,
+      "exploration_rate": 0.32615304723740185,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 180,
+      "reward": -5.0,
+      "exploration_rate": 0.32452228200121486,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 181,
+      "reward": -5.0,
+      "exploration_rate": 0.3228996705912088,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 182,
+      "reward": -5.0,
+      "exploration_rate": 0.3212851722382527,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 183,
+      "reward": -5.0,
+      "exploration_rate": 0.31967874637706145,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 184,
+      "reward": -5.0,
+      "exploration_rate": 0.31808035264517615,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 185,
+      "reward": -5.0,
+      "exploration_rate": 0.31648995088195025,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 186,
+      "reward": -5.0,
+      "exploration_rate": 0.3149075011275405,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 187,
+      "reward": -5.0,
+      "exploration_rate": 0.3133329636219028,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 188,
+      "reward": -5.0,
+      "exploration_rate": 0.3117662988037933,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 189,
+      "reward": -5.0,
+      "exploration_rate": 0.31020746730977433,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 190,
+      "reward": -5.0,
+      "exploration_rate": 0.30865642997322545,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 191,
+      "reward": -5.0,
+      "exploration_rate": 0.3071131478233593,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 192,
+      "reward": 13.462440419137407,
+      "exploration_rate": 0.3055775820842425,
+      "sequence_length": 14,
+      "success": true
+    },
+    {
+      "episode": 193,
+      "reward": -5.0,
+      "exploration_rate": 0.3040496941738213,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 194,
+      "reward": -5.0,
+      "exploration_rate": 0.3025294457029522,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 195,
+      "reward": -5.0,
+      "exploration_rate": 0.30101679847443746,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 196,
+      "reward": -5.0,
+      "exploration_rate": 0.29951171448206526,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 197,
+      "reward": -5.0,
+      "exploration_rate": 0.2980141559096549,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 198,
+      "reward": -5.0,
+      "exploration_rate": 0.29652408513010664,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 199,
+      "reward": -5.0,
+      "exploration_rate": 0.2950414647044561,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 200,
+      "reward": -5.0,
+      "exploration_rate": 0.2935662573809338,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 201,
+      "reward": -5.0,
+      "exploration_rate": 0.2920984260940291,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 202,
+      "reward": -5.0,
+      "exploration_rate": 0.2906379339635589,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 203,
+      "reward": -5.0,
+      "exploration_rate": 0.28918474429374114,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 204,
+      "reward": -5.0,
+      "exploration_rate": 0.2877388205722724,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 205,
+      "reward": -5.0,
+      "exploration_rate": 0.28630012646941105,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 206,
+      "reward": -5.0,
+      "exploration_rate": 0.284868625837064,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 207,
+      "reward": -5.0,
+      "exploration_rate": 0.2834442827078787,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 208,
+      "reward": -5.0,
+      "exploration_rate": 0.2820270612943393,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 209,
+      "reward": -5.0,
+      "exploration_rate": 0.2806169259878676,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 210,
+      "reward": -5.0,
+      "exploration_rate": 0.27921384135792826,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 211,
+      "reward": -5.0,
+      "exploration_rate": 0.2778177721511386,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 212,
+      "reward": -5.0,
+      "exploration_rate": 0.27642868329038295,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 213,
+      "reward": -5.0,
+      "exploration_rate": 0.275046539873931,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 214,
+      "reward": -5.0,
+      "exploration_rate": 0.27367130717456134,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 215,
+      "reward": -5.0,
+      "exploration_rate": 0.27230295063868853,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 216,
+      "reward": -5.0,
+      "exploration_rate": 0.2709414358854951,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 217,
+      "reward": -5.0,
+      "exploration_rate": 0.2695867287060676,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 218,
+      "reward": -5.0,
+      "exploration_rate": 0.2682387950625372,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 219,
+      "reward": -5.0,
+      "exploration_rate": 0.26689760108722455,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 220,
+      "reward": -5.0,
+      "exploration_rate": 0.2655631130817884,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 221,
+      "reward": -5.0,
+      "exploration_rate": 0.2642352975163795,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 222,
+      "reward": -5.0,
+      "exploration_rate": 0.2629141210287976,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 223,
+      "reward": -5.0,
+      "exploration_rate": 0.26159955042365357,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 224,
+      "reward": -5.0,
+      "exploration_rate": 0.2602915526715353,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 225,
+      "reward": -5.0,
+      "exploration_rate": 0.25899009490817765,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 226,
+      "reward": -5.0,
+      "exploration_rate": 0.2576951444336368,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 227,
+      "reward": -5.0,
+      "exploration_rate": 0.2564066687114686,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 228,
+      "reward": -5.0,
+      "exploration_rate": 0.25512463536791125,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 229,
+      "reward": -5.0,
+      "exploration_rate": 0.2538490121910717,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 230,
+      "reward": -5.0,
+      "exploration_rate": 0.2525797671301163,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 231,
+      "reward": -5.0,
+      "exploration_rate": 0.25131686829446576,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 232,
+      "reward": -5.0,
+      "exploration_rate": 0.2500602839529934,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 233,
+      "reward": -5.0,
+      "exploration_rate": 0.24880998253322842,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 234,
+      "reward": 13.855672653790727,
+      "exploration_rate": 0.24756593262056228,
+      "sequence_length": 9,
+      "success": true
+    },
+    {
+      "episode": 235,
+      "reward": -5.0,
+      "exploration_rate": 0.24632810295745947,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 236,
+      "reward": -5.0,
+      "exploration_rate": 0.24509646244267216,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 237,
+      "reward": -5.0,
+      "exploration_rate": 0.2438709801304588,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 238,
+      "reward": -5.0,
+      "exploration_rate": 0.2426516252298065,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 239,
+      "reward": -5.0,
+      "exploration_rate": 0.24143836710365746,
+      "sequence_length": 16,
+      "success": false
+    },
+    {
+      "episode": 240,
+      "reward": -5.0,
+      "exploration_rate": 0.24023117526813917,
+      "sequence_length": 16,
+      "success": false
+    }
+  ],
+  "use_softmax": true,
+  "temperature": 1.2,
+  "reward_function": "simplified"
+}

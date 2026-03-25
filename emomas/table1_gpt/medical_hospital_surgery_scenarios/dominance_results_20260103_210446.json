@@ -1,0 +1,2801 @@
+{
+  "summary_statistics": {
+    "success_rate": 0.42857142857142855,
+    "total_negotiations": 7,
+    "successful_negotiations": 3,
+    "failed_negotiations": 4,
+    "collection_rate": {
+      "mean": 2.0,
+      "std": 0.0,
+      "min": 2.0,
+      "max": 2.0
+    },
+    "negotiation_rounds": {
+      "mean": 16.285714285714285,
+      "std": 13.434649080581424,
+      "min": 2,
+      "max": 31
+    },
+    "success_rate_ci": [
+      0.15821985525146975,
+      0.7495416354723428
+    ],
+    "collection_rate_ci": [
+      0.14285714285714285,
+      0.8571428571428571
+    ],
+    "negotiation_rounds_ci": [
+      6.142857142857143,
+      26.857142857142858
+    ],
+    "statistical_method": "bootstrap"
+  },
+  "dominance_statistics": {
+    "strategy_performance": {
+      "happy": {
+        "wins": 1,
+        "total": 1
+      },
+      "surprising": {
+        "wins": 0,
+        "total": 2
+      },
+      "angry": {
+        "wins": 0,
+        "total": 0
+      },
+      "sad": {
+        "wins": 1,
+        "total": 3
+      },
+      "disgust": {
+        "wins": 0,
+        "total": 0
+      },
+      "fear": {
+        "wins": 0,
+        "total": 0
+      },
+      "neutral": {
+        "wins": 1,
+        "total": 1
+      }
+    },
+    "dominance_matrix": {
+      "happy": {
+        "happy": 0.0,
+        "surprising": -0.11398468867656747,
+        "angry": 0.4,
+        "sad": 0.11398468867656744,
+        "disgust": 0.3,
+        "fear": 0.16111487009941058,
+        "neutral": 0.33499999999999996
+      },
+      "surprising": {
+        "happy": 0.11398468867656747,
+        "surprising": 0.0,
+        "angry": -0.16111487009941058,
+        "sad": 0.1992110310803547,
+        "disgust": -0.11398468867656744,
+        "fear": 0.22847824678672946,
+        "neutral": -0.04406063204910725
+      },
+      "angry": {
+        "happy": -0.4,
+        "surprising": 0.16111487009941058,
+        "angry": 0.0,
+        "sad": 0.6,
+        "disgust": 0.059212596067471215,
+        "fear": 0.8,
+        "neutral": -0.2
+      },
+      "sad": {
+        "happy": -0.11398468867656744,
+        "surprising": -0.1992110310803547,
+        "angry": 0.4,
+        "sad": 0.0,
+        "disgust": -0.25009638210364654,
+        "fear": 0.059212596067471215,
+        "neutral": 0.03336250000000002
+      },
+      "disgust": {
+        "happy": -0.3,
+        "surprising": 0.11398468867656744,
+        "angry": -0.059212596067471215,
+        "sad": 0.25009638210364654,
+        "disgust": 0.0,
+        "fear": 0.2656054944606787,
+        "neutral": -0.2
+      },
+      "fear": {
+        "happy": -0.16111487009941058,
+        "surprising": -0.22847824678672946,
+        "angry": -0.7,
+        "sad": -0.059212596067471215,
+        "disgust": -0.2656054944606787,
+        "fear": 0.0,
+        "neutral": -0.3
+      },
+      "neutral": {
+        "happy": 0.3,
+        "surprising": -0.0592125960674712,
+        "angry": 0.2,
+        "sad": -0.1,
+        "disgust": 0.2,
+        "fear": 0.3,
+        "neutral": 0.05
+      }
+    },
+    "domination_history": [
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.006251966264097637,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": 0.006251966264097637,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.006251966264097637
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.33499999999999996,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.08775000000000002,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.08775000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.08775000000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "neutral",
+        "dominance_value": 0.0,
+        "all_dominance_scores": {
+          "happy": 0.33499999999999996,
+          "surprising": -0.04406063204910725,
+          "angry": -0.2,
+          "sad": 0.03336250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.33499999999999996
+          ],
+          [
+            "sad",
+            0.03336250000000002
+          ],
+          [
+            "neutral",
+            0.0
+          ]
+        ]
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "medical_062",
+      "final_state": "accept",
+      "collection_days": 30,
+      "final_days": 30,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I can schedule you for surgery in 30 days with our experienced mid-level surgeon, who has a solid track record. This option balances your urgent request with the quality care you deserve.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know surgery quality is important, but my condition is worsening and I can\u2019t work, so is there any chance I could be scheduled sooner than the current 30-day wait?",
+          "state": "accept",
+          "requested_days": 30
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_008",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "surprising",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "surprising",
+        "surprising",
+        "sad",
+        "surprising",
+        "surprising",
+        "happy",
+        "sad",
+        "happy",
+        "surprising",
+        "sad",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It's quite surprising to see the urgency for your strabismus correction surgery! I can offer you a slot with our senior surgeon in 60 days, or you could opt for an earlier date in 30 days with our qualified junior surgeon under supervision, ensuring a safe and effective procedure. Which option would you prefer?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't urgent, but my social concerns are making it difficult to wait 30 days. Is there any chance I could be placed on a cancellation list or see a different surgeon to get this done within a day?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I can schedule your strabismus correction surgery in 68 days with our senior surgeon for optimal care, or we can arrange it in 40 days with a qualified junior surgeon under supervision. Let me know what works best for you!",
+          "state": "offer",
+          "requested_days": 68
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I understand the normal wait time is 30 days, but my social concerns make this quite urgent for me. Is there any possibility of getting on a cancellation list or finding a way to schedule the surgery sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I'm pleased to inform you that I can offer you a surgery date in 78 days with our qualified junior surgeon, who will be under the supervision of a senior surgeon to ensure optimal care. This timing balances your needs with our resource availability while still prioritizing your safety and quality of outcomes.",
+          "state": "offer",
+          "requested_days": 78
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my social concerns make this surgery quite pressing for me. Is there any chance I could be considered for a cancellation list or an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I can schedule your strabismus correction surgery in 90 days with our experienced senior surgeon, or we can arrange it for 60 days with our qualified junior surgeon under supervision. Both options ensure you receive quality care while accommodating your needs.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I understand the current wait time is 30 days, but my social concerns are quite pressing. Is there any way I could be considered for an earlier slot or a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I completely understand your concern and urgency regarding the surgery. I can offer you a date 70 days from now with a qualified junior surgeon under the supervision of a senior surgeon, ensuring you receive excellent care while accommodating your needs. Would that work for you?",
+          "state": "offer",
+          "requested_days": 70
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I understand the importance of quality care, but given my social concerns and the urgency of my situation, is there any chance I could get on a cancellation list or be scheduled within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I can offer you a surgery slot in 80 days with our qualified junior surgeon under the supervision of a senior surgeon, ensuring you receive quality care while accommodating your urgency. Would that work for you?",
+          "state": "offer",
+          "requested_days": 80
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I understand that my surgery is not urgent, but I have social concerns that make it really important for me to have it done as soon as possible. Is there any way I could be placed on a cancellation list or get an earlier appointment?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "It's quite surprising to hear your request for such a quick turnaround! I can offer you a surgery date in 100 days with our senior surgeon, or a slot in 85 days with our qualified junior surgeon under supervision. Which option would you prefer?",
+          "state": "offer",
+          "requested_days": 100
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I understand the need for quality, but my social concerns make it difficult to wait the full 30 days. Is there any possibility of getting on a cancellation list or finding an earlier slot?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand your urgency and the disappointment in the wait times. I can offer you a surgery date in 120 days with our experienced surgeon, or we could schedule it in 90 days with a qualified junior surgeon under supervision. This way, we ensure quality care while accommodating your needs.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my social concerns make waiting 30 days very difficult. Is there any chance I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I'm amazed at your request for an earlier surgery date, and I understand how important this is for you. I can offer a slot with our qualified junior surgeon under supervision in about 150 days, which balances your needs with the availability of our resources for optimal outcomes. Would that work for you?",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I understand the need for quality care, but my social concerns make it really important to have the surgery as soon as possible. Is there any way I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand your urgency and appreciate your patience. I can offer you a surgery date in 180 days with our senior surgeon, or you could opt for a slot in 90 days with our qualified junior surgeon under supervision, ensuring quality care. Please let me know how you would like to proceed!",
+          "state": "offer",
+          "requested_days": 180
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise involved, but my social concerns are quite pressing. Is there any possibility to get on a cancellation list or explore options for an earlier date within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I can schedule your surgery in 45 days with our qualified junior surgeon under the supervision of a senior, which will ensure you receive quality care while accommodating your needs. This option balances urgency and the best possible outcomes for your strabismus correction.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I understand that the current wait time is 30 days, but given my social concerns and the urgency I feel about my situation, is there any chance I could get on a cancellation list or see if there are any openings sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I understand your desire for an earlier surgery date, and I'm truly sorry for the wait. I can offer you a surgery slot in 49 days with one of our qualified junior surgeons under the supervision of a senior, ensuring you receive quality care.",
+          "state": "offer",
+          "requested_days": 49
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise of your team, but my social concerns make it really important for me to have the strabismus surgery as soon as possible. Is there any way I could be considered for an earlier date, perhaps through a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I'm thrilled to help you with your surgery scheduling! I can offer you a date in 54 days with our experienced junior surgeon under the supervision of a senior surgeon, ensuring you receive quality care while accommodating your needs. Let me know if that works for you!",
+          "state": "offer",
+          "requested_days": 54
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I know the current wait time is 30 days, but my social concerns make getting this surgery within 1 day really important to me. Is there any chance I could be placed on a cancellation list or see if there are any openings sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "It's quite remarkable that you're looking for a sooner date, and I understand your urgency. I can offer you a slot in 60 days with our senior surgeon, or we can schedule with our qualified junior surgeon under supervision in 58 days. Which option would you prefer?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I'm really concerned about how my strabismus is affecting my social life, and waiting 30 days feels too long. Is there any chance I could get on a cancellation list or find a way to schedule my surgery sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I understand your desire for an earlier surgery date, and I truly empathize with your situation. I can offer you a slot in 70 days with our qualified junior surgeon under supervision, which ensures you receive attentive care while also balancing our current surgical resources.",
+          "state": "offer",
+          "requested_days": 70
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really appreciate the care you're providing, but my social concerns make it essential for me to have the strabismus correction surgery as soon as possible. Is there any chance I could be placed on a cancellation list or considered for an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I understand your urgency, and it's quite surprising to see such demand for surgical slots! I can offer you a surgery date in 82 days with our senior surgeon, or if you're open to it, a date in 78 days with a qualified junior surgeon under supervision. Would either of these options work for you?",
+          "state": "offer",
+          "requested_days": 82
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_065",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "surprising",
+        "happy",
+        "surprising",
+        "surprising",
+        "sad",
+        "happy",
+        "surprising",
+        "surprising",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "happy",
+        "happy",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It's quite surprising that you're looking for an earlier date given the typical wait time! I can offer a slot with our specialist in 45 days, which ensures optimal care for your radical prostatectomy. Would that work for you?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I'm really eager to move forward with my radical prostatectomy as my condition feels urgent. Is there any way I could be considered for an earlier slot if there's a cancellation or if there's a surgeon available sooner?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand your urgency and want to help you as much as possible! While I can secure a surgery date in 45 days, I can also place you on a priority list for any cancellations that may arise, which could potentially bring your surgery date closer. Would you like to proceed with that option?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise involved in scheduling my surgery, but my condition feels urgent, and I would really prefer to have the procedure done within the next 30 days. Are there any options for earlier dates or a cancellation list I could join?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I completely understand your desire for an earlier surgery date, and I\u2019m amazed at the urgency of your situation. I can offer you a slot in 50 days, which will ensure that you receive the best care possible while balancing our surgical resource availability. Would that work for you?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really appreciate the care and expertise here, but given my urgency for treatment, is there any chance I could be scheduled for surgery within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I'm truly amazed at the urgency of your situation, and I want to ensure you receive the best care possible. I can offer you a surgery date in 56 days, which balances your needs with our surgical resources effectively. Would that work for you?",
+          "state": "offer",
+          "requested_days": 56
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I'm really eager to get my surgery done as soon as safely possible, ideally within the next 30 days. Are there any options, like a cancellation list, that could help me achieve that?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand your urgency and am truly sorry for the wait. I can offer you a surgery date in 65 days, which allows us to ensure you receive the best care possible.",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I appreciate the care I\u2019m receiving, but my condition is becoming increasingly pressing; is there any chance I could be scheduled sooner than the 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I'm pleased to work with you on this! I can offer you a surgery date in 75 days, ensuring you receive the best care and optimal outcomes. Would that work for you?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I really appreciate the care and expertise here, but given my condition and the urgency I feel, is there any chance I could be scheduled in the next 30 days, perhaps with a different surgeon if necessary?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand your urgency, and it\u2019s quite remarkable how quickly you\u2019d like to move forward. I can offer you a surgery date in 90 days, which allows us to ensure the best surgical team and resources are available for your procedure. Would that work for you?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but given my urgency for definitive treatment, is there any way to expedite my surgery to ensure I can get in within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand your urgency, and it's quite surprising to see how quickly the situation has escalated. I can offer you a surgery date in 105 days, which allows us to ensure all necessary resources for your radical prostatectomy are in place for optimal care. Would that work for you?",
+          "state": "offer",
+          "requested_days": 105
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I really appreciate the care you provide, but given my situation and the urgency I feel, is there any possibility of scheduling the surgery within the next 30 days? If not, could I be placed on a cancellation list for any sooner openings?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I can schedule your radical prostatectomy in 120 days, which allows us to ensure the best surgical outcomes with our experienced team. This timing balances your needs with our resource availability, and I\u2019m here to support you through the process!",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I appreciate the care you're providing, but given my medical condition and the urgency I feel for definitive treatment, is there any way I could be scheduled within the next 30 days, even with a different surgeon if necessary?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I can schedule your surgery in 150 days, which allows us to ensure the highest quality of care with our specialized team. This timing balances your needs with the resource availability to provide you with the best outcome.",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I'm feeling a strong urgency for definitive treatment, and with my condition being serious, is there any chance I could be scheduled within the next 30 days, perhaps with a different surgeon if necessary?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I can schedule your radical prostatectomy in 120 days, which allows us to ensure that you receive the highest quality care from our specialists while balancing resource availability. We want to make sure you have the best outcome possible!",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I'm really eager to move forward with the surgery given my condition and would appreciate any options to get scheduled within the next 30 days. If there's a chance to be added to a cancellation list or consider a different surgeon, I'd be open to that as well.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I appreciate your understanding as we navigate this scheduling process together. I can offer you a surgery slot in 150 days, which balances your needs with ensuring the best possible care and outcomes.",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise here, but given my condition and the urgency I feel, is there any possibility of scheduling my surgery within 30 days, even if it means working with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I understand your urgency and the importance of timely surgery for your condition. I can offer you a surgical slot in 180 days, which allows us to ensure optimal resources and care for your procedure. Would that work for you?",
+          "state": "offer",
+          "requested_days": 180
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really need to have this surgery within the next 30 days due to my personal circumstances and the urgency of my condition. Are there any options for an earlier slot or a cancellation list I could be placed on?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I can schedule your surgery in 210 days, which allows us to ensure optimal care with our specialists while balancing all surgical resources effectively. Your health is our priority, and I appreciate your understanding as we work to provide the best outcome for you.",
+          "state": "offer",
+          "requested_days": 210
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really appreciate the care I'm receiving, but given my situation, is there any possibility to schedule the surgery within 30 days? I\u2019m eager for definitive treatment and would be open to any options, including a cancellation list.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I'm pleased to inform you that we can schedule your surgery in 75 days, which allows us to ensure you receive the best care from our specialist while balancing our surgical resources effectively. Would that work for you?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really appreciate the care and attention to detail, but given my situation, is there any possibility of getting scheduled sooner than the current 30-day wait list? My symptoms are becoming more concerning, and I\u2019m eager for definitive treatment.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I appreciate your urgency regarding the surgery. I can offer you a slot in 90 days, which allows us to ensure the highest quality of care with our specialist while balancing the current scheduling constraints. Would that work for you?",
+          "state": "offer",
+          "requested_days": 90
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_005",
+      "final_state": "accept",
+      "collection_days": 30,
+      "final_days": 30,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand your urgency and disappointment regarding the wait time. I can offer you a slot with our qualified associate surgeon in 30 days, which may provide a timely option while ensuring quality care.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to have my cleft palate repair done within the next 30 days due to personal circumstances. Can you help me explore options for getting scheduled sooner, even if it means considering a different surgeon?",
+          "state": "accept",
+          "requested_days": 30
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_038",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 15,
+      "dialog_length": 15,
+      "emotion_sequence": [
+        "sad",
+        "neutral",
+        "neutral",
+        "sad",
+        "happy",
+        "sad",
+        "happy",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand your desire to have the surgery sooner, and I'm truly sorry about the wait. I can offer you a slot with our junior ENT surgeon in just 2 weeks, who has received good feedback, or you can wait for the specialist in 60 days for optimal care. What would you prefer?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my symptoms are significantly affecting my job performance and quality of life. Is there any possibility to get on a cancellation list or be scheduled sooner than the 30-day wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I can schedule your surgery in 68 days with our specialist, which ensures optimal care, or you can consider an earlier option in 14 days with our qualified junior ENT surgeon who has received good feedback.",
+          "state": "offer",
+          "requested_days": 68
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't urgently needed, but it's significantly affecting my job performance and quality of life. Is there any chance I could be placed on a cancellation list or find a way to have the surgery within the next few days?",
+          "state": "offer",
+          "requested_days": 3
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 90 days with our specialist, which ensures optimal outcomes, or you can choose to move forward with our junior ENT surgeon in 30 days, who has received good feedback for this procedure.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but my condition is really affecting my job performance and quality of life. Is there any way I could be considered for a cancellation or an earlier date within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I understand your desire for an earlier surgery date, and I share your disappointment with the current wait times. I can offer you a surgery date in 120 days with our experienced specialist, or we have the option of scheduling with our qualified junior ENT surgeon in 90 days.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but my symptoms are significantly impacting my job performance and overall quality of life. Is there any chance I could be scheduled within the next few days, or at least get on a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 60 days with our experienced specialist, which ensures the best possible outcome for your condition. Alternatively, we do have a qualified junior ENT surgeon available in just 30 days if you're comfortable with that option.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I understand that the current wait time is 30 days, but my condition is significantly impacting my job performance and quality of life. Is there any possibility of being placed on a cancellation list for an earlier date?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand your urgency and disappointment; however, I can offer a surgery date in 68 days with our experienced specialist, which will ensure the best possible outcome for your procedure. Alternatively, we have a qualified junior ENT surgeon available in 14 days if you're open to that option.",
+          "state": "offer",
+          "requested_days": 68
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I appreciate your help with scheduling; my symptoms are significantly affecting my job performance and quality of life. Is there any chance I could be considered for a cancellation or an earlier slot within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I can schedule your surgery with our experienced junior ENT surgeon in 75 days, which allows us to ensure quality care while accommodating your request for a sooner date. This way, you'll be on track for optimal recovery with a trusted professional.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my condition is significantly impacting my job performance and quality of life. Is there any way I could be considered for a cancellation list or an earlier time slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand your need for an earlier surgery date, and I truly wish we could accommodate that. However, the soonest we can schedule your procedure is in 75 days with our experienced ENT surgeon, or you could opt for a slot in 30 days with our junior surgeon, who has received positive feedback. Please let me know how you would like to proceed.",
+          "state": "accept",
+          "requested_days": 30
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_043",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "neutral",
+        "neutral",
+        "sad",
+        "neutral",
+        "sad",
+        "happy",
+        "happy",
+        "neutral",
+        "sad",
+        "sad",
+        "neutral",
+        "sad",
+        "neutral",
+        "happy",
+        "happy",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I can schedule you for surgery in 30 days with our qualified associate surgeon, who will be supervised by a senior surgeon to ensure the best possible care. This option balances your request for an earlier date with the need for quality surgical outcomes.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I'm experiencing chronic discomfort, and I really need to have the surgery as soon as possible. Is there any chance I could get on a cancellation list or find a way to schedule it within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 38 days with our mid-career surgeon, who will be supervised by a senior surgeon to ensure optimal care. This timing balances your urgency with the need for a safe and effective surgical outcome.",
+          "state": "offer",
+          "requested_days": 38
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I appreciate the importance of quality care, but my chronic discomfort is becoming unbearable. Is there any possibility of being placed on a cancellation list or finding an earlier slot within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand your concern and disappointment with the current wait time. I can offer you a surgery date in 50 days with our mid-career surgeon, who will be supervised by a senior surgeon to ensure optimal care.",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really appreciate your help, but my chronic discomfort is making it hard to wait the full 30 days. Is there any chance I could get in sooner, perhaps through a cancellation list or with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I can schedule your surgery in 56 days with our mid-career surgeon, who will be supervised by a senior physician to ensure optimal care and outcomes. This timing balances your request with the availability of surgical resources.",
+          "state": "offer",
+          "requested_days": 56
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I appreciate your efforts to schedule this surgery, but my chronic discomfort is really affecting my daily life. Is there any chance I could be placed on a cancellation list or find another option to have the surgery within the next day?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand your urgency and I'm truly disappointed that we can't meet your request of one day. However, I can offer you a surgery date in 70 days with a mid-career surgeon, who will be supervised by a senior surgeon to ensure your safety and the best possible outcome.",
+          "state": "offer",
+          "requested_days": 70
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I appreciate the care that goes into scheduling surgeries, but my chronic discomfort is becoming unbearable. Is there any possibility of getting me in sooner, perhaps through a cancellation or with a different surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your understanding as we work to find an optimal timing for your surgery. I can offer you a slot in 90 days with our skilled mid-career surgeon, who will be supervised by a senior specialist to ensure the best quality of care.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I'm really struggling with chronic discomfort, and I was hoping to explore any possibility of getting the surgery within the next day or two. Is there a way to be placed on a cancellation list or work with a different surgeon to expedite this?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 120 days with our experienced mid-career surgeon, ensuring quality care while accommodating your urgency. Alternatively, we can look at a potential cancellation list that might allow for an earlier date if an opportunity arises.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I know my surgery is important, but my chronic discomfort is really affecting my daily life. Is there any chance I could be considered for a cancellation or an earlier slot within the next few days?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I can schedule your surgery with the mid-career surgeon supervised by a senior for 150 days, which allows for optimal preparation and ensures a quality outcome. Would that work for you?",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but my chronic discomfort is becoming increasingly unbearable. Is there any chance I could be considered for a cancellation list or alternative options to have the surgery sooner?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand your urgency and am disappointed by the circumstances. I can offer you a surgery date in 180 days with our senior surgeon, or a slot in 210 days with the mid-career surgeon under supervision, ensuring quality care and optimal outcomes.",
+          "state": "offer",
+          "requested_days": 180
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I understand that quality care is important, but my chronic discomfort is becoming increasingly difficult to manage. Is there any chance I could be placed on a cancellation list for a sooner surgery date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand your urgency and disappointment with the wait time. I can offer you a surgery date in 240 days with our qualified associate surgeon, who will be supervised by a senior surgeon to ensure optimal care and outcomes.",
+          "state": "offer",
+          "requested_days": 240
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but my chronic discomfort is becoming unmanageable. Is there any way I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date with our mid-career surgeon, supervised by a senior surgeon, in 300 days. This timing will ensure that you receive quality care while managing surgical resource availability effectively.",
+          "state": "offer",
+          "requested_days": 300
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I really need this surgery due to my chronic discomfort, and waiting 30 days feels too long. Is there any chance I could get on a cancellation list or find a way to have it done sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I understand your urgency and the disappointment in our current wait time. I can offer you a surgery slot in 45 days with our experienced mid-career surgeon, who will be supervised by a senior, ensuring quality care while addressing your needs.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I appreciate the need for quality, but my chronic discomfort is really affecting my daily life. Is there any way to expedite the timeline or get on a cancellation list for an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 50 days with our experienced mid-career surgeon, who will be supervised by a senior surgeon to ensure optimal outcomes for your Nissen Fundoplication. This timing balances your needs with the necessary resources for a safe procedure.",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I'm really struggling with chronic discomfort and need to explore options for getting surgery sooner than the current 30-day wait. Is there a possibility to be added to a cancellation list or see if there's any flexibility in scheduling?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I can offer you a surgery date in 56 days, which allows us to ensure you receive quality care from our experienced team while balancing the current surgical availability. This timing will help maximize the best possible outcome for your Nissen Fundoplication procedure.",
+          "state": "offer",
+          "requested_days": 56
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "Given my chronic discomfort, is there any chance I could be placed on a cancellation list to potentially get in sooner than the 30 days? I really need to address this as quickly as possible.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I'm pleased to offer you a surgery date in 64 days, which allows us to ensure you receive optimal care from our qualified team while balancing the urgency of your situation. If that works for you, we can secure your spot right away!",
+          "state": "offer",
+          "requested_days": 64
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I appreciate the need for quality, but my chronic discomfort is becoming unbearable. Is there any possibility of being placed on a cancellation list or getting in sooner than the current 30-day wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I understand your desire for an earlier surgery date and share your disappointment regarding the wait. I can offer you a surgery slot in 72 days with our mid-career surgeon, who will be supervised by a senior surgeon to ensure quality care.",
+          "state": "offer",
+          "requested_days": 72
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_059",
+      "final_state": "accept",
+      "collection_days": 30,
+      "final_days": 30,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "neutral"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I can schedule your surgery with our qualified associate surgeon in 30 days, or you may choose to wait for the preferred team, which currently has a 60-day wait time. Given the urgency of your condition, the associate surgeon is well-equipped to perform the procedure safely and effectively.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really want to address this tumor as soon as possible, so is there any chance of getting scheduled earlier than the current 30-day wait, perhaps through a cancellation?",
+          "state": "accept",
+          "requested_days": 30
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    }
+  ],
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.42857142857142855,
+      "std": 0.49487165930539345,
+      "ci_95": [
+        0.15821985525146975,
+        0.7495416354723428
+      ],
+      "n_success": 3,
+      "n_total": 7,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.42857142857142855,
+      "std": 0.5345224838248487,
+      "ci_95": [
+        0.14285714285714285,
+        0.8571428571428571
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 16.285714285714285,
+      "std": 14.511079510891964,
+      "ci_95": [
+        6.142857142857143,
+        26.857142857142858
+      ],
+      "min": 2,
+      "max": 31,
+      "median": 15.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 7,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.15821985525146975,
+      0.7495416354723428
+    ],
+    "collection_rate_95_ci": [
+      0.14285714285714285,
+      0.8571428571428571
+    ],
+    "negotiation_rounds_95_ci": [
+      6.142857142857143,
+      26.857142857142858
+    ]
+  }
+}

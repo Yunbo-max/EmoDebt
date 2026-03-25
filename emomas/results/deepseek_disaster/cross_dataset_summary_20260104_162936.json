@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260104_162936",
+  "config": {
+    "dataset_type": "medical",
+    "model_type": "coherence",
+    "iterations": 1,
+    "scenarios": 2,
+    "max_dialog_len": 30,
+    "model_creditor": "deepseek-chat",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "out_dir": "results/deepseek_disaster",
+    "debug": false
+  },
+  "results": {},
+  "timing_summary": {
+    "overall_runtime_seconds": 10.969327449798584,
+    "overall_runtime_formatted": "0m 10s",
+    "total_negotiations": 0,
+    "negotiations_per_hour": 0.0,
+    "dataset_timings": {
+      "medical": "0.18m"
+    },
+    "start_time": "2026-01-04 16:29:25",
+    "end_time": "2026-01-04 16:29:36"
+  }
+}

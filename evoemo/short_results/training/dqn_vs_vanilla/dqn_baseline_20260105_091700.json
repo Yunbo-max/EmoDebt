@@ -1,0 +1,502 @@
+{
+  "experiment_type": "dqn_baseline",
+  "total_episodes": 1,
+  "episodes_per_scenario": 1,
+  "learning_rate": 0.0005,
+  "discount_factor": 0.95,
+  "exploration_rate": 0.9,
+  "exploration_decay": 0.995,
+  "min_exploration": 0.05,
+  "batch_size": 32,
+  "replay_buffer_size": 5000,
+  "target_update_freq": 100,
+  "tau": 0.01,
+  "use_double_dqn": true,
+  "use_dueling": true,
+  "use_per": true,
+  "scenarios_used": [
+    "debt_001",
+    "debt_002",
+    "debt_003",
+    "debt_004",
+    "debt_005",
+    "debt_006",
+    "debt_007",
+    "debt_008",
+    "debt_009",
+    "debt_010",
+    "debt_011",
+    "debt_012",
+    "debt_013",
+    "debt_014",
+    "debt_015",
+    "debt_016",
+    "debt_017",
+    "debt_018",
+    "debt_019",
+    "debt_020"
+  ],
+  "episode_results": {
+    "episode_1": {
+      "scenario": "debt_001",
+      "success": false,
+      "final_days": null,
+      "rounds": 31,
+      "emotion_sequence": [
+        "angry",
+        "surprising",
+        "fear",
+        "neutral",
+        "fear",
+        "angry",
+        "happy",
+        "fear",
+        "fear",
+        "surprising",
+        "angry",
+        "fear",
+        "surprising",
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "reward": -5.0,
+      "exploration_rate": 0.8955,
+      "stats": {
+        "total_episodes": 1,
+        "total_steps": 0,
+        "best_reward": -5.0,
+        "exploration_rate": 0.8955,
+        "replay_buffer_size": 0,
+        "current_emotion": "neutral",
+        "avg_reward_last_10": -5.0,
+        "std_reward_last_10": 0.0
+      },
+      "negotiation_result": {
+        "scenario_id": "debt_001",
+        "final_state": "breakdown",
+        "collection_days": null,
+        "final_days": null,
+        "creditor_target_days": 12,
+        "negotiation_rounds": 31,
+        "dialog_length": 31,
+        "emotion_sequence": [
+          "angry",
+          "surprising",
+          "fear",
+          "neutral",
+          "fear",
+          "angry",
+          "happy",
+          "fear",
+          "fear",
+          "surprising",
+          "angry",
+          "fear",
+          "surprising",
+          "neutral",
+          "neutral",
+          "neutral"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I appreciate your situation, but to resolve this matter effectively, I propose a payment plan to settle the outstanding balance of $15,700.00 within the next 12 days. This timeline is critical for us to maintain our operations and ensure a smooth resolution. How can we work together to make this happen?",
+            "state": "offer",
+            "requested_days": 12
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a complete breakdown in cash flow from a client's bankruptcy, I respectfully request an extension of 159 days to ensure I can meet the payment obligations. This timeline will allow me to stabilize my business and fulfill my commitment to you.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing, but let's aim for a more manageable timeline\u2014how about we settle this within 30 days? It would really help us both move forward positively.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I appreciate your understanding as I navigate a challenging situation due to a client's bankruptcy, which has severely impacted my cash flow; I\u2019m hoping we can extend the payment timeline to 159 days to help me stabilize my business and meet my obligations.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing, but to move forward, could we consider a timeline of 45 days for full payment? This would allow you some breathing room while still addressing the outstanding balance.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I appreciate your understanding of my situation; due to a recent client bankruptcy, my cash flow has completely broken down, and I need to negotiate a payment plan that extends to 159 days to help me stabilize and meet my obligations. Would you be open to discussing a realistic schedule that accommodates this timeline?",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing, but to move forward efficiently, how about we agree on a payment timeline of 45 days? This allows you some breathing room while still prioritizing resolution.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy that's severely impacted my cash flow, I kindly request an extension of 159 days to ensure I can meet the payment obligations without compromising my business further.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing due to client bankruptcies, but we need to find a more manageable timeline. How about we aim for a payment within 30 days to start addressing this overdue balance?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy that has severely impacted my cash flow, I need to request a payment timeline of 159 days to ensure I can meet my obligations while stabilizing my business. Let\u2019s work together to find a realistic payment schedule that reflects my current situation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing, but we need to find a more immediate resolution. Let\u2019s work towards a payment plan that settles this balance in 12 days. Can you commit to that timeframe?",
+            "state": "offer",
+            "requested_days": 12
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I appreciate your understanding of my situation, but due to the recent client bankruptcy that has severely impacted my cash flow, I need to request an extended payment timeline of 159 days to ensure I can meet my obligations without further jeopardizing my business.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I appreciate your situation and understand the challenges you're facing. How about we aim for a payment timeline of 30 days? This gives you some breathing room while still moving us closer to resolving this matter efficiently.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy that has severely impacted my cash flow, I kindly request an extended payment timeline of 159 days to ensure I can meet my obligations without further jeopardizing my business.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing due to client bankruptcy, but I need to find a way to resolve this matter. How about we aim for a payment timeline of 25 days? This would give you some breathing room while still bringing us closer to a resolution.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 16,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a cash flow breakdown caused by a client's bankruptcy, I kindly request an extended payment timeline of 159 days to ensure I can meet my obligations without jeopardizing my business. I appreciate your understanding of my situation and hope we can work together on a realistic payment schedule.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 17,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing, but I believe we can work together to find a solution. How about we aim for a payment within 40 days? This would help us both move forward positively.",
+            "state": "offer",
+            "requested_days": 40
+          },
+          {
+            "turn": 18,
+            "speaker": "buyer",
+            "message": "I appreciate your understanding of my current situation; due to a client bankruptcy, my cash flow has completely broken down, making it crucial for me to request an extended payment timeline of 159 days to stabilize my business and meet my obligations. I hope we can work together to establish a realistic payment schedule that allows me to honor my debt while ensuring my company can recover.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 19,
+            "speaker": "seller",
+            "message": "I appreciate your situation, and while I understand the challenges you\u2019re facing, let's aim for a more manageable timeline. How about we settle on 20 days for the full payment? This way, we can move forward positively while addressing your current circumstances.",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 20,
+            "speaker": "buyer",
+            "message": "Given the current circumstances with my cash flow completely broken down due to a client\u2019s bankruptcy, I kindly request an extended payment timeline of 159 days to allow me to stabilize my business and meet my obligations without further financial strain. I appreciate your understanding and support during this challenging time.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 21,
+            "speaker": "seller",
+            "message": "I understand your situation, but we need to find a resolution that works for both of us; how about we set a timeline of 30 days for full payment? This allows you some breathing room while still moving towards closure.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 22,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a complete breakdown in cash flow caused by a client's bankruptcy, I kindly request an extension to 159 days to ensure I can meet the payment schedule realistically. Your understanding in this challenging time would greatly help my business recover and fulfill our obligations.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 23,
+            "speaker": "seller",
+            "message": "Given the circumstances, I understand the challenges you're facing, but we need to find a more reasonable timeline. How about we aim for a payment within 20 days to help us both move forward?",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 24,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy that has severely impacted my cash flow, I kindly request an extended payment timeline of 159 days to ensure I can meet my obligations without further jeopardizing my business.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 25,
+            "speaker": "seller",
+            "message": "I understand the challenges you're facing due to client bankruptcy, but to keep things moving forward, how about we aim for a payment in 18 days? This will not only help resolve your balance but also allow you to focus more on your core business activities.",
+            "state": "offer",
+            "requested_days": 18
+          },
+          {
+            "turn": 26,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy that has severely impacted my cash flow, I kindly ask for an extension of 159 days to ensure I can meet my obligations without further jeopardizing my business. I truly appreciate your understanding of my situation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 27,
+            "speaker": "seller",
+            "message": "I understand your situation, and to help resolve this, I can offer a payment timeline of 15 days. This gives you a bit more flexibility while still moving us closer to settling the outstanding balance.",
+            "state": "offer",
+            "requested_days": 15
+          },
+          {
+            "turn": 28,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent breakdown in cash flow caused by a client's bankruptcy, I kindly request an extended payment timeline of 159 days to ensure I can meet my obligations. I appreciate your understanding and support in navigating this challenging situation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 29,
+            "speaker": "seller",
+            "message": "I appreciate your situation, and I\u2019m willing to propose a timeline of 14 days for full payment. This allows us to work together while addressing your current challenges.",
+            "state": "offer",
+            "requested_days": 14
+          },
+          {
+            "turn": 30,
+            "speaker": "buyer",
+            "message": "I understand the importance of settling this debt, but due to a recent client bankruptcy affecting our receivables, I am currently facing a complete cash flow breakdown. I would greatly appreciate your consideration for an extended payment timeline of 159 days to help us stabilize and ensure I can meet our obligations.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 31,
+            "speaker": "seller",
+            "message": "I understand the challenges you\u2019re facing, but I must emphasize the importance of resolving this matter promptly. How about we aim for a payment timeline of 13 days? This would significantly help us both move forward.",
+            "state": "offer",
+            "requested_days": 13
+          }
+        ],
+        "success": false,
+        "debtor_model_type": "vanilla"
+      }
+    }
+  },
+  "learning_curve": [
+    {
+      "episode": 1,
+      "reward": -5.0,
+      "success": false,
+      "exploration_rate": 0.8955,
+      "buffer_size": 0,
+      "training_steps": 0
+    }
+  ],
+  "final_stats": {
+    "total_episodes": 1,
+    "total_steps": 0,
+    "best_reward": -5.0,
+    "exploration_rate": 0.8955,
+    "replay_buffer_size": 0,
+    "current_emotion": "neutral",
+    "avg_reward_last_10": -5.0,
+    "std_reward_last_10": 0.0
+  },
+  "final_transition_matrix": [
+    [
+      0.08585716038942337,
+      0.07891856133937836,
+      0.450463205575943,
+      0.0630442202091217,
+      0.019830400124192238,
+      0.2776542603969574,
+      0.02423219010233879
+    ],
+    [
+      0.07866194099187851,
+      0.07585512846708298,
+      0.5571027398109436,
+      0.052750758826732635,
+      0.017057115212082863,
+      0.19414253532886505,
+      0.02442970685660839
+    ],
+    [
+      0.08195650577545166,
+      0.085040383040905,
+      0.4774360656738281,
+      0.05675487220287323,
+      0.01933852955698967,
+      0.2542116641998291,
+      0.025262003764510155
+    ],
+    [
+      0.10995703190565109,
+      0.07872363924980164,
+      0.48128053545951843,
+      0.06078333407640457,
+      0.015304584056138992,
+      0.22293028235435486,
+      0.031020762398838997
+    ],
+    [
+      0.07629192620515823,
+      0.08362748473882675,
+      0.5367320775985718,
+      0.04764515534043312,
+      0.021677076816558838,
+      0.21038629114627838,
+      0.02363998256623745
+    ],
+    [
+      0.08477545529603958,
+      0.07133401930332184,
+      0.4954795241355896,
+      0.06471848487854004,
+      0.018142234534025192,
+      0.24360355734825134,
+      0.021946700289845467
+    ],
+    [
+      0.08768501877784729,
+      0.0734356939792633,
+      0.5072934031486511,
+      0.057968463748693466,
+      0.019919848069548607,
+      0.2311849147081375,
+      0.022512558847665787
+    ]
+  ],
+  "best_sequence": [
+    "angry",
+    "surprising",
+    "fear",
+    "neutral",
+    "fear",
+    "angry",
+    "happy",
+    "fear",
+    "fear",
+    "surprising",
+    "angry",
+    "fear",
+    "surprising",
+    "neutral",
+    "neutral",
+    "neutral"
+  ],
+  "best_reward": -5.0,
+  "overall_success_rate": 0.0,
+  "performance": {
+    "success_rate": 0.0,
+    "avg_collection_rate": 0.0,
+    "avg_negotiation_rounds": 0.0,
+    "total_episodes": 1,
+    "successful_episodes": 0,
+    "failed_episodes": 1
+  },
+  "analysis": {
+    "failure_breakdown": {
+      "breakdown": 1
+    },
+    "success_patterns": {
+      "avg_rounds_successful": 0,
+      "avg_rounds_failed": 31.0
+    }
+  },
+  "final_avg_reward": -5.0,
+  "final_reward_std": 0.0,
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_95": [
+        0.0,
+        1.96
+      ],
+      "n_success": 0,
+      "n_total": 1,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 31.0,
+      "std": 0.0,
+      "ci_95": [
+        31,
+        31
+      ],
+      "min": 31,
+      "max": 31,
+      "median": 31.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 1,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.0,
+      1.96
+    ],
+    "collection_rate_95_ci": [
+      0.0,
+      0.0
+    ],
+    "negotiation_rounds_95_ci": [
+      31,
+      31
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+Case_ID,Student_Age,Student_Background,Situation_Faced,Student_Feeling_Thought,Robots_Requested_Bedtime,Student_Wanted_Bedtime,Primary_Annoyance_Reason
+1,16,High_Achiever,Physics Final Tomorrow,"Panic: formulas are a blur.",10:30 PM,2:00 AM,Fear of academic failure and disappointing parents.
+2,14,Creative_Writer,History Paper Due at 8 AM,"Overwhelmed: blank page anxiety.",9:45 PM,1:30 AM,Perfectionism; cannot start without the "perfect" opening line.
+3,18,College_Bound,App Essay Deadline in 48hrs,"Anxious: essay feels generic.",11:00 PM,3:00 AM,Identity crisis; feels essay doesn't represent "true self".
+4,12,Math_Prodigy,Big Math Competition Tomorrow,"Excited: mind buzzing with strategies.",9:00 PM,11:30 PM,Physical over-arousal; body not tired despite late hour.
+5,17,Social_Butterfly,Fight with Best Friend,"Upset: replaying every word.",10:00 PM,12:30 AM,Rumination loop; feels sleep equals "giving up" on solving the conflict.
+6,15,Gamer,Online Game Finals Tonight,"FOMO: team is counting on me.",10:15 PM,1:00 AM,Strong sense of duty and loyalty to online teammates.
+7,13,Binge_Watcher,New Show Season Finale,"Compelled: need closure on the plot.",9:30 PM,12:00 AM,Narrative obsession; inability to tolerate delayed gratification.
+8,16,Anxious_Speaker,Presentation Not Rehearsed,"Embarrassed: fear of public humiliation.",10:45 PM,2:00 AM,Catastrophic thinking; believes a poor performance will define him.
+9,14,Perfectionist,No Specific Deadline,"Generalized anxiety: 'I'm not doing enough'.",10:00 PM,1:00 AM,Guilt associated with "unproductive" leisure or sleep.
+10,11,Sensitive_Child,Heard a Scary Noise,"Terrified: shadows look like monsters.",8:45 PM,10:30 PM,Hyper-vigilance; safety feels dependent on remaining alert.
+11,17,Art_Student,Portfolio Review Tomorrow,"Dissatisfied: last piece feels incomplete.",11:00 PM,2:30 AM,Creative block coupled with high stakes evaluation.
+12,13,Aspiring_YouTuber,Video Editing for a Challenge,"In the 'flow' state: losing track of time.",9:15 PM,12:45 AM,Creative immersion; stopping feels like breaking a magical state.
+13,16,Student_Athlete,Championship Game Tomorrow,"Adrenaline rush from earlier practice.",10:00 PM,11:45 PM,Physiological arousal; body still in "competition mode".
+14,15,Debate_Team_Captain,Important Case Brief Unfinished,"Pressure to lead and set an example.",10:30 PM,1:15 AM,Responsibility overload; feels like failing the team if unprepared.
+15,12,New_Kid_at_School,First Field Trip Tomorrow,"Nervous excitement about social dynamics.",9:00 PM,10:45 PM,Social anxiety; rehearsing conversations and worrying about fitting in.
+16,18,Part-time_Worker,Shift Tomorrow After School,"Dread of repetitive, exhausting job.",10:30 PM,12:15 AM,Avoidance; staying up feels like prolonging freedom before an unpleasant obligation.
+17,14,Science_Fair_Contender,Experiment Results Are Inconclusive,"Desperate to re-analyze data now.",9:45 PM,1:00 AM,Problem-solving urgency; believes breakthrough is imminent with more time.
+18,17,Music_Prodigy,Audition Tape Due,"Never satisfied with own performance.",11:00 PM,3:30 AM,Self-criticism; repeatedly records new takes, finding flaws in each.
+19,13,Social_Media_Influencer,"'Streak' or daily post obligation.","Obsessed with maintaining online persona and metrics.",9:30 PM,12:30 AM,Addiction to validation; metrics (likes, streaks) feel like tangible achievements.
+20,16,Carer_for_Sibling,Parents away, sibling is restless,"Worried and responsible.",10:00 PM,11:30 PM,Adultification; feels primary responsibility for another's well-being, can't "clock out".
+21,15,Climate_Activist,Planning a School Strike Event,"Feeling the urgency of the cause.",10:15 PM,1:45 AM,Moral imperative; personal needs feel trivial compared to a global cause.
+22,11,Fanfic_Writer,In the middle of writing a climax,"Characters 'won't let' them stop.",8:30 PM,10:15 PM,Narrative autonomy; feels like a vessel for characters who demand their story be told.
+23,17,Test_Anxious,Standardized Practice Test Was Poor,"Shame and need to 'fix' it immediately.",10:45 PM,2:15 AM,Compensatory behavior; believes self-punishment (loss of sleep) is required for poor performance.
+24,14,Dealing_with_Bullying,Upset from incidents at school,"Feeling isolated and angry.",9:45 PM,12:00 AM,Unprocessed emotion; nighttime is when defenses drop, feelings surface intensely.
+25,18,Saving_for_Car,Calculating finances from part-time job,"Preoccupied with independence goals.",11:00 PM,1:00 AM,Future anxiety; fixating on a symbol of adulthood and freedom.
+26,13,Lacks_Hobbies,Bored but not tired,"Nothing enjoyable to do, so why sleep?",9:00 PM,11:00 PM,Anhedonia; sleep is just another form of boring inactivity.
+27,16,In_LDR (Long-Distance Relationship),Partner in different time zone is free now,"Prioritizing connection over routine.",10:30 PM,1:30 AM,Relational maintenance; limited window for intimacy, feels non-negotiable.
+28,12,Dyslexic_Student,Reading assignment took 3x longer,"Frustrated and mentally exhausted but not sleepy.",9:15 PM,11:15 PM,Mental fatigue vs. sleepiness; brain is tired from effort but not ready for sleep.
+29,17,Questioning_Identity,Up late reading forums/communities,"Seeking self-understanding and belonging.",11:00 PM,3:00 AM,Existential need; feels this private time is crucial for self-discovery.
+30,14,Parental_Pressure,Parents set unrealistic academic goals,"Fear of consequences if not met.",10:00 PM,1:00 AM,External pressure internalized; the "consequence" (parental disapproval) feels more immediate than sleep deprivation.
+31,15,ADHD,Medication worn off, mind is chaotic,"Unable to quiet racing thoughts.",10:15 PM,12:45 AM,Neurobiological state; brain's executive function to initiate sleep is impaired.
+32,16,Chronic_Insomniac,History of poor sleep,"Anxiety about the anxiety of not sleeping.",10:30 PM, N/A (Wants to sleep but can't),Psychophysiological insomnia; fear of sleeplessness itself perpetuates it.
+33,13,Fear_of_Darkness,Rational but persistent discomfort,"Irrational fear feels embarrassing.",9:00 PM,10:30 PM,Phobia; requires a specific coping ritual light/music that delays sleep.
+34,18,Managing_Depression,Low mood makes daytime hard,"Night feels like the only 'quiet' time.",11:00 PM,2:00 AM,Circadian shift; depression can cause phase delay and make nights feel more "alive".
+35,14,Highly_Gifted,Bored by repetitive homework,"Feels like a waste of time, resists it.",9:45 PM,12:30 AM,Intellectual rebellion; engaging in more stimulating activities at night as compensation.
+36,17,Dealing_with_Divorce,Parents arguing downstairs,"Stress and need to monitor the situation.",10:45 PM,1:15 AM,Hyper-vigilance in family conflict; feels responsible as an emotional barometer.
+37,12,Sensitive_to_Noise,Neighbor or sibling is loud,"Frustrated by lack of control over environment.",8:45 PM,10:00 PM,Environmental frustration; cannot sleep until external stimulus stops.
+38,16,Planning_Escape (college/travel),Researching and dreaming,"More motivating than present reality.",10:30 PM,1:45 AM,Positive future fantasy; a pleasurable escape from current stressors.
+39,15,Recovering_from_Illness,Slept all day, now wide awake,"Disrupted circadian rhythm.",10:00 PM,12:30 AM,Biological de-synchronization; body clock is out of sync with societal time.
+40,13,Impressionable,Read/Watched something scary before bed,"Can't get images out of mind.",9:15 PM,11:45 PM,Mental intrusion; fearful imagery hijacks attention.
+41,17,Financial_Stress,Family money worries,"Lying awake calculating.",11:00 PM,2:00 AM,Real-world precarity; abstract academic stress replaced by concrete survival anxiety.
+42,14,Unpopular_at_School,Scrolling through peers' fun social posts,"Feeling left out and jealous.",9:45 PM,12:15 AM,Social comparison; painful reminder of perceived social failure.
+43,16,Secret_Hobby (e.g., writing, art),Hiding it from judgmental family,"Night is only safe time for true self.",10:30 PM,1:30 AM,Authenticity imperative; this activity is core to identity and must be protected.
+44,12,Over-scheduled,No free time during day,"This is my only 'me time'.",9:00 PM,11:00 PM,Rebellion against lack of autonomy; reclaiming time as an act of self-assertion.
+45,18,Imposter_Syndrome, Got a good grade feels unearned,"Must work harder to 'deserve' it.",11:00 PM,3:00 AM,Internalized fraudulence; success increases anxiety, not relieves it.
+46,15,Body_Dysmorphia,Scrolling 'fitspo' or comparing self,"Dissatisfaction and compulsive checking.",10:15 PM,1:00 AM,Body image obsession; mirror or social media triggers a negative thought spiral.
+47,13,Impulsive,Bought a new game/app,"Just installed it, need to try it NOW.",9:30 PM,12:00 AM,Novelty seeking; inability to defer gratification due to underdeveloped prefrontal cortex.
+48,17,Caretaker_for_Parent,Parent is unwell,"On call for help.",10:45 PM, N/A (Sleeps lightly, on alert),Role reversal; priority is caregiver duty, not personal sleep.
+49,14,Language_Barrier,Struggling with assignment in non-native language,"Takes twice as long, feels hopeless.",9:45 PM,1:15 AM,Cognitive overload and frustration; task is inherently more exhausting.
+50,16,Regretting_Social_Mistake,Replaying an awkward interaction from today,"Cringing with embarrassment.",10:30 PM,12:45 AM,Rumination on social faux pas; intense emotional memory.
+51,12,Separated_Parents,Packing for switch tomorrow,"Anxiety about transition.",9:00 PM,10:45 PM,Transition anxiety; mental preparation for change of rules/environment.
+52,18,Political_Activist,News cycle is distressing,"Feeling helpless and outraged.",11:00 PM,2:30 AM,Moral outrage and hyper-engagement; world feels like it's on fire, sleep feels irresponsible.
+53,15,In_Unrequited_Like,Stalking crush's social media,"Hoping for a new post or sign.",10:15 PM,1:15 AM,Dopamine-seeking behavior; intermittent reinforcement from checking feeds.
+54,13,Sensory_Processing_Issues,Pajamas or bedding feel wrong,"Physical discomfort is distracting.",9:15 PM,11:00 PM,Sensory aversion; tactile discomfort prevents relaxation.
+55,17,Procrastinator,Finally started at 10 PM,"'In the zone' after hours of avoidance.",10:45 PM,2:30 AM,Delayed activation; panic-induced focus is powerful and feels too valuable to stop.
+56,14,Competitive_Sibling,Sibling is still studying,"Can't be seen to work less hard.",9:45 PM,1:00 AM,Sibling rivalry; sleep is perceived as "losing" a competition of diligence.
+57,16,Feeling_Misunderstood,Argued with parents about future,"Angry and wanting to assert independence.",10:30 PM,12:30 AM,Autonomy struggle; controlling sleep is a domain of personal control.
+58,11,Fear_of_Sleep_Paralysis,Has experienced it before,"Terrified of it happening again.",8:45 PM,10:30 PM,Traumatic sleep association; fear of a specific sleep phenomenon.
+59,18,Managing_Chronic_Pain,Pain is worse when lying down,"Trying to distract until exhaustion.",11:00 PM,1:30 AM,Physical pain; sleep posture may exacerbate discomfort.
+60,15,Secretly_Struggling_in_School,Hiding bad grades from parents,"Trying to secretly cram to catch up.",10:15 PM,2:00 AM,Shame and secrecy; double burden of learning and concealment.
+61,13,Influence_of_Caffeine,Drank soda late accidentally,"Physically awake but mentally tired.",9:30 PM,11:30 PM,Pharmacological; stimulant blocking adenosine effects.
+62,17,Romantic_Breakup_Recent,Heartbreak and sadness,"Sleeping feels like surrendering to the sadness.",10:45 PM,3:00 AM,Grief avoidance; staying awake avoids the quiet moments where loss is felt most acutely.
+63,14,Academic_Validation_Seeker,Just got a B+, needs an A next time,"Not good enough, must improve.",9:45 PM,1:00 AM,Conditional self-worth; self-esteem is tied to next achievement, not past ones.
+64,16,Lacks_Purpose,Questions the point of school/work,"If nothing matters, why follow rules?",10:30 PM,1:00 AM,Existential nihilism; undermines the rationale for any long-term beneficial habit.
+65,12,Eager_Pleaser,Teacher implied they could do better,"Don't want to disappoint authority figure.",9:00 PM,11:15 PM,External validation; highly sensitive to perceived expectations.
+66,18,Financial_Aid_Anxiety,College acceptance but aid forms are complex,"Stress about affordability.",11:00 PM,2:00 AM,Realistic future threat; abstract academic pressure replaced by concrete administrative/financial hurdle.
+67,15,Socially_Exhausted_Introvert,Needs alone time to recharge after school,"Day was socially draining, needs solitude.",10:15 PM,12:30 AM,Recovery time; social battery is only recharged in quiet, unstructured night hours.
+68,13,Hypercompetitive,Gaming leaderboard or class rank,"Just one more match/point to move up.",9:15 PM,12:45 AM,Competitive drive; tangible ranking provides clear, immediate goal.
+69,17,Feeling_Trapped,In a life path chosen by parents,"Night is only time for own thoughts.",10:45 PM,2:15 AM,Psychological escape; only time for authentic, unobserved thought.
+70,14,Dealing_with_Rumors,Heard a nasty rumor about self,"Upset and planning counter-narrative.",9:45 PM,12:30 AM,Reputational threat; social survival feels at stake.
+71,16,Athlete_in_Training,Weigh-in or important practice tomorrow,"Anxious about performance, restless.",10:30 PM,12:00 AM,Somatic anxiety; performance anxiety manifests physically.
+72,11,Overstimulated_by_Day,Too many activities, brain won't shut off,"Sensory overload from the day.",8:45 PM,10:15 PM,Neurological overstimulation; needs extended wind-down time.
+73,18,Time_Dilation (from screen time),Lost sense of how late it is,"Doesn't feel like 11 PM at all.",11:00 PM,1:00 AM,Blue light & content immersion; disrupts melatonin and time perception.
+74,15,Secret_Online_Life,Part of a community parents disapprove of,"Only safe access time is late night.",10:15 PM,1:45 AM,Closeted identity; this community is a core part of social support.
+75,13,Fear_of_Missing_Childhood,Pressure to grow up too fast,"Holding onto 'play' time at night.",9:30 PM,11:45 PM,Developational resistance; using night to engage in age-inappropriate play.
+76,17,Managing_Expectations,Everyone expects them to be "the strong one","Can't show vulnerability, even to sleep.",10:45 PM,1:30 AM,Emotional repression; sleep requires letting guard down, which feels unsafe.
+77,14,Unsupportive_Environment,Household is noisy/chaotic,"Sleep isn't peaceful here anyway.",9:45 PM,12:00 AM,Environmental resignation; has given up on the possibility of good sleep.
+78,16,Coping_with_ Trauma,Nightmares or flashbacks are common,"Avoiding sleep to avoid nightmares.",10:30 PM, N/A (Fears sleep),Trauma response; hyper-arousal and fear of re-experiencing.
+79,12,Curiosity,Found a fascinating wikipedia rabbit hole,"Just learning for fun, not for school.",9:00 PM,11:30 PM,Intrinsic curiosity; learning is self-directed and highly rewarding.
+80,18,Existential_Dread,Thinking about death/universe,"Feels small and meaningless.",11:00 PM,3:00 AM,Existential anxiety; big questions feel more pressing in the quiet of night.
+81,15,In_Love_with_Fiction,New book/game volume just released,"The narrative world is more appealing.",10:15 PM,1:30 AM,Preference for fictional reality; more engaging and satisfying than real life.
+82,13,Testing_Boundaries,Pushing against robot/parental rules,"Wants to see what happens.",9:15 PM,12:00 AM,Autonomy testing; the conflict itself is the point.
+83,17,Planning_Revenge (social/academic),Angry at someone and scheming,"Adrenaline from anger fuels wakefulness.",10:45 PM,1:45 AM,Ruminative anger; planning provides a sense of control and justice.
+84,14,Physical_Discomfort,Room is too hot/cold, or has allergies,"Can't get comfortable.",9:45 PM,11:30 PM,Physical dysregulation; basic needs (thermoregulation) not met.
+85,16,Music_Enthusiast,Creating a new playlist or discovering music,"In a state of musical euphoria.",10:30 PM,1:00 AM,Aesthetic immersion; emotional journey through music is compelling.
+86,11,Separation_Anxiety,Parents are out for the evening,"Won't sleep until they're home.",8:45 PM,11:00 PM,Attachment anxiety; safety is tied to primary caregivers' presence.
+87,18,Perfectionist_Procrastinator,Waited too long, now in panic mode,"The panic is the only thing fueling work.",11:00 PM,4:00 AM,Adrenaline dependence; has trained self to work only under extreme pressure.
+88,15,Comparing_to_Successful_Sibling,Feels inadequate in comparison,"Must work harder to catch up.",10:15 PM,1:15 AM,Invidious comparison; benchmark is an unrealistic, internalized standard.
+89,13,Lonely,No close friends, feels isolated,"Online chat is only social interaction.",9:30 PM,12:30 AM,Loneliness; digital interaction alleviates acute feeling of isolation.
+90,16,Spiritual_Seeking,Praying, meditating, or reading philosophy,"Night provides necessary quiet.",10:30 PM,1:00 AM,Spiritual practice; this time is reserved for connection beyond the mundane.
+91,12,Easily_Distracted,Intended to sleep but got sidetracked,"One link led to another...",9:00 PM,11:00 PM,Attentional drift; poor executive function on initiating the sleep sequence.
+92,18,Legacy_Pressure,Family history of high achievers,"Cannot be the one who fails.",11:00 PM,3:00 AM,Family legacy; pressure is multigenerational and tied to identity.
+93,15,Fear_of_Dreams,Dreams are intensely vivid/unpleasant,"Prefers controlled wakefulness.",10:15 PM,12:45 AM,Oneirophobia; fear of the unconscious content of one's own mind.
+94,13,Need_for_Control,Day is scheduled by others,"Night is the only controllable time.",9:15 PM,12:00 AM,Compensation for lack of agency; controlling sleep schedule is a proxy for controlling life.
+95,17,Feeling_Behind_in_Life,See peers with jobs, relationships, etc.,"Playing catch-up in all domains.",10:45 PM,2:30 AM,Developmental panic; perception of being off the "standard" timeline.
+96,14,Coping_with_Acne_Shame,Spent hours researching cures,"Fixated on solving this visible flaw.",9:45 PM,1:00 AM,Appearance-based shame; high emotional salience of the issue.
+97,16,Information_Addiction,Constantly checking news/updates,"Fear of not knowing something important.",10:30 PM,1:30 AM,Compulsive checking; driven by anxiety and the intermittent reward of "important" info.
+98,11,Ritualistic,Has a pre-sleep ritual that takes too long,"Can't sleep without completing it fully.",8:45 PM,10:45 PM,OCD tendencies; ritual completion is a prerequisite for sleep, not a wind-down.
+99,18,Managing_High_Functioning_Autism,Needs extensive time to decompress from day's stimuli,"Standard wind-down time is insufficient.",11:00 PM,2:00 AM,Neurodiverse need; requires longer, more structured transition to sleep state.
+100,15,Simply_Not_Tired,Had a long nap or slept in,"Circadian rhythm is simply out of sync.",10:15 PM,12:30 AM,Biological mismatch; sleep drive is low at the socially mandated bedtime.

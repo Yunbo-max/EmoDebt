@@ -1,0 +1,34 @@
+PROMPT-BASED EXPERIMENT SUMMARY
+==================================================
+
+Experiment Type: Prompt-Based (Random Emotion Selection)
+Total Negotiations: 20
+Success Rate: 75.0%
+Average Collection Rate: 0.951
+Average Rounds: 10.6
+
+EMOTION DISTRIBUTION:
+  Happy: 20 (18.0%)
+  Surprising: 13 (11.7%)
+  Angry: 17 (15.3%)
+  Sad: 12 (10.8%)
+  Disgust: 18 (16.2%)
+  Fear: 16 (14.4%)
+  Neutral: 15 (13.5%)
+
+EMOTION EFFECTIVENESS:
+  Happy: 66.7% (3 uses)
+  Surprising: 50.0% (2 uses)
+  Angry: 66.7% (3 uses)
+  Sad: 75.0% (4 uses)
+  Disgust: 83.3% (6 uses)
+  Fear: 100.0% (2 uses)
+
+FAILURE BREAKDOWN:
+  breakdown: 5 (100.0%)
+
+Model Configuration:
+  Creditor Model: gpt-4o-mini
+  Debtor Model: gpt-4o-mini
+  Emotion Strategy: Random Selection from 7 Emotions
+  Max Dialog Length: 30

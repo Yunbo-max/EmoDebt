@@ -1,0 +1,1816 @@
+{
+  "experiment_type": "hierarchical_evolutionary_bayesian",
+  "generations": 10,
+  "negotiations_per_generation": 24,
+  "hierarchical_structure": {
+    "groups": [
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "group_members": {
+      "positive": [
+        "happy",
+        "surprising"
+      ],
+      "negative": [
+        "angry",
+        "disgust",
+        "fear"
+      ],
+      "neutral": [
+        "sad",
+        "neutral"
+      ]
+    },
+    "base_emotions": [
+      "happy",
+      "surprising",
+      "angry",
+      "sad",
+      "disgust",
+      "fear",
+      "neutral"
+    ]
+  },
+  "generation_results": {
+    "generation_1": {
+      "stats": {
+        "generation": 1,
+        "best_fitness": 20.147105009442555,
+        "best_sequence": [
+          "neutral",
+          "neutral"
+        ],
+        "elite_count": 8,
+        "total_sequences": 32,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.076076605923378,
+          "full_entropy": 1.5620491006756179,
+          "within_group_entropies": {
+            "positive": 0.44191615743406054,
+            "negative": 0.7613752982913681,
+            "neutral": 0.373641500758102
+          }
+        },
+        "group_matrix": [
+          [
+            0.4114285714285714,
+            0.2752380952380952,
+            0.31333333333333335
+          ],
+          [
+            0.2057142857142857,
+            0.3828571428571429,
+            0.4114285714285714
+          ],
+          [
+            0.3365217391304348,
+            0.2669565217391304,
+            0.39652173913043476
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8049999999999999,
+              0.195
+            ],
+            [
+              0.13214285714285715,
+              0.8678571428571429
+            ]
+          ],
+          "negative": [
+            [
+              0.7523809523809524,
+              0.12380952380952381,
+              0.12380952380952381
+            ],
+            [
+              0.16666666666666669,
+              0.7166666666666667,
+              0.11666666666666668
+            ],
+            [
+              0.13333333333333336,
+              0.13333333333333336,
+              0.7333333333333334
+            ]
+          ],
+          "neutral": [
+            [
+              0.8678571428571429,
+              0.13214285714285715
+            ],
+            [
+              0.11500000000000002,
+              0.885
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.8333333333333334,
+      "avg_days": 35.15,
+      "avg_rounds": 10.6,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 20.147105009442555,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "sad",
+            "disgust"
+          ],
+          "fitness": 10.073552504721278,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "happy",
+            "disgust",
+            "angry",
+            "neutral",
+            "happy",
+            "surprising"
+          ],
+          "fitness": 9.85378893963624,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "happy",
+            "neutral",
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 9.242970553200927,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "neutral"
+          ],
+          "fitness": 9.142664228322621,
+          "length": 1
+        }
+      ]
+    },
+    "generation_2": {
+      "stats": {
+        "generation": 2,
+        "best_fitness": 20.147105009442555,
+        "best_sequence": [
+          "neutral",
+          "neutral"
+        ],
+        "elite_count": 8,
+        "total_sequences": 64,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0778842102034272,
+          "full_entropy": 1.5993815476989268,
+          "within_group_entropies": {
+            "positive": 0.48071927134141135,
+            "negative": 0.8327198770971295,
+            "neutral": 0.4052221534205155
+          }
+        },
+        "group_matrix": [
+          [
+            0.4007032967032967,
+            0.24206593406593405,
+            0.35723076923076924
+          ],
+          [
+            0.24107563025210083,
+            0.34736134453781514,
+            0.41156302521008403
+          ],
+          [
+            0.3733416149068323,
+            0.24588819875776396,
+            0.3807701863354037
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.7941111111111111,
+              0.20588888888888893
+            ],
+            [
+              0.16817460317460317,
+              0.8318253968253968
+            ]
+          ],
+          "negative": [
+            [
+              0.7180952380952381,
+              0.14095238095238094,
+              0.14095238095238094
+            ],
+            [
+              0.15000000000000002,
+              0.6799999999999999,
+              0.17
+            ],
+            [
+              0.19428571428571428,
+              0.13714285714285715,
+              0.6685714285714286
+            ]
+          ],
+          "neutral": [
+            [
+              0.8762698412698413,
+              0.12373015873015872
+            ],
+            [
+              0.1578888888888889,
+              0.8421111111111111
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.875,
+      "avg_days": 37.61904761904762,
+      "avg_rounds": 12.142857142857142,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "sad",
+            "surprising"
+          ],
+          "fitness": 12.572358002471313,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "fear",
+            "sad"
+          ],
+          "fitness": 11.454455722127507,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "angry",
+            "neutral",
+            "surprising",
+            "surprising",
+            "sad",
+            "sad"
+          ],
+          "fitness": 9.686907749848707,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "fear",
+            "neutral",
+            "disgust",
+            "disgust",
+            "neutral",
+            "happy",
+            "happy",
+            "surprising",
+            "sad",
+            "angry"
+          ],
+          "fitness": 7.8208443060187305,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "neutral",
+            "angry",
+            "surprising",
+            "surprising",
+            "disgust",
+            "sad",
+            "sad",
+            "sad"
+          ],
+          "fitness": 6.118046999904449,
+          "length": 8
+        }
+      ]
+    },
+    "generation_3": {
+      "stats": {
+        "generation": 3,
+        "best_fitness": 20.147105009442555,
+        "best_sequence": [
+          "neutral",
+          "neutral"
+        ],
+        "elite_count": 8,
+        "total_sequences": 96,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0864520606556185,
+          "full_entropy": 1.6003873111947768,
+          "within_group_entropies": {
+            "positive": 0.43795857524372117,
+            "negative": 0.8348378994915796,
+            "neutral": 0.36627714610538376
+          }
+        },
+        "group_matrix": [
+          [
+            0.40042197802197804,
+            0.2572395604395604,
+            0.34233846153846154
+          ],
+          [
+            0.24834908185496418,
+            0.38619458450046684,
+            0.3654563336445689
+          ],
+          [
+            0.371373389996731,
+            0.3159539718862373,
+            0.31267263811703166
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8401030303030304,
+              0.15989696969696973
+            ],
+            [
+              0.15804761904761905,
+              0.8419523809523809
+            ]
+          ],
+          "negative": [
+            [
+              0.7308571428571429,
+              0.13457142857142856,
+              0.13457142857142856
+            ],
+            [
+              0.17000000000000004,
+              0.688,
+              0.14200000000000002
+            ],
+            [
+              0.19657142857142856,
+              0.1622857142857143,
+              0.6411428571428571
+            ]
+          ],
+          "neutral": [
+            [
+              0.8947204926999905,
+              0.10527950730000944
+            ],
+            [
+              0.13512999486487,
+              0.8648700051351299
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.875,
+      "avg_days": 53.714285714285715,
+      "avg_rounds": 12.238095238095237,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "surprising",
+            "angry",
+            "surprising"
+          ],
+          "fitness": 12.368212049116964,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "surprising",
+            "angry"
+          ],
+          "fitness": 10.073552504721278,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "surprising",
+            "neutral",
+            "disgust",
+            "disgust",
+            "sad",
+            "disgust",
+            "disgust",
+            "happy",
+            "happy"
+          ],
+          "fitness": 9.389684371505703,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "angry",
+            "angry",
+            "angry",
+            "neutral",
+            "angry",
+            "neutral",
+            "neutral",
+            "surprising",
+            "fear"
+          ],
+          "fitness": 8.444261588447235,
+          "length": 11
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "happy",
+            "sad",
+            "surprising",
+            "fear",
+            "fear",
+            "surprising",
+            "surprising",
+            "neutral"
+          ],
+          "fitness": 3.5211316393146386,
+          "length": 10
+        }
+      ]
+    },
+    "generation_4": {
+      "stats": {
+        "generation": 4,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 128,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0809939627358631,
+          "full_entropy": 1.5816092356608482,
+          "within_group_entropies": {
+            "positive": 0.4288696473040538,
+            "negative": 0.80163554512618,
+            "neutral": 0.3779870576521663
+          }
+        },
+        "group_matrix": [
+          [
+            0.38142965740142215,
+            0.2484613833225598,
+            0.3701089592760181
+          ],
+          [
+            0.2251999253034547,
+            0.44124056022408964,
+            0.33355951447245563
+          ],
+          [
+            0.32808719189277546,
+            0.336940804184374,
+            0.3349720039228506
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8540618181818183,
+              0.14593818181818186
+            ],
+            [
+              0.16149523809523808,
+              0.8385047619047619
+            ]
+          ],
+          "negative": [
+            [
+              0.7585142857142857,
+              0.12074285714285714,
+              0.12074285714285714
+            ],
+            [
+              0.1908888888888889,
+              0.6794666666666667,
+              0.12964444444444445
+            ],
+            [
+              0.16794285714285712,
+              0.1473714285714286,
+              0.6846857142857143
+            ]
+          ],
+          "neutral": [
+            [
+              0.8796894384771372,
+              0.12031056152286279
+            ],
+            [
+              0.13107799691892202,
+              0.868922003081078
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.9166666666666666,
+      "avg_days": 47.31818181818182,
+      "avg_rounds": 12.590909090909092,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "surprising",
+            "disgust"
+          ],
+          "fitness": 22.908911444255015,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad",
+            "angry",
+            "angry",
+            "sad",
+            "happy",
+            "sad"
+          ],
+          "fitness": 11.184565135548667,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "neutral",
+            "surprising"
+          ],
+          "fitness": 10.073552504721278,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "fear",
+            "fear",
+            "fear"
+          ],
+          "fitness": 9.640862725465535,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "surprising"
+          ],
+          "fitness": 9.514009268551515,
+          "length": 3
+        }
+      ]
+    },
+    "generation_5": {
+      "stats": {
+        "generation": 5,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 160,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0797241001583424,
+          "full_entropy": 1.594649143877716,
+          "within_group_entropies": {
+            "positive": 0.4288696473040538,
+            "negative": 0.80080918683186,
+            "neutral": 0.4028343439599539
+          }
+        },
+        "group_matrix": [
+          [
+            0.3288577944408533,
+            0.2740768299935359,
+            0.3970653755656109
+          ],
+          [
+            0.21204303210514974,
+            0.433975105365223,
+            0.35398186252962727
+          ],
+          [
+            0.28717489578082656,
+            0.36990641799449536,
+            0.3429186862246781
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8540618181818181,
+              0.14593818181818183
+            ],
+            [
+              0.16149523809523808,
+              0.8385047619047619
+            ]
+          ],
+          "negative": [
+            [
+              0.7979657142857144,
+              0.10101714285714286,
+              0.10101714285714286
+            ],
+            [
+              0.17167619047619048,
+              0.6362514285714286,
+              0.19207238095238094
+            ],
+            [
+              0.16743238095238094,
+              0.15508952380952382,
+              0.6774780952380952
+            ]
+          ],
+          "neutral": [
+            [
+              0.8389247741973934,
+              0.16107522580260658
+            ],
+            [
+              0.11864679815135322,
+              0.8813532018486467
+            ]
+          ]
+        }
+      },
+      "success_rate": 1.0,
+      "avg_days": 49.0,
+      "avg_rounds": 12.666666666666666,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "angry",
+            "angry",
+            "happy"
+          ],
+          "fitness": 13.667264508156023,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "happy",
+            "sad"
+          ],
+          "fitness": 11.454455722127507,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "angry",
+            "sad",
+            "sad",
+            "sad",
+            "surprising",
+            "fear"
+          ],
+          "fitness": 9.686907749848707,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprising",
+            "disgust",
+            "surprising",
+            "sad",
+            "sad",
+            "neutral",
+            "surprising",
+            "angry",
+            "sad"
+          ],
+          "fitness": 7.31277421870999,
+          "length": 12
+        },
+        {
+          "sequence": [
+            "sad",
+            "angry",
+            "angry",
+            "happy",
+            "sad",
+            "disgust",
+            "neutral",
+            "happy",
+            "happy"
+          ],
+          "fitness": 6.755308479387174,
+          "length": 9
+        }
+      ]
+    },
+    "generation_6": {
+      "stats": {
+        "generation": 6,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 192,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0763502253782233,
+          "full_entropy": 1.5745818375377252,
+          "within_group_entropies": {
+            "positive": 0.470010565166664,
+            "negative": 0.7948216295917101,
+            "neutral": 0.3847736488987257
+          }
+        },
+        "group_matrix": [
+          [
+            0.397314676664512,
+            0.23111276466278818,
+            0.3715725586726999
+          ],
+          [
+            0.26055915259642315,
+            0.45086125369532426,
+            0.2885795937082526
+          ],
+          [
+            0.27665276355545243,
+            0.32629167688365374,
+            0.3970555595608938
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.7981513766233767,
+              0.2018486233766234
+            ],
+            [
+              0.1584356043956044,
+              0.8415643956043956
+            ]
+          ],
+          "negative": [
+            [
+              0.7587794285714284,
+              0.1006102857142857,
+              0.14061028571428572
+            ],
+            [
+              0.16967238095238096,
+              0.6484175238095238,
+              0.1819100952380952
+            ],
+            [
+              0.14045942857142857,
+              0.13305371428571428,
+              0.7264868571428571
+            ]
+          ],
+          "neutral": [
+            [
+              0.8700215311851027,
+              0.12997846881489727
+            ],
+            [
+              0.12833093603366907,
+              0.8716690639663309
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.9583333333333334,
+      "avg_days": 45.82608695652174,
+      "avg_rounds": 14.565217391304348,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 22.908911444255015,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "surprising",
+            "neutral"
+          ],
+          "fitness": 10.073552504721278,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "surprising",
+            "surprising",
+            "surprising",
+            "neutral",
+            "neutral",
+            "surprising",
+            "surprising",
+            "surprising",
+            "happy"
+          ],
+          "fitness": 9.825903242744978,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "disgust",
+            "surprising",
+            "angry",
+            "neutral",
+            "neutral",
+            "surprising",
+            "surprising",
+            "neutral",
+            "happy"
+          ],
+          "fitness": 7.688280466182904,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "sad",
+            "fear",
+            "sad",
+            "sad",
+            "sad",
+            "sad",
+            "sad",
+            "sad"
+          ],
+          "fitness": 6.729851699894892,
+          "length": 8
+        }
+      ]
+    },
+    "generation_7": {
+      "stats": {
+        "generation": 7,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 224,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0756319478397858,
+          "full_entropy": 1.5853160132471997,
+          "within_group_entropies": {
+            "positive": 0.4260281192667904,
+            "negative": 0.846489273888778,
+            "neutral": 0.41534128345092747
+          }
+        },
+        "group_matrix": [
+          [
+            0.3850554726653739,
+            0.2453343254643396,
+            0.3696102018702866
+          ],
+          [
+            0.2640277992501616,
+            0.4705167522171946,
+            0.26545544853264386
+          ],
+          [
+            0.3659916581332715,
+            0.26720357755876367,
+            0.3668047643079648
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8217479688311689,
+              0.17825203116883118
+            ],
+            [
+              0.12839469597069597,
+              0.871605304029304
+            ]
+          ],
+          "negative": [
+            [
+              0.7219343238095237,
+              0.12703283809523808,
+              0.1510328380952381
+            ],
+            [
+              0.2351367619047619,
+              0.6112727365079365,
+              0.15359050158730156
+            ],
+            [
+              0.16998994285714286,
+              0.1369750857142857,
+              0.6930349714285714
+            ]
+          ],
+          "neutral": [
+            [
+              0.8648700615682045,
+              0.1351299384317955
+            ],
+            [
+              0.15699856162020145,
+              0.8430014383797986
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.9166666666666666,
+      "avg_days": 43.59090909090909,
+      "avg_rounds": 15.5,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprising",
+            "fear",
+            "disgust",
+            "angry",
+            "surprising",
+            "surprising",
+            "fear",
+            "sad",
+            "disgust",
+            "disgust",
+            "angry"
+          ],
+          "fitness": 12.329403810119407,
+          "length": 15
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "happy",
+            "sad",
+            "sad",
+            "surprising",
+            "surprising",
+            "angry",
+            "neutral",
+            "surprising"
+          ],
+          "fitness": 9.320642574656398,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "neutral"
+          ],
+          "fitness": 9.142664228322621,
+          "length": 1
+        },
+        {
+          "sequence": [
+            "fear",
+            "fear",
+            "fear",
+            "fear",
+            "fear",
+            "surprising",
+            "surprising",
+            "surprising",
+            "neutral"
+          ],
+          "fitness": 8.168797995319338,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "angry",
+            "neutral",
+            "neutral",
+            "happy",
+            "happy",
+            "fear",
+            "angry",
+            "surprising",
+            "sad",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 7.513416266995803,
+          "length": 11
+        }
+      ]
+    },
+    "generation_8": {
+      "stats": {
+        "generation": 8,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 256,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.078333252958881,
+          "full_entropy": 1.5991435914557708,
+          "within_group_entropies": {
+            "positive": 0.43258058722030124,
+            "negative": 0.8784462721548447,
+            "neutral": 0.4143822395957997
+          }
+        },
+        "group_matrix": [
+          [
+            0.36896431808198293,
+            0.2299592159682589,
+            0.4010764659497582
+          ],
+          [
+            0.31079763193104937,
+            0.41564338466365003,
+            0.2735589834053006
+          ],
+          [
+            0.3624521377371058,
+            0.2460364322495439,
+            0.3915114300133503
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8203215085714286,
+              0.17967849142857145
+            ],
+            [
+              0.13417967472527473,
+              0.8658203252747253
+            ]
+          ],
+          "negative": [
+            [
+              0.7331605942857143,
+              0.12621970285714287,
+              0.1406197028571429
+            ],
+            [
+              0.24108205714285713,
+              0.5667636419047619,
+              0.19215430095238095
+            ],
+            [
+              0.21627968,
+              0.13932790857142857,
+              0.6443924114285714
+            ]
+          ],
+          "neutral": [
+            [
+              0.8744775924964783,
+              0.12552240750352173
+            ],
+            [
+              0.1669264096993936,
+              0.8330735903006063
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.9583333333333334,
+      "avg_days": 41.91304347826087,
+      "avg_rounds": 13.130434782608695,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "angry",
+            "neutral"
+          ],
+          "fitness": 11.512631433967172,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad",
+            "sad"
+          ],
+          "fitness": 11.416811122261816,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "happy",
+            "happy",
+            "sad",
+            "sad",
+            "fear",
+            "angry",
+            "angry",
+            "surprising"
+          ],
+          "fitness": 8.450715934355134,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "disgust",
+            "fear",
+            "happy",
+            "happy",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 8.029013210073975,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "surprising",
+            "surprising",
+            "sad",
+            "happy",
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "surprising",
+            "surprising",
+            "disgust",
+            "angry",
+            "surprising",
+            "disgust",
+            "sad"
+          ],
+          "fitness": 7.864992549439299,
+          "length": 15
+        }
+      ]
+    },
+    "generation_9": {
+      "stats": {
+        "generation": 9,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 288,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0670395326103428,
+          "full_entropy": 1.5983003025509457,
+          "within_group_entropies": {
+            "positive": 0.4242316749485257,
+            "negative": 0.8601193363517862,
+            "neutral": 0.4255052600119577
+          }
+        },
+        "group_matrix": [
+          [
+            0.33566430513490403,
+            0.17607076767619345,
+            0.4882649271889026
+          ],
+          [
+            0.3095555022355527,
+            0.3416937231058823,
+            0.34875077465856497
+          ],
+          [
+            0.34054820571918654,
+            0.255314167042034,
+            0.40413762723877944
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.835050048,
+              0.164949952
+            ],
+            [
+              0.13765066197802198,
+              0.862349338021978
+            ]
+          ],
+          "negative": [
+            [
+              0.7331605942857142,
+              0.12621970285714285,
+              0.14061970285714287
+            ],
+            [
+              0.24108205714285713,
+              0.5667636419047619,
+              0.19215430095238095
+            ],
+            [
+              0.19158809685351105,
+              0.12342152920597992,
+              0.684990373940509
+            ]
+          ],
+          "neutral": [
+            [
+              0.8580198888312203,
+              0.1419801111687797
+            ],
+            [
+              0.1616943073580977,
+              0.8383056926419022
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.875,
+      "avg_days": 34.42857142857143,
+      "avg_rounds": 11.904761904761905,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 22.908911444255015,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "sad"
+          ],
+          "fitness": 20.147105009442555,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad",
+            "happy",
+            "neutral",
+            "surprising",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 10.545447127803028,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "neutral"
+          ],
+          "fitness": 9.142664228322621,
+          "length": 1
+        },
+        {
+          "sequence": [
+            "disgust",
+            "surprising",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprising",
+            "neutral"
+          ],
+          "fitness": 7.518513230007715,
+          "length": 7
+        }
+      ]
+    },
+    "generation_10": {
+      "stats": {
+        "generation": 10,
+        "best_fitness": 22.908911444255015,
+        "best_sequence": [
+          "surprising",
+          "disgust"
+        ],
+        "elite_count": 8,
+        "total_sequences": 320,
+        "current_emotion": "neutral",
+        "current_group": "neutral",
+        "hierarchical_entropy": {
+          "group_entropy": 1.0843092431113077,
+          "full_entropy": 1.6231421254980127,
+          "within_group_entropies": {
+            "positive": 0.42729284893933506,
+            "negative": 0.8557842873301587,
+            "neutral": 0.42626341823705116
+          }
+        },
+        "group_matrix": [
+          [
+            0.2923076739900333,
+            0.2692788242420797,
+            0.43841350176788696
+          ],
+          [
+            0.32973330134133166,
+            0.3490162338635294,
+            0.321250464795139
+          ],
+          [
+            0.39480511390770234,
+            0.24842659546331564,
+            0.3567682906289819
+          ]
+        ],
+        "within_group_matrices": {
+          "positive": [
+            [
+              0.8438871716571429,
+              0.15611282834285714
+            ],
+            [
+              0.14925706385347987,
+              0.8507429361465202
+            ]
+          ],
+          "negative": [
+            [
+              0.7065630232380953,
+              0.12017626615873016,
+              0.17326071060317463
+            ],
+            [
+              0.18909367873015873,
+              0.6067248518095238,
+              0.20418146946031746
+            ],
+            [
+              0.17209571525496375,
+              0.13119577466644508,
+              0.6967085100785911
+            ]
+          ],
+          "neutral": [
+            [
+              0.8703674888542877,
+              0.12963251114571228
+            ],
+            [
+              0.17701658441485862,
+              0.8229834155851414
+            ]
+          ]
+        }
+      },
+      "success_rate": 0.9583333333333334,
+      "avg_days": 38.82608695652174,
+      "avg_rounds": 12.782608695652174,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "fear",
+            "neutral"
+          ],
+          "fitness": 22.908911444255015,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy"
+          ],
+          "fitness": 11.454455722127507,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "surprising"
+          ],
+          "fitness": 11.454455722127507,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "surprising",
+            "disgust",
+            "disgust",
+            "happy",
+            "angry",
+            "neutral"
+          ],
+          "fitness": 9.51511219660403,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "happy",
+            "sad",
+            "surprising",
+            "disgust",
+            "surprising",
+            "sad",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 9.507055426149524,
+          "length": 10
+        }
+      ]
+    }
+  },
+  "scenarios_used": [
+    "debt_001",
+    "debt_002",
+    "debt_003",
+    "debt_004",
+    "debt_005",
+    "debt_006",
+    "debt_007",
+    "debt_008",
+    "debt_009",
+    "debt_010",
+    "debt_011",
+    "debt_012",
+    "debt_013",
+    "debt_014",
+    "debt_015",
+    "debt_016",
+    "debt_017",
+    "debt_018",
+    "debt_019",
+    "debt_020",
+    "debt_021",
+    "debt_022",
+    "debt_023",
+    "debt_024",
+    "debt_025",
+    "debt_026",
+    "debt_027",
+    "debt_028",
+    "debt_029",
+    "debt_030",
+    "debt_031",
+    "debt_032",
+    "debt_033",
+    "debt_034",
+    "debt_035",
+    "debt_036",
+    "debt_037",
+    "debt_038",
+    "debt_039",
+    "debt_040",
+    "debt_041",
+    "debt_042",
+    "debt_043",
+    "debt_044",
+    "debt_045",
+    "debt_046",
+    "debt_047",
+    "debt_048",
+    "debt_049",
+    "debt_050",
+    "debt_051",
+    "debt_052",
+    "debt_053",
+    "debt_054",
+    "debt_055",
+    "debt_056",
+    "debt_057",
+    "debt_058",
+    "debt_059",
+    "debt_060",
+    "debt_061",
+    "debt_062",
+    "debt_063",
+    "debt_064",
+    "debt_065",
+    "debt_066",
+    "debt_067",
+    "debt_068",
+    "debt_069",
+    "debt_070",
+    "debt_071",
+    "debt_072",
+    "debt_073",
+    "debt_074",
+    "debt_075",
+    "debt_076",
+    "debt_077",
+    "debt_078",
+    "debt_079",
+    "debt_080"
+  ],
+  "final_stats": {
+    "best_fitness": 22.908911444255015,
+    "best_sequence": [
+      "surprising",
+      "disgust"
+    ],
+    "generation": 10,
+    "group_matrix": [
+      [
+        0.2923076739900333,
+        0.2692788242420797,
+        0.43841350176788696
+      ],
+      [
+        0.32973330134133166,
+        0.3490162338635294,
+        0.321250464795139
+      ],
+      [
+        0.39480511390770234,
+        0.24842659546331564,
+        0.3567682906289819
+      ]
+    ],
+    "within_group_matrices": {
+      "positive": [
+        [
+          0.8438871716571429,
+          0.15611282834285714
+        ],
+        [
+          0.14925706385347987,
+          0.8507429361465202
+        ]
+      ],
+      "negative": [
+        [
+          0.7065630232380953,
+          0.12017626615873016,
+          0.17326071060317463
+        ],
+        [
+          0.18909367873015873,
+          0.6067248518095238,
+          0.20418146946031746
+        ],
+        [
+          0.17209571525496375,
+          0.13119577466644508,
+          0.6967085100785911
+        ]
+      ],
+      "neutral": [
+        [
+          0.8703674888542877,
+          0.12963251114571228
+        ],
+        [
+          0.17701658441485862,
+          0.8229834155851414
+        ]
+      ]
+    },
+    "base_matrix": [
+      [
+        0.4941681582822886,
+        0.0914174210219798,
+        0.05256193209605684,
+        0.1283643122037805,
+        0.05256193209605684,
+        0.05256193209605684,
+        0.1283643122037805
+      ],
+      [
+        0.0874027842018942,
+        0.4981827951023743,
+        0.05256193209605684,
+        0.1283643122037805,
+        0.05256193209605684,
+        0.05256193209605684,
+        0.1283643122037805
+      ],
+      [
+        0.09985964371804605,
+        0.09985964371804605,
+        0.4279648520660806,
+        0.09729061889775856,
+        0.07279070129196918,
+        0.10494392141034102,
+        0.09729061889775856
+      ],
+      [
+        0.12013068870817446,
+        0.12013068870817446,
+        0.0503939065210319,
+        0.529668143506943,
+        0.0503939065210319,
+        0.0503939065210319,
+        0.0788887595136123
+      ],
+      [
+        0.09985964371804606,
+        0.09985964371804606,
+        0.11453394188887997,
+        0.09729061889775857,
+        0.36749292406995837,
+        0.12367260880955251,
+        0.09729061889775857
+      ],
+      [
+        0.09985964371804606,
+        0.09985964371804606,
+        0.10423828433982209,
+        0.09729061889775857,
+        0.07946521180729794,
+        0.42199597862127075,
+        0.09729061889775857
+      ],
+      [
+        0.12013068870817446,
+        0.12013068870817446,
+        0.0503939065210319,
+        0.10772466439478307,
+        0.0503939065210319,
+        0.0503939065210319,
+        0.5008322386257723
+      ]
+    ],
+    "temperature_schedule": [
+      0.5,
+      0.2
+    ],
+    "group_entropy": 1.0843092431113077,
+    "full_entropy": 1.6231421254980127
+  },
+  "final_hierarchical_matrices": {
+    "group_matrix": [
+      [
+        0.2923076739900333,
+        0.2692788242420797,
+        0.43841350176788696
+      ],
+      [
+        0.32973330134133166,
+        0.3490162338635294,
+        0.321250464795139
+      ],
+      [
+        0.39480511390770234,
+        0.24842659546331564,
+        0.3567682906289819
+      ]
+    ],
+    "within_group_matrices": {
+      "positive": [
+        [
+          0.8438871716571429,
+          0.15611282834285714
+        ],
+        [
+          0.14925706385347987,
+          0.8507429361465202
+        ]
+      ],
+      "negative": [
+        [
+          0.7065630232380953,
+          0.12017626615873016,
+          0.17326071060317463
+        ],
+        [
+          0.18909367873015873,
+          0.6067248518095238,
+          0.20418146946031746
+        ],
+        [
+          0.17209571525496375,
+          0.13119577466644508,
+          0.6967085100785911
+        ]
+      ],
+      "neutral": [
+        [
+          0.8703674888542877,
+          0.12963251114571228
+        ],
+        [
+          0.17701658441485862,
+          0.8229834155851414
+        ]
+      ]
+    },
+    "full_base_matrix": [
+      [
+        0.4941681582822886,
+        0.0914174210219798,
+        0.05256193209605684,
+        0.1283643122037805,
+        0.05256193209605684,
+        0.05256193209605684,
+        0.1283643122037805
+      ],
+      [
+        0.0874027842018942,
+        0.4981827951023743,
+        0.05256193209605684,
+        0.1283643122037805,
+        0.05256193209605684,
+        0.05256193209605684,
+        0.1283643122037805
+      ],
+      [
+        0.09985964371804605,
+        0.09985964371804605,
+        0.4279648520660806,
+        0.09729061889775856,
+        0.07279070129196918,
+        0.10494392141034102,
+        0.09729061889775856
+      ],
+      [
+        0.12013068870817446,
+        0.12013068870817446,
+        0.0503939065210319,
+        0.529668143506943,
+        0.0503939065210319,
+        0.0503939065210319,
+        0.0788887595136123
+      ],
+      [
+        0.09985964371804606,
+        0.09985964371804606,
+        0.11453394188887997,
+        0.09729061889775857,
+        0.36749292406995837,
+        0.12367260880955251,
+        0.09729061889775857
+      ],
+      [
+        0.09985964371804606,
+        0.09985964371804606,
+        0.10423828433982209,
+        0.09729061889775857,
+        0.07946521180729794,
+        0.42199597862127075,
+        0.09729061889775857
+      ],
+      [
+        0.12013068870817446,
+        0.12013068870817446,
+        0.0503939065210319,
+        0.10772466439478307,
+        0.0503939065210319,
+        0.0503939065210319,
+        0.5008322386257723
+      ]
+    ]
+  },
+  "overall_success_rate": 0,
+  "avg_successful_days": 0,
+  "avg_successful_rounds": 0
+}

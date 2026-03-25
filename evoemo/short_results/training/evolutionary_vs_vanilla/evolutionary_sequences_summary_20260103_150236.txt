@@ -1,0 +1,34 @@
+BASELINE EVOLUTIONARY OPTIMIZATION EXPERIMENT SUMMARY
+============================================================
+
+Timestamp: 2026-01-03 15:02:36
+Total Generations: 1
+Negotiations per Generation: 1
+Total Negotiations: 1
+Scenarios Used: 1
+
+PERFORMANCE METRICS:
+------------------------------
+Overall Success Rate: 100.0%
+Average Days (Successful): 156.0
+Average Rounds (Successful): 17.0
+Best Sequence Fitness: 0.000
+
+BEST EMOTIONAL SEQUENCE:
+------------------------------
+Sequence: ['neutral', 'sad', 'sad', 'sad', 'angry', 'fear', 'happy', 'surprising', 'disgust']
+Length: 9
+Fitness: 0.000
+
+FINAL STATISTICS:
+------------------------------
+generation: 1
+best_fitness: 0.0
+elite_count: 1
+avg_elite_fitness: 0.0
+emotion_history: []
+matrix_entropy: 1.8392700814491645
+sequence_pool_size: 1
+
+95% CONFIDENCE INTERVALS:
+------------------------------

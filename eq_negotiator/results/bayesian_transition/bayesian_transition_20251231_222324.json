@@ -1,0 +1,1000 @@
+{
+  "experiment_type": "bayesian_transition_optimization",
+  "iterations": 1,
+  "model_config": {
+    "creditor_model": "gpt-4o-mini",
+    "debtor_model": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30
+  },
+  "scenarios_used": [
+    "debt_001"
+  ],
+  "iteration_results": {
+    "iteration_1": {
+      "iteration": 1,
+      "scenario_results": [
+        {
+          "scenario_id": "debt_001",
+          "final_state": "accept",
+          "collection_days": 98,
+          "final_days": 98,
+          "creditor_target_days": 30,
+          "negotiation_rounds": 13,
+          "dialog_length": 13,
+          "emotion_sequence": [
+            "N",
+            "N",
+            "N",
+            "Su",
+            "J",
+            "J",
+            "J"
+          ],
+          "debtor_emotion_sequence": [
+            "N",
+            "N",
+            "J",
+            "N",
+            "J",
+            "J"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I appreciate your position, but 45 days is a bit lengthy for us. Can we aim for a resolution in 40 days instead?",
+              "state": "offer",
+              "requested_days": 40
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I understand the need for prompt payment, but given my current cash flow situation, could we consider extending the payment period to 100 days? This would really help me manage my finances better while ensuring I can fulfill my obligation.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your situation, but I believe we can find common ground. How about we settle on 60 days for the payment?",
+              "state": "offer",
+              "requested_days": 60
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I appreciate your willingness to discuss the payment terms. While I was hoping for around 90 days, could we possibly meet at 100 days to give me a bit more time to gather the necessary funds?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, but to maintain our timeline, how about we settle on 75 days for the payment? This allows us both to move forward effectively.",
+              "state": "offer",
+              "requested_days": 75
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to a payment timeline of 100 days. This would really help me manage my cash flow while ensuring I meet my obligations. Can we work with that?",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I appreciate your perspective, and while I understand you need some time, can we settle on 82 days to ensure we move forward efficiently?",
+              "state": "offer",
+              "requested_days": 82
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I understand your position, but given my current cash flow situation, could we agree on extending the payment timeline to 100 days? This would really help me manage my finances and ensure that I can make the full payment without further issues.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I appreciate your position, and while I understand your need for time, how about we settle on 87 days? This allows us to resolve this matter promptly while still giving you some breathing room.",
+              "state": "offer",
+              "requested_days": 87
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to making the payment in 100 days. This would really help me manage my cash flow while ensuring I meet my obligations.",
+              "state": "offer",
+              "requested_days": 100
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to discuss this, and I believe we can find a solution that works for both of us. How about we aim for 92 days to settle the outstanding balance?",
+              "state": "offer",
+              "requested_days": 92
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I appreciate your understanding, and I can commit to a 100-day timeline for the payment. This will allow me to manage my cash flow effectively while ensuring that I can meet my obligations.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your willingness to work together on this. How about we aim for 96 days for the payment? That way, we can resolve this sooner while still giving you some flexibility.",
+              "state": "accept",
+              "requested_days": 96
+            }
+          ],
+          "success": true,
+          "agent_predictions": [
+            {
+              "agent": "GameTheory",
+              "target": "J",
+              "confidence": 0.27083333333333337,
+              "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+            },
+            {
+              "agent": "OnlineRL",
+              "target": "Su",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+            },
+            {
+              "agent": "EmotionalCoherence",
+              "target": "N",
+              "confidence": 0.18932527693856996,
+              "reasoning": "Coherence: J \u2192 N (score: 0.75) | Phase-appropriate for middle"
+            }
+          ],
+          "agent_predictions_history": [
+            {
+              "round": 1,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "N",
+                  "confidence": 0.2178770949720671,
+                  "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "S",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: N\u2192S facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.19075144508670522,
+                  "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early"
+                }
+              ],
+              "selected_emotion": "N",
+              "debtor_emotion": "N",
+              "gap_size": 0.0,
+              "context": {
+                "round": 1,
+                "debtor_emotion": "N",
+                "current_emotion": "N",
+                "debt_amount": 15000,
+                "gap_size": 0.0
+              },
+              "creditor_emotion_before": "N",
+              "creditor_emotion_after": "N",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 2,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "N",
+                  "confidence": 0.2178770949720671,
+                  "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "F",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: N\u2192F facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.17543859649122806,
+                  "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early"
+                }
+              ],
+              "selected_emotion": "N",
+              "debtor_emotion": "N",
+              "gap_size": 60,
+              "context": {
+                "round": 2,
+                "debtor_emotion": "N",
+                "current_emotion": "N",
+                "debt_amount": 15000,
+                "gap_size": 60
+              },
+              "creditor_emotion_before": "N",
+              "creditor_emotion_after": "N",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 3,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "N",
+                  "confidence": 0.2178770949720671,
+                  "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "D",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: N\u2192D facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.17543859649122806,
+                  "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early"
+                }
+              ],
+              "selected_emotion": "N",
+              "debtor_emotion": "N",
+              "gap_size": 40,
+              "context": {
+                "round": 3,
+                "debtor_emotion": "N",
+                "current_emotion": "N",
+                "debt_amount": 15000,
+                "gap_size": 40
+              },
+              "creditor_emotion_before": "N",
+              "creditor_emotion_after": "N",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 4,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "J",
+                  "confidence": 0.21164021164021166,
+                  "reasoning": "Pure WSLS: N \u2192 J (payoff: 4.00) | Facing J, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "Su",
+                  "confidence": 0.3,
+                  "reasoning": "RL EXPLORATION: Random choice Su"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.1717171717171717,
+                  "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                }
+              ],
+              "selected_emotion": "Su",
+              "debtor_emotion": "J",
+              "gap_size": 25,
+              "context": {
+                "round": 4,
+                "debtor_emotion": "J",
+                "current_emotion": "N",
+                "debt_amount": 15000,
+                "gap_size": 25
+              },
+              "creditor_emotion_before": "N",
+              "creditor_emotion_after": "Su",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 5,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "J",
+                  "confidence": 0.2178770949720671,
+                  "reasoning": "Pure WSLS: Su \u2192 J (payoff: 3.90) | Facing N, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "Su",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: Su\u2192Su facing N | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.16666666666666669,
+                  "reasoning": "Coherence: Su \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                }
+              ],
+              "selected_emotion": "J",
+              "debtor_emotion": "N",
+              "gap_size": 18,
+              "context": {
+                "round": 5,
+                "debtor_emotion": "N",
+                "current_emotion": "Su",
+                "debt_amount": 15000,
+                "gap_size": 18
+              },
+              "creditor_emotion_before": "Su",
+              "creditor_emotion_after": "J",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 6,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "J",
+                  "confidence": 0.27083333333333337,
+                  "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "Su",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.17435897435897435,
+                  "reasoning": "Coherence: J \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                }
+              ],
+              "selected_emotion": "J",
+              "debtor_emotion": "J",
+              "gap_size": 13,
+              "context": {
+                "round": 6,
+                "debtor_emotion": "J",
+                "current_emotion": "J",
+                "debt_amount": 15000,
+                "gap_size": 13
+              },
+              "creditor_emotion_before": "J",
+              "creditor_emotion_after": "J",
+              "bayesian_analysis": {}
+            },
+            {
+              "round": 7,
+              "predictions": [
+                {
+                  "agent": "GameTheory",
+                  "target": "J",
+                  "confidence": 0.27083333333333337,
+                  "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+                },
+                {
+                  "agent": "OnlineRL",
+                  "target": "Su",
+                  "confidence": 0.14285714285714285,
+                  "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                },
+                {
+                  "agent": "EmotionalCoherence",
+                  "target": "N",
+                  "confidence": 0.18932527693856996,
+                  "reasoning": "Coherence: J \u2192 N (score: 0.75) | Phase-appropriate for middle"
+                }
+              ],
+              "selected_emotion": "J",
+              "debtor_emotion": "J",
+              "gap_size": 8,
+              "context": {
+                "round": 7,
+                "debtor_emotion": "J",
+                "current_emotion": "J",
+                "debt_amount": 15000,
+                "gap_size": 8
+              },
+              "creditor_emotion_before": "J",
+              "creditor_emotion_after": "J",
+              "bayesian_analysis": {}
+            }
+          ],
+          "agent_performance": {
+            "EmotionalCoherence": {
+              "total_predictions": 7,
+              "correct_predictions": 3,
+              "total_confidence": 1.2436967277505442,
+              "correct_confidence": 0.5416286380691613,
+              "emotion_preferences": {
+                "N": 7
+              },
+              "context_accuracy": {
+                "debtor_N": {
+                  "correct": 3,
+                  "total": 4
+                },
+                "debtor_J": {
+                  "correct": 0,
+                  "total": 3
+                }
+              },
+              "accuracy": 0.42857142857142855,
+              "confidence_weighted_accuracy": 0.4354989652893893,
+              "most_preferred_emotion": "N",
+              "preference_score": 1.0
+            },
+            "GameTheory": {
+              "total_predictions": 7,
+              "correct_predictions": 6,
+              "total_confidence": 1.624815258195147,
+              "correct_confidence": 1.4131750465549353,
+              "emotion_preferences": {
+                "N": 3,
+                "J": 4
+              },
+              "context_accuracy": {
+                "debtor_N": {
+                  "correct": 4,
+                  "total": 4
+                },
+                "debtor_J": {
+                  "correct": 2,
+                  "total": 3
+                }
+              },
+              "accuracy": 0.8571428571428571,
+              "confidence_weighted_accuracy": 0.8697450614322131,
+              "most_preferred_emotion": "J",
+              "preference_score": 0.5714285714285714
+            },
+            "OnlineRL": {
+              "total_predictions": 7,
+              "correct_predictions": 1,
+              "total_confidence": 1.157142857142857,
+              "correct_confidence": 0.3,
+              "emotion_preferences": {
+                "S": 1,
+                "F": 1,
+                "D": 1,
+                "Su": 4
+              },
+              "context_accuracy": {
+                "debtor_N": {
+                  "correct": 0,
+                  "total": 4
+                },
+                "debtor_J": {
+                  "correct": 1,
+                  "total": 3
+                }
+              },
+              "accuracy": 0.14285714285714285,
+              "confidence_weighted_accuracy": 0.2592592592592593,
+              "most_preferred_emotion": "Su",
+              "preference_score": 0.5714285714285714
+            }
+          },
+          "trajectory_data": {
+            "success": true,
+            "negotiation_rounds": 7,
+            "emotion_history": [
+              "N",
+              "N",
+              "N",
+              "Su",
+              "J",
+              "J",
+              "J"
+            ],
+            "debtor_emotion_history": [
+              "N",
+              "N",
+              "J",
+              "N",
+              "J",
+              "J"
+            ],
+            "final_days": 98,
+            "last_debtor_emotion": "J",
+            "debt_amount": 15000,
+            "initial_gap": 0.0,
+            "final_gap": 8,
+            "agent_predictions_history": [
+              {
+                "round": 1,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "N",
+                    "confidence": 0.2178770949720671,
+                    "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "S",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: N\u2192S facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.19075144508670522,
+                    "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early"
+                  }
+                ],
+                "selected_emotion": "N",
+                "debtor_emotion": "N",
+                "gap_size": 0.0,
+                "context": {
+                  "round": 1,
+                  "debtor_emotion": "N",
+                  "current_emotion": "N",
+                  "debt_amount": 15000,
+                  "gap_size": 0.0
+                },
+                "creditor_emotion_before": "N",
+                "creditor_emotion_after": "N",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 2,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "N",
+                    "confidence": 0.2178770949720671,
+                    "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "F",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: N\u2192F facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.17543859649122806,
+                    "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early"
+                  }
+                ],
+                "selected_emotion": "N",
+                "debtor_emotion": "N",
+                "gap_size": 60,
+                "context": {
+                  "round": 2,
+                  "debtor_emotion": "N",
+                  "current_emotion": "N",
+                  "debt_amount": 15000,
+                  "gap_size": 60
+                },
+                "creditor_emotion_before": "N",
+                "creditor_emotion_after": "N",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 3,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "N",
+                    "confidence": 0.2178770949720671,
+                    "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "D",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: N\u2192D facing N | Q-value: 0.000, Prob: 0.143 | Phase: early"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.17543859649122806,
+                    "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early"
+                  }
+                ],
+                "selected_emotion": "N",
+                "debtor_emotion": "N",
+                "gap_size": 40,
+                "context": {
+                  "round": 3,
+                  "debtor_emotion": "N",
+                  "current_emotion": "N",
+                  "debt_amount": 15000,
+                  "gap_size": 40
+                },
+                "creditor_emotion_before": "N",
+                "creditor_emotion_after": "N",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 4,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "J",
+                    "confidence": 0.21164021164021166,
+                    "reasoning": "Pure WSLS: N \u2192 J (payoff: 4.00) | Facing J, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "Su",
+                    "confidence": 0.3,
+                    "reasoning": "RL EXPLORATION: Random choice Su"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.1717171717171717,
+                    "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                  }
+                ],
+                "selected_emotion": "Su",
+                "debtor_emotion": "J",
+                "gap_size": 25,
+                "context": {
+                  "round": 4,
+                  "debtor_emotion": "J",
+                  "current_emotion": "N",
+                  "debt_amount": 15000,
+                  "gap_size": 25
+                },
+                "creditor_emotion_before": "N",
+                "creditor_emotion_after": "Su",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 5,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "J",
+                    "confidence": 0.2178770949720671,
+                    "reasoning": "Pure WSLS: Su \u2192 J (payoff: 3.90) | Facing N, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "Su",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: Su\u2192Su facing N | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.16666666666666669,
+                    "reasoning": "Coherence: Su \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                  }
+                ],
+                "selected_emotion": "J",
+                "debtor_emotion": "N",
+                "gap_size": 18,
+                "context": {
+                  "round": 5,
+                  "debtor_emotion": "N",
+                  "current_emotion": "Su",
+                  "debt_amount": 15000,
+                  "gap_size": 18
+                },
+                "creditor_emotion_before": "Su",
+                "creditor_emotion_after": "J",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 6,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "J",
+                    "confidence": 0.27083333333333337,
+                    "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "Su",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.17435897435897435,
+                    "reasoning": "Coherence: J \u2192 N (score: 0.68) | Phase-appropriate for middle"
+                  }
+                ],
+                "selected_emotion": "J",
+                "debtor_emotion": "J",
+                "gap_size": 13,
+                "context": {
+                  "round": 6,
+                  "debtor_emotion": "J",
+                  "current_emotion": "J",
+                  "debt_amount": 15000,
+                  "gap_size": 13
+                },
+                "creditor_emotion_before": "J",
+                "creditor_emotion_after": "J",
+                "bayesian_analysis": {}
+              },
+              {
+                "round": 7,
+                "predictions": [
+                  {
+                    "agent": "GameTheory",
+                    "target": "J",
+                    "confidence": 0.27083333333333337,
+                    "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+                  },
+                  {
+                    "agent": "OnlineRL",
+                    "target": "Su",
+                    "confidence": 0.14285714285714285,
+                    "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+                  },
+                  {
+                    "agent": "EmotionalCoherence",
+                    "target": "N",
+                    "confidence": 0.18932527693856996,
+                    "reasoning": "Coherence: J \u2192 N (score: 0.75) | Phase-appropriate for middle"
+                  }
+                ],
+                "selected_emotion": "J",
+                "debtor_emotion": "J",
+                "gap_size": 8,
+                "context": {
+                  "round": 7,
+                  "debtor_emotion": "J",
+                  "current_emotion": "J",
+                  "debt_amount": 15000,
+                  "gap_size": 8
+                },
+                "creditor_emotion_before": "J",
+                "creditor_emotion_after": "J",
+                "bayesian_analysis": {}
+              }
+            ],
+            "context_history": [
+              {
+                "round": 1,
+                "debtor_emotion": "N",
+                "creditor_emotion": "N",
+                "gap_size": 0.0,
+                "successful_round": null
+              },
+              {
+                "round": 2,
+                "debtor_emotion": "N",
+                "creditor_emotion": "N",
+                "gap_size": 60,
+                "successful_round": false
+              },
+              {
+                "round": 3,
+                "debtor_emotion": "N",
+                "creditor_emotion": "N",
+                "gap_size": 40,
+                "successful_round": true
+              },
+              {
+                "round": 4,
+                "debtor_emotion": "J",
+                "creditor_emotion": "Su",
+                "gap_size": 25,
+                "successful_round": true
+              },
+              {
+                "round": 5,
+                "debtor_emotion": "N",
+                "creditor_emotion": "J",
+                "gap_size": 18,
+                "successful_round": true
+              },
+              {
+                "round": 6,
+                "debtor_emotion": "J",
+                "creditor_emotion": "J",
+                "gap_size": 13,
+                "successful_round": true
+              },
+              {
+                "round": 7,
+                "debtor_emotion": "J",
+                "creditor_emotion": "J",
+                "gap_size": 8,
+                "successful_round": true
+              }
+            ]
+          },
+          "last_debtor_emotion": "J",
+          "debt_amount": 15000,
+          "gap_size": 8,
+          "transition": "J \u2192 J",
+          "initial_gap": 0.0,
+          "final_gap": 8,
+          "gap_reduction": 0.0
+        }
+      ],
+      "model_stats": {
+        "current_emotion": "N",
+        "current_emotion_name": "Neutral",
+        "round_number": 0,
+        "emotion_history": [],
+        "performance": {
+          "success_rate": 0.0,
+          "total_transitions": 0,
+          "successful_transitions": 0,
+          "agent_selections": {}
+        },
+        "learning": {
+          "exploration_rate": 0.2,
+          "learning_events": 0,
+          "context_success_rates": {
+            "J": 0.5,
+            "S": 0.5,
+            "A": 0.5,
+            "F": 0.5,
+            "Su": 0.5,
+            "D": 0.5,
+            "N": 0.5
+          },
+          "learning_summary": {
+            "total_events": 0,
+            "success_rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "detailed_transitions": [
+    {
+      "scenario": "debt_001",
+      "iteration": 1,
+      "transition": "J \u2192 J",
+      "success": true,
+      "agent_predictions": [
+        {
+          "agent": "GameTheory",
+          "target": "J",
+          "confidence": 0.27083333333333337,
+          "reasoning": "Pure WSLS: J \u2192 J (payoff: 5.20) | Facing J, Win-Stay"
+        },
+        {
+          "agent": "OnlineRL",
+          "target": "Su",
+          "confidence": 0.14285714285714285,
+          "reasoning": "RL: J\u2192Su facing J | Q-value: 0.000, Prob: 0.143 | Phase: middle"
+        },
+        {
+          "agent": "EmotionalCoherence",
+          "target": "N",
+          "confidence": 0.18932527693856996,
+          "reasoning": "Coherence: J \u2192 N (score: 0.75) | Phase-appropriate for middle"
+        }
+      ],
+      "bayesian_analysis": {},
+      "collection_days": 98,
+      "negotiation_rounds": 13
+    }
+  ],
+  "final_stats": {
+    "current_emotion": "N",
+    "current_emotion_name": "Neutral",
+    "round_number": 0,
+    "emotion_history": [
+      "N",
+      "N",
+      "N",
+      "Su",
+      "J",
+      "J",
+      "J"
+    ],
+    "performance": {
+      "success_rate": 0.14285714285714285,
+      "total_transitions": 7,
+      "successful_transitions": 1,
+      "agent_selections": {
+        "GameTheory": 6,
+        "EmotionalCoherence": 3,
+        "OnlineRL": 1
+      }
+    },
+    "learning": {
+      "exploration_rate": 0.2,
+      "learning_events": 1,
+      "context_success_rates": {
+        "J": 0.5,
+        "S": 0.5,
+        "A": 0.5,
+        "F": 0.5,
+        "Su": 0.5,
+        "D": 0.5,
+        "N": 0.5
+      },
+      "learning_summary": {
+        "total_events": 1,
+        "success_rate": 1.0,
+        "agent_accuracy": {
+          "GameTheory": {
+            "accuracy": 1.0,
+            "total_predictions": 1,
+            "correct_predictions": 1
+          },
+          "OnlineRL": {
+            "accuracy": 0.0,
+            "total_predictions": 1,
+            "correct_predictions": 0
+          },
+          "EmotionalCoherence": {
+            "accuracy": 0.0,
+            "total_predictions": 1,
+            "correct_predictions": 0
+          }
+        },
+        "recent_events": [
+          {
+            "type": "trajectory_learning",
+            "success": true,
+            "macro_update": 0.28050889359956055,
+            "agent_scores": {
+              "GameTheory": 0.7079782554459867,
+              "OnlineRL": 0.04929577464788733,
+              "EmotionalCoherence": 0.11107800780643742
+            },
+            "normalized_scores": {
+              "GameTheory": 0.8153124822023669,
+              "OnlineRL": 0.05676934295805336,
+              "EmotionalCoherence": 0.12791817483957976
+            },
+            "negotiation_rounds": 13,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 6,
+                "correct_predictions": 5,
+                "total_confidence": 1.4069381632230797,
+                "correct_confidence": 1.1952979515828681
+              },
+              "OnlineRL": {
+                "total_predictions": 6,
+                "correct_predictions": 1,
+                "total_confidence": 1.014285714285714,
+                "correct_confidence": 0.3
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 6,
+                "correct_predictions": 2,
+                "total_confidence": 1.052945282663839,
+                "correct_confidence": 0.3508771929824561
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "performance_summary": {
+    "success_rate": 1.0,
+    "avg_collection_rate": 0.02,
+    "avg_days_saved": 2.0,
+    "avg_gap_closure": 0.0,
+    "avg_negotiation_rounds": 13.0,
+    "total_negotiations": 1,
+    "successful_negotiations": 1
+  }
+}

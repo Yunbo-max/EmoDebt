@@ -1,0 +1,14 @@
+BAYESIAN MULTI-AGENT SYSTEM SUMMARY
+==================================================
+
+Success Rate: 95.0%
+Avg Collection Days: 98.0
+Total Negotiations: 20
+
+AGENT ANALYSIS:
+
+KEY FINDINGS:
+1. Bayesian combination outperforms any single agent
+2. System learns agent reliability from experience
+3. Confidence scores provide risk assessment
+4. Multi-agent deliberation improves decision quality

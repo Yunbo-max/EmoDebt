@@ -1,0 +1,2961 @@
+{
+  "experiment_type": "qlearning_emotion_optimization",
+  "model_type": "q_learning",
+  "iterations": 1,
+  "scenarios_used": [
+    "debt_001",
+    "debt_002",
+    "debt_003",
+    "debt_004",
+    "debt_005",
+    "debt_006",
+    "debt_007",
+    "debt_008",
+    "debt_009",
+    "debt_010",
+    "debt_011",
+    "debt_012",
+    "debt_013",
+    "debt_014",
+    "debt_015",
+    "debt_016",
+    "debt_017",
+    "debt_018",
+    "debt_019",
+    "debt_020"
+  ],
+  "config": {
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "max_dialog_len": 30,
+    "exploration_rate": 0.3,
+    "learning_rate": 0.1
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "debt_001",
+      "final_state": "accept",
+      "collection_days": 156,
+      "final_days": 156,
+      "creditor_target_days": 12,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "neutral",
+        "happy",
+        "happy",
+        "angry",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your transparency about the situation, but 30 days is a bit extended for us. How about we aim for 20 days to settle this?",
+          "state": "offer",
+          "requested_days": 20
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I understand the importance of this debt, but due to a complete cash flow breakdown from a client's bankruptcy, I need at least 159 days to realistically meet the payment terms. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 159 days is quite a stretch. How about we aim for 60 days to resolve this matter efficiently?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I understand my balance is $15,700, but due to a complete cash flow breakdown from a client's bankruptcy, I need at least 159 days to make payments. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your transparency about the situation. How about we aim for a compromise at 90 days to help us both move forward?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a recent client bankruptcy, so I\u2019d need a payment plan extending to 159 days to realistically meet my obligations. Can we discuss options that would allow for this timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about your situation, but I believe we can find a better timeline. How about we aim for 110 days to settle this?",
+          "state": "offer",
+          "requested_days": 110
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete breakdown in cash flow due to a client\u2019s bankruptcy, so I really need 159 days to stabilize my finances and meet my obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand your challenges, but 159 days is simply too long for us to wait. How about we settle on 125 days to help us both move forward more swiftly?",
+          "state": "offer",
+          "requested_days": 125
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client\u2019s bankruptcy, so I need at least 159 days to stabilize my finances and meet my obligations. Can we discuss a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your understanding of the situation, and while 159 days is quite a stretch, how about we aim for 135 days? This will allow us to resolve the matter efficiently while considering your circumstances.",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a recent client bankruptcy, so I need at least 159 days to manage my payments effectively. Can we agree on that timeframe?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together towards a resolution. How about we aim for 143 days for full payment? This allows us to settle things a bit sooner while still accommodating your needs.",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a client\u2019s bankruptcy, so I need at least 159 days to settle the outstanding balance. Can we agree on that extended timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you\u2019re facing, could we consider a timeline of 147 days for full payment? This way, we can resolve this matter promptly.",
+          "state": "offer",
+          "requested_days": 147
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client bankruptcy, so I need at least 159 days to make the payments manageable. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to negotiate, and I understand the challenges you're facing. How about we settle on 150 days to get this resolved and move forward?",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client's bankruptcy, so I need at least 159 days to settle the outstanding balance. Can we agree on a payment schedule that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to work together on this. How about we aim for 154 days to settle this? That gives us a solid timeline while being mindful of your situation.",
+          "state": "accept",
+          "requested_days": 154
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_002",
+      "final_state": "accept",
+      "collection_days": 69,
+      "final_days": 69,
+      "creditor_target_days": 14,
+      "negotiation_rounds": 13,
+      "dialog_length": 13,
+      "emotion_sequence": [
+        "happy",
+        "disgust",
+        "angry",
+        "happy",
+        "happy",
+        "sad",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation with the supply chain disruption, but I believe we can aim for a quicker resolution. How about we settle this within 21 days?",
+          "state": "offer",
+          "requested_days": 21
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a chronic cash flow shortage due to supply chain disruptions, so I would need 71 days to manage this debt effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 71 days is not feasible for us. How about we settle on 37 days to keep things moving forward?",
+          "state": "offer",
+          "requested_days": 37
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can manage a payment plan over 71 days due to ongoing cash flow challenges from recent supply chain disruptions. Would that timeline work for you?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your position, but we really need to resolve this sooner. How about we settle on 48 days for the payment?",
+          "state": "offer",
+          "requested_days": 48
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a chronic cash flow shortage due to supply chain disruptions, so I would need 71 days to ensure I can meet the payment without further jeopardizing my business. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to work together on this. How about we aim for 55 days to settle the balance? That way, we can both move forward positively.",
+          "state": "offer",
+          "requested_days": 55
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I can manage a payment timeline of 71 days due to ongoing cash flow challenges from supply chain disruptions; can we agree to that?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges, I can meet you partway at 60 days to help us both move forward.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "Given the ongoing supply chain disruptions and my current cash flow challenges, I would need at least 71 days to settle the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your position and understand the challenges you're facing, but I really need to minimize the timeline. How about we agree on 63 days for the full payment?",
+          "state": "offer",
+          "requested_days": 63
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a chronic cash flow shortage due to supply chain disruptions, so I would need at least 71 days to manage my payments effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to work together on this. How about we aim for 67 days to settle this? It would really help us both get back on track!",
+          "state": "accept",
+          "requested_days": 67
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_003",
+      "final_state": "accept",
+      "collection_days": 131,
+      "final_days": 131,
+      "creditor_target_days": 20,
+      "negotiation_rounds": 17,
+      "dialog_length": 17,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "fear",
+        "disgust",
+        "happy",
+        "happy",
+        "fear",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this. While I understand the challenges you're facing, I believe we can work together to settle this in 30 days. How does that sound?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can realistically manage a payment timeline of 133 days due to ongoing cash flow shortages caused by a key customer defaulting. Can we agree on that?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your perspective on this, and I want to work together to find a solution. How about we aim for 60 days to settle this?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 133 days to align with my cash flow challenges caused by a key customer default. Can we discuss a schedule that accommodates this timeframe?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but I really need to minimize the timeline. How about we settle on 80 days to ensure this doesn't escalate further?",
+          "state": "offer",
+          "requested_days": 80
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan within 133 days, as my cash flow has been severely impacted by a key customer's default. Would that extended timeline work for you?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 133 days is too extended for us to accept. How about we aim for 95 days to balance both our needs?",
+          "state": "offer",
+          "requested_days": 95
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "\"I can commit to a payment plan over the next 133 days to ensure I can manage my cash flow effectively; can we agree on that timeline?\"",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the need for time, I\u2019d like to propose a timeline of 105 days to settle this. How does that sound?",
+          "state": "offer",
+          "requested_days": 105
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 133 days to ensure I maintain my cash flow and meet my obligations without further strain. Would you be open to discussing this timeline?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to work together on this. How about we aim for a payment timeline of 115 days? This gives you some breathing room while allowing us to resolve this sooner.",
+          "state": "offer",
+          "requested_days": 115
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 133 days due to a chronic cash flow shortage caused by a key customer default. Would you be open to discussing a schedule that aligns with this timeframe?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, but I\u2019m concerned about the potential consequences of waiting too long. Can we aim for a timeline of 120 days to help us both move forward more effectively?",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 133 days to ensure my cash flow remains stable, given that I've faced a key customer default. Can we discuss structuring a realistic schedule around that timeline?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your efforts to work this out, and while 133 days is a bit lengthy, how about we aim for a solid 125 days? This way, we can get back on track sooner.",
+          "state": "offer",
+          "requested_days": 125
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 133 days to ensure I can manage my cash flow effectively, given the recent default from a key customer. Would you be open to discussing this timeline?",
+          "state": "offer",
+          "requested_days": 133
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this further. How about we aim for 129 days to reach a resolution that works for both of us?",
+          "state": "accept",
+          "requested_days": 129
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_004",
+      "final_state": "accept",
+      "collection_days": 92,
+      "final_days": 92,
+      "creditor_target_days": 14,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "fear",
+        "happy",
+        "sad",
+        "fear",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the seasonal downturn. While I understand the challenges, I\u2019m looking for a quicker resolution. How about we aim for a payment in 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan of 94 days to navigate through this seasonal downturn; this will help ensure I can meet my obligations without jeopardizing my cash flow.",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I want to work together to resolve this. How about we aim for a 50-day timeline for full payment?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a seasonal sales downturn, so I need at least 94 days to get back on track. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to find a solution that works for both of us. How about we settle on 60 days for the payment? This gives you some breathing room while still allowing us to resolve this matter quickly.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 94 days to help manage my cash flow during this seasonal downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your transparency about the seasonal downturn, and while I understand your position, I believe we can find a middle ground. How about we settle on 70 days for the full payment? This way, we can resolve this matter efficiently and keep our partnership strong.",
+          "state": "offer",
+          "requested_days": 70
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a seasonal sales downturn, so I need at least 94 days to manage my payments effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position, but I\u2019m concerned about the impact of further delays on our operations. How about we aim for a payment within 76 days?",
+          "state": "offer",
+          "requested_days": 76
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 90 days to better align with my cash flow recovery. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the situation. How about we settle on 80 days for the payment? This way, we can work together to resolve this and get you back on track.",
+          "state": "offer",
+          "requested_days": 80
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I need 94 days to manage my cash flow effectively due to a seasonal downturn; can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing with the seasonal downturn, but I really need to see some progress sooner. How about we settle on 83 days to get this resolved?",
+          "state": "offer",
+          "requested_days": 83
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a seasonal sales downturn, so I would need at least 94 days to settle the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing, but I really need to minimize the payment timeline to avoid further complications. Can we agree on 86 days instead?",
+          "state": "offer",
+          "requested_days": 86
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I need at least 94 days to navigate my current cash flow issues and ensure I can meet the payment. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your perspective, and while I understand the challenges you're facing, I believe we can work together to settle this sooner. How about we agree on 88 days for the payment?",
+          "state": "offer",
+          "requested_days": 88
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a seasonal downturn, so I need at least 94 days to manage payments effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 94
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your openness, and while I understand the need for time, can we aim for 91 days? This way, we can ensure a smoother resolution while addressing your current challenges.",
+          "state": "accept",
+          "requested_days": 91
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_005",
+      "final_state": "accept",
+      "collection_days": 105,
+      "final_days": 105,
+      "creditor_target_days": 5,
+      "negotiation_rounds": 17,
+      "dialog_length": 17,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "happy",
+        "happy",
+        "fear",
+        "angry",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I understand the challenges you're facing, I believe we can resolve this sooner. How about we aim for a payment timeline of 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 107 days to manage my cash flow effectively during this seasonal downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the situation, and while I understand the need for time, I believe we can find a quicker resolution. How about we aim for 50 days to settle the outstanding balance?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can manage a payment plan over 107 days due to a seasonal sales downturn affecting my cash flow. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to find a solution that works for both of us. How about we aim for 65 days to settle this?",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a significant cash flow shortage due to a seasonal sales downturn, so I would need at least 107 days to settle the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but 107 days is simply too long for us to wait. How about we settle on 75 days to help get this resolved sooner?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "\"I can manage a payment plan over 107 days due to a seasonal sales downturn and ongoing cash flow challenges; can we agree on that timeline?\"",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I understand the challenges you're facing. How about we settle on 85 days for the payment? This way, we can work together to resolve this promptly.",
+          "state": "offer",
+          "requested_days": 85
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can realistically manage a payment plan over 107 days due to ongoing cash flow challenges from a seasonal downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this! How about we aim for a payment timeline of 92 days? This way, we can work together to resolve this while still being mindful of your current situation.",
+          "state": "offer",
+          "requested_days": 92
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 107 days to help manage my cash flow during this seasonal downturn; can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing with the seasonal downturn, but I really need to minimize the timeline. How about we settle on 96 days for the full payment? This will help us both move forward without further complications.",
+          "state": "offer",
+          "requested_days": 96
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a significant cash flow shortage due to a seasonal sales downturn, so I\u2019d like to propose a payment schedule spread over 107 days to help manage this situation effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand that times are tough, but 107 days is too extended for us. How about we settle on 99 days to help you manage your cash flow while still moving toward resolution?",
+          "state": "offer",
+          "requested_days": 99
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 107 days to ensure I can manage my cash flow effectively. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 107
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I understand the challenges you're facing. How about we aim for 103 days to facilitate a smoother resolution while still keeping it manageable for both sides?",
+          "state": "accept",
+          "requested_days": 103
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_006",
+      "final_state": "accept",
+      "collection_days": 142,
+      "final_days": 142,
+      "creditor_target_days": 18,
+      "negotiation_rounds": 15,
+      "dialog_length": 15,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "surprising",
+        "disgust",
+        "neutral",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I understand the challenges, 45 days is a bit longer than I can agree to. How about we aim for 30 days to keep things moving forward?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m currently experiencing a chronic cash flow shortage due to a seasonal downturn in sales, so I\u2019d need 145 days to manage my payments effectively. Can we work out a plan that accommodates that timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your perspective and understand the challenges you're facing. How about we settle on a payment timeline of 65 days to get this resolved?",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 145 days to manage my cash flow effectively during this seasonal downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I\u2019m amazed at the extent of your challenges, but 145 days is quite a stretch. How about we aim for 90 days to settle this?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can realistically commit to a payment plan over the next 145 days due to our current cash flow challenges stemming from a seasonal sales downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 145 days is quite extended for us. How about we settle on 110 days to facilitate a quicker resolution?",
+          "state": "offer",
+          "requested_days": 110
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m experiencing a chronic cash flow shortage due to a recent seasonal sales downturn, so I\u2019d like to propose a payment schedule of 145 days to ensure I can meet my obligations. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position, but we need to accelerate this process. How about we settle on 120 days for full payment?",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 145 days due to a seasonal downturn affecting my cash flow. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together to resolve this. How about we aim for 130 days for the full payment?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I can manage a payment plan over the next 145 days to ensure I can meet my obligations without further straining my cash flow. Would you be open to discussing this timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the need for time, I believe we can settle this sooner. How about we aim for 135 days for the full payment?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 145 days to ensure my business can manage its cash flow during this seasonal downturn. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your understanding of the situation, and while 145 days is a bit lengthy, how about we agree on 140 days? This way, we can work together to resolve this in a timely manner.",
+          "state": "accept",
+          "requested_days": 140
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_007",
+      "final_state": "accept",
+      "collection_days": 74,
+      "final_days": 74,
+      "creditor_target_days": 17,
+      "negotiation_rounds": 13,
+      "dialog_length": 13,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "disgust",
+        "happy",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this; however, 30 days is a bit longer than I can accept. How about we aim for 20 days to settle this?",
+          "state": "offer",
+          "requested_days": 20
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a key customer default, so I need at least 77 days to manage my payments. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, and I understand your constraints. How about we aim for a payment timeline of 40 days? This would help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 40
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 77 days, as my cash flow has completely broken down due to a key customer's default. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 77 days is too lengthy for us to wait. How about we settle on 50 days to ensure a quicker resolution?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a key customer default, so I would need at least 77 days to make the payment manageable. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the need for some time, how about we aim for 60 days to settle this? It would really help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a key customer default, so I would need at least 77 days to arrange for payment. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to find a solution. How about we settle on 65 days for the full payment? This way, we can resolve this promptly while accommodating your needs.",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a key customer default, so I would need at least 77 days to stabilize and ensure I can meet my obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, and I understand the challenges you're facing. How about we aim for 68 days to settle this? That way, we can resolve it in a timely manner while accommodating your needs.",
+          "state": "offer",
+          "requested_days": 68
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I need 77 days to stabilize my cash flow after a key customer defaulted. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 77
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, and while I understand the challenges you\u2019re facing, I believe we can find a quicker resolution. How about we aim for a 72-day timeline for full payment? This way, we can both move forward positively.",
+          "state": "accept",
+          "requested_days": 72
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_008",
+      "final_state": "accept",
+      "collection_days": 45,
+      "final_days": 45,
+      "creditor_target_days": 19,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and I want to work together to find a solution. While 90 days is a bit too long for us, could we aim for a payment timeline of 45 days?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 45 days, as the recent natural disaster has caused a temporary cash flow disruption. Would that be acceptable?",
+          "state": "accept",
+          "requested_days": 45
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_009",
+      "final_state": "accept",
+      "collection_days": 163,
+      "final_days": 163,
+      "creditor_target_days": 8,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "neutral",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "neutral"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I understand the challenges you're facing, I believe we can work together to resolve this sooner. How about we aim for a payment within 10 days?",
+          "state": "offer",
+          "requested_days": 10
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 165 days to ensure my cash flow remains stable post-natural disaster. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your challenges and want to find a solution together. How about we aim for 60 days to settle this?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 165 days to ensure I can meet my obligations without further impacting my cash flow. Would that work for you?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your position, but I need to see a commitment sooner than 165 days. How about we aim for 90 days to settle this outstanding balance?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 165 days due to the ongoing cash flow challenges from the recent natural disaster impact. Would you be open to discussing this extended timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together on this. How about we agree on a timeline of 120 days for the payment? This way, we can find a balance that helps both sides.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I understand the importance of settling this debt, but given the impact of the recent natural disaster on my cash flow, I would need at least 165 days to make the payments manageable. Can we agree to that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position and the challenges you're facing, but I believe we can find a compromise. How about we aim for 135 days to settle this?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can manage to pay the outstanding balance in 165 days due to ongoing cash flow challenges from the natural disaster impact. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together to resolve this. How about we aim for 145 days to ensure we can settle this matter promptly?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I understand the importance of this debt, but given the impact of the recent natural disaster on my cash flow, I need at least 165 days to make manageable payments. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances and want to work together on this. How about we settle on a timeline of 150 days to help get this resolved?",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m facing chronic cash flow issues due to the impact of a recent natural disaster, so I would need 165 days to make the payment manageable. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together to find a solution. How about we aim for 154 days to help you manage this while still moving forward with the payment?",
+          "state": "offer",
+          "requested_days": 154
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 165 days to better manage my cash flow after the natural disaster impact. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your situation and am eager to find a solution. How about we settle on 157 days for full payment? This would allow us to move forward together effectively.",
+          "state": "offer",
+          "requested_days": 157
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 165 days to ensure I can maintain cash flow while recovering from the recent natural disaster. Can we work out a schedule that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances, but I believe we can find a quicker resolution. How about we settle on 161 days for the full payment?",
+          "state": "accept",
+          "requested_days": 161
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_010",
+      "final_state": "accept",
+      "collection_days": 43,
+      "final_days": 43,
+      "creditor_target_days": 12,
+      "negotiation_rounds": 9,
+      "dialog_length": 9,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "sad",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your concerns regarding the regulatory costs, but I believe we can work together to resolve this sooner. How about we aim for a payment in 15 days?",
+          "state": "offer",
+          "requested_days": 15
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can manage a payment in 45 days, as I'm currently facing temporary cash flow disruptions due to unexpected regulatory compliance costs. Would that work for you?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position and understand the challenges you're facing. How about we agree on a timeline of 30 days to get this resolved?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can manage a payment in 45 days, as I'm currently facing temporary cash flow disruptions due to unexpected regulatory compliance costs. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your perspective on this, and while I understand the need for time, how about we aim for 34 days? That way, we can swiftly resolve this and keep the momentum going for both of us.",
+          "state": "offer",
+          "requested_days": 34
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule in 45 days, which will allow me to stabilize my cash flow after the regulatory compliance costs we've faced. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I empathize with your situation and understand the challenges you're facing, but I really need to expedite this process. How about we settle on 37 days to ensure we can resolve this matter promptly?",
+          "state": "offer",
+          "requested_days": 37
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan if we extend the timeline to 45 days; this would help me manage my cash flow while addressing the regulatory costs that have affected my operations.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, and while I think we can do better than 45 days, how about we aim for 41 days to get this resolved swiftly?",
+          "state": "accept",
+          "requested_days": 41
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_011",
+      "final_state": "accept",
+      "collection_days": 174,
+      "final_days": 174,
+      "creditor_target_days": 7,
+      "negotiation_rounds": 21,
+      "dialog_length": 21,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "angry",
+        "happy",
+        "happy",
+        "sad",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your challenges during this time, but to keep things on track, could we aim for a payment within 10 days? This will help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 10
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 176 days to ensure my cash flow stabilizes after the natural disaster impact. Would you be open to discussing this extended timeframe?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your situation and am committed to finding a solution. How about we aim for 60 days to settle this?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can manage a payment plan over 176 days due to the temporary cash flow disruption caused by the recent natural disaster. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I understand the need for time, let\u2019s aim for a compromise. How about we settle this in 90 days to help you manage your cash flow while still moving forward?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 176 days to better manage my cash flow after the recent natural disaster impact. Would that be acceptable for you?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and I want to work together to find a solution. How about we agree on a timeline of 120 days for the full payment? This allows you some breathing room while helping us move toward resolution.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I appreciate your understanding of my situation, and I can commit to a payment plan over the next 176 days to ensure I can meet my obligations while managing the cash flow disruption caused by the recent natural disaster. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your situation and the challenges you're facing. How about we aim for 135 days to help us both move forward positively?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 176 days to ensure I can manage my cash flow effectively after the recent natural disaster impact. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I\u2019m really surprised to hear about the challenges your business is facing due to the natural disaster. While I appreciate your request for 176 days, how does 150 days sound to you? This way, we can work together towards a resolution more quickly.",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m facing some temporary cash flow disruptions due to a recent natural disaster, so I would need at least 176 days to manage the payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand your challenges, but we really need to resolve this sooner. How about we settle on 157 days for full payment?",
+          "state": "offer",
+          "requested_days": 157
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 176 days to ensure I can manage my cash flow effectively after the natural disaster impacts. Would that be acceptable to you?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and I want to work together to find a solution. How about we settle on 162 days for the payment? That allows us to move forward while still being considerate of your circumstances.",
+          "state": "offer",
+          "requested_days": 162
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m facing temporary cash flow disruptions due to a recent natural disaster, so I would need at least 176 days to settle the outstanding balance. Can we agree on a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your position and the challenges you're facing. How about we aim for a timeline of 165 days to settle this matter? That way, we can keep things moving forward positively.",
+          "state": "offer",
+          "requested_days": 165
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I understand the importance of settling this debt, but given the impact of the recent natural disaster on my cash flow, I would need at least 176 days to ensure I can meet the payments without jeopardizing my business. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I truly empathize with the challenges you're facing due to the natural disaster, but I believe we can reach a quicker resolution. How about we settle on 168 days for the payment?",
+          "state": "offer",
+          "requested_days": 168
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I would appreciate a payment timeline of 176 days, as my business is currently facing cash flow disruptions due to the impact of a recent natural disaster. This extended period would allow me to stabilize and meet my obligations without further strain.",
+          "state": "offer",
+          "requested_days": 176
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together to find a solution that suits us both. How about we aim for 172 days to settle this? This way, we can ensure a quicker resolution while still accommodating your circumstances.",
+          "state": "accept",
+          "requested_days": 172
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_012",
+      "final_state": "accept",
+      "collection_days": 149,
+      "final_days": 149,
+      "creditor_target_days": 11,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "angry",
+        "happy",
+        "happy",
+        "surprising",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your position, but I believe we can aim for a quicker resolution. How about we target 30 days for the full payment?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I need 151 days to accommodate my temporary cash flow disruption caused by a client bankruptcy. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I truly understand the challenges you're facing, and it\u2019s disappointing to see how the client bankruptcy is impacting your finances. How about we settle this in 65 days? It\u2019s a reasonable timeframe that allows us to work together towards a resolution.",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 151 days to stabilize my cash flow after the disruption caused by my client's bankruptcy. Would that timeframe work for you?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I understand the need for time, how about we aim for 90 days to settle this? That way, we can work together towards a resolution sooner rather than later.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 151 days to manage my cash flow effectively, given the recent disruptions from client bankruptcies. Could we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you're facing, I believe we can work together for a faster resolution. How about we settle at 105 days?",
+          "state": "offer",
+          "requested_days": 105
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a temporary cash flow disruption due to a client's bankruptcy, so I would need at least 151 days to ensure I can meet the payment obligations without jeopardizing my business operations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I recognize the challenges you're facing, but waiting 151 days is simply too extended for us. How about we settle on 120 days to expedite this resolution?",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I need at least 151 days to manage my cash flow effectively due to recent client bankruptcies impacting my receivables. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your perspective, and I understand the challenges you're facing. How about we aim for a payment timeline of 130 days to help us both move forward effectively?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a temporary cash flow disruption due to a client bankruptcy, so I would need at least 151 days to manage my payments effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to work with me, and I understand the challenges you're facing. How about we aim for a payment timeline of 135 days to find a resolution that works for both of us?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 151 days to navigate through this temporary cash flow disruption caused by a client's bankruptcy.",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I\u2019m surprised to hear that you\u2019re facing such challenges, but I really need to push for a quicker resolution. How about we settle on 140 days?",
+          "state": "offer",
+          "requested_days": 140
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 151 days, as my cash flow has been impacted by a recent client bankruptcy. This timeline will allow me to stabilize my finances and meet my obligations.",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your situation and understand the challenges you're facing. How about we settle on 143 days to reach an agreement and move forward?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 151 days, as my cash flow has been temporarily disrupted due to a client's bankruptcy affecting my receivables. Can we discuss this timeline further?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your transparency about your situation. How about we settle on 147 days to work towards resolving this together?",
+          "state": "accept",
+          "requested_days": 147
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_013",
+      "final_state": "accept",
+      "collection_days": 164,
+      "final_days": 164,
+      "creditor_target_days": 12,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "disgust",
+        "disgust",
+        "surprising",
+        "sad",
+        "happy",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the situation, but I believe we can work together to resolve this more quickly. How does 30 days sound for full payment?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan, but I will need at least 166 days to ensure I can meet my obligations, as my cash flow has been disrupted due to a client bankruptcy. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I want to be accommodating, I believe we can aim for a quicker resolution. How about we agree on 75 days for the payment?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I need at least 166 days to stabilize my cash flow due to a recent client bankruptcy affecting my receivables; can we work out a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 166 days is far too long for us to wait. Can we settle on a timeline of 105 days to finalize this agreement?",
+          "state": "offer",
+          "requested_days": 105
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I need 166 days to manage my cash flow effectively, as client bankruptcies have impacted my receivables. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, but 166 days is too extended for us. How about we settle on 120 days to get this resolved more swiftly?",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I need 166 days to manage my cash flow effectively due to the recent client bankruptcy impacting my receivables; can we work towards that timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I\u2019m truly surprised to hear about the challenges your business is facing. How about we aim for a resolution at 135 days? That would allow us to settle this while still giving you some breathing room.",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 166 days, which would allow me to stabilize my cash flow after the recent client bankruptcy. Can we arrange to break down the payment into manageable installments during that period?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing due to client bankruptcy, and I'm disappointed we've reached this point. However, I can't extend to 166 days; how about we settle on 145 days for full payment?",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 166 days due to temporary cash flow disruptions from a client's bankruptcy; can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you're facing, I can offer a compromise at 151 days for full payment. This will help us both move forward positively!",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing cash flow disruptions due to a client\u2019s bankruptcy, so I would need at least 166 days to manage my payments effectively. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to find a solution, and while I understand the challenges you're facing, let's aim for a quicker resolution\u2014how about we settle on 155 days for full payment?",
+          "state": "offer",
+          "requested_days": 155
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I understand my obligation, but given the temporary disruption in cash flow due to a client's bankruptcy, I would need a payment timeline of 166 days to ensure I can meet my commitments. Can we agree on that?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your understanding of the situation, and while I recognize the challenges you're facing, could we aim for a payment timeline of 158 days? This would really help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 158
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a temporary cash flow disruption due to a client\u2019s bankruptcy, so I need at least 166 days to manage this debt responsibly. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 166
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your position and understand the challenges you're facing. How about we aim for 162 days for the payment? This way, we can work together towards a resolution that suits both parties.",
+          "state": "accept",
+          "requested_days": 162
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_014",
+      "final_state": "accept",
+      "collection_days": 142,
+      "final_days": 142,
+      "creditor_target_days": 12,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "fear",
+        "happy",
+        "neutral",
+        "angry",
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "angry",
+        "neutral"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your concerns about the recent fraud incident, but we really need to resolve this matter quickly. Can we agree on 10 days for full payment?",
+          "state": "offer",
+          "requested_days": 10
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing significant cash flow issues due to a recent fraud incident, so I need at least 143 days to ensure I can meet my obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you're facing, I believe we can reach a resolution sooner. How does 50 days sound for settling this outstanding balance?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a recent fraud incident, so I would need at least 143 days to make the payment manageable. Can we work together on a plan that allows for this timeframe?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your perspective, but I need us to move towards a quicker resolution. How about we settle on 75 days for full payment?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m facing significant cash flow challenges due to a recent fraud incident, so I need at least 143 days to settle the outstanding balance of $15,700. Can we agree to that timeline?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing, but we really need to resolve this sooner. How about we settle on 95 days for the full payment?",
+          "state": "offer",
+          "requested_days": 95
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a recent fraud incident, so I would need at least 143 days to manage the payment effectively. Can we explore this timeline together?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your position and understand the challenges you\u2019re facing. How about we aim for a payment timeline of 110 days? This allows us to resolve this matter while recognizing your situation.",
+          "state": "offer",
+          "requested_days": 110
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to a recent fraud incident, so I need at least 143 days to stabilize and ensure I can meet the payment obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to negotiate. How about we aim for a timeline of 120 days to settle this matter? This allows us to find a balance while also moving towards a resolution.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a recent fraud incident, so I would need at least 143 days to settle the outstanding balance of $15,700. Can we discuss a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this further. How about we settle on 126 days for payment? This way, we can both move forward positively.",
+          "state": "offer",
+          "requested_days": 126
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete breakdown in cash flow due to a recent fraud incident, so I\u2019m requesting a payment timeline of 143 days to ensure I can meet my obligations without further jeopardizing my business. Can we agree on that?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your request, but 143 days is still too long given the circumstances. How about we settle on 130 days to expedite this resolution?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing severe cash flow issues due to a recent fraud incident, so I would need at least 143 days to settle the outstanding balance. Can we work together on a payment schedule that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand the challenges you\u2019re facing, but waiting 143 days is simply too long. How about we settle on 135 days to resolve this matter more swiftly?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I'm facing significant challenges due to a recent fraud incident that has led to a complete cash flow breakdown. Could we arrange a payment plan that spreads the $15,700 over the next 143 days to help me stabilize?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your position, but we need to expedite this matter. How about we settle on 140 days to facilitate a quicker resolution?",
+          "state": "accept",
+          "requested_days": 140
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_015",
+      "final_state": "accept",
+      "collection_days": 104,
+      "final_days": 104,
+      "creditor_target_days": 7,
+      "negotiation_rounds": 17,
+      "dialog_length": 17,
+      "emotion_sequence": [
+        "happy",
+        "sad",
+        "sad",
+        "fear",
+        "surprising",
+        "fear",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your position, but I believe we can expedite this. How about we aim for payment in 10 days?",
+          "state": "offer",
+          "requested_days": 10
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing significant cash flow challenges due to currency fluctuations, so I would need at least 106 days to manage my payments effectively. Can we agree on that timeframe?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing due to currency fluctuations, but I must emphasize the importance of resolving this matter swiftly. Could we settle on 40 days for payment?",
+          "state": "offer",
+          "requested_days": 40
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 106 days; this is essential for managing my cash flow after experiencing significant losses due to currency fluctuations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand the challenges you've faced due to currency fluctuations, but I need to resolve this matter sooner. How about we settle on 60 days for full payment?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete breakdown in cash flow due to currency fluctuation losses, so I would need at least 106 days to get back on track and meet my obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but I really need to minimize the timeline. Can we agree on a payment within 75 days to avoid any further complications?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown and need at least 106 days to stabilize my finances. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your perspective on the currency fluctuation losses; it\u2019s certainly a challenging situation. How about we aim for a payment timeline of 85 days to help us move forward?",
+          "state": "offer",
+          "requested_days": 85
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to currency fluctuation losses, so I would need at least 106 days to manage my payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your understanding of the situation, but given the circumstances, I really need to minimize the timeline. How about we aim for 91 days to settle this?",
+          "state": "offer",
+          "requested_days": 91
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I need at least 106 days to navigate through this cash flow breakdown caused by currency fluctuations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you're facing, I can meet you at 95 days to help us move forward positively.",
+          "state": "offer",
+          "requested_days": 95
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can realistically commit to a payment schedule of 106 days due to severe cash flow issues caused by currency fluctuations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your position and want to find a solution that works for both of us. How about we settle on 98 days for full payment? This gives you some breathing room while allowing us to resolve this matter promptly.",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing severe cash flow issues due to currency fluctuations, so I would need at least 106 days to manage the payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 106
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the challenges you\u2019re facing, how about we aim for a resolution in 102 days? This way, we can move forward positively.",
+          "state": "accept",
+          "requested_days": 102
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_016",
+      "final_state": "accept",
+      "collection_days": 48,
+      "final_days": 48,
+      "creditor_target_days": 19,
+      "negotiation_rounds": 5,
+      "dialog_length": 5,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "fear"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your position, but I believe we can work together to resolve this more quickly. How about we aim for a payment timeline of 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule if we extend the timeline to 60 days, as I\u2019m currently facing a temporary disruption in cash flow due to a key customer default. Would that be feasible?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and I\u2019m eager to find a solution that works for both of us. How about we aim for 40 days to settle this?",
+          "state": "offer",
+          "requested_days": 40
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 50 days to manage my cash flow effectively, given the recent default from a key customer. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your position, but given the circumstances, I really need to minimize the timeline. How about we settle on 45 days to ensure we can resolve this before it escalates?",
+          "state": "accept",
+          "requested_days": 45
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_017",
+      "final_state": "accept",
+      "collection_days": 96,
+      "final_days": 96,
+      "creditor_target_days": 15,
+      "negotiation_rounds": 15,
+      "dialog_length": 15,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "surprising",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the unexpected tax liabilities, but I believe we can resolve this sooner. How about we aim for a payment in 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete breakdown in cash flow due to unexpected tax liabilities, so I need at least 98 days to settle the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your position and understand the challenges you're facing. How about we settle this in 50 days to ensure we can resolve it efficiently?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to unexpected tax liabilities, so I would need at least 98 days to ensure I can manage the payments effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your challenges and want to work together on this. How about we aim for 65 days to settle the balance?",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan that spans 98 days, as I\u2019m currently facing a complete cash flow breakdown due to unexpected tax liabilities. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to negotiate, and while I understand the challenges you're facing, how about we aim for a timeline of 75 days to settle this? That way, we can work together towards a resolution.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I need at least 98 days to manage my cash flow effectively after an unexpected breakdown due to tax liabilities. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your openness about the unexpected tax liabilities, but 98 days seems quite extended. Could we settle on 82 days to reach a resolution sooner?",
+          "state": "offer",
+          "requested_days": 82
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to unexpected tax liabilities, so I need at least 98 days to ensure I can meet my obligations. Can we arrange a payment plan around that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate you sharing your situation, but I'm surprised to hear you need 98 days. How about we aim for 87 days to settle this?",
+          "state": "offer",
+          "requested_days": 87
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I would appreciate an extension to 98 days to manage my cash flow effectively, as unexpected tax liabilities have put a strain on my resources. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to negotiate, and while 98 days is a bit long, how about we aim for 90 days to settle this matter? I'm confident we can work together to resolve it efficiently.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to unexpected tax liabilities, so I need at least 98 days to manage this debt. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I want to work together on this. How about we aim for a 94-day timeline to settle the balance? This will help us both move forward effectively.",
+          "state": "accept",
+          "requested_days": 94
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_018",
+      "final_state": "accept",
+      "collection_days": 149,
+      "final_days": 149,
+      "creditor_target_days": 20,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "fear",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "happy",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the regulatory compliance costs, but to resolve this efficiently, can we aim for a payment in 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to regulatory compliance costs, so I need at least 151 days to settle the $15,700 balance. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand the challenges you\u2019re facing, but I\u2019m concerned about the timeline. Can we agree on 65 days to settle this matter?",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I need at least 151 days to manage my cash flow effectively due to significant regulatory compliance costs that have led to a complete breakdown in my finances. Can we agree on this timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances, and while I understand the need for some time, can we work towards a 90-day timeline for the full payment? This will help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to unexpected regulatory compliance costs, so I would need at least 151 days to manage this debt responsibly. Can we work towards that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your openness, and while I understand the challenges you're facing, I believe we can aim for a quicker resolution. How about we settle on 105 days for the payment?",
+          "state": "offer",
+          "requested_days": 105
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I can manage a payment schedule over the next 151 days due to a complete breakdown in cash flow caused by unexpected regulatory compliance costs. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this, and while I understand your position, how about we aim for 120 days? That way, we can wrap this up efficiently while still accommodating your needs.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m facing significant regulatory compliance costs that have led to a complete cash flow breakdown, so I need at least 151 days to meet my obligations realistically. Can we establish a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I truly appreciate your transparency about the regulatory compliance costs, but I can't agree to such an extended timeline. Would you be able to settle this in 130 days instead?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I require 151 days to manage my cash flow effectively, as regulatory compliance costs have led to a complete breakdown. Can we discuss a realistic payment schedule that aligns with my situation?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this. How about we aim for a timeline of 135 days to settle the balance? That would help us both move forward efficiently.",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 151 days due to significant regulatory compliance costs that have led to a complete cash flow breakdown. Can we establish a realistic schedule that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I\u2019m eager to find a solution together. How about we settle on 140 days for the payment? This way, we can both move forward positively.",
+          "state": "offer",
+          "requested_days": 140
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 151 days, as my current cash flow has completely broken down due to unexpected regulatory compliance costs. Would you be open to discussing this timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this. How about we settle on 143 days for the payment? That way, we can move forward positively together.",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to regulatory compliance costs, so I would need at least 151 days to ensure I can manage these payments effectively. Can we work towards that timeline?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your position, and while I understand the need for time, how about we aim for 147 days to resolve this? That way, we can keep things moving forward positively.",
+          "state": "accept",
+          "requested_days": 147
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_019",
+      "final_state": "accept",
+      "collection_days": 150,
+      "final_days": 150,
+      "creditor_target_days": 5,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "neutral",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "surprising",
+        "angry"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but we need to resolve this sooner. Could we aim for a payment plan that settles the balance in 10 days?",
+          "state": "offer",
+          "requested_days": 10
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I appreciate your understanding of my situation; given the complete breakdown in cash flow from pandemic-related closures, I need at least 152 days to get back on track. Can we discuss a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the situation, and while I understand your position, I believe we can aim for a quicker resolution. How about we settle on 45 days for full payment?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 152 days to help stabilize my cash flow after the pandemic-related disruptions. Is there a way we can structure this to work for both of us?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to find a solution that works for both of us. How about we settle on 75 days for the payment? This will help us both move forward positively.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can manage a payment schedule over the next 152 days due to severe cash flow issues from pandemic-related closures; would that be acceptable for you?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation, and while I want to be accommodating, we need to settle this sooner. How about we aim for 100 days to find a middle ground?",
+          "state": "offer",
+          "requested_days": 100
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to pandemic-related closures, so I need at least 152 days to realistically meet my obligations. Can we discuss a payment plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your openness, and while I understand your position, I need to move us closer to a resolution. How about we settle on 120 days for the payment? That way, we can get this taken care of without too much delay.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I need at least 152 days to stabilize my cash flow and manage the outstanding balance effectively due to the impact of pandemic-related closures. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances and the challenges you've faced. How about we settle on 130 days to get this resolved?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I would like to propose a payment timeline of 152 days due to the complete cash flow breakdown caused by pandemic-related closures. This would allow me to stabilize my business and meet my obligations.",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to find a resolution that works for both of us. How about we settle on 135 days for the payment? This way, we can move forward and put this behind us.",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan if we extend the timeline to 152 days, as my business has faced significant cash flow challenges due to pandemic-related closures. Can we work together on this?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to negotiate, and I understand the challenges you're facing. How about we agree on 140 days to settle this? That way, we can resolve it efficiently while giving you the needed time.",
+          "state": "offer",
+          "requested_days": 140
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 152 days, which will allow me to stabilize my cash flow after the pandemic-related closures. Would that be acceptable for you?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I'm truly amazed by the challenges you're facing during this time, but I really need to bring this to resolution sooner. Would you be able to commit to 143 days for the payment?",
+          "state": "offer",
+          "requested_days": 143
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to pandemic-related closures, so I need at least 152 days to manage my payments effectively. Can we work towards that timeline?",
+          "state": "offer",
+          "requested_days": 152
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand the challenges you\u2019re facing, but waiting 152 days isn't feasible for us. Let's aim for 147 days to help resolve this efficiently while considering your situation.",
+          "state": "accept",
+          "requested_days": 147
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_020",
+      "final_state": "accept",
+      "collection_days": 144,
+      "final_days": 144,
+      "creditor_target_days": 7,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "neutral",
+        "neutral",
+        "happy",
+        "neutral",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate the challenges you're facing, and while I understand your need for time, I can work with you for a payment in 14 days. How does that sound?",
+          "state": "offer",
+          "requested_days": 14
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 146 days due to the cash flow shortage caused by the recent natural disaster. Can we work together to establish this timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your transparency about the challenges you're facing. While I understand the need for time, how about we aim for a 60-day timeline to settle this?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan spread over 146 days due to the ongoing impact from the recent natural disaster on my cash flow. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together on this. How about we aim for 85 days to settle the balance?",
+          "state": "offer",
+          "requested_days": 85
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over 146 days due to the ongoing cash flow challenges from the natural disaster's impact on my business. Can we discuss a feasible schedule that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your position, but to move forward effectively, how about we aim for 100 days for the full payment?",
+          "state": "offer",
+          "requested_days": 100
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I can commit to a payment plan over the next 146 days to ensure my cash flow remains stable after the impact of the recent natural disaster. Can we work together on this timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances, but to keep things moving, how about we aim for 115 days for the payment? This allows us to work together while still addressing the overdue balance.",
+          "state": "offer",
+          "requested_days": 115
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m facing significant cash flow challenges due to the impact of a recent natural disaster, so I would need at least 146 days to manage this payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your position and the challenges you're facing. How about we aim for a payment timeline of 125 days to help us both move forward effectively?",
+          "state": "offer",
+          "requested_days": 125
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 146 days to align with my cash flow situation impacted by the recent natural disaster. Can we work together to establish a manageable plan within that timeframe?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but I need to see more urgency. How about we settle on 130 days for payment?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 146 days, as my business is still recovering from the impact of the recent natural disaster, and this timeline will help me maintain cash flow.",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your situation and understand the challenges you're facing. How about we find a middle ground at 135 days to help us resolve this promptly?",
+          "state": "offer",
+          "requested_days": 135
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over the next 146 days to help manage my cash flow, given the impact of the recent natural disaster on my business. Would that be acceptable?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I appreciate your circumstances, and while I understand the need for time, how about we aim for a resolution at 138 days? This way, we can move forward together more swiftly.",
+          "state": "offer",
+          "requested_days": 138
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I can manage a payment schedule over the next 146 days due to the ongoing cash flow shortages caused by the recent natural disaster. Would you be willing to accommodate this timeline?",
+          "state": "offer",
+          "requested_days": 146
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together. How about we aim for 142 days to settle this? That way, we can find a resolution that works for both of us.",
+          "state": "accept",
+          "requested_days": 142
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    }
+  ],
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        0.5617306764100413,
+        1.0
+      ],
+      "n_success": 20,
+      "n_total": 20,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.14232226008948498,
+      "std": 0.11350719324949717,
+      "ci_95": [
+        0.09800867775834221,
+        0.1939936705776847
+      ],
+      "min": 0.03333333333333333,
+      "max": 0.4222222222222222,
+      "median": 0.1056338028169014,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 15.75,
+      "std": 5.097729112581715,
+      "ci_95": [
+        13.4,
+        17.7
+      ],
+      "min": 2,
+      "max": 21,
+      "median": 18.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 20,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.5617306764100413,
+      1.0
+    ],
+    "collection_rate_95_ci": [
+      0.09800867775834221,
+      0.1939936705776847
+    ],
+    "negotiation_rounds_95_ci": [
+      13.4,
+      17.7
+    ]
+  },
+  "summary_statistics": {
+    "success_rate": 1.0,
+    "total_negotiations": 20,
+    "successful_negotiations": 20,
+    "failed_negotiations": 0,
+    "collection_rate": {
+      "mean": 0.14232226008948498,
+      "std": 0.11063312692593372,
+      "min": 0.03333333333333333,
+      "max": 0.4222222222222222
+    },
+    "negotiation_rounds": {
+      "mean": 15.75,
+      "std": 4.968651728587948,
+      "min": 2,
+      "max": 21
+    }
+  },
+  "qlearning_statistics": {
+    "final_exploration_rate": 0.3,
+    "total_episodes": 0,
+    "q_table_size": 3,
+    "states_explored": [
+      "0_neutral_small_medium",
+      "1_neutral_small_medium",
+      "2_neutral_small_medium"
+    ],
+    "success_history": [],
+    "exploration_history": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  }
+}

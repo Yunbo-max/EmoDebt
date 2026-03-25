@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260102_224706",
+  "config": {
+    "dataset_type": "debt",
+    "model_type": "gametheory",
+    "iterations": 1,
+    "scenarios": 1,
+    "max_dialog_len": 30,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "out_dir": "results/multi_dataset",
+    "debug": false
+  },
+  "results": {},
+  "timing_summary": {
+    "overall_runtime_seconds": 1.5425190925598145,
+    "overall_runtime_formatted": "0m 1s",
+    "total_negotiations": 0,
+    "negotiations_per_hour": 0.0,
+    "dataset_timings": {
+      "debt": "0.03m"
+    },
+    "start_time": "2026-01-02 22:47:04",
+    "end_time": "2026-01-02 22:47:06"
+  }
+}

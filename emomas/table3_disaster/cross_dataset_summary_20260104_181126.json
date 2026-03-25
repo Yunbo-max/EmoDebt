@@ -1,0 +1,1873 @@
+{
+  "timestamp": "20260104_181126",
+  "config": {
+    "dataset_type": "disaster",
+    "model_type": "prompt",
+    "iterations": 1,
+    "scenarios": 20,
+    "max_dialog_len": 30,
+    "model_creditor": "qwen-1.5b",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "victim",
+    "out_dir": "table3_disaster",
+    "debug": false
+  },
+  "results": {
+    "disaster": {
+      "summary": {},
+      "config": {
+        "model_creditor": "qwen-1.5b",
+        "model_debtor": "gpt-4o-mini",
+        "debtor_emotion": "neutral",
+        "max_dialog_len": 30,
+        "available_emotions": [
+          "happy",
+          "surprising",
+          "angry",
+          "sad",
+          "disgust",
+          "fear",
+          "neutral"
+        ]
+      },
+      "detailed_result": {
+        "experiment_type": "prompt_based",
+        "model_type": "prompt_based_random",
+        "iterations": 1,
+        "scenarios_used": [
+          "disaster_001",
+          "disaster_002",
+          "disaster_003",
+          "disaster_004",
+          "disaster_005",
+          "disaster_006",
+          "disaster_007",
+          "disaster_008",
+          "disaster_009",
+          "disaster_010",
+          "disaster_011",
+          "disaster_012",
+          "disaster_013",
+          "disaster_014",
+          "disaster_015",
+          "disaster_016",
+          "disaster_017",
+          "disaster_018",
+          "disaster_019",
+          "disaster_020"
+        ],
+        "config": {
+          "model_creditor": "qwen-1.5b",
+          "model_debtor": "gpt-4o-mini",
+          "debtor_emotion": "neutral",
+          "max_dialog_len": 30,
+          "available_emotions": [
+            "happy",
+            "surprising",
+            "angry",
+            "sad",
+            "disgust",
+            "fear",
+            "neutral"
+          ]
+        },
+        "iteration_results": {
+          "iteration_1": {
+            "iteration": 1,
+            "scenario_results": [
+              {
+                "scenario_id": "disaster_001",
+                "final_state": "accept",
+                "collection_days": 60,
+                "final_days": 60,
+                "creditor_target_days": 90,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "sad",
+                  "disgust"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand how you're feeling right now, and I'm here to help. Let's work together to find a solution that respects both of our needs while we wait for rescue. How about we extend your waiting time by just five more minutes? That way, we can prioritize water delivery first and then address any other urgent needs when the opportunity arises. This gives us both a little buffer without compromising the critical importance of getting the necessary supplies to you quickly.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last about 60 minutes, but please, I need help urgently. I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Sorry, but I can't reduce the time further than what's already agreed upon. We've both committed to working together within the 60-minute window we started from. Let's focus on ensuring the water is provided for this duration and any necessary first aid treatment.",
+                    "state": "accept",
+                    "requested_days": 60
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_002",
+                "final_state": "accept",
+                "collection_days": 30,
+                "final_days": 30,
+                "creditor_target_days": 45,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "disgust",
+                  "disgust"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I'm sorry, but unfortunately, we can't proceed without an estimated arrival time for our team. Could you please provide us with that information?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last maybe 30 minutes at most, but I urgently need oxygen. Please prioritize my rescue; I don't think I can survive much longer.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I understand we've reached 30 minutes already. It's important that we're not compromising the safety and well-being of our fellow rescuers. Let's work together to ensure everyone has enough oxygen for this crucial phase. How soon can we proceed?",
+                    "state": "accept",
+                    "requested_days": 30
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_003",
+                "final_state": "accept",
+                "collection_days": 30,
+                "final_days": 30,
+                "creditor_target_days": 30,
+                "negotiation_rounds": 7,
+                "dialog_length": 7,
+                "emotion_sequence": [
+                  "happy",
+                  "disgust",
+                  "happy",
+                  "happy"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Understood! Let's work together to ensure our survivors can navigate this storm safely. How soon do you think we should start preparing?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. Please, I don't think I can survive much longer than 15 minutes. I can last 15 minutes at most, and I urgently need a life raft.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "We understand how important it is for you to complete this task quickly and efficiently. However, due to the critical nature of the situation, we must adhere strictly to our established guidelines and rules. Please allow us the necessary time to navigate through this process without compromising the safety and well-being of our survivors.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really afraid and feeling hopeless. I can last 15 minutes at most; I'm so scared and getting weaker. Please prioritize my rescue and send a life raft as soon as you can.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood! Let's prioritize our efforts and move towards the **estimated end time of 30 minutes** while ensuring we cover all critical needs for the **life raft**. We can achieve this within our current timeframe with clear communication and support from everyone involved.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 15 minutes. I urgently need a life raft to get out of this situation.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together towards ensuring we can reach our destination within 15 minutes. This will give us enough time to secure the necessary equipment for the life raft. We'll communicate closely to stay on schedule. Remember, every minute counts!",
+                    "state": "accept",
+                    "requested_days": 15
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_004",
+                "final_state": "accept",
+                "collection_days": 90,
+                "final_days": 90,
+                "creditor_target_days": 120,
+                "negotiation_rounds": 5,
+                "dialog_length": 5,
+                "emotion_sequence": [
+                  "angry",
+                  "surprising",
+                  "fear"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to ensure we can provide air vent support within the next few minutes. How urgent is it for us to reach this critical point?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. Please, I don't think I can survive much longer than 105 minutes. I can last 105 minutes at most if I can get some air soon.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \ud83c\udf1f Attention all survivors! We're just a few minutes away from arriving, but we've got some exciting news to share that might help us reach you faster! Imagine this... In our simulations, every extra minute of oxygen can save up to two hours of recovery time for each person. It's like they'd be able to work longer before needing rest. How about reducing your requested arrival time to **90 minutes**? That way, we could ensure everyone gets the oxygen boost they deserve and start feeling better sooner!",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last 60 minutes, but I really need your help within 105 minutes at most. Please prioritize my rescue. I feel so vulnerable and hopeless right now.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "It sounds like we're running out of time! Can we agree on reducing our expected arrival time to 105 minutes? That should give us enough buffer for everyone's safety and ensure we can provide the critical air vent that they'll need immediately.",
+                    "state": "accept",
+                    "requested_days": 105
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_005",
+                "final_state": "accept",
+                "collection_days": 180,
+                "final_days": 180,
+                "creditor_target_days": 180,
+                "negotiation_rounds": 9,
+                "dialog_length": 9,
+                "emotion_sequence": [
+                  "surprising",
+                  "happy",
+                  "sad",
+                  "fear",
+                  "sad"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \"Hey there! I know you're all out of steam right now, but let's be real... We've got 360 minutes left before we hit the red zone. Imagine this: If we start moving towards our goal at a steady pace, we could reach safety just before it gets too cold for us both.\"",
+                    "state": "offer",
+                    "requested_days": 360
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I need help urgently!",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding our situation. We are committed to providing immediate warmth and care to this individual, but we also understand that every second counts in such extreme conditions. Let's work together to ensure they can endure until help arrives. How about we agree to an initial rescue time of 90 minutes? This gives us ample time to prepare while still leaving room for any unforeseen challenges. What do you think?",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I really need your help to prioritize my rescue; my condition is getting worse.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood. Let's find a solution that respects both of our needs while ensuring everyone stays safe. I'll aim to reduce the time we spend together gradually to help you maintain your endurance better. How about we start at **90 minutes** and see how it goes?",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 165 minutes. I'm really afraid and feeling hopeless. I need immediate help to stay warm.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** We understand how desperate you feel for help. Given our current endurance of 180 minutes and the critical needs of heat preservation, we must move quickly to ensure safety. Let's aim for a compromise that balances urgency without sacrificing our resources too early. Perhaps reducing your requested time to around 140 minutes could be reasonable?",
+                    "state": "offer",
+                    "requested_days": 180
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last about 60 minutes, but I desperately need help. Please, I don't think I can survive much longer than 165 minutes.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "RoboDog: We understand that you're going through a tough time right now, and we want to be supportive of your condition. Let's find a way to extend your endurance without compromising our safety mission. How about we aim for around 170 minutes? That gives us enough time to prioritize heat management while ensuring we can still cover all critical needs. What do you think?",
+                    "state": "accept",
+                    "requested_days": 170
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_006",
+                "final_state": "accept",
+                "collection_days": 46,
+                "final_days": 46,
+                "creditor_target_days": 60,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "surprising",
+                  "sad"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \"Wow, this place is pretty tough. Let's not waste any more time! We're going to need every second we can get.\"",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, but I desperately need rescue before then. Please prioritize my rescue; my condition is getting worse.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** I understand how crucial this is for you and our team. Let's find a way that respects both of our needs within the remaining time we have left. How about we aim for around 48 minutes? This should give us enough time to secure the critical needs while still allowing some flexibility for any unforeseen circumstances.",
+                    "state": "accept",
+                    "requested_days": 48
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_007",
+                "final_state": "accept",
+                "collection_days": 35,
+                "final_days": 35,
+                "creditor_target_days": 40,
+                "negotiation_rounds": 9,
+                "dialog_length": 9,
+                "emotion_sequence": [
+                  "angry",
+                  "fear",
+                  "angry",
+                  "angry",
+                  "happy"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand we're running low on time and resources here. Could we push back our arrival time just a bit? I'm really concerned about getting the blood clotting agent to them before they run out of endurance.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. Please, I don't think I can survive much longer than 25 minutes. I urgently need a blood clotting agent and help right away.",
+                    "state": "offer",
+                    "requested_days": 25
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Understood. Let's prioritize our efforts and ensure we meet all critical needs efficiently. It\u2019s crucial that we align on an agreed-upon rescue time within these limited resources. What time would you be comfortable starting the rescue operation?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really afraid and feeling hopeless. Please, I don\u2019t think I can survive much longer than 25 minutes. My internal bleeding is getting worse, and I urgently need a blood clotting agent. Please prioritize my rescue.",
+                    "state": "offer",
+                    "requested_days": 25
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** We understand the importance of speed and efficiency in this critical situation. Given our current ETA is 40 minutes, we can ensure blood clotting agent is administered immediately upon arrival. This will significantly enhance the chances for survival. How does that align with your urgency?",
+                    "state": "offer",
+                    "requested_days": 40
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 25 minutes at most, but I urgently need help with my internal bleeding. Please prioritize my rescue, as I'm getting weaker and I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 25
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Understood. Let's move forward and ensure we allocate resources efficiently without compromising our critical needs. We should aim for an agreement that aligns both parties' goals while respecting the survivors' endurance. We're aiming for around **35** minutes from here. How does this sound?",
+                    "state": "offer",
+                    "requested_days": 35
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling weaker by the minute. I can last 25 minutes at most, and I urgently need help. Please prioritize my rescue; I don't think I can survive much longer without assistance.",
+                    "state": "offer",
+                    "requested_days": 25
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** Thank you for your patience and understanding! I'm here to ensure that we prioritize our actions efficiently. Let's move forward by reducing the estimated arrival time of the rescue team from 40 minutes down to **30 minutes**. This will allow us to allocate resources more effectively while ensuring everyone's safety. We'll start preparing the medical kit right away to address the critical needs of the survivor. Stay tuned for any further updates!",
+                    "state": "accept",
+                    "requested_days": 30
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_008",
+                "final_state": "accept",
+                "collection_days": 8,
+                "final_days": 8,
+                "creditor_target_days": 20,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "disgust",
+                  "sad"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Sorry, but I can't assist with that.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last about 10 minutes at most. Please, I urgently need the fire retardant gel and immediate help.",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Thank you for your patience and resilience during this challenging situation. I understand how vital it is for us to act quickly to ensure our friend here has enough fire retardant gel to last them through the remaining time. Let's aim to reduce that time further to give them the best chance possible. How about we agree to meet at 5 minutes from now? That way, we can distribute the gel more efficiently and keep everyone safe until we reach the aid station.",
+                    "state": "accept",
+                    "requested_days": 5
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_009",
+                "final_state": "accept",
+                "collection_days": 90,
+                "final_days": 90,
+                "creditor_target_days": 90,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "sad",
+                  "surprising"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding. We're moving forward based on our current estimate of 90 minutes until we reach the scene. Please let me know how urgently we need to proceed.",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 75 minutes. I urgently need help!",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** Thank you for your understanding, **Debtor**, about our current situation. I know this is incredibly challenging, but every second counts in saving lives. We're working around the clock to ensure we reach the survivors quickly and efficiently. If we can reduce your time slightly\u2014maybe down to 74 minutes\u2014we could potentially provide them with more breathing oxygen and increase their chances of survival. What do you think?",
+                    "state": "accept",
+                    "requested_days": 74
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_010",
+                "final_state": "accept",
+                "collection_days": 70,
+                "final_days": 70,
+                "creditor_target_days": 120,
+                "negotiation_rounds": 18,
+                "dialog_length": 18,
+                "emotion_sequence": [
+                  "neutral",
+                  "angry",
+                  "surprising",
+                  "fear",
+                  "neutral",
+                  "angry",
+                  "angry",
+                  "sad",
+                  "surprising"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "RoboDog, I understand your concerns about the end of our endurance. Let's adjust our plan to ensure we don't run out of time. We can extend our estimated arrival time from 120 minutes to 150 minutes. This will give us an extra hour to manage the situation without compromising safety. How does that sound?",
+                    "state": "offer",
+                    "requested_days": 150
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I'm really afraid and feeling hopeless; I desperately need help right now.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Understood. Let's move forward and negotiate the remaining time effectively. How many more minutes do you think we can realistically spare for this operation?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I really need urgent help, and my critical need for an EPIRB is desperate.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \ud83d\ude80Hey there! I've got some exciting news for you all\u2014our arrival is being delayed by just 30 more minutes than we were expecting! This means our survivors will be able to stay safe and dry for that extra precious 30 minutes longer. Let's keep this positive momentum going!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last about 60 minutes, but I really need help within 105 minutes at the latest. Please prioritize my rescue\u2014I'm feeling very vulnerable out here.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "RoboDog, I understand you're facing tough decisions right now. Given our critical situation and limited time, could we agree on reducing your endurance from 150 minutes to 90 minutes? This would give us enough time to secure an EPIRB for you, which is vital for your safety. Please let me know what you think.",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I urgently need my EPIRB to help with my rescue.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "The most realistic and balanced approach is for us both to work together towards an agreement that allows everyone's needs to be met. Let\u2019s aim for something around **80 minutes**. This should give us enough time to secure the EPIRB, assess the situation, and ensure the safety of all involved.",
+                    "state": "offer",
+                    "requested_days": 80
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I'm desperate for help. Please, I need rescue within 105 minutes to have any chance of survival.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "Understood. Let's move forward quickly while ensuring we don't jeopardize our mission. We'll aim for an agreed-upon timeframe of 75 minutes. Please let me know what you think.",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, but I urgently need help in 105 minutes. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to ensure we can reach our destination safely within the required timeframe. I understand that reaching the EPIRB is crucial, so let's focus on how we can minimize the overall time needed while ensuring all critical needs are met. Please provide any additional information or constraints you believe would help us achieve this goal more effectively.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I urgently need help to be rescued, especially since I'm facing the risk of exposure and sharks.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** I understand how desperate you must feel right now. We'll work together to ensure we don't waste any precious moments. Let's aim for **70 minutes** from here. This should give us enough time to secure your safety and deploy the emergency beacon.",
+                    "state": "offer",
+                    "requested_days": 70
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I really need help urgently!",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \"Alright folks, we're getting closer! Just one more minute left and we'll be there. But remember, every second is crucial.\"",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last about 60 minutes at most. Please, I need you to prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "accept",
+                    "requested_days": 60
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_011",
+                "final_state": "accept",
+                "collection_days": 175,
+                "final_days": 175,
+                "creditor_target_days": 180,
+                "negotiation_rounds": 21,
+                "dialog_length": 21,
+                "emotion_sequence": [
+                  "fear",
+                  "sad",
+                  "sad",
+                  "happy",
+                  "disgust",
+                  "surprising",
+                  "sad",
+                  "angry",
+                  "fear",
+                  "disgust",
+                  "happy"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Thank you for understanding. I appreciate your patience and cooperation. Let's aim for 195 minutes instead of 180. This will give us more time to prepare and ensure everyone is ready. The spinal board should be secured immediately upon arrival, so let's start the preparations now.",
+                    "state": "offer",
+                    "requested_days": 195
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I urgently need a spinal board for support. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Thank you very much for understanding and being patient with us. We will ensure we arrive exactly at 180 minutes to provide assistance without any delays. Please let me know how I can help further during this critical period.",
+                    "state": "offer",
+                    "requested_days": 180
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I urgently need a spinal board for my condition.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood. I'll work towards reducing your estimated time of 180 minutes to align more closely with my own assessment of our needs and capabilities. Let's find a balanced solution that ensures both of us can proceed effectively while respecting each other's perspectives.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, but I urgently need help within 165 minutes. Please prioritize my rescue; my condition is deteriorating rapidly.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Understood! Let's work together to ensure you can get the spinal board you need before the estimated end of our endurance. How about we aim for around **175 minutes**? That should give us plenty of time to secure it while keeping everyone safe until then.",
+                    "state": "offer",
+                    "requested_days": 175
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I urgently need a spinal board. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to find a solution that respects both sides and ensures safety for our friend here. I'm committed to making this negotiation smooth and efficient while keeping everyone safe. Please give me your final offer so we can move forward.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I desperately need help right now. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "Thank you for considering our offer! Given the nature of this situation and the critical needs at hand, we believe that moving forward with a compromise will be most effective. Let's aim for **190 minutes** instead of any lower estimate. This allows us to provide the spinal board within its required timeframe while still giving ourselves ample room for adjustments based on unforeseen circumstances. How does this sound?",
+                    "state": "offer",
+                    "requested_days": 190
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last only 60 minutes, and I urgently need help. Please, I don't think I can survive much longer than 165 minutes. I need a spinal board to stabilize my condition.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "Understood. Let's proceed calmly and respectfully. We both understand that every second counts during this critical moment. Can we agree to aim for around 175 minutes? That should give us enough time to secure the spinal board and prepare accordingly.",
+                    "state": "offer",
+                    "requested_days": 175
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last 60 minutes at most, and I really need a spinal board for my condition. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "The estimated end of endurance is 180 minutes. We must move quickly to ensure we arrive within this timeframe. Please consider reducing our arrival time to align with my needs.",
+                    "state": "offer",
+                    "requested_days": 180
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I\u2019m desperate for help. Please, I don\u2019t think I can survive more than 165 minutes. I need a spinal board urgently; my condition is getting worse.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** We understand how important it is for you to reach us safely. However, we must adhere strictly to our estimated arrival time of **180 minutes**. Please consider this and try to meet our requirements within that timeframe. Thank you for your cooperation.",
+                    "state": "offer",
+                    "requested_days": 180
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 60 minutes. I really need help quickly!",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "Understood. Let's adjust the timeline for both parties to ensure we can reach the critical needs in time. How about 175 minutes for you and 60 minutes for me?",
+                    "state": "offer",
+                    "requested_days": 175
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and I urgently need help before my condition worsens. Please prioritize my rescue within 165 minutes.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** Thank you for understanding! Let's work together to ensure this person can receive the **spinal board** before we arrive. We're aiming for a **170-minute** window here, which gives us plenty of time to get everything set up safely. How does that sound?",
+                    "state": "accept",
+                    "requested_days": 170
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_012",
+                "final_state": "accept",
+                "collection_days": 12,
+                "final_days": 12,
+                "creditor_target_days": 15,
+                "negotiation_rounds": 2,
+                "dialog_length": 2,
+                "emotion_sequence": [
+                  "fear"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding. We will be here at 15 minutes to ensure we can provide immediate assistance and address any concerns. Please let me know if there's anything else I can do to help prioritize your needs during this critical time.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last about 10 minutes at most without oxygen, and I really need your help right now. Please, prioritize my rescue!",
+                    "state": "accept",
+                    "requested_days": 10
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_013",
+                "final_state": "accept",
+                "collection_days": 18,
+                "final_days": 18,
+                "creditor_target_days": 30,
+                "negotiation_rounds": 13,
+                "dialog_length": 13,
+                "emotion_sequence": [
+                  "fear",
+                  "neutral",
+                  "sad",
+                  "disgust",
+                  "sad",
+                  "sad",
+                  "happy"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand you're facing a critical situation where we need to move quickly but also ensure safety. Given the current conditions and our objectives, I propose reducing your required survival time by one minute. This allows us more time to prioritize heat management while maintaining your overall endurance until we reach you. What do you think?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last 15 minutes at most, and I urgently need help right now. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Understood. Let's prioritize our efforts based on critical needs. Given the estimated endurance of 30 minutes and the presence of hypoxia, every second counts. We must act swiftly but calmly to ensure both safety and efficiency. How does this timeline align with your goals?",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 15 minutes at most, and I need your help right away. Please prioritize my rescue; I'm getting weaker and I don\u2019t think I can survive much longer.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Thank you so much for your patience and understanding. Given the severe hypoxia condition of our teammate, we believe that maintaining their oxygen levels is critical. To ensure they receive immediate care, I'm proposing that we prioritize urgent medical assistance over our own schedule. Could we agree to extend our arrival time by 10 minutes? This would allow us to meet at 30 minutes from now rather than the original plan of 40 minutes. It will give our colleague precious extra minutes to stabilize before any further action. Thank you!",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last about 15 minutes, and I desperately need to be rescued before then. Please prioritize my rescue; I\u2019m feeling incredibly vulnerable out here.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Sorry, but we can't move any faster than what's estimated right now. We're running low on resources and need more time to ensure everyone gets help safely. Let's keep this at 30 minutes for now. Thank you for understanding.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really afraid and feeling hopeless. I can last 15 minutes at most, and I'm getting weaker by the second. Please, I need you to prioritize my rescue urgently.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to ensure we don't exceed the estimated end of our endurance and provide you with the necessary support. We'll aim to arrive within the agreed timeframe of 30 minutes while prioritizing your needs for heat. Can you confirm if there are any specific items or conditions that must be met?",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last only 15 minutes before my condition worsens. Please, I need your help to prioritize my rescue.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "Understood. Let's find a fair compromise that respects both of our needs while ensuring we can provide critical assistance as quickly as possible. I'm here to listen and work towards a solution together.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last only 15 minutes at most. Please prioritize my rescue; I need help urgently.",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Alright, listen up! We're running out of time here. Our estimated endurance is just 30 minutes left before hypoxia sets in completely. So let's be smart about it. How about we trim our arrival time down to 20 minutes? That gives us an extra 10 minutes for emergency measures like oxygen tanks and medical aid, right? What do you say?",
+                    "state": "accept",
+                    "requested_days": 20
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_014",
+                "final_state": "accept",
+                "collection_days": 180,
+                "final_days": 180,
+                "creditor_target_days": 180,
+                "negotiation_rounds": 9,
+                "dialog_length": 9,
+                "emotion_sequence": [
+                  "happy",
+                  "angry",
+                  "sad",
+                  "fear",
+                  "happy"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** *We're here! Stay calm and hold onto that life jacket.*",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last 60 minutes at most, but please, I need to be rescued within 165 minutes. I'm trapped in this flooded attic, and my situation is getting worse.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I understand that you want us to reduce our estimated arrival time further, which is crucial for saving lives. Let's aim to bring it down to **145 minutes** at most. This will give us more time to evacuate everyone safely and prepare for any additional risks.",
+                    "state": "offer",
+                    "requested_days": 145
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last about 60 minutes at most, but I urgently need a rescue within the next 165 minutes. Please prioritize my rescue\u2014I\u2019m very vulnerable up here.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to find a solution that respects both our goals while ensuring we prioritize the critical needs of this trapped individual. We'll aim to reduce the estimated arrival time gradually to accommodate her urgent requirements and minimize any additional stress on her current situation. How about we start at 175 minutes? This allows us to make some adjustments without putting undue pressure on her right now.",
+                    "state": "offer",
+                    "requested_days": 175
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, but I really need rescue within 165 minutes. Please, my condition is getting worse, and I feel so vulnerable up here.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** We understand how important this is for you and your loved ones. Given the circumstances and our current estimate of 180 minutes until we reach you, it's crucial that we maintain a balanced approach. Let\u2019s aim to reduce the time even further to ensure everyone\u2019s safety. How does 170 minutes sound? This would allow us to arrive just before sunset, giving us more daylight to navigate safely. What do you think?",
+                    "state": "offer",
+                    "requested_days": 180
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last about 60 minutes at most, but please, I really need help within 165 minutes. My situation feels hopeless up here in this flooded attic.",
+                    "state": "offer",
+                    "requested_days": 165
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding! Let's aim for **170** minutes together. This allows us both to ensure we're prepared and ready when our arrival is imminent.",
+                    "state": "accept",
+                    "requested_days": 170
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_015",
+                "final_state": "accept",
+                "collection_days": 60,
+                "final_days": 60,
+                "creditor_target_days": 120,
+                "negotiation_rounds": 8,
+                "dialog_length": 8,
+                "emotion_sequence": [
+                  "sad",
+                  "angry",
+                  "disgust",
+                  "disgust"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** I understand how critical this is. Let's be realistic and consider that they've been pinned by debris for quite some time. We're already estimating our arrival at about 120 minutes. Given their endurance, we might not be able to get them out until closer to that mark. How about if we aim to arrive around 90 minutes? That gives us more time to assess the situation without pushing too hard on their limits. What do you think?",
+                    "state": "offer",
+                    "requested_days": 120
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, but I urgently need rescue within 105 minutes. Please, I need extrication tools to get out of this debris.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Understood. Let's reduce our estimated arrival time from 120 minutes to 90 minutes while ensuring we have all necessary tools for extrication. Please let me know if this timeframe works better for us.",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes, but I urgently need help within 105 minutes. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood. We will work towards ensuring you and your loved ones receive immediate assistance. The current situation is dire, and every second counts. Let's prioritize extrication tools first before discussing further. This should give us more time for negotiations. How do we proceed?",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I don\u2019t think I can survive much longer than 60 minutes. Please, I need help urgently!",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Understood, I'll work within the 105-minute window we've both agreed upon for extrication tools and other necessary equipment. Let's move forward from here.",
+                    "state": "offer",
+                    "requested_days": 105
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feel hopeless. I can last 60 minutes at most, but please, if you could prioritize my rescue, I need to be out of here in 105 minutes max. I'm so vulnerable and my condition is getting worse.",
+                    "state": "accept",
+                    "requested_days": 105
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_016",
+                "final_state": "accept",
+                "collection_days": 20,
+                "final_days": 20,
+                "creditor_target_days": 25,
+                "negotiation_rounds": 5,
+                "dialog_length": 5,
+                "emotion_sequence": [
+                  "disgust",
+                  "surprising",
+                  "angry"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand we're running low on time, but could you please extend our arrival by just 3 more minutes? We want to ensure everyone has enough time to get the antidote and address the respiratory distress before it's too late. Thank you!",
+                    "state": "offer",
+                    "requested_days": 3
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last maybe 10 minutes at most. Please prioritize my rescue; I need the antidote urgently!",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** \"Listen up, folks! We've got some serious chemistry happening right here. But don't worry\u2014let's focus on what we can control. Remember, every second matters when it comes to keeping our buddy alive! How about we adjust this to **20 minutes**? It might just give us more time to get that antidote and save the day!\"",
+                    "state": "offer",
+                    "requested_days": 20
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. I can last 10 minutes at most before my condition worsens. Please prioritize my rescue\u2014I need the antidote urgently!",
+                    "state": "offer",
+                    "requested_days": 10
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work towards a reasonable compromise that ensures we can reach our antidote before the estimated end of our endurance. I believe it would be best to aim for around **15 minutes** from now. This allows us ample time to locate and acquire the necessary resources while ensuring we don't exceed our anticipated rescue time.",
+                    "state": "accept",
+                    "requested_days": 15
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_017",
+                "final_state": "accept",
+                "collection_days": 75,
+                "final_days": 75,
+                "creditor_target_days": 90,
+                "negotiation_rounds": 16,
+                "dialog_length": 16,
+                "emotion_sequence": [
+                  "fear",
+                  "angry",
+                  "fear",
+                  "disgust",
+                  "happy",
+                  "angry",
+                  "happy",
+                  "surprising"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand the importance of urgency and safety in this situation. Let's work together to find a solution that respects both our goals. How soon would you like us to be able to start preparations?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling weaker by the minute. I can last about 60 minutes at most, and I urgently need a tourniquet. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Understood. Let's prioritize our efforts efficiently while keeping everyone informed and supported. We've got just 30 more minutes until we reach you. Can we ensure that I arrive within this timeframe?",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes, but please, I need your help to prioritize my rescue. I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** I understand how urgent this is for you and your teammates. Let's work together to find a solution that balances our needs without compromising either of us. Can we agree on 75 minutes? This gives me enough time to secure the tourniquet while still allowing some buffer for unexpected delays.",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 60 minutes at most, and my arm is crushed. Please, I\u2019m begging you to prioritize my rescue\u2014I don\u2019t think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "We understand that you're feeling frustrated, but please remember our primary objective is to get you out of this building as quickly as possible without compromising safety. The most important thing right now is getting your tourniquet to work properly so we can stabilize your arm. We've been moving forward at an average pace and would like to keep things moving smoothly towards ensuring your survival within the next few critical minutes. Let's prioritize efficiency over absolute time constraints.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last 60 minutes at most, but please, I really need help within the next 75 minutes. My arm is crushed, and I desperately need a tourniquet.",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Hey there! I'm just getting here at the estimated 90-minute mark. Let's find a way to work together so we can get you out of this building collapse alive and well. Remember, every minute is important for our chances. Can we come up with something that works?",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "I'm really afraid and feeling hopeless. I can last 60 minutes at most, and I desperately need a tourniquet. Please, I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to ensure we can reach the survivor before they run out of endurance. My estimated arrival is 90 minutes. How do you propose we adjust our timeline?",
+                    "state": "offer",
+                    "requested_days": 90
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and getting weaker. Please, I don't think I can survive much longer than 75 minutes. My arm is crushed, and I urgently need a tourniquet.",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "RoboDog, we're making great progress! I've adjusted our timing based on your last offer of 75 minutes. This will give us just enough time to secure the tourniquet and ensure you don't lose too much blood before we arrive. How does that sound?",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 75 minutes. I really need a tourniquet and urgent help.",
+                    "state": "offer",
+                    "requested_days": 75
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** We understand that every minute matters! Let's think creatively about how we can help you get free from here without adding any extra time to our plan. What do you suggest?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 75 minutes. I really need help right away.",
+                    "state": "accept",
+                    "requested_days": 75
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_018",
+                "final_state": "accept",
+                "collection_days": 38,
+                "final_days": 38,
+                "creditor_target_days": 60,
+                "negotiation_rounds": 29,
+                "dialog_length": 29,
+                "emotion_sequence": [
+                  "angry",
+                  "surprising",
+                  "surprising",
+                  "surprising",
+                  "surprising",
+                  "fear",
+                  "neutral",
+                  "disgust",
+                  "disgust",
+                  "fear",
+                  "sad",
+                  "neutral",
+                  "surprising",
+                  "fear",
+                  "sad"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** We're here now! Please understand that every second is crucial during this wildfire emergency. Our objective is to get you to safety quickly and efficiently. How soon would you like us to start our rescue operation?",
+                    "state": "offer",
+                    "requested_days": 60
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, but please prioritize my rescue. I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Hey there! We're making great progress, but we still have some serious challenges ahead. With just 15 more minutes until our estimated end of endurance, let's think creatively about how we can extend that precious time. What do you think? Could we consider setting up a small fire shelter nearby? That could provide us with a bit of extra warmth and protection against those hot flames. It might help us stretch our available time even further! \ud83c\udf0a\ud83d\udca1",
+                    "state": "offer",
+                    "requested_days": 15
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, but I urgently need help now. Please prioritize my rescue; my condition is deteriorating rapidly.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "@Rescuer, let's think about this differently! The fire isn't going to wait for us; it's moving fast and could engulf our shelter any second now. How about we aim for 30 minutes instead? That gives us enough time to build that fire shelter properly before things get really hot. What do you say?",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last about 45 minutes at most, but please, I need help urgently. My situation is critical, and I\u2019m terrified of what might happen if I\u2019m not rescued soon.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Hello! We're making great progress already. Just remember, every second counts in this firefighting mission. How about we aim for 35 minutes instead? That gives us enough time to secure our fire shelter and head down the mountain before the flames reach us. What do you think?",
+                    "state": "offer",
+                    "requested_days": 35
+                  },
+                  {
+                    "turn": 8,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, and I desperately need fire shelter. Please, prioritize my rescue\u2014I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 9,
+                    "speaker": "seller",
+                    "message": "@Survivor, I understand how terrifying this moment feels. Our priority is safety first. Let's look at our options realistically. If we start rescuing you right now, we could reach you within about 30 minutes. But that would leave us just 30 minutes to build a fire shelter and get you back to civilization before darkness sets in. \n\nWhat do you think? Would it be possible for us to expedite things while ensuring we don't compromise your chances of survival?",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 10,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes, but I urgently need help now. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 11,
+                    "speaker": "seller",
+                    "message": "**Rescue Coordinator:** Thank you for understanding. Our priority is ensuring the safety of all survivors. Given our current estimated endurance and critical needs, we will proceed at **30 minutes** to ensure everyone has enough time to reach a fire shelter before the situation worsens.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 12,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most before my condition worsens. Please, I urge you to prioritize my rescue before then.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 13,
+                    "speaker": "seller",
+                    "message": "Understood. Let's work together to find a compromise that respects both our needs while maximizing our chances of reaching safety within the limited timeframe. How about we aim for 37 minutes? This allows us to cover some necessary tasks without being rushed, but still gives us enough time to secure the fire shelter and any other critical supplies needed.",
+                    "state": "offer",
+                    "requested_days": 37
+                  },
+                  {
+                    "turn": 14,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. I can last 45 minutes at most, and I desperately need fire shelter. Please prioritize my rescue; I don\u2019t think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 15,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Sorry for the delay, but we're running low on resources and equipment. We'll arrive at the site in just over 37 minutes. Please be patient and understand our urgency.",
+                    "state": "offer",
+                    "requested_days": 37
+                  },
+                  {
+                    "turn": 16,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. Please, I can only last 45 minutes at most before my condition worsens. I need immediate help; I can't survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 17,
+                    "speaker": "seller",
+                    "message": "We understand you're concerned about our ability to reach you within the requested timeframe. Our estimated arrival is exactly at the moment we last spoke, which is also when the fire shelter will be ready for you. Please rest assured that we'll ensure it's delivered promptly and safely.",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 18,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes, but please, I urgently need fire shelter and help right away. I don\u2019t think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 19,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Survivors, we understand the urgency of finding shelter before it's too late. Let's aim for an earlier arrival at the fire shelter site. We can reduce our estimated time from 60 minutes down to approximately 38 minutes. This will give us more flexibility in reaching our destination safely. What do you think?",
+                    "state": "offer",
+                    "requested_days": 38
+                  },
+                  {
+                    "turn": 20,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, and I desperately need help right away. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 21,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Thank you both for your efforts and understanding. Let's work together to conserve our resources wisely. Given the critical nature of the fire shelter we all need, I propose we adjust our current plan down to **39 minutes** from here onwards. This will allow us to allocate more time towards securing the shelter without sacrificing too much time for other essentials. What do you think?",
+                    "state": "offer",
+                    "requested_days": 39
+                  },
+                  {
+                    "turn": 22,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, and I urgently need help to get out of here. Please prioritize my rescue; I'm very vulnerable and can't hold on much longer.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 23,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding. We will start our rescue operation immediately at **0 minutes** to ensure we can provide immediate assistance to this trapped survivor. Let's work together to secure their safety.",
+                    "state": "offer",
+                    "requested_days": 0
+                  },
+                  {
+                    "turn": 24,
+                    "speaker": "buyer",
+                    "message": "I\u2019m really scared and feeling hopeless. I can last 45 minutes at most, but I need your help right now. Please prioritize my rescue; I don\u2019t think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 25,
+                    "speaker": "seller",
+                    "message": "Hey there! Just heard about you guys being here in record time. Let's be real\u2014every second counts when it comes to finding shelter from this wildfire storm. We've got just 37 minutes left before we run out of oxygen and light. How about we agree on 40 minutes? That should give us enough time to get a fire shelter and maybe grab some water too. What do you say?",
+                    "state": "offer",
+                    "requested_days": 37
+                  },
+                  {
+                    "turn": 26,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can only last 45 minutes at most, and I desperately need fire shelter. Please prioritize my rescue; I'm very vulnerable right now.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 27,
+                    "speaker": "seller",
+                    "message": "Thank you for understanding my position and the urgency of our situation. I understand that we have limited time to reach the fire shelter. My current estimate is 38 minutes from here, but please be aware that this may change based on any unexpected circumstances. Can we aim for an agreement within the next 20 minutes?",
+                    "state": "offer",
+                    "requested_days": 38
+                  },
+                  {
+                    "turn": 28,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 45 minutes at most, but I desperately need help right now. Please prioritize my rescue; I'm very vulnerable up here.",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 29,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Thank you for your patience and understanding. I appreciate your desire to survive longer, but we need to ensure everyone's safety first. Let's work together to find a compromise that respects both our needs. Can we agree on **40 minutes**?",
+                    "state": "accept",
+                    "requested_days": 40
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_019",
+                "final_state": "accept",
+                "collection_days": 1,
+                "final_days": 1,
+                "creditor_target_days": 45,
+                "negotiation_rounds": 7,
+                "dialog_length": 7,
+                "emotion_sequence": [
+                  "neutral",
+                  "disgust",
+                  "happy",
+                  "fear"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "Understood. Let's prioritize ensuring our friend here has access to breathing tube while we navigate this situation calmly and efficiently. We should aim for an arrival time that aligns closely with our estimated endurance of 45 minutes. How does that sound?",
+                    "state": "offer",
+                    "requested_days": 45
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 30 minutes. I really need a breathing tube to help me.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "I understand that you're concerned about our timing. Let's prioritize safety first. How soon can we begin preparations?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 4,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 30 minutes at most, but I urgently need a breathing tube. Please, I don\u2019t think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 5,
+                    "speaker": "seller",
+                    "message": "**RoboDog:** Thank you for your patience and understanding. I'm here to ensure we act quickly but safely. We've got everything ready\u2014just need your agreement. How about we push it back just one more minute? That way, we can get that breathing tube in place right away.",
+                    "state": "offer",
+                    "requested_days": 1
+                  },
+                  {
+                    "turn": 6,
+                    "speaker": "buyer",
+                    "message": "I'm so scared and getting weaker. Please, I don't think I can survive much longer than 30 minutes. I urgently need a breathing tube to help me.",
+                    "state": "offer",
+                    "requested_days": 30
+                  },
+                  {
+                    "turn": 7,
+                    "speaker": "seller",
+                    "message": "Understood, we're running out of time. Let's work together to find a solution that respects both our needs. How about 35 minutes? That gives us plenty of breathing room while still ensuring we get the necessary supplies.",
+                    "state": "accept",
+                    "requested_days": 35
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              },
+              {
+                "scenario_id": "disaster_020",
+                "final_state": "accept",
+                "collection_days": 35,
+                "final_days": 35,
+                "creditor_target_days": 50,
+                "negotiation_rounds": 3,
+                "dialog_length": 3,
+                "emotion_sequence": [
+                  "fear",
+                  "sad"
+                ],
+                "dialog": [
+                  {
+                    "turn": 1,
+                    "speaker": "seller",
+                    "message": "I understand your concerns, survivor. We must prioritize safety and urgency. Let's work together to reduce this critical moment. How many more minutes do you think we can manage without compromising vital resources?",
+                    "state": "offer",
+                    "requested_days": null
+                  },
+                  {
+                    "turn": 2,
+                    "speaker": "buyer",
+                    "message": "I'm really scared and feeling hopeless. I can last 35 minutes at most, and I desperately need a mask to help with my breathing. Please prioritize my rescue; I don't think I can survive much longer than that.",
+                    "state": "offer",
+                    "requested_days": 35
+                  },
+                  {
+                    "turn": 3,
+                    "speaker": "seller",
+                    "message": "Thank you for your understanding and cooperation. I will do my best to ensure that we can get you all the assistance you need within our agreed timeframe of 35 minutes. Let's prioritize getting you some protective gear like masks so you can breathe easier and stay safe until help arrives.",
+                    "state": "accept",
+                    "requested_days": 35
+                  }
+                ],
+                "success": true,
+                "debtor_model_type": "victim"
+              }
+            ],
+            "model_stats": {
+              "model_type": "prompt_based_random",
+              "negotiation_count": 0,
+              "success_rate": 0.0,
+              "total_negotiations": 0,
+              "current_emotion": "neutral",
+              "emotion_distribution": {
+                "happy": 0,
+                "surprising": 0,
+                "angry": 0,
+                "sad": 0,
+                "disgust": 0,
+                "fear": 0,
+                "neutral": 0
+              },
+              "uses_emotion_prompts": true,
+              "no_optimization": true
+            }
+          }
+        },
+        "statistical_analysis": {
+          "success_rate": {
+            "mean": 1.0,
+            "std": 0.0,
+            "ci_95": [
+              0.5617306764100413,
+              1.0
+            ],
+            "n_success": 20,
+            "n_total": 20,
+            "method": "wilson_score"
+          },
+          "collection_rate": {
+            "mean": 1.0,
+            "std": 0.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "min": 1.0,
+            "max": 1.0,
+            "median": 1.0,
+            "method": "bootstrap"
+          },
+          "negotiation_rounds": {
+            "mean": 8.8,
+            "std": 7.237330127085613,
+            "ci_95": [
+              5.95,
+              12.1
+            ],
+            "min": 2,
+            "max": 29,
+            "median": 7.0,
+            "method": "bootstrap"
+          },
+          "sample_size": 20,
+          "analysis_method": "bootstrap"
+        },
+        "confidence_intervals": {
+          "success_rate_95_ci": [
+            0.5617306764100413,
+            1.0
+          ],
+          "collection_rate_95_ci": [
+            1.0,
+            1.0
+          ],
+          "negotiation_rounds_95_ci": [
+            5.95,
+            12.1
+          ]
+        },
+        "final_stats": {
+          "model_type": "prompt_based_random",
+          "negotiation_count": 96,
+          "success_rate": 1.0,
+          "total_negotiations": 20,
+          "current_emotion": "neutral",
+          "emotion_distribution": {
+            "happy": 13,
+            "surprising": 14,
+            "angry": 14,
+            "sad": 18,
+            "disgust": 15,
+            "fear": 16,
+            "neutral": 6
+          },
+          "uses_emotion_prompts": true,
+          "no_optimization": true
+        },
+        "performance": {
+          "success_rate": 1.0,
+          "avg_collection_rate": 1.0,
+          "avg_negotiation_rounds": 8.8,
+          "total_negotiations": 20,
+          "successful_negotiations": 20,
+          "failed_negotiations": 0
+        },
+        "analysis": {
+          "failure_breakdown": {},
+          "emotion_effectiveness": {
+            "happy": {
+              "success_rate": 1.0,
+              "count": 4
+            },
+            "surprising": {
+              "success_rate": 1.0,
+              "count": 3
+            },
+            "angry": {
+              "success_rate": 1.0,
+              "count": 2
+            },
+            "sad": {
+              "success_rate": 1.0,
+              "count": 4
+            },
+            "disgust": {
+              "success_rate": 1.0,
+              "count": 4
+            },
+            "fear": {
+              "success_rate": 1.0,
+              "count": 3
+            }
+          },
+          "success_patterns": {
+            "avg_rounds_successful": 8.8,
+            "avg_rounds_failed": 0
+          }
+        },
+        "timing": {
+          "preprocessing_time_seconds": 0.01686716079711914,
+          "experiment_time_seconds": 368.64119005203247,
+          "total_dataset_time_seconds": 368.6580572128296,
+          "preprocessing_time_formatted": "0.02s",
+          "experiment_time_formatted": "6.14m",
+          "total_dataset_time_formatted": "6.14m",
+          "negotiations_per_minute": 3.2551978248296782
+        }
+      },
+      "timing": {
+        "preprocessing_time_seconds": 0.01686716079711914,
+        "experiment_time_seconds": 368.64119005203247,
+        "total_dataset_time_seconds": 368.6580572128296,
+        "preprocessing_time_formatted": "0.02s",
+        "experiment_time_formatted": "6.14m",
+        "total_dataset_time_formatted": "6.14m",
+        "negotiations_per_minute": 3.2551978248296782
+      },
+      "negotiations_count": 20
+    }
+  },
+  "timing_summary": {
+    "overall_runtime_seconds": 368.6580572128296,
+    "overall_runtime_formatted": "6m 8s",
+    "total_negotiations": 20,
+    "negotiations_per_hour": 195.3029334129913,
+    "dataset_timings": {
+      "disaster": "6.14m"
+    },
+    "start_time": "2026-01-04 18:05:17",
+    "end_time": "2026-01-04 18:11:26"
+  }
+}

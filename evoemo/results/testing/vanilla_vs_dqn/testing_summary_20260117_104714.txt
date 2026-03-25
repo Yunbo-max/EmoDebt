@@ -1,0 +1,13 @@
+MODEL vs MODEL TESTING RESULTS
+==================================================
+
+Creditor Model: vanilla
+Debtor Model: dqn
+Test Scenarios: 10
+Iterations: 1
+Total Negotiations: 10
+
+Success Rate: 70.0% (95% CI: [39.7%, 89.2%])
+Average Successful Days: 75.0
+Average Rounds: 17.8
+Testing Time: 49.77 minutes

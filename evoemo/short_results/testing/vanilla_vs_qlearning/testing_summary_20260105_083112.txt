@@ -1,0 +1,13 @@
+MODEL vs MODEL TESTING RESULTS
+==================================================
+
+Creditor Model: vanilla
+Debtor Model: qlearning
+Test Scenarios: 10
+Iterations: 1
+Total Negotiations: 10
+
+Success Rate: 10.0% (95% CI: [1.8%, 40.4%])
+Average Successful Days: 32.0
+Average Rounds: 28.1
+Testing Time: 45.96 minutes

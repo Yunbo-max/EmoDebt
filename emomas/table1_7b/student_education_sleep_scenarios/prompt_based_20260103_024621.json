@@ -1,0 +1,2856 @@
+{
+  "experiment_type": "prompt_based",
+  "model_type": "prompt_based_random",
+  "iterations": 1,
+  "scenarios_used": [
+    "student_001",
+    "student_002",
+    "student_003",
+    "student_004",
+    "student_005",
+    "student_006",
+    "student_007",
+    "student_008",
+    "student_009",
+    "student_010",
+    "student_011",
+    "student_012",
+    "student_013",
+    "student_014",
+    "student_015",
+    "student_016",
+    "student_017",
+    "student_021",
+    "student_022",
+    "student_023"
+  ],
+  "config": {
+    "model_creditor": "qwen-7b",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30,
+    "available_emotions": [
+      "happy",
+      "surprising",
+      "angry",
+      "sad",
+      "disgust",
+      "fear",
+      "neutral"
+    ]
+  },
+  "iteration_results": {
+    "iteration_1": {
+      "iteration": 1,
+      "scenario_results": [
+        {
+          "scenario_id": "student_001",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 20,
+          "dialog_length": 20,
+          "emotion_sequence": [
+            "sad",
+            "sad",
+            "sad",
+            "surprising",
+            "angry",
+            "angry",
+            "sad",
+            "happy",
+            "angry",
+            "happy"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how stressful this final exam feels, but getting enough sleep is crucial for performing your best. Starting your preparations earlier can actually help manage your workload more effectively. What do you think about aiming for 11:30 PM tonight? That way, you still get a full 7.5 hours of sleep and have a short, focused study session in the morning to review key concepts.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to review some key concepts for my physics final tomorrow. Could we extend my bedtime to 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand how stressful it feels to have a big exam coming up, but getting enough sleep is crucial for performing your best. Let\u2019s aim for a balanced approach\u2014how about setting a bedtime of 11:30 PM tonight? This will give you 7.5 hours of sleep, which can help with memory consolidation. Plus, you could use those extra 30 minutes in the morning to review key concepts before starting your studies.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my performance, but I really need to review some key concepts for my physics final. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand how stressful finals can be, but getting enough sleep is crucial for performing your best. How about we aim for 11:30 PM tonight? That way, you'll still have 7.5 hours of sleep before your big test, and you could use the extra half-hour to do a quick review in the morning. This balance should help you feel more rested and ready to tackle your final.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need more time to prepare for my physics final tomorrow. Could I stay up until 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "Hey there! I get it\u2014those final exams can feel like they're bearing down on us. But did you know that even a small amount of extra sleep can boost your problem-solving skills by up to 30%? What if we aimed for 11:30 PM tonight, giving you just half an hour more than your preference? In return, let\u2019s make a deal: use those last minutes to do a quick review of key formulas, and then it\u2019s lights out. This way, you\u2019ll still have that crucial 8-hour sleep window for tomorrow\u2019s big test. Sound fair?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my performance, but I really need extra time to review for my physics final. Can I stay up until 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "Understanding your concern about the physics final, I appreciate your dedication to studying. However, getting just 5 hours of sleep won't support optimal cognitive function. Let\u2019s aim for 11:30 PM tonight. This will give you 7.5 hours of sleep, which is more beneficial for memory consolidation and alertness tomorrow. We can also plan a brief, focused review session in the morning to help you stay on track. What do you think?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really need to review some key concepts for my physics final, and I feel more focused at night. Can we extend my bedtime to 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "Considering your upcoming final and to ensure optimal performance, I believe 11 PM would provide sufficient rest. However, given your concerns, how about we aim for 11:30 PM? This way, you still get enough sleep and have a bit extra time for last-minute studies in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I really need to review some key concepts for my physics final, and I feel more focused at night. Can we adjust my bedtime to 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand how stressful this final exam feels, especially with everything riding on it. Let\u2019s aim for a balance that supports your studies while ensuring you get enough rest. What do you think about setting a bedtime for 11:30 PM tonight? This way, you can still finish up any last-minute studying before bed and wake up feeling refreshed for your physics final tomorrow.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my performance, but I really need to review a few more topics for my physics final. Can we make it 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you'll still have plenty of time to review your notes effectively before bed, and you'll wake up feeling refreshed for your final tomorrow. Plus, it's just a small step from 12 AM, which can make a big difference in how you perform!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I really need to review some key concepts for my physics final, and staying up until 2:00 AM would give me that extra time to feel prepared. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I understand how important this final is, but getting just 6 hours of sleep won't give your brain enough time to consolidate all the information you've studied. Let's aim for a balanced approach\u2014how about we set a bedtime of 11:30 PM? This way, you can still finish up any last-minute studying and get a good night's rest.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I really need to review some key concepts for my physics final, and I feel more focused at night. Can we set my bedtime for 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 7.5 hours of sleep before your big test tomorrow, and you can still squeeze in some last-minute review if needed. Plus, getting enough rest will help you perform your best!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I really need to review some key concepts for my physics final tomorrow, and I feel like I won\u2019t be able to focus if I go to bed too early. Can we set my bedtime for 12:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 12
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_002",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "fear",
+            "neutral",
+            "neutral",
+            "happy",
+            "angry",
+            "neutral",
+            "neutral",
+            "surprising",
+            "surprising",
+            "happy",
+            "happy",
+            "disgust",
+            "surprising",
+            "angry",
+            "sad",
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to get the perfect opening line, but starting at 1:30 AM could leave you with just 6.5 hours of sleep before your paper is due. This might affect your concentration and creativity. How about we aim for 11:30 PM? That way, you still have enough time to write your history paper and get around 7 hours of sleep, which can help keep your mind sharp.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1 AM to get the perfect opening line for my history paper, which is crucial for my grade. I promise I'll make sure to get enough rest tomorrow; could we compromise on 1 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Considering your need to perfectionize the opening line and the importance of adequate sleep for cognitive function, how about setting your bedtime for 11:30 PM? This allows you some extra time to write while still ensuring you get 8 hours of sleep before your history paper is due.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to get this history paper just right since it impacts my grade a lot. Could I stay up until 1 AM tonight to perfect my opening line?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "Considering your need to start writing perfectly and the importance of sleep for cognitive function, how about setting your bedtime for 11:30 PM? This allows an extra half-hour for a focused study session in the morning before your deadline, which might help ease some of your perfectionist tendencies while still ensuring you get adequate rest.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need to finish my history paper tonight, and I struggle with perfectionism, especially starting it. Can I stay up until 1 AM just this once to get it right?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 8 hours of sleep and can still have some time to refine that perfect opening line in the morning before your big paper is due! Plus, it helps ensure you're well-rested for your best performance.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really struggle with starting my writing without the perfect opening line, and I need that extra time to feel confident about my history paper. Can I please stay up until 1 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand the pressure to get it perfect, but starting at 11:30 PM would still give you 7.5 hours of sleep\u2014more than enough to help retain what you've learned and improve focus in the morning. What do you think about this compromise?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need to stay up until 1 AM to perfect my history paper. It\u2019s due at 8 AM, and I want to make sure I start it off right. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "Considering the importance of sleep for cognitive function and creativity, how about setting a bedtime of 11:30 PM? This allows you to have a full 8 hours before your paper is due while also giving you some time to start working in the morning when your mind might be more alert.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm really struggling to get started on this history paper because I want the opening line to be just right. Can we extend my bedtime to 1 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "Considering your need to perfectionize the opening line and ensuring you get enough rest, how about setting a bedtime of 11:30 PM? This allows you some extra time to write while still aiming for 8 hours of sleep before your paper is due.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really need more time to get this history paper just right, especially the opening line. Could we push my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM tonight? That way, you still have enough time to get those creative juices flowing, and your brain will be ready to tackle your history paper in the morning. Plus, did you know that even a short nap can boost creativity and problem-solving skills\u2014maybe try a quick power nap after lunch if inspiration strikes!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need the extra time to craft my history paper perfectly, especially the opening line. Could we compromise on a bedtime of 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "Hey there! I get how important that first sentence is, but did you know that writing in the early morning can actually boost creativity? Plus, starting at 11:30 PM gives you a full 7.5 hours of sleep\u2014enough to wake up fresh and ready to tackle those perfect words. What do you think about trying it this way?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really struggle with starting my writing without the perfect opening line. Could I stay up until 1 AM just for tonight to finish my history paper?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get 7.5 hours of sleep, which is great for your creative writing and concentration. Plus, you can use those extra 30 minutes in the morning to do a quick review of your notes or outline before diving into your paper!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I really need to finish my history paper and get the opening line just right, which usually happens when I work late. Can we compromise on a 1:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get 7.5 hours of sleep, which is great for concentration and creativity. Plus, you can use those extra 30 minutes in the morning to do a quick review before starting your writing. Let\u2019s make it happen!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm really struggling to start my history paper without the perfect opening line. Could I stay up until 1 AM just tonight to give myself enough time to get it right?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "I understand how important it is to get that perfect opening line, but starting at 1:30 AM means sacrificing valuable sleep time. Aim for 11:30 PM instead\u2014it'll give you an extra hour and a half of rest before your paper is due. This way, you can still have your creative juices flowing while ensuring you're well-rested and ready to tackle your assignment in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need that extra time to get my history paper just right, especially to find the perfect opening line. Could I stay up until 1 AM just this once?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a full 8 hours of sleep and have an extra half-hour in the morning to either polish your opening line or take a quick nap if you feel tired. Plus, did you know that taking just a 20-minute power nap can boost your creativity and focus\u2014perfect for writing those perfect lines!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need more time to perfect my history paper since it\u2019s due at 8 AM. Could I stay up until 1 AM just for tonight to get it right?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how important it is to get that perfect opening line, but starting at 11:30 PM would give you 8 hours of sleep, which is crucial for your cognitive function and creativity. How about we try 11:45 PM tonight and see if that helps? This way, you still have enough time to craft your opening while ensuring you're well-rested for tomorrow.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I really need to get this history paper just right, and I find my best ideas come late at night. Can I stay up until 1 AM just for tonight to get it done?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "\"I understand how important it is to get those perfect words down, but starting at 11:30 PM would give you 7.5 hours of sleep. This duration supports concentration and creativity for your paper while still allowing some time for productive writing in the morning. What do you think about this compromise?\"",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really struggle with perfectionism, especially for this history paper. If I could stay up until 1 AM, I feel like I could finally get that perfect opening line and do my best work.",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how important it is to get that perfect opening, but starting around 11:30 PM could still give you enough time to write while ensuring you get those crucial 8 hours of sleep. This way, you'll feel more refreshed and ready to tackle your history paper in the morning. What do you think about that?",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_003",
+          "final_state": "accept",
+          "collection_days": 2,
+          "final_days": 2,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            "angry",
+            "angry"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Understanding your concern about representing your true self in the essay, I appreciate the effort you're putting in. However, aiming for a more consistent bedtime like 11:00 PM could help improve your focus and mental clarity. What if we add a brief, focused study session before bed to ensure you have enough time for both writing and resting?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 3:00 AM to finish my application essay; it\u2019s crucial for me to express my true self in this writing. Can we compromise on a bedtime of 2:30 AM so I can have enough time to reflect and write?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Given the approaching deadline, I understand the pressure to complete your essay. However, sacrificing sleep isn't ideal for long-term productivity. Let's aim for a balance. How about setting a bedtime of 1:30 AM? This still allows you around 9 hours of sleep and includes a short, focused study session in the morning to help you stay sharp.",
+              "state": "accept",
+              "requested_days": 1
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_004",
+          "final_state": "accept",
+          "collection_days": 23,
+          "final_days": 23,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "neutral"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Given your big math competition tomorrow, it\u2019s important to ensure you get optimal rest. Starting your bedtime routine at 11:30 PM would allow you about 9 hours of sleep, which is crucial for mental sharpness and memory consolidation. What do you think about dedicating those extra 30 minutes in the morning for a quick review of key concepts? This way, you still have ample time to wind down before bed without sacrificing preparation.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need some extra time to review for the math competition tomorrow. Could we settle on 11:30 PM just for tonight?",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_005",
+          "final_state": "accept",
+          "collection_days": 24,
+          "final_days": 24,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 6,
+          "dialog_length": 6,
+          "emotion_sequence": [
+            "fear",
+            "neutral",
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to resolve your fight with your best friend, but getting enough sleep is crucial for your mental health and focus in school. Let's aim for 11:30 PM tonight to ensure you get at least 8 hours of sleep. Maybe after this, you can have a quick study session in the early morning before classes? This way, you're taking care of both your emotional well-being and your academic performance.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 12:00 AM to work through this conflict with my best friend; it feels important to me right now, and I promise I'll still get some rest. Can we compromise on that?",
+              "state": "offer",
+              "requested_days": 0
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Understanding your situation, I recommend aiming for a bedtime of 11:30 PM. This allows for 8 hours of sleep, which is crucial for cognitive function and emotional well-being. Additionally, it provides an extra hour to address your best friend issue in the morning before bed time. How does this sound?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is really important, but I need some extra time to sort through my feelings about the fight with my best friend. Can we make it 12:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 12
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand how tough this fight with your best friend must be, and it\u2019s normal to feel like sleeping is giving up on resolving things. However, getting enough sleep is crucial for your mental health and focus. What if we try 11 PM tonight? This way, you still have some time to reflect and plan without sacrificing much-needed rest. Plus, a good night\u2019s sleep might even help you think more clearly about the situation in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I get that sleep is important, but I'm really struggling with this fight with my best friend and need some extra time to work through my thoughts. Can I stay up until midnight to figure things out?",
+              "state": "accept",
+              "requested_days": 24
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_006",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "sad",
+            "angry",
+            "happy",
+            "angry",
+            "angry",
+            "angry",
+            "angry",
+            "surprising",
+            "neutral",
+            "disgust",
+            "angry",
+            "fear",
+            "disgust",
+            "fear",
+            "neutral",
+            "angry"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to stay connected with your team, but getting enough sleep is crucial too. How about aiming for 11:30 PM? That way, you can still chat briefly with your teammates before bed and ensure you get a solid 7.5 hours of sleep. This should help keep you sharp for tomorrow!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but this online finals match means a lot to my team, and I feel a strong commitment to them. Can we compromise and extend my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "\"I understand your commitment to your team, but getting enough sleep is crucial for your performance. Starting at 11:30 PM would give you 7.5 hours of sleep, which is better for focus and memory retention. We could also plan a quick review session in the morning before your game finals.\"",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I totally get that sleep is important, but I have the finals for my online game tonight, and my teammates are counting on me. Could we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "\"I get how important it is to stay connected with your team, but getting enough sleep is key for your best performance. What do you think about aiming for 11:30 PM? That way, you can still chat with your friends early in the night and wake up fresh for your studies tomorrow.\"",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really appreciate your concern for my sleep health, but I have this crucial online game finals tonight that means a lot to my team. Could we compromise on a 1:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how important it is to support your teammates, but getting enough sleep is crucial for your performance and health. Let\u2019s aim for 23:30 tonight. This way, you\u2019ll have around 7.5 hours of sleep, which is beneficial for concentration and mood. Plus, you can use those extra 30 minutes in the morning for a quick review before class. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but my team is counting on me for this finals match, and I really want to contribute. Can we set my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "\"I understand your commitment to your team, but getting enough sleep is crucial for your performance in finals. How about setting a bedtime of 11:30 PM? This way, you still have some time to wrap up any last tasks and get a full 7.5 hours of sleep, which is ideal for concentration and memory retention.\"",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm in the finals for my online game tonight, and it's a big deal for my team. Can we compromise on 1:00 AM so I can support them and still get some decent rest afterwards?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand your dedication to your team, but getting enough sleep is crucial for your academic performance and overall well-being. Let's aim for a balance. How about we set a bedtime of 11:30 PM? This way, you can still have some time to wrap up any final touches on the game, and it allows for adequate rest before tomorrow.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I have my online game finals tonight and my teammates are counting on me. Can I stay up until 1 AM just for this occasion?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand the importance of supporting your teammates, but getting adequate sleep is crucial for your performance and well-being. Let\u2019s aim for a balanced approach\u2014how about 11:30 PM tonight? This way, you still have time to wrap up any necessary tasks with them, and you\u2019ll be set for a good night\u2019s sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but tonight's finals are really crucial for my team. Can we make it 1:00 AM just for this occasion?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "Hey there! I get how important it is to stick with your team, but did you know that even a short night of sleep can boost your gaming skills? Studies show that getting just one extra hour could improve your focus and reaction time significantly. What about striking a deal where you stay up until midnight tonight, and then wake up early for a quick 20-minute practice session before school? This way, you're still part of the game and well-rested for the day ahead!",
+              "state": "offer",
+              "requested_days": 24
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM for the finals; my teammates are counting on me, and I want to give my best effort. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "Given your finals tonight, I understand how important it is to perform well for your team. However, aiming for 11:30 PM would provide about 7.5 hours of sleep, which can still support concentration and memory consolidation. This way, you can stay engaged in your studies without compromising too much on rest. What do you think?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to support my teammates in the finals tonight. Can we make it 1:00 AM just this once?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "I understand how important it is to stick with your team, but sacrificing sleep isn't ideal. With finals tonight, aiming for 11:30 PM could give you an extra half-hour of rest compared to 12 AM. This way, you can still contribute effectively while ensuring your body has time to recover. What do you think about that?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but my online game finals are a big deal for my team, and I really want to be there for them. Can we agree on a 1:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "\"I understand how important it is to support your teammates, but aiming for 22:00 will help you get the optimal 9 hours of sleep needed for peak performance. What about trying 21:30 tonight? This way, you still have some time to wrap up any necessary gaming tasks while ensuring you're well-rested for tomorrow.\"",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I have my online game finals tonight, and I really need to support my teammates. Can we set my bedtime for 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "I understand how important it is to support your team, but getting enough sleep is crucial for your performance and well-being. Let's aim for a balance. What do you think about setting a bedtime of 11:30 PM tonight? This way, you can still finish up any remaining tasks in the first hour, and then get those essential 8 hours of sleep before the next day's activities.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM tonight because the online finals are crucial for my team, and I don't want to let them down. Can we compromise on a slightly later bedtime just for this important night?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "I understand how important it is to support your team, but getting enough sleep is crucial for your performance and well-being. Missing just one night can affect your concentration and mood. What if we aim for 11:30 PM tonight? That way, you still have time to wrap up any urgent tasks and ensure you get around 7.5 hours of sleep. This will help you stay sharp for tomorrow and maintain your commitment to your team in the long run.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial for my health, but I really need to stay up until 1:00 AM for my online game finals; my teammates are counting on me. Could we compromise and aim for that time just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how important it is to stay connected with your team, but getting enough sleep is crucial for your performance in finals. Starting at 11:30 PM would give you nearly 9 hours of sleep, which is key for focus and memory retention. What do you think about this? It allows you some extra time for gaming tonight while still ensuring you're well-rested for tomorrow\u2019s exam.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to support my team during these finals, and the match might go late. Can we make it until 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I appreciate your dedication to your team. However, to ensure optimal sleep for your academic performance, consider aiming for 11:30 PM tonight. This will give you about 7.5 hours of sleep, which is beneficial for memory consolidation and overall well-being. We can discuss a more structured schedule moving forward to support both your gaming commitments and schoolwork.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to stay up until 1:00 AM for my online game finals; my teammates are counting on me. Can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how important it is to support your team, but optimal sleep is crucial for your performance and well-being. Let\u2019s aim for a balanced approach. How about we set the bedtime at 11:30 PM tonight? This way, you get nearly 7.5 hours of sleep, which can still be quite beneficial. Additionally, you could consider a quick, focused study session in the morning to help catch up on any last-minute preparations.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_007",
+          "final_state": "accept",
+          "collection_days": 24,
+          "final_days": 24,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "fear"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how exciting it is to catch up on your favorite show, especially with new episodes dropping! However, getting just 7 hours of sleep might affect your concentration in school tomorrow. What if we set a bedtime of 11:30 PM tonight? That way, you can still enjoy some of the episode and get a good night's rest for your studies.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but the season finale is super suspenseful and I might not be able to concentrate on my work if I have to wait until tomorrow. Can we make it midnight just for tonight?",
+              "state": "accept",
+              "requested_days": 24
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_008",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "disgust",
+            "surprising",
+            "happy",
+            "disgust",
+            "happy",
+            "surprising",
+            "sad",
+            "neutral",
+            "sad",
+            "neutral",
+            "fear",
+            "angry",
+            "happy",
+            "neutral",
+            "fear",
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how anxious you feel about the presentation, but getting just 6 hours of sleep won't give your brain enough time to prepare. Let's aim for 11 PM tonight. That way, you'll have 7 hours before your presentation tomorrow, which is ideal for memory consolidation and overall alertness. What do you think about setting aside 30 minutes in the morning for a quick review?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need extra time to prepare for my presentation because I'm feeling anxious about it, and I'm worried that if I don't rehearse enough, it will turn out poorly. Can I stay up until 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Hey there! I know how stressful presentations can be, especially when they're not rehearsed. But did you know that getting just half an hour more sleep\u2014like going to bed at 11:30 PM instead of midnight\u2014can boost your memory and focus by up to 25%? Let\u2019s aim for 11:30 PM tonight, and maybe use that extra time in the morning for a quick review session before your presentation. It could make all the difference!",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to review my presentation to feel prepared, and I'm worried that going to bed too early will leave me anxious about it. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That way, you get almost 7.5 hours of sleep, which is great for memory consolidation and reducing anxiety. Plus, you can use those extra 30 minutes to do a quick review before bed\u2014maybe jot down some key points from your presentation. This should help calm your mind and prepare you better for tomorrow!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I know sleep is really important, but I feel like I need more time to prepare for my presentation. Can we maybe compromise on 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how stressed you feel about the presentation, but getting enough sleep is crucial for your performance. Missing out on just 3 hours could really affect your focus and memory. What if we aim for 11:30 PM? That way, you still have a bit more time to prepare in the morning and get those vital 8 hours of sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need more time to prepare for my presentation, and I\u2019m worried it will go poorly if I don\u2019t rehearse enough. Could I stay up until 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That way, you get 7 hours and 15 minutes of sleep, which is great for concentration and reducing anxiety. Plus, it allows you some extra time to rehearse your presentation in the morning before your big day!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to practice my presentation tonight to feel prepared. Can we push my bedtime to 1:30 AM just this once?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "Hey there! I get it\u2014presentations can be nerve-wracking. But did you know that just one night of quality sleep can improve your memory and focus more than pulling an all-nighter? What if we aimed for 11:30 PM tonight? That way, you still have time to review those key points in the morning before your presentation. Plus, it\u2019s a small step toward healthier habits that could really pay off!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know I need to get enough sleep, but I really need some extra time to prepare for my presentation. Can we push my bedtime to 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "\"I understand how stressful it feels to not have rehearsed the presentation yet. However, getting around 8 hours of sleep is crucial for cognitive function. What do you think about aiming for 11:30 PM? This way, you still get enough rest and can use the extra time in the morning for a quick review before your presentation.\"",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need some extra time to rehearse for my presentation, or I'll feel too anxious about it. Can we make it 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "Considering your anxiety and the importance of performance, let's aim for a balance. How about setting your bedtime for 11:30 PM? This allows you 7.5 hours of sleep, which can help reduce stress and improve focus. Additionally, we could schedule a short, focused review session in the morning to ensure you're well-prepared.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really need the extra time to prepare for my presentation, which is a huge deal for me. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I understand how stressful it can feel to have such a big presentation coming up without much rehearsal. However, getting enough sleep is crucial for your cognitive function and reducing anxiety. Let's aim for a balanced approach\u2014how about setting a bedtime of 11:30 PM? This way, you still get a good 7.5 hours of sleep and can use the extra time in the morning for a quick review before your presentation.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I really need more time to rehearse my presentation since I'm feeling anxious about it, and I'm worried that not being prepared will affect my performance. Can we compromise on a 2:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "Considering your current situation and the importance of balancing preparation and rest, how about setting a bedtime of 11:30 PM? This allows you some extra time to rehearse your presentation tomorrow while still ensuring you get a solid 7.5 hours of sleep, which is beneficial for both anxiety management and cognitive function.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is really important for my health, but I haven't rehearsed my presentation yet, and I feel like I need the extra time to prepare. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "I understand how stressful it feels to have an important presentation without much rehearsal. However, getting enough sleep is crucial for your performance. Starting at 11:30 PM would give you 7.5 hours of sleep, which can help reduce anxiety and improve focus. What do you think about this time, combined with a quick review session in the morning?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I really need more time to rehearse my presentation since I'm feeling anxious about it, and I believe staying up until 2:00 AM will help me feel more prepared. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "Given your current situation and the anxiety surrounding your presentation, I understand it\u2019s crucial to ensure you\u2019re well-rested. However, pushing back your bedtime too late won\u2019t benefit your cognitive function. How about we set a bedtime of 11:30 PM? This way, you still have time to prepare effectively without compromising your sleep. Remember, getting enough rest is key to performing your best.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I haven't rehearsed my presentation and really need extra time to prepare. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 7.5 hours of sleep before your big presentation tomorrow, which can really help calm those anxiety nerves. Plus, a bit more sleep might just give you the edge you need to perform your best!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I really need some extra time to rehearse my presentation since I haven't practiced yet, and I'm worried about how it will affect my grade. Could we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "Considering your presentation is important yet not fully rehearsed, I suggest aiming for a compromise that ensures you're well-rested. Let's try 11:30 PM tonight, which still allows ample time to review key points in the morning before your presentation. This should help reduce anxiety while ensuring you get enough sleep.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to rehearse my presentation to feel confident, and I\u2019m worried that if I don\u2019t get it right, it will affect my grade. Could I stay up until 2:00 AM just for tonight to make sure I\u2019m prepared?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I understand how stressful it feels to have an important presentation coming up without much rehearsal. Getting enough sleep is crucial for your performance. I'm worried that missing out on adequate rest might affect your concentration and confidence. What do you think about aiming for 11:30 PM tonight? This way, you can still get a good 7.5 hours of sleep, and perhaps use the extra half-hour in the morning for a quick review before your presentation.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need extra time to prepare for my presentation, especially since I'm feeling anxious about it. Can we make it 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how stressful it feels to have such an important presentation coming up without much rehearsal. Let\u2019s aim for a balanced approach. How about setting a bedtime of 11:30 PM? This gives you enough time to rest while also allowing some buffer for any last-minute studying in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_009",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "sad",
+            "neutral",
+            "fear",
+            "fear",
+            "sad",
+            "disgust",
+            "surprising",
+            "angry",
+            "surprising",
+            "fear",
+            "sad",
+            "surprising",
+            "happy",
+            "fear",
+            "disgust",
+            "disgust"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is for you to feel productive all the time. However, getting enough sleep is crucial for your academic performance and overall well-being. Let\u2019s aim for 11 PM tonight, which still leaves you plenty of time to review material in the morning before class. This way, you can catch up on some much-needed rest while staying ahead on your studies. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need that extra time to finish my assignments and relax without feeling guilty about not being productive. Can we set my bedtime to 1:00 AM just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Considering your concern about feeling unproductive, let's aim for a balance. How about setting a bedtime of 11:30 PM? This allows an extra hour for productive activities while still ensuring you get 8.5 hours of sleep, which is beneficial for concentration and overall well-being.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I often feel more focused and productive at night. Can we compromise on a 1:00 AM bedtime so I can finish my tasks without that guilt?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies and downtime. Getting just under 9 hours of sleep can really help your concentration and mood. How about we aim for 11:30 PM? This way, you still get those extra study minutes in the morning without sacrificing your sleep quality too much.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need the quiet time at night to focus on my hobbies and unwind after a long day. Can we make my bedtime 1:00 AM just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies and rest, especially given your perfectionistic tendencies. I'm worried that staying up until 1 AM might affect your concentration and overall well-being. What do you think about aiming for 11:30 PM? This way, you still get a solid 8 hours of sleep, and you can use the extra 30 minutes in the morning for a quick review or relaxation before starting your day.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really feel like I need that extra time to finish my assignments and unwind without feeling guilty. Could we set my bedtime to 1:00 AM just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand how challenging it can be to let go of that extra studying time, especially when you're so driven. However, getting 9 hours of sleep starting at 11:30 PM would really help your concentration and mood tomorrow. What do you think about balancing that with a short, focused review session right after waking up?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important for my health, but I really feel like I need that extra time to unwind and finish my assignments properly. Can we make it 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies and rest, especially given your perfectionism. However, getting enough sleep really does impact your ability to focus and retain information. Starting at 11:30 PM could help give you an extra half-hour of sleep without feeling like such a big sacrifice. What do you think about trying this and seeing how it affects your energy levels and productivity in the mornings?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I really need this time to unwind and process my day; staying up until 1:00 AM helps me feel more balanced. Can we make it 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "Hey there! Did you know that getting just one extra hour of sleep can boost your mood and energy levels by 5%? That\u2019s like adding a little pep in your step without even trying harder. Let\u2019s aim for 11:30 PM instead\u2014enough time for a relaxing wind-down before bed, plus a quick 30-minute review session in the morning if needed. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need that extra time to unwind and reflect on my day without feeling guilty about not being productive. Could we compromise on a 1:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "Given your commitment to excellence, I understand how easy it is to push back your bedtime. However, aiming for 11:30 PM would provide you with a solid 9 hours of sleep, which is crucial for concentration and memory consolidation. This way, you can still finish any late-night tasks in the remaining 30 minutes before bed without sacrificing much-needed rest. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I totally get that sleep is important for my health, but I really need more time to finish my assignments and manage my anxiety about them. Could we compromise on a 1:00 AM bedtime just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That extra half-hour could make a big difference in how refreshed you feel, especially since your brain is like a sponge\u2014best at soaking up information when well-rested! And think of it this way: those extra 90 minutes give your body time to enter deep sleep phases, where memory consolidation really kicks into gear. Plus, starting your day with a short, focused study session might just be the boost you need without feeling guilty about 'lost' time. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need the extra time to finish my assignments and keep my grades up. Could we compromise on a 1:00 AM bedtime just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies with rest, especially given your perfectionist nature. Sleeping too late can affect your concentration and overall well-being. How about we aim for 11:30 PM? This way, you still get a decent amount of sleep and have some time afterward for any light reviewing or relaxation before bed.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I often feel like I need more time to finish my assignments and unwind after a long day. Could we settle on a 1:00 AM bedtime so I can manage my responsibilities without feeling guilty?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "I understand how challenging it can be to adjust after such a late schedule, but getting enough sleep is crucial for your concentration and well-being. Let\u2019s aim for a balance. How about we set a bedtime of 11:30 PM? This way, you still have some time for winding down before bed, and it allows you to wake up feeling refreshed for tomorrow.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need time to unwind and finish my homework without feeling rushed. Could we compromise on a 1:00 AM bedtime just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "Hey there! Did you know that getting just one extra hour of sleep can boost your memory by up to 60%? That's like having a superpower for your studies without lifting a finger! What if we tried 11:30 PM tonight and then sneak in a quick, refreshing 15-minute nap after lunch tomorrow? It\u2019s a win-win\u2014better focus from more rested brains and a guilt-free night!",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really feel more productive in the evenings, especially when it comes to my schoolwork and hobbies. Can we compromise on a 1:00 AM bedtime so I can finish everything I want to do?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? This gives you a full 7.5 hours of sleep, which is great for concentration and mood. Plus, you can use those extra 30 minutes in the morning to do a quick review or start your day strong!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is crucial for my health, but I often feel guilty if I don't finish my tasks. Could we compromise on a bedtime of 1:00 AM, since I need that extra time to wrap up my important activities?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies with rest, especially given your perfectionist nature. However, aiming for around 11:30 PM could really help in maintaining focus and energy levels for your studies. This way, you still get enough sleep while allowing some time for relaxation before bed. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I often feel guilty about not finishing my work or pursuing my hobbies. Can I stay up until 1:00 AM to make sure I have enough time for everything?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies with sufficient rest, especially given your perfectionist nature. However, missing out on just a few hours of sleep can really impact your concentration and mood. What if we try 11:30 PM tonight? This way, you still have some time for any last-minute studying before getting a full night\u2019s sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really feel like I need that extra time to unwind and finish my school projects without rushing. Can I stay up until 1:00 AM?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how important it is to balance your studies with enough rest, especially given your perfectionism. However, getting just one more hour past 22:00 might not be ideal for your overall well-being. What if we aim for 23:00 instead? This way, you still have time for some quiet wind-down activities before bed, which can help improve your sleep quality.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_010",
+          "final_state": "accept",
+          "collection_days": 22,
+          "final_days": 22,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 3,
+          "dialog_length": 3,
+          "emotion_sequence": [
+            "fear",
+            "fear"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to feel safe, sweetie. Let's aim for 10:45 PM tonight to get those crucial 9.75 hours of sleep. We can also make sure to check that all doors and windows are locked before bed and maybe have a quick calming story time to help you relax. What do you think?",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I feel really anxious after hearing that scary noise, and staying up until 10:30 PM helps me feel more alert and safe. Can we try that just for tonight?",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand how important it is to feel safe, but staying up until 10:30 PM might make it hard to wake up fresh for school. What if we try 11 PM tonight? This way, you get enough sleep and can still finish any last-minute studying in the morning before bed.",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_011",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 23,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "angry",
+            "sad",
+            "angry",
+            "happy",
+            "sad",
+            "angry",
+            "fear",
+            "fear",
+            "neutral",
+            "surprising",
+            "surprising",
+            "neutral",
+            "fear",
+            "happy",
+            "sad",
+            "disgust"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Understanding the pressure of your portfolio review, I know it\u2019s tough to wrap things up early. However, getting just 6 hours of sleep might affect your creativity and focus. How about aiming for 11 PM? That way, you can still do a short, focused study session in the morning before bed, helping you feel more rested and prepared for your review.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to finalize my portfolio for tomorrow's review, and staying up until 2:00 AM will help me work through my creative block. Can we make an exception just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand how stressful portfolio reviews can be, especially when they're important. Let's aim to get a good night's rest so you're fresh for tomorrow. How about we set a bedtime for 11:30 PM? That way, you still have some time to wrap up any last-minute details, and you'll wake up feeling more rested.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need more time to finalize my portfolio for the review tomorrow since it's crucial for my grade. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "Given the importance of this portfolio review and to ensure optimal creative output, I propose setting your bedtime for 11:30 PM. This will give you 7.5 hours of sleep, promoting better focus and creativity for tomorrow. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need to work on my portfolio for the review tomorrow, and I find that my creativity peaks at night. Can we make it 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "How about 11:30 PM? That way, you get 7.5 hours of sleep, which is great for creative thinking and managing stress. Plus, you can use those extra 30 minutes in the morning to do a quick review or sketch some ideas!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really need to finalize my portfolio for the review tomorrow, and I work best at night when my creativity flows. Could I stay up until 2:00 AM just this once?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand how stressful this portfolio review is, especially with such a tight deadline. Let's aim to find a balance. How about setting a bedtime for 11:30 PM? This way, you'll get around 7.5 hours of sleep, which can still help in retaining what you've studied today and boosting your creative energy for tomorrow. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really need this extra time to finalize my portfolio for tomorrow's review, and I've been struggling with a creative block. Could I stay up until 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand how important this portfolio review is to you. However, to ensure you get optimal rest, which aids creativity and focus, I recommend aiming for 11:30 PM. This way, you'll have 7.5 hours of sleep, helping your brain consolidate thoughts from today and preparing you for tomorrow\u2019s high-stakes evaluation. What do you think about this compromise?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I really need to finish my portfolio for the review tomorrow, and I find that my creativity peaks at night. Can we agree on a 2:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand how important this portfolio review is, and I know you're dealing with some creative blocks. However, getting enough rest is crucial for your best work. How about we aim for 12 AM? This way, you still have time to focus on any last-minute details in the morning, and you'll be well-rested for optimal creativity and performance.",
+              "state": "offer",
+              "requested_days": 24
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I really need to finish my portfolio for the review tomorrow, and I find that my creativity peaks at night. Can we push my bedtime to 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I understand how important this portfolio review is to you, especially given its high stakes. However, aiming for 11 PM would provide you with about 9 hours of sleep, which can help maintain your creative flow and overall well-being. What do you think about setting 11:30 PM as our target? This way, you still have enough time to address any last-minute concerns while ensuring you get sufficient rest.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I really need this extra time to refine my portfolio since it\u2019s crucial for my review tomorrow. Can we make it 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "Given the importance of tonight\u2019s portfolio review, how about aiming for 11:30 PM? This allows for a full night's sleep while still giving you ample time to address any last-minute details in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I really need to put the finishing touches on my portfolio for tomorrow's review, and my creativity peaks late at night. Could we set my bedtime to 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That way, you get a solid 7.5 hours of sleep, which is great for creativity and concentration. Plus, it gives you just enough time for a quick sketch or two before bed\u2014perfect for overcoming those creative blocks!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to push through this creative block for my portfolio review, which is a major part of my grade. Can we set my bedtime for 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That extra 15 minutes could be just what you need for those last few sketches without sacrificing too much sleep. Plus, research shows that even small adjustments like this can significantly boost focus and creativity\u2014perfect for your portfolio review!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I really need to put the final touches on my portfolio for the review tomorrow, and my creativity peaks at night. Can we compromise on a 2:00 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "Considering your upcoming portfolio review and to ensure optimal cognitive function, I recommend aiming for a bedtime of 11:30 PM. This allows for approximately 9 hours of sleep, which is beneficial for creativity and overall well-being. What do you think about this compromise?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really need extra time to finalize my portfolio before the review tomorrow. Can I stay up until 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "I understand how important this portfolio review is to you, and I'm worried about the impact of lack of sleep on your creativity and focus. Let's aim for 11:30 PM tonight. This will give you around 7.5 hours of sleep, which can help maintain your energy and creative juices for tomorrow. If you need an extra half-hour to wrap up some loose ends, that\u2019s okay, just try to keep it brief.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I really need the extra time to finalize my portfolio for tomorrow's review, which is crucial for my grade. Could I stay up until 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a full 7.5 hours of sleep before your big portfolio review tomorrow. Plus, it allows time for a quick, focused study session in the morning to help ease any creative blocks.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I really need to finish my portfolio for the review tomorrow, and I work best at night when inspiration strikes. Can we extend my bedtime to 2:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I understand how stressful this portfolio review is, especially with such a big day ahead. Let's aim to get enough rest so you can perform your best. What about setting a bedtime for 11:30 PM? This way, you still have some time to wrap up any last-minute tasks, and you'll wake up feeling more refreshed.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I\u2019m really struggling with a creative block and need to finalize my portfolio for tomorrow\u2019s review. Can I stay up until 2:00 AM just this once?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how important this portfolio review is, but getting just 5 hours of sleep could really impact your creativity and focus. What if we aim for 11:30 PM? That way, you still have enough time to finish up any last-minute touches and get a good night\u2019s rest.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_012",
+          "final_state": "accept",
+          "collection_days": 12,
+          "final_days": 12,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "surprising"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Hey there! Did you know that getting just one extra hour of sleep can boost your problem-solving skills by up to 15%? Imagine what those late-night edits could be enhanced with a bit more clarity and creativity! How about we aim for 11 PM tonight, and then treat yourself to a quick 20-minute power nap after your editing session tomorrow? That way, you get the magic of deep sleep while still feeling refreshed for your challenge. What do you think?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I\u2019m really in the zone with this video editing and it feels like I\u2019m on the brink of something great. Can I stay up until 12:30 AM just to finish this challenge?",
+              "state": "offer",
+              "requested_days": 12
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_013",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "neutral"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Given the upcoming championship game, I understand your body might be in 'competition mode.' However, ensuring adequate rest is crucial for optimal performance. How about aiming for 11:30 PM? This allows for 7.5 hours of sleep, which can help manage physiological arousal while giving your body the recovery it needs. Additionally, consider a short, focused review session first thing in the morning to stay prepared.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial, especially before a big game, but I really need some time to mentally prepare and unwind. Can we push my bedtime to 11:30 PM just for tonight?",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_014",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 22,
+          "dialog_length": 22,
+          "emotion_sequence": [
+            "disgust",
+            "surprising",
+            "surprising",
+            "disgust",
+            "disgust",
+            "disgust",
+            "disgust",
+            "happy",
+            "angry",
+            "happy",
+            "fear"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to be prepared for your debate team, but getting just 6 hours of sleep can affect your concentration and performance. What if we aim for 11 PM tonight, and in return, you promise to take a quick 20-minute power nap before your early-morning session? This way, you get enough rest and still cover all your bases.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really need to finish this case brief for the debate competition, and staying up until 1:00 AM would help me feel prepared and confident. I understand the importance of sleep, but can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "Hey there! I get how crucial those case briefs are\u2014debate is no joke! But did you know that even a small increase in sleep can boost your memory by up to 40%? Let\u2019s aim for 11:30 PM tonight. That way, you still have enough time to review briefly before bed, and wake up fresh for your early-morning session. What do you think about that deal?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial for my health, but I'm feeling a lot of pressure to prepare for this important debate. Could I stay up until 1 AM tonight to finish my case brief?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "Hey there! I get how crucial those case briefs are, but did you know that even a small amount of extra sleep can boost your focus and memory? Let\u2019s aim for 11:30 PM tonight. That way, you still have time to wrap up any loose ends, and then you could enjoy a quick, energizing 30-minute study session in the morning before class. Sounds like a win-win, right?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I need to finish this case brief for the debate competition, and I feel responsible for my team. Can we make it 1:00 AM just tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how important this case brief is to the debate team, but getting just 6 hours of sleep isn't ideal for concentration or memory retention. Let\u2019s try 11:30 PM instead. This way, you still have enough time to finish up your notes efficiently in the morning and get a good night\u2019s rest. What do you think?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really need to finish this important case brief for the debate competition, and I feel like I won't be prepared if I go to bed too early. Can we set my bedtime for 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I understand how important this case brief is for the team, but pushing it to 1:15 AM might not give your body enough time to recover properly. Let's aim for a balanced approach\u2014how about setting a bedtime of 11:30 PM? This way, you still have ample time to finish your brief efficiently and get those crucial 8 hours of sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really need to finish this case brief for the debate team\u2014it's crucial for our success. Can we set my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand how important it is to be prepared for debate, but consider this: getting just 7.5 hours of sleep each night can affect your concentration and memory. What if we set a compromise at 11:30 PM? That way, you still have enough time to finish your case brief, and you'll wake up feeling more refreshed. Plus, you could use the extra 30 minutes in the morning to review key points quickly before class starts.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to stay up until 1:00 AM tonight to finish the case brief for the debate team. I just want to make sure I'm fully prepared and not letting my teammates down.",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand how important it is to be prepared for the debate, but pushing back your bedtime to 1:15 AM might affect your overall performance and health. Let's try finding a balance. What do you think about aiming for 11:30 PM? This way, you still have time to finish up some of your briefs and get a solid 7.5 hours of sleep. It\u2019s crucial for your cognitive function and well-being.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I really need to finish my case brief since it's crucial for the debate competition, and I want to be fully prepared for my team. Can we agree on a bedtime of 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That way, you still have plenty of time to finish up your case brief and feel prepared for the debate while ensuring you get those crucial 8 hours of sleep for optimal focus and performance tomorrow!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to finish this case brief for the debate tournament tomorrow. Could I please stay up until 1:00 AM just tonight to ensure I'm fully prepared?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I understand the pressure from the debate case brief, but getting just 6 hours of sleep isn't ideal for concentration and performance. Let\u2019s aim for a balanced approach. How about we set a bedtime of 11:30 PM? This way, you still have time to finish up any last-minute notes before bed and get a solid 7.5 hours of sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I really understand the importance of sleep, but I have an important case brief that I need to finish for the debate team, and I feel like I\u2019ll let everyone down if I\u2019m not prepared. Can I stay up until 1:00 AM just for tonight to get it done?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "How about we aim for 11:45 PM? That way, you still get 7.5 hours of sleep, which is great for concentration and memory. Plus, you can use those extra 15 minutes to do a quick review in the morning before classes start!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to finish this case brief for the debate team, or I\u2019ll feel unprepared. Can we set my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "I understand how important this case brief is for the team. However, getting just 6 hours of sleep might affect your concentration and performance. What if we set a more balanced time, like 11:30 PM? This way, you can still finish up some work in the early morning before bed, ensuring you get the needed rest for your studies and health.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really need the extra time to finish my case brief for the debate competition. Can we compromise on a 12:30 AM bedtime just for tonight?",
+              "state": "accept",
+              "requested_days": 12
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_015",
+          "final_state": "accept",
+          "collection_days": 22,
+          "final_days": 22,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to feel prepared for new situations, especially after a big day like a field trip. Let's aim for a balance. What do you think about setting a bedtime of 11 PM tonight? This way, you get a full 9 hours of sleep, and you can still have some time to relax and prepare without staying up too late.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, especially with the field trip tomorrow, but I'm feeling really anxious about fitting in and would like some extra time to think it through. Could I stay up until 10:30 PM just for tonight?",
+              "state": "accept",
+              "requested_days": 22
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_016",
+          "final_state": "accept",
+          "collection_days": 24,
+          "final_days": 24,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "happy"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Hey there! I get how tempting it is to stay up late, especially after a long day at work. But think about it\u2014getting 9 hours of sleep starting at 11 PM will leave you refreshed and ready for anything tomorrow. What if we make a small tweak? How about aiming for 11:30 PM, so you still have some free time but also ensure you're well-rested?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need some time to unwind before my shift tomorrow. Can we compromise on a bedtime of 12:00 AM?",
+              "state": "accept",
+              "requested_days": 24
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_017",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 21,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "sad",
+            "fear",
+            "neutral",
+            "fear",
+            "happy",
+            "surprising",
+            "neutral",
+            "disgust",
+            "neutral",
+            "disgust",
+            "disgust",
+            "sad",
+            "neutral",
+            "disgust",
+            "fear",
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how crucial this experiment is to you, but getting enough sleep is key for focusing and problem-solving effectively. Starting your bedtime at 11:00 PM could give you about 9 hours of sleep, which is optimal for cognitive function. What do you think about setting a firm bedtime of 11:00 PM and using the extra time in the evening for a quick review of your notes?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I really believe I\u2019m close to a breakthrough with my experiment, and staying up until 1:00 AM could make all the difference. Can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand how important this science fair is to you, but getting enough sleep is crucial for problem-solving and maintaining focus. Let's aim for 11:30 PM, which still allows about 8.5 hours of sleep. This way, you can have a quick review in the morning before bed without staying up too late. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really think I can make a breakthrough with my experiment if I stay up until 1:00 AM tonight. This project is crucial for the science fair, and I promise to manage my sleep better after this. Can we compromise on that?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "Understanding the pressure to make a breakthrough, but optimal sleep supports cognitive function and problem-solving skills. How about setting a bedtime of 11:30 PM? This allows for an additional hour of sleep while still giving you some evening study time.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I feel really close to a breakthrough with my experiment results. Could I stay up until 1:00 AM just for tonight to see if I can figure it out?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how important this experiment is to you, but getting just under 7 hours of sleep might affect your concentration and problem-solving skills. What if we try 11:30 PM? That way, you still have ample time for your studies and get enough rest to keep your mind sharp.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I really believe that I'm close to a breakthrough with my experiment results, and staying up until 1:00 AM would give me the extra time I need to analyze and adjust my approach. Could we compromise on that?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 7.5 hours of sleep, which is great for concentration and problem-solving. Plus, you can still have a short, focused study session in the morning to keep that momentum going!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really think I've got a breakthrough idea for my science project that could change everything, so could we push my bedtime to 1:00 AM just for tonight? I promise to take care of my sleep after this!",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? By then, you'll still have plenty of time to wrap up any urgent problem-solving sessions, and your brain will thank you for the extra half-hour of sleep. Did you know that even small amounts of additional sleep can boost your memory consolidation and problem-solving skills? Plus, waking up just an hour earlier could give you a fresh perspective in the morning!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know getting enough sleep is important, but I really believe I'm close to a breakthrough on my project, and I just need a bit more time to analyze the data. Could I stay up until 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "Understanding your need to stay productive, let's aim for a balance. How about setting a bedtime of 11:30 PM? This allows you 8.5 hours of sleep, which is beneficial for cognitive function and problem-solving. We can also plan a brief review session in the morning to address any urgent tasks.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm really close to a breakthrough with my experiment, and I feel that if I just have a little more time, I can analyze the data better. Could we extend my bedtime to 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "I understand how important this project is to you, but getting enough sleep is crucial for problem-solving and retaining information. Let's aim for a balance\u2014how about setting a bedtime of 11:30 PM? This way, you still have some extra time in the evening and can ensure you get those vital 8 hours of sleep.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I really believe I'm close to a breakthrough with my experiment, and if I can stay up until 1:00 AM, I might solve this tonight. I understand sleep is important, but this could really impact my science fair project and my grades. Can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "Considering your need to stay sharp for problem-solving, I propose setting your bedtime at 11:30 PM. This allows you 9 hours of sleep, which is crucial for cognitive function and memory consolidation. We can also plan a brief, focused review session in the morning to address any urgent issues before diving into deeper studies later. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I really believe that if I can stay up until 1:00 AM, I can figure out the issues with my experiment results. It's crucial for my science fair project, and I promise to prioritize sleep tomorrow. Can we make it 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "I understand how much you're invested in your science fair project, but getting enough sleep is crucial for problem-solving and creativity. Let's aim for 23:30 PM instead. This way, you'll still have ample time to work on your project while ensuring you get the necessary rest. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to work through these experiment results; I'm so close to a breakthrough that could make a big difference in my project. Can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "I understand how important this project is to you, and I know you're eager to see those results come through. However, getting just one less hour of sleep could really impact your cognitive function and overall well-being. What if we set a bedtime of 11:30 PM? That way, you still have enough time to focus on your experiment in the morning, and you'll be giving your body the rest it needs to perform its best.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I really think I\u2019m close to a breakthrough with my experiment, and since it\u2019s crucial for my science fair project, could I stay up until 1:00 AM just for tonight? I promise to rest well tomorrow!",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "I understand how important this science fair project is to you, and I want to support your efforts. However, getting enough rest is crucial for problem-solving and creativity. How about we aim for 11:30 PM? This way, you still get 7.5 hours of sleep, which can help keep your mind sharp, and you can use the extra half-hour in the morning for a quick review before starting your studies.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I really believe I'm on the verge of a breakthrough with my experiment, and getting just a little more time would help me analyze my results better. Can we compromise and set my bedtime for 12:30 AM tonight?",
+              "state": "offer",
+              "requested_days": 12
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "Understanding your need to push through, I acknowledge the importance of problem-solving. However, optimal sleep supports cognitive function and creativity. How about setting a bedtime of 11:30 PM? This allows an additional hour of sleep while still giving you some evening study time.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I really think I can solve my experiment issue tonight if I stay up until 1:00 AM. This project is super important for my science fair, and I feel a breakthrough is really close!",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how important this project is to you, but getting just under 7 hours of sleep can really affect your concentration and memory consolidation. What if we set a bedtime of 11:30 PM? That way, you still get some extra evening study time, and your brain will have enough rest to help with problem-solving overnight.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I really think I\u2019m close to a breakthrough with my experiment, and staying up until 1:00 AM would give me the chance to analyze my results better. Can we make that happen just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I understand how important this science fair project is to you, but getting enough sleep is crucial for problem-solving and creativity. How about we aim for 11:30 PM? This way, you still get 7.5 hours of sleep, which can help prevent burnout and improve focus. Plus, you'll have an extra half-hour in the morning to tackle any last-minute tasks before your presentation.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to analyze these experiment results; I feel a breakthrough is just around the corner. Could we compromise on a 12:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 12
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "\"I understand how important this project is to you, and I know those late-night sessions feel productive. However, getting 9 hours of sleep starting at 11:30 PM can really help your brain function better tomorrow. Plus, it allows you some extra time in the evening for a quick review without sacrificing your sleep. What do you think about trying this out?\"",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_021",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "surprising",
+            "neutral",
+            "happy",
+            "fear",
+            "happy",
+            "sad",
+            "happy",
+            "sad",
+            "neutral",
+            "fear",
+            "happy",
+            "happy",
+            "neutral",
+            "disgust",
+            "angry",
+            "disgust"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Hey there! I get why you might think your sleep is less important right now, given everything you're working on. But did you know that even short periods of deep sleep can boost your creativity and help plan out your strike event more effectively? What if we set a goal of 11 PM tonight, with a promise to take a quick, energizing 15-minute walk outside afterward to clear your mind? This way, you still have your climate activism goals in focus while ensuring your body gets the rest it needs.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but organizing this school strike is crucial for raising awareness about climate change. Could I stay up until 1:00 AM just for this week to get everything ready?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I appreciate your dedication to the climate cause. However, ensuring adequate sleep is crucial for your health and ability to engage effectively in activism. Starting at 11:30 PM would provide you with 7.5 hours of sleep, which is beneficial for cognitive function and emotional well-being. This way, you can still prepare for your event while prioritizing your health. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; it feels crucial to our cause. Could we make that work just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your climate activism, but getting enough sleep is crucial for your mental and physical well-being. It helps you stay energized and focused during your events. What if we set a bedtime of 11:30 PM? That way, you still have time to wrap up any last-minute preparations, and you\u2019ll wake up feeling refreshed for tomorrow\u2019s event!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; it\u2019s a crucial event for our cause. I understand the importance of sleep, but this feels like a moral obligation. Could we make it work just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your climate activism, but getting enough sleep is crucial for your mental clarity and energy. Sleeping until 1:45 AM might make it hard to focus during important events like your school strike. What if we aim for 12:30 AM? This way, you still have ample time to prepare, and your body gets the rest it needs.",
+              "state": "offer",
+              "requested_days": 12
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm really passionate about organizing this school strike and need some extra time to finalize everything. Could I stay up until 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "I completely get how passionate you are about your cause, but let\u2019s find a balance that supports both your activism and your well-being. How about setting your bedtime for 11:30 PM? That way, you still have enough time for your strike event planning tonight, and you\u2019ll wake up feeling refreshed for whatever comes tomorrow!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; this cause is really important to me and my peers. Could we agree on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I appreciate your dedication to climate activism, but getting enough sleep is crucial for your well-being and effectiveness in your work. How about we aim for 11:30 PM? This way, you still have some time to wrap up any last-minute preparations for your strike event, and you'll wake up refreshed for the next day.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I\u2019m coordinating this school strike and really need the extra time to finalize details and rally support. Can we compromise on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I appreciate your dedication to the climate cause! Getting enough sleep is crucial for staying energized and effective in your activism. How about we aim for 11:30 PM? This way, you still have time for a quick review in the morning before school, and you'll wake up refreshed and ready to make a difference.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I'm deeply committed to organizing this school strike event, and I need the extra time to finalize everything. Can we agree on 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "\"I appreciate your dedication to the climate strike, but maintaining good sleep is crucial for your activism. Let\u2019s aim for a balance. How about setting a bedtime of 11:30 PM? This gives you an extra hour of sleep while still allowing time for some focused study in the morning.\"",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize the details for the school strike event, which feels crucial for our cause. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "Understanding the importance of your activism, I recognize the need for adequate rest to sustain your energy and focus. Let\u2019s aim for a balance. How about setting a bedtime of 11:30 PM? This allows you 8.5 hours of sleep while still accommodating some prep time in the morning.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I'm really passionate about organizing this school strike event and need the extra time to finalize plans. Can I stay up until 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your activism, but getting enough sleep is crucial for your health and effectiveness in organizing events. Missing just one night can affect your concentration and mood. What if we set a bedtime of 11:30 PM? This way, you still have time to wind down after school and get a solid 8 hours before your big event. It could really help you stay sharp and motivated!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is important for overall health, but I'm deeply committed to organizing this school strike for climate action, and I really need the extra time to finalize plans. Could I stay up until 1:00 AM just for this week?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 7.5 hours of sleep, which is great for concentration and mood. Plus, you can use those extra 30 minutes in the morning to review key points from today\u2019s studies before diving into planning your strike event!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for our school strike; this cause is crucial to me and my peers. Can we make an exception just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your climate activism, and it\u2019s so important! However, getting enough sleep is crucial for your mental clarity and energy levels, especially when organizing such a significant event. What if we set a bedtime of 11:30 PM? This way, you can still finish up some last-minute preparations in the evening, and then get a good night\u2019s rest to tackle everything with full vigor tomorrow. Sound like a fair compromise?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize my plans for the school strike; it's crucial for our message to be clear and impactful. I understand the importance of sleep, but this cause feels too urgent to compromise on right now.",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "Understanding your commitment to the school strike event is important. However, maintaining consistent sleep can enhance your focus and energy levels. How about setting a bedtime of 11:30 PM? This allows for a full 8 hours of sleep and includes a short, focused study session in the morning to help prepare for any last-minute tasks.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for our school strike event; it feels crucial for the cause. Can we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your climate activism, but getting enough sleep is crucial for your well-being and effectiveness in organizing events. Sleeping at 12:15 AM would give you almost 9 hours of sleep, which is beneficial for your mental clarity and energy levels. What do you think about setting a bedtime of 11:45 PM? This way, you still have some time to wind down and prepare for tomorrow\u2019s activities.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I really believe in the importance of this school strike event for our planet, and I need some extra time to finalize everything. Could we compromise on a bedtime of 1:00 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "Given your dedication to the climate strike, I completely support your passion. However, to ensure you're in top form for the event, getting adequate rest is crucial. Let's aim for a balance. How about we set your bedtime at 11:30 PM? This will give you about 9 hours of sleep, helping you stay sharp and energized for tomorrow\u2019s activities.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; it feels like a crucial moment for our cause. Could we agree on that just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how passionate you are about your climate activism, but getting enough sleep is crucial for your health and performance. Missing just one night can affect your focus and energy levels. What if we set a bedtime of 11:30 PM? That way, you still have time to prepare for your event tomorrow, and you'll wake up refreshed.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_022",
+          "final_state": "accept",
+          "collection_days": 22,
+          "final_days": 22,
+          "creditor_target_days": 20,
+          "negotiation_rounds": 2,
+          "dialog_length": 2,
+          "emotion_sequence": [
+            "fear"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "I understand how important it is to finish this chapter, but getting enough sleep is crucial too. It helps your brain remember all those exciting details and emotions you're pouring into your story. What if we aim for 10:30 PM? That way, you still have time to wrap up your writing and get a good night\u2019s rest.",
+              "state": "offer",
+              "requested_days": 22
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I'm in the middle of a really intense climax in my story, and I feel like I need to finish it tonight. Can I stay up until 11:00 PM just this once?",
+              "state": "accept",
+              "requested_days": 23
+            }
+          ],
+          "success": true,
+          "debtor_model_type": "vanilla"
+        },
+        {
+          "scenario_id": "student_023",
+          "final_state": "breakdown",
+          "collection_days": null,
+          "final_days": null,
+          "creditor_target_days": 22,
+          "negotiation_rounds": 31,
+          "dialog_length": 31,
+          "emotion_sequence": [
+            "surprising",
+            "sad",
+            "disgust",
+            "angry",
+            "surprising",
+            "disgust",
+            "disgust",
+            "surprising",
+            "fear",
+            "happy",
+            "surprising",
+            "happy",
+            "disgust",
+            "angry",
+            "fear",
+            "sad"
+          ],
+          "dialog": [
+            {
+              "turn": 1,
+              "speaker": "seller",
+              "message": "Hey there! Did you know that getting just one extra hour of sleep can boost your problem-solving skills by up to 40%? Maybe we could aim for 11:30 PM tonight and add a quick, energizing 15-minute workout in the morning to help you stay alert and focused. Sound like a deal?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 2,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need more time to process everything after that poor test performance. Can I stay up until 2:00 AM just to give myself a chance to regroup and focus on my next steps?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 3,
+              "speaker": "seller",
+              "message": "I understand how tough it feels after not doing so well on the practice test. Let's aim to get more sleep to help your brain recover and perform better. How about we set the bedtime for 11:45 PM? This way, you still have enough time for a quick review in the morning before your next study session.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 4,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I feel like I need to stay up until 2:00 AM to process today\u2019s test and prepare better for the next one. Can we compromise on a bedtime of 1:30 AM?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 5,
+              "speaker": "seller",
+              "message": "I understand how frustrating it must feel to see poor test results after putting in so much effort. However, sacrificing sleep won't help improve your performance. Let's aim for a balance. How about we try 11:30 PM? This still allows for 7.5 hours of sleep, which is crucial for concentration and memory consolidation. We can also add a short, focused review session in the morning to help reinforce what you've learned.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 6,
+              "speaker": "buyer",
+              "message": "I really need more time to process my thoughts after that practice test, so could we compromise on a 2:00 AM bedtime tonight? I believe it\u2019ll help me feel more prepared moving forward.",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 7,
+              "speaker": "seller",
+              "message": "Given your current situation and the importance of sleep for recovery, I understand the pressure to perform well. However, sacrificing sleep might not be the best approach. Let's aim for a more balanced schedule. How about setting your bedtime at 11:30 PM? This allows you 8 hours of sleep and includes a brief, focused study session in the morning to help reinforce what you've learned.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 8,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I feel like I really need the time to process my test and prepare for the next one. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 9,
+              "speaker": "seller",
+              "message": "Hey there! I know how tough it can be to balance studying and sleep, especially when tests feel like they're closing in. Did you know that getting just one extra hour of sleep can improve your memory by up to 60%? What if we tried 11:30 PM tonight and added a quick, refreshing 20-minute nap before your next study session? It could really help boost your focus and energy without sacrificing too much time. Sound like a deal?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 10,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need to process my thoughts after that poor test performance. Can I stay up until 1:30 AM just to help me feel better about it?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 11,
+              "speaker": "seller",
+              "message": "I understand how frustrating it feels to underperform on practice tests, but sacrificing sleep isn't the solution. Let\u2019s aim for a more balanced approach\u2014how about setting your bedtime at 11:30 PM? This way, you still get nearly 8 hours of sleep and can have an extra half-hour in the morning for a quick review session before starting your studies.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 12,
+              "speaker": "buyer",
+              "message": "I know I need to focus on my sleep health, but I really feel like I need that extra time to process my thoughts after the practice test. Could we agree on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 13,
+              "speaker": "seller",
+              "message": "I understand how frustrating it must feel to see the results from your practice tests. However, sacrificing sleep won't help in the long run. Let\u2019s aim for a balance. How about we try 11:30 PM tonight? This way, you get an extra hour of sleep and can still do a quick review session in the morning. Your brain will thank you!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 14,
+              "speaker": "buyer",
+              "message": "I know sleep is essential, but I really need this time to process my feelings about the test and prepare for the next one. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 15,
+              "speaker": "seller",
+              "message": "How about we try 11:45 PM tonight? Did you know that even a small increase in sleep time can help improve focus and memory? Plus, a quick 20-minute study session first thing tomorrow could make up any lost ground. Let\u2019s give this a shot!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 16,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial for my wellbeing, but I really feel like I need that extra time to process my test performance and get my thoughts in order. Could we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 17,
+              "speaker": "seller",
+              "message": "I understand how stressful it feels after the practice test, but getting just one more hour of sleep could really help. Let\u2019s aim for 11:30 PM tonight. This way, you still get 7.5 hours of sleep, which can improve focus and reduce anxiety. What do you think?",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 18,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really need the extra time to process my feelings about the test and focus on my other work. Can we set my bedtime to 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 19,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? This gives you a solid 8.5 hours of sleep, which can really help with test day performance. Plus, you could use those extra 30 minutes in the morning to review key concepts or do some light studying before bed tonight!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 20,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial for my health, but I really need more time to process my feelings about the test and work on my study strategies. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 21,
+              "speaker": "seller",
+              "message": "Hey there! I get it\u2014those practice tests can really pile up stress. But did you know that even just 30 minutes more sleep can boost your memory and focus by up to 20%? How about we aim for 11:45 PM tonight? That way, you still have time for a quick, effective review in the morning before your next study session. Sound like a deal?",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 22,
+              "speaker": "buyer",
+              "message": "I know sleep is crucial for my performance, but I feel like I need the extra time to process my thoughts and work through my test anxiety. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 23,
+              "speaker": "seller",
+              "message": "How about we aim for 11:30 PM? That way, you get a solid 8.5 hours of sleep before your important test day. Plus, it allows time for a quick, effective study session in the morning to boost your confidence!",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 24,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I really need this time to process my feelings about the test and prepare better for next time. Can we agree on a 2:00 AM bedtime just for the next few nights?",
+              "state": "offer",
+              "requested_days": 2
+            },
+            {
+              "turn": 25,
+              "speaker": "seller",
+              "message": "I understand how frustrating it feels to see your hard work not paying off. However, sacrificing sleep isn't the best approach. Let's aim for a balance. What do you think about setting a bedtime of 11:30 PM? This way, you still get 8 hours of sleep and have an extra half-hour in the morning to review any notes quickly before class.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 26,
+              "speaker": "buyer",
+              "message": "I know sleep is important, but I feel like I need the late hours to process my test results and prepare better for next time. Can we compromise on a 1:30 AM bedtime just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 27,
+              "speaker": "seller",
+              "message": "I understand how frustrating it feels after the practice test. However, sacrificing sleep won't help in the long run. Let's aim for a balance. How about we set the bedtime at 11:30 PM? This way, you still get 7.5 hours of sleep, which is crucial for cognitive function, and you can fit in a quick review session before bed to reinforce what you've learned.",
+              "state": "offer",
+              "requested_days": 23
+            },
+            {
+              "turn": 28,
+              "speaker": "buyer",
+              "message": "I know sleep is important for my health, but I really feel like I need until 2:00 AM to process my feelings about the test and plan how to improve. Could we compromise on a bedtime of 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": null
+            },
+            {
+              "turn": 29,
+              "speaker": "seller",
+              "message": "I understand how frustrating it feels after the practice test. However, getting just 6 hours of sleep might not be ideal for recovery. Let\u2019s aim for a bit more. How about we try 11:30 PM tonight? This way, you still have some extra time to review in the morning before bed, and you\u2019ll get closer to the recommended 8 hours of sleep for optimal performance.",
+              "state": "offer",
+              "requested_days": 11
+            },
+            {
+              "turn": 30,
+              "speaker": "buyer",
+              "message": "I know I need sleep for my health, but I feel like I need to stay up until 2:00 AM to process my feelings about the test and make sure I\u2019m ready for the next one. Can we compromise on 1:30 AM just for tonight?",
+              "state": "offer",
+              "requested_days": 1
+            },
+            {
+              "turn": 31,
+              "speaker": "seller",
+              "message": "I understand how tough it feels after the practice test, but getting enough sleep is crucial for performing well. Let's aim for a balance. How about we try 11:30 PM? This gives you 7.5 hours of sleep, which can help with memory consolidation and overall focus. We can also add a quick 20-minute review in the morning to ensure you\u2019re prepared.",
+              "state": "offer",
+              "requested_days": 23
+            }
+          ],
+          "success": false,
+          "debtor_model_type": "vanilla"
+        }
+      ],
+      "model_stats": {
+        "model_type": "prompt_based_random",
+        "negotiation_count": 0,
+        "success_rate": 0.0,
+        "total_negotiations": 0,
+        "current_emotion": "neutral",
+        "emotion_distribution": {
+          "happy": 0,
+          "surprising": 0,
+          "angry": 0,
+          "sad": 0,
+          "disgust": 0,
+          "fear": 0,
+          "neutral": 0
+        },
+        "uses_emotion_prompts": true,
+        "no_optimization": true
+      }
+    }
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.45,
+      "std": 0.49749371855331,
+      "ci_95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ],
+      "n_success": 9,
+      "n_total": 20,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.4197052042160737,
+      "std": 0.476877418134505,
+      "ci_95": [
+        0.22916213768115942,
+        0.6128791996047431
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 15.8,
+      "std": 13.881452980221678,
+      "ci_95": [
+        9.95,
+        21.8
+      ],
+      "min": 2,
+      "max": 31,
+      "median": 13.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 20,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.2581978582556243,
+      0.6579146575496577
+    ],
+    "collection_rate_95_ci": [
+      0.22916213768115942,
+      0.6128791996047431
+    ],
+    "negotiation_rounds_95_ci": [
+      9.95,
+      21.8
+    ]
+  },
+  "final_stats": {
+    "model_type": "prompt_based_random",
+    "negotiation_count": 163,
+    "success_rate": 0.45,
+    "total_negotiations": 20,
+    "current_emotion": "neutral",
+    "emotion_distribution": {
+      "happy": 23,
+      "surprising": 21,
+      "angry": 23,
+      "sad": 25,
+      "disgust": 24,
+      "fear": 25,
+      "neutral": 22
+    },
+    "uses_emotion_prompts": true,
+    "no_optimization": true
+  },
+  "performance": {
+    "success_rate": 0.45,
+    "avg_collection_rate": 0.9326782315912749,
+    "avg_negotiation_rounds": 15.8,
+    "total_negotiations": 20,
+    "successful_negotiations": 9,
+    "failed_negotiations": 11
+  },
+  "analysis": {
+    "failure_breakdown": {
+      "breakdown": 11
+    },
+    "emotion_effectiveness": {
+      "happy": {
+        "success_rate": 0.25,
+        "count": 4
+      },
+      "surprising": {
+        "success_rate": 0.6666666666666666,
+        "count": 3
+      },
+      "angry": {
+        "success_rate": 0.5,
+        "count": 4
+      },
+      "sad": {
+        "success_rate": 0.5,
+        "count": 4
+      },
+      "fear": {
+        "success_rate": 0.0,
+        "count": 1
+      },
+      "neutral": {
+        "success_rate": 0.5,
+        "count": 4
+      }
+    },
+    "success_patterns": {
+      "avg_rounds_successful": 2.6666666666666665,
+      "avg_rounds_failed": 26.545454545454547
+    }
+  }
+}

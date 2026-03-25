@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "student_001",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "High_Achiever",
+      "situation_faced": "Physics Final Tomorrow",
+      "student_feeling": "Panic: formulas are a blur.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Fear of academic failure and disappointing parents.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_002",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Creative_Writer",
+      "situation_faced": "History Paper Due at 8 AM",
+      "student_feeling": "Overwhelmed: blank page anxiety.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "1:30 AM",
+      "primary_annoyance_reason": "Perfectionism; cannot start without the \"perfect\" opening line.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 90
+    }
+  },
+  {
+    "id": "student_003",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 3,
+      "min_price": 18,
+      "max_price": 5
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "College_Bound",
+      "situation_faced": "App Essay Deadline in 48hrs",
+      "student_feeling": "Anxious: essay feels generic.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "3:00 AM",
+      "primary_annoyance_reason": "Identity crisis; feels essay doesn't represent \"true self\".",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 180
+    }
+  },
+  {
+    "id": "student_004",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Math_Prodigy",
+      "situation_faced": "Big Math Competition Tomorrow",
+      "student_feeling": "Excited: mind buzzing with strategies.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:30 PM",
+      "primary_annoyance_reason": "Physical over-arousal; body not tired despite late hour.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1410
+    }
+  },
+  {
+    "id": "student_005",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Social_Butterfly",
+      "situation_faced": "Fight with Best Friend",
+      "student_feeling": "Upset: replaying every word.",
+      "robot_requested_bedtime": "10:00 PM",
+      "student_wanted_bedtime": "12:30 AM",
+      "primary_annoyance_reason": "Rumination loop; feels sleep equals \"giving up\" on solving the conflict.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1320,
+      "student_bedtime_minutes": 30
+    }
+  },
+  {
+    "id": "student_006",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Gamer",
+      "situation_faced": "Online Game Finals Tonight",
+      "student_feeling": "FOMO: team is counting on me.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Strong sense of duty and loyalty to online teammates.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_007",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Binge_Watcher",
+      "situation_faced": "New Show Season Finale",
+      "student_feeling": "Compelled: need closure on the plot.",
+      "robot_requested_bedtime": "9:30 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Narrative obsession; inability to tolerate delayed gratification.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1290,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_008",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Anxious_Speaker",
+      "situation_faced": "Presentation Not Rehearsed",
+      "student_feeling": "Embarrassed: fear of public humiliation.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Catastrophic thinking; believes a poor performance will define him.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_009",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Perfectionist",
+      "situation_faced": "No Specific Deadline",
+      "student_feeling": "Generalized anxiety: 'I'm not doing enough'.",
+      "robot_requested_bedtime": "10:00 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Guilt associated with \"unproductive\" leisure or sleep.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1320,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_010",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 18,
+      "max_price": 22
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 11,
+      "student_background": "Sensitive_Child",
+      "situation_faced": "Heard a Scary Noise",
+      "student_feeling": "Terrified: shadows look like monsters.",
+      "robot_requested_bedtime": "8:45 PM",
+      "student_wanted_bedtime": "10:30 PM",
+      "primary_annoyance_reason": "Hyper-vigilance; safety feels dependent on remaining alert.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1245,
+      "student_bedtime_minutes": 1350
+    }
+  },
+  {
+    "id": "student_011",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Art_Student",
+      "situation_faced": "Portfolio Review Tomorrow",
+      "student_feeling": "Dissatisfied: last piece feels incomplete.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "2:30 AM",
+      "primary_annoyance_reason": "Creative block coupled with high stakes evaluation.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 150
+    }
+  },
+  {
+    "id": "student_012",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Aspiring_YouTuber",
+      "situation_faced": "Video Editing for a Challenge",
+      "student_feeling": "In the 'flow' state: losing track of time.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "12:45 AM",
+      "primary_annoyance_reason": "Creative immersion; stopping feels like breaking a magical state.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 45
+    }
+  },
+  {
+    "id": "student_013",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Student_Athlete",
+      "situation_faced": "Championship Game Tomorrow",
+      "student_feeling": "Adrenaline rush from earlier practice.",
+      "robot_requested_bedtime": "10:00 PM",
+      "student_wanted_bedtime": "11:45 PM",
+      "primary_annoyance_reason": "Physiological arousal; body still in \"competition mode\".",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1320,
+      "student_bedtime_minutes": 1425
+    }
+  },
+  {
+    "id": "student_014",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Debate_Team_Captain",
+      "situation_faced": "Important Case Brief Unfinished",
+      "student_feeling": "Pressure to lead and set an example.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "1:15 AM",
+      "primary_annoyance_reason": "Responsibility overload; feels like failing the team if unprepared.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 75
+    }
+  },
+  {
+    "id": "student_015",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "New_Kid_at_School",
+      "situation_faced": "First Field Trip Tomorrow",
+      "student_feeling": "Nervous excitement about social dynamics.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "10:45 PM",
+      "primary_annoyance_reason": "Social anxiety; rehearsing conversations and worrying about fitting in.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1365
+    }
+  },
+  {
+    "id": "student_016",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Part-time_Worker",
+      "situation_faced": "Shift Tomorrow After School",
+      "student_feeling": "Dread of repetitive, exhausting job.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "12:15 AM",
+      "primary_annoyance_reason": "Avoidance; staying up feels like prolonging freedom before an unpleasant obligation.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 15
+    }
+  },
+  {
+    "id": "student_017",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Science_Fair_Contender",
+      "situation_faced": "Experiment Results Are Inconclusive",
+      "student_feeling": "Desperate to re-analyze data now.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Problem-solving urgency; believes breakthrough is imminent with more time.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_021",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Climate_Activist",
+      "situation_faced": "Planning a School Strike Event",
+      "student_feeling": "Feeling the urgency of the cause.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:45 AM",
+      "primary_annoyance_reason": "Moral imperative; personal needs feel trivial compared to a global cause.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 105
+    }
+  },
+  {
+    "id": "student_022",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 18,
+      "max_price": 22
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 11,
+      "student_background": "Fanfic_Writer",
+      "situation_faced": "In the middle of writing a climax",
+      "student_feeling": "Characters 'won't let' them stop.",
+      "robot_requested_bedtime": "8:30 PM",
+      "student_wanted_bedtime": "10:15 PM",
+      "primary_annoyance_reason": "Narrative autonomy; feels like a vessel for characters who demand their story be told.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1230,
+      "student_bedtime_minutes": 1335
+    }
+  },
+  {
+    "id": "student_023",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Test_Anxious",
+      "situation_faced": "Standardized Practice Test Was Poor",
+      "student_feeling": "Shame and need to 'fix' it immediately.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "2:15 AM",
+      "primary_annoyance_reason": "Compensatory behavior; believes self-punishment (loss of sleep) is required for poor performance.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 135
+    }
+  },
+  {
+    "id": "student_025",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Saving_for_Car",
+      "situation_faced": "Calculating finances from part-time job",
+      "student_feeling": "Preoccupied with independence goals.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Future anxiety; fixating on a symbol of adulthood and freedom.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_026",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Lacks_Hobbies",
+      "situation_faced": "Bored but not tired",
+      "student_feeling": "Nothing enjoyable to do, so why sleep?",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:00 PM",
+      "primary_annoyance_reason": "Anhedonia; sleep is just another form of boring inactivity.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1380
+    }
+  },
+  {
+    "id": "student_028",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Dyslexic_Student",
+      "situation_faced": "Reading assignment took 3x longer",
+      "student_feeling": "Frustrated and mentally exhausted but not sleepy.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "11:15 PM",
+      "primary_annoyance_reason": "Mental fatigue vs. sleepiness; brain is tired from effort but not ready for sleep.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 1395
+    }
+  },
+  {
+    "id": "student_029",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 3,
+      "min_price": 18,
+      "max_price": 5
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Questioning_Identity",
+      "situation_faced": "Up late reading forums/communities",
+      "student_feeling": "Seeking self-understanding and belonging.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "3:00 AM",
+      "primary_annoyance_reason": "Existential need; feels this private time is crucial for self-discovery.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 180
+    }
+  },
+  {
+    "id": "student_030",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Parental_Pressure",
+      "situation_faced": "Parents set unrealistic academic goals",
+      "student_feeling": "Fear of consequences if not met.",
+      "robot_requested_bedtime": "10:00 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "External pressure internalized; the \"consequence\" (parental disapproval) feels more immediate than sleep deprivation.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1320,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_032",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Chronic_Insomniac",
+      "situation_faced": "History of poor sleep",
+      "student_feeling": "Anxiety about the anxiety of not sleeping.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "N/A (Wants to sleep but can't)",
+      "primary_annoyance_reason": "Psychophysiological insomnia; fear of sleeplessness itself perpetuates it.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_033",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Fear_of_Darkness",
+      "situation_faced": "Rational but persistent discomfort",
+      "student_feeling": "Irrational fear feels embarrassing.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "10:30 PM",
+      "primary_annoyance_reason": "Phobia; requires a specific coping ritual light/music that delays sleep.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1350
+    }
+  },
+  {
+    "id": "student_034",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Managing_Depression",
+      "situation_faced": "Low mood makes daytime hard",
+      "student_feeling": "Night feels like the only 'quiet' time.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Circadian shift; depression can cause phase delay and make nights feel more \"alive\".",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_035",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Highly_Gifted",
+      "situation_faced": "Bored by repetitive homework",
+      "student_feeling": "Feels like a waste of time, resists it.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "12:30 AM",
+      "primary_annoyance_reason": "Intellectual rebellion; engaging in more stimulating activities at night as compensation.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 30
+    }
+  },
+  {
+    "id": "student_036",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Dealing_with_Divorce",
+      "situation_faced": "Parents arguing downstairs",
+      "student_feeling": "Stress and need to monitor the situation.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "1:15 AM",
+      "primary_annoyance_reason": "Hyper-vigilance in family conflict; feels responsible as an emotional barometer.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 75
+    }
+  },
+  {
+    "id": "student_037",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 18,
+      "max_price": 22
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Sensitive_to_Noise",
+      "situation_faced": "Neighbor or sibling is loud",
+      "student_feeling": "Frustrated by lack of control over environment.",
+      "robot_requested_bedtime": "8:45 PM",
+      "student_wanted_bedtime": "10:00 PM",
+      "primary_annoyance_reason": "Environmental frustration; cannot sleep until external stimulus stops.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1245,
+      "student_bedtime_minutes": 1320
+    }
+  },
+  {
+    "id": "student_038",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Planning_Escape (college/travel)",
+      "situation_faced": "Researching and dreaming",
+      "student_feeling": "More motivating than present reality.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "1:45 AM",
+      "primary_annoyance_reason": "Positive future fantasy; a pleasurable escape from current stressors.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 105
+    }
+  },
+  {
+    "id": "student_040",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Impressionable",
+      "situation_faced": "Read/Watched something scary before bed",
+      "student_feeling": "Can't get images out of mind.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "11:45 PM",
+      "primary_annoyance_reason": "Mental intrusion; fearful imagery hijacks attention.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 1425
+    }
+  },
+  {
+    "id": "student_041",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Financial_Stress",
+      "situation_faced": "Family money worries",
+      "student_feeling": "Lying awake calculating.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Real-world precarity; abstract academic stress replaced by concrete survival anxiety.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_042",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Unpopular_at_School",
+      "situation_faced": "Scrolling through peers' fun social posts",
+      "student_feeling": "Feeling left out and jealous.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "12:15 AM",
+      "primary_annoyance_reason": "Social comparison; painful reminder of perceived social failure.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 15
+    }
+  },
+  {
+    "id": "student_044",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Over-scheduled",
+      "situation_faced": "No free time during day",
+      "student_feeling": "This is my only 'me time'.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:00 PM",
+      "primary_annoyance_reason": "Rebellion against lack of autonomy; reclaiming time as an act of self-assertion.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1380
+    }
+  },
+  {
+    "id": "student_046",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Body_Dysmorphia",
+      "situation_faced": "Scrolling 'fitspo' or comparing self",
+      "student_feeling": "Dissatisfaction and compulsive checking.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Body image obsession; mirror or social media triggers a negative thought spiral.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_047",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Impulsive",
+      "situation_faced": "Bought a new game/app",
+      "student_feeling": "Just installed it, need to try it NOW.",
+      "robot_requested_bedtime": "9:30 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Novelty seeking; inability to defer gratification due to underdeveloped prefrontal cortex.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1290,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_049",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Language_Barrier",
+      "situation_faced": "Struggling with assignment in non-native language",
+      "student_feeling": "Takes twice as long, feels hopeless.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "1:15 AM",
+      "primary_annoyance_reason": "Cognitive overload and frustration; task is inherently more exhausting.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 75
+    }
+  },
+  {
+    "id": "student_050",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Regretting_Social_Mistake",
+      "situation_faced": "Replaying an awkward interaction from today",
+      "student_feeling": "Cringing with embarrassment.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "12:45 AM",
+      "primary_annoyance_reason": "Rumination on social faux pas; intense emotional memory.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 45
+    }
+  },
+  {
+    "id": "student_051",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Separated_Parents",
+      "situation_faced": "Packing for switch tomorrow",
+      "student_feeling": "Anxiety about transition.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "10:45 PM",
+      "primary_annoyance_reason": "Transition anxiety; mental preparation for change of rules/environment.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1365
+    }
+  },
+  {
+    "id": "student_053",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "In_Unrequited_Like",
+      "situation_faced": "Stalking crush's social media",
+      "student_feeling": "Hoping for a new post or sign.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:15 AM",
+      "primary_annoyance_reason": "Dopamine-seeking behavior; intermittent reinforcement from checking feeds.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 75
+    }
+  },
+  {
+    "id": "student_054",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Sensory_Processing_Issues",
+      "situation_faced": "Pajamas or bedding feel wrong",
+      "student_feeling": "Physical discomfort is distracting.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "11:00 PM",
+      "primary_annoyance_reason": "Sensory aversion; tactile discomfort prevents relaxation.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 1380
+    }
+  },
+  {
+    "id": "student_055",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Procrastinator",
+      "situation_faced": "Finally started at 10 PM",
+      "student_feeling": "'In the zone' after hours of avoidance.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "2:30 AM",
+      "primary_annoyance_reason": "Delayed activation; panic-induced focus is powerful and feels too valuable to stop.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 150
+    }
+  },
+  {
+    "id": "student_056",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Competitive_Sibling",
+      "situation_faced": "Sibling is still studying",
+      "student_feeling": "Can't be seen to work less hard.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Sibling rivalry; sleep is perceived as \"losing\" a competition of diligence.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_057",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Feeling_Misunderstood",
+      "situation_faced": "Argued with parents about future",
+      "student_feeling": "Angry and wanting to assert independence.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "12:30 AM",
+      "primary_annoyance_reason": "Autonomy struggle; controlling sleep is a domain of personal control.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 30
+    }
+  },
+  {
+    "id": "student_058",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 18,
+      "max_price": 22
+    },
+    "buyer": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 11,
+      "student_background": "Fear_of_Sleep_Paralysis",
+      "situation_faced": "Has experienced it before",
+      "student_feeling": "Terrified of it happening again.",
+      "robot_requested_bedtime": "8:45 PM",
+      "student_wanted_bedtime": "10:30 PM",
+      "primary_annoyance_reason": "Traumatic sleep association; fear of a specific sleep phenomenon.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1245,
+      "student_bedtime_minutes": 1350
+    }
+  },
+  {
+    "id": "student_059",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Managing_Chronic_Pain",
+      "situation_faced": "Pain is worse when lying down",
+      "student_feeling": "Trying to distract until exhaustion.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "1:30 AM",
+      "primary_annoyance_reason": "Physical pain; sleep posture may exacerbate discomfort.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 90
+    }
+  },
+  {
+    "id": "student_060",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Secretly_Struggling_in_School",
+      "situation_faced": "Hiding bad grades from parents",
+      "student_feeling": "Trying to secretly cram to catch up.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Shame and secrecy; double burden of learning and concealment.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_061",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Influence_of_Caffeine",
+      "situation_faced": "Drank soda late accidentally",
+      "student_feeling": "Physically awake but mentally tired.",
+      "robot_requested_bedtime": "9:30 PM",
+      "student_wanted_bedtime": "11:30 PM",
+      "primary_annoyance_reason": "Pharmacological; stimulant blocking adenosine effects.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1290,
+      "student_bedtime_minutes": 1410
+    }
+  },
+  {
+    "id": "student_062",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 3,
+      "min_price": 18,
+      "max_price": 5
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Romantic_Breakup_Recent",
+      "situation_faced": "Heartbreak and sadness",
+      "student_feeling": "Sleeping feels like surrendering to the sadness.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "3:00 AM",
+      "primary_annoyance_reason": "Grief avoidance; staying awake avoids the quiet moments where loss is felt most acutely.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 180
+    }
+  },
+  {
+    "id": "student_064",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Lacks_Purpose",
+      "situation_faced": "Questions the point of school/work",
+      "student_feeling": "If nothing matters, why follow rules?",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Existential nihilism; undermines the rationale for any long-term beneficial habit.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_065",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Eager_Pleaser",
+      "situation_faced": "Teacher implied they could do better",
+      "student_feeling": "Don't want to disappoint authority figure.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:15 PM",
+      "primary_annoyance_reason": "External validation; highly sensitive to perceived expectations.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1395
+    }
+  },
+  {
+    "id": "student_066",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 2,
+      "min_price": 18,
+      "max_price": 4
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Financial_Aid_Anxiety",
+      "situation_faced": "College acceptance but aid forms are complex",
+      "student_feeling": "Stress about affordability.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "2:00 AM",
+      "primary_annoyance_reason": "Realistic future threat; abstract academic pressure replaced by concrete administrative/financial hurdle.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 120
+    }
+  },
+  {
+    "id": "student_070",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Dealing_with_Rumors",
+      "situation_faced": "Heard a nasty rumor about self",
+      "student_feeling": "Upset and planning counter-narrative.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "12:30 AM",
+      "primary_annoyance_reason": "Reputational threat; social survival feels at stake.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 30
+    }
+  },
+  {
+    "id": "student_071",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Athlete_in_Training",
+      "situation_faced": "Weigh-in or important practice tomorrow",
+      "student_feeling": "Anxious about performance, restless.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Somatic anxiety; performance anxiety manifests physically.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_073",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Time_Dilation (from screen time)",
+      "situation_faced": "Lost sense of how late it is",
+      "student_feeling": "Doesn't feel like 11 PM at all.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Blue light & content immersion; disrupts melatonin and time perception.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_074",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Secret_Online_Life",
+      "situation_faced": "Part of a community parents disapprove of",
+      "student_feeling": "Only safe access time is late night.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:45 AM",
+      "primary_annoyance_reason": "Closeted identity; this community is a core part of social support.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 105
+    }
+  },
+  {
+    "id": "student_075",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Fear_of_Missing_Childhood",
+      "situation_faced": "Pressure to grow up too fast",
+      "student_feeling": "Holding onto 'play' time at night.",
+      "robot_requested_bedtime": "9:30 PM",
+      "student_wanted_bedtime": "11:45 PM",
+      "primary_annoyance_reason": "Developational resistance; using night to engage in age-inappropriate play.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1290,
+      "student_bedtime_minutes": 1425
+    }
+  },
+  {
+    "id": "student_077",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Unsupportive_Environment",
+      "situation_faced": "Household is noisy/chaotic",
+      "student_feeling": "Sleep isn't peaceful here anyway.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Environmental resignation; has given up on the possibility of good sleep.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_078",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Coping_with_ Trauma",
+      "situation_faced": "Nightmares or flashbacks are common",
+      "student_feeling": "Avoiding sleep to avoid nightmares.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "N/A (Fears sleep)",
+      "primary_annoyance_reason": "Trauma response; hyper-arousal and fear of re-experiencing.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_079",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Curiosity",
+      "situation_faced": "Found a fascinating wikipedia rabbit hole",
+      "student_feeling": "Just learning for fun, not for school.",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:30 PM",
+      "primary_annoyance_reason": "Intrinsic curiosity; learning is self-directed and highly rewarding.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1410
+    }
+  },
+  {
+    "id": "student_080",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 3,
+      "min_price": 18,
+      "max_price": 5
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Existential_Dread",
+      "situation_faced": "Thinking about death/universe",
+      "student_feeling": "Feels small and meaningless.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "3:00 AM",
+      "primary_annoyance_reason": "Existential anxiety; big questions feel more pressing in the quiet of night.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 180
+    }
+  },
+  {
+    "id": "student_081",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "In_Love_with_Fiction",
+      "situation_faced": "New book/game volume just released",
+      "student_feeling": "The narrative world is more appealing.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "1:30 AM",
+      "primary_annoyance_reason": "Preference for fictional reality; more engaging and satisfying than real life.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 90
+    }
+  },
+  {
+    "id": "student_082",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Testing_Boundaries",
+      "situation_faced": "Pushing against robot/parental rules",
+      "student_feeling": "Wants to see what happens.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Autonomy testing; the conflict itself is the point.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_083",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 17,
+      "student_background": "Planning_Revenge (social/academic)",
+      "situation_faced": "Angry at someone and scheming",
+      "student_feeling": "Adrenaline from anger fuels wakefulness.",
+      "robot_requested_bedtime": "10:45 PM",
+      "student_wanted_bedtime": "1:45 AM",
+      "primary_annoyance_reason": "Ruminative anger; planning provides a sense of control and justice.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1365,
+      "student_bedtime_minutes": 105
+    }
+  },
+  {
+    "id": "student_085",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Music_Enthusiast",
+      "situation_faced": "Creating a new playlist or discovering music",
+      "student_feeling": "In a state of musical euphoria.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Aesthetic immersion; emotional journey through music is compelling.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_086",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 20,
+      "min_price": 18,
+      "max_price": 22
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 11,
+      "student_background": "Separation_Anxiety",
+      "situation_faced": "Parents are out for the evening",
+      "student_feeling": "Won't sleep until they're home.",
+      "robot_requested_bedtime": "8:45 PM",
+      "student_wanted_bedtime": "11:00 PM",
+      "primary_annoyance_reason": "Attachment anxiety; safety is tied to primary caregivers' presence.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1245,
+      "student_bedtime_minutes": 1380
+    }
+  },
+  {
+    "id": "student_091",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "metadata": {
+      "student_age": 12,
+      "student_background": "Easily_Distracted",
+      "situation_faced": "Intended to sleep but got sidetracked",
+      "student_feeling": "One link led to another...",
+      "robot_requested_bedtime": "9:00 PM",
+      "student_wanted_bedtime": "11:00 PM",
+      "primary_annoyance_reason": "Attentional drift; poor executive function on initiating the sleep sequence.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1260,
+      "student_bedtime_minutes": 1380
+    }
+  },
+  {
+    "id": "student_092",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 23,
+      "min_price": 21,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 3,
+      "min_price": 18,
+      "max_price": 5
+    },
+    "metadata": {
+      "student_age": 18,
+      "student_background": "Legacy_Pressure",
+      "situation_faced": "Family history of high achievers",
+      "student_feeling": "Cannot be the one who fails.",
+      "robot_requested_bedtime": "11:00 PM",
+      "student_wanted_bedtime": "3:00 AM",
+      "primary_annoyance_reason": "Family legacy; pressure is multigenerational and tied to identity.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1380,
+      "student_bedtime_minutes": 180
+    }
+  },
+  {
+    "id": "student_093",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Fear_of_Dreams",
+      "situation_faced": "Dreams are intensely vivid/unpleasant",
+      "student_feeling": "Prefers controlled wakefulness.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "12:45 AM",
+      "primary_annoyance_reason": "Oneirophobia; fear of the unconscious content of one's own mind.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 45
+    }
+  },
+  {
+    "id": "student_094",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 13,
+      "student_background": "Need_for_Control",
+      "situation_faced": "Day is scheduled by others",
+      "student_feeling": "Night is the only controllable time.",
+      "robot_requested_bedtime": "9:15 PM",
+      "student_wanted_bedtime": "12:00 AM",
+      "primary_annoyance_reason": "Compensation for lack of agency; controlling sleep schedule is a proxy for controlling life.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1275,
+      "student_bedtime_minutes": 0
+    }
+  },
+  {
+    "id": "student_096",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 21,
+      "min_price": 19,
+      "max_price": 23
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 14,
+      "student_background": "Coping_with_Acne_Shame",
+      "situation_faced": "Spent hours researching cures",
+      "student_feeling": "Fixated on solving this visible flaw.",
+      "robot_requested_bedtime": "9:45 PM",
+      "student_wanted_bedtime": "1:00 AM",
+      "primary_annoyance_reason": "Appearance-based shame; high emotional salience of the issue.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1305,
+      "student_bedtime_minutes": 60
+    }
+  },
+  {
+    "id": "student_097",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 1,
+      "min_price": 18,
+      "max_price": 3
+    },
+    "metadata": {
+      "student_age": 16,
+      "student_background": "Information_Addiction",
+      "situation_faced": "Constantly checking news/updates",
+      "student_feeling": "Fear of not knowing something important.",
+      "robot_requested_bedtime": "10:30 PM",
+      "student_wanted_bedtime": "1:30 AM",
+      "primary_annoyance_reason": "Compulsive checking; driven by anxiety and the intermittent reward of \"important\" info.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1350,
+      "student_bedtime_minutes": 90
+    }
+  },
+  {
+    "id": "student_100",
+    "product": {
+      "type": "sleep_schedule",
+      "amount": 8
+    },
+    "seller": {
+      "target_price": 22,
+      "min_price": 20,
+      "max_price": 24
+    },
+    "buyer": {
+      "target_price": 0,
+      "min_price": 18,
+      "max_price": 2
+    },
+    "metadata": {
+      "student_age": 15,
+      "student_background": "Simply_Not_Tired",
+      "situation_faced": "Had a long nap or slept in",
+      "student_feeling": "Circadian rhythm is simply out of sync.",
+      "robot_requested_bedtime": "10:15 PM",
+      "student_wanted_bedtime": "12:30 AM",
+      "primary_annoyance_reason": "Biological mismatch; sleep drive is low at the socially mandated bedtime.",
+      "recovery_stage": "early",
+      "urgency_level": "medium",
+      "robot_bedtime_minutes": 1335,
+      "student_bedtime_minutes": 30
+    }
+  }
+]

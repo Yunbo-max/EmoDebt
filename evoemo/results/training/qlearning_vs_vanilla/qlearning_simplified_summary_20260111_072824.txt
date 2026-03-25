@@ -1,0 +1,54 @@
+Q-LEARNING BASELINE EXPERIMENT SUMMARY
+============================================================
+
+Timestamp: 2026-01-11 07:28:24
+Total Episodes: 240
+Episodes per Scenario: 3
+Scenarios Used: 80
+Learning Rate: 0.15
+Discount Factor: 0.9
+Use Softmax: True
+Temperature: 1.2
+
+PERFORMANCE METRICS:
+------------------------------
+Overall Success Rate: 84.6%
+Average Days (Successful): 49.6
+Average Rounds (Successful): 12.5
+Best Reward: 20.78
+Final Avg Reward: 12.61
+
+BEST EMOTIONAL SEQUENCE:
+------------------------------
+Sequence: ['fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear']
+Length: 15
+Reward: 20.78
+
+FINAL Q-LEARNING STATISTICS:
+------------------------------
+total_episodes: 240
+best_reward: 20.77658449072194
+avg_reward_last_10: 12.608195917542734
+reward_std_last_10: 5.944645978985427
+exploration_rate: 0.24023117526813917
+q_table_mean: 0.9986630981503652
+q_table_std: 2.7032016685145717
+q_table_max: 17.798139279437386
+q_table_min: -0.026244876774951863
+transition_entropy: 1.3388390550647564
+emotion_history: []
+use_softmax: True
+temperature: 1.2
+
+TRANSITION MATRIX SUMMARY:
+------------------------------
+happy      -> angry      (p=0.360)
+surprising -> neutral    (p=0.286)
+angry      -> surprising (p=0.365)
+sad        -> disgust    (p=0.166)
+disgust    -> neutral    (p=0.490)
+fear       -> fear       (p=1.000)
+neutral    -> fear       (p=0.869)
+
+95% CONFIDENCE INTERVALS:
+------------------------------

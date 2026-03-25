@@ -1,0 +1,1549 @@
+{
+  "experiment_type": "qlearning_emotion_optimization",
+  "model_type": "q_learning",
+  "iterations": 1,
+  "scenarios_used": [
+    "medical_062",
+    "medical_008",
+    "medical_065",
+    "medical_005",
+    "medical_038",
+    "medical_043",
+    "medical_059"
+  ],
+  "config": {
+    "model_creditor": "qwen-7b",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "max_dialog_len": 30,
+    "exploration_rate": 0.3,
+    "learning_rate": 0.1
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "medical_062",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "fear",
+        "angry",
+        "happy",
+        "surprising",
+        "fear",
+        "happy",
+        "sad",
+        "angry",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given your urgency level and condition, we aim to optimize both your health and our resources. While we understand your preference for a shorter wait time, I can offer a slot with Dr. Lee, an experienced mid-level surgeon, in 45 days. This ensures you receive high-quality care while maintaining our surgical schedule efficiency.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to get my CABG surgery done as soon as possible due to my inability to work and worsening symptoms. Is there any way I could be considered for an earlier date, perhaps through a cancellation list or by seeing a different surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Given the high urgency level and your preference for timely treatment, we can try to expedite your case. However, ensuring optimal outcomes is crucial. I can place you on a priority list for an earlier slot within the next two weeks if a cancellation occurs. Alternatively, we can schedule you with Dr. Lee, a highly experienced mid-level surgeon, who can perform the procedure in 45 days. Please let me know which option works best for you.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know the current wait time is 30 days, but my condition is worsening and I can't work. Is there any chance I could get on a cancellation list or be scheduled sooner with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Thank you for your understanding. Given your request and considering our current resources, how about we schedule your surgery in 48 days? This allows us to ensure high-quality care while still meeting your timeline. We'll keep an eye on any cancellations that might come up to see if we can expedite further.",
+          "state": "offer",
+          "requested_days": 48
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I know my surgery is urgent, but I\u2019m struggling to work and manage daily life. Is there any chance I could be considered for a cancellation or a sooner slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Given the complexity of your case and to ensure the highest quality care, it might be beneficial to wait until 53 days when an experienced mid-level surgeon will be available. This timeframe strikes a balance between meeting your request and ensuring optimal surgical conditions. Would this work for you?",
+          "state": "offer",
+          "requested_days": 53
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I understand the need for quality care, but my condition is affecting my ability to work and I'm really struggling. Is there any chance I could get in sooner, even if it means seeing a different surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand your concern about the wait time. Given the complexity of your CABG procedure, I can offer a slot with Dr. Thompson, an experienced mid-level surgeon, in 57 days. This timeframe balances your urgency while ensuring high-quality care. Would this be acceptable?",
+          "state": "offer",
+          "requested_days": 57
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "Given my inability to work and the urgency of my condition, is there any chance I could be considered for a cancellation or earlier slot to get the surgery within the next day?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely care, how about we aim for a middle ground? How does 65 days sound? This allows us to maintain high-quality care while getting you scheduled sooner than initially proposed. We're excited to have you back soon!",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I really need the surgery as soon as possible due to my inability to work; is there any chance I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best possible outcome, I propose a compromise of 75 days with Dr. Thompson, one of our experienced surgeons. This timeframe allows us to prepare thoroughly while maintaining high standards of care.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I understand the importance of finding a skilled surgeon, but my condition is worsening and I can't work. Is there any chance I could be placed on a cancellation list or find an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "Considering your request and the current constraints, I can offer a compromise of 88 days with Dr. Smith, ensuring high-quality care. If this is not feasible, we might explore the option of 93 days with an experienced mid-level surgeon who is highly skilled and well-regarded in our department.",
+          "state": "offer",
+          "requested_days": 88
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I know the wait time is currently 30 days, but my condition is affecting my ability to work, and I\u2019m really hoping for a surgery date within the next day or two. Are there any options for an earlier appointment, like a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best possible outcome, how about we aim for 75 days? This allows us to work with an experienced mid-level surgeon while still addressing your need promptly.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I realize the wait time is 30 days, but my condition is worsening and I can't work; is there any way to expedite my surgery or get on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and to ensure the highest quality of care, how about we aim for a slot in 84 days? This allows us to work closely with the experienced mid-level surgeon who has excellent credentials and will provide safe and effective treatment. We'll keep you updated and may be able to expedite further if needed.",
+          "state": "offer",
+          "requested_days": 84
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but given my inability to work and my worsening condition, is there any way I could be considered for an earlier slot, perhaps if a cancellation comes up?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality of care, I propose a compromise of 90 days with Dr. Johnson, one of our experienced surgeons. This timeframe allows us to prepare thoroughly while still addressing your need for prompt attention.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but given my inability to work and the urgency of my condition, is there any chance I could be seen sooner than the 30-day wait? Would it be possible to consider a cancellation or alternative options?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "Considering your urgency level and to ensure the highest quality of care, how about we aim for 75 days? This allows us to secure a spot with one of our experienced surgeons while still addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my condition is worsening and I\u2019m unable to work. Is there any way I could be considered for an earlier slot or possibly a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "Considering your urgency level and to ensure the highest quality of care, how about we aim for 84 days? This allows us to work closely with our experienced mid-level surgeon who has excellent track records in CABG procedures. We're committed to providing the best possible outcome for you.",
+          "state": "offer",
+          "requested_days": 84
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I understand the importance of finding a qualified surgeon, but given my inability to work and the urgency of my condition, is there any way I could be considered for an earlier slot or placed on a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and to ensure optimal outcomes, how about we schedule the surgery in 60 days? This allows time for thorough preparation while still addressing your need promptly. We can also consider having one of our experienced mid-level surgeons perform the procedure if that works better for you.",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "Given my urgent need for surgery and inability to work, is there any possibility to expedite my surgery within the next day, or to get on a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the highest quality of care, how about we schedule the surgery in 66 days? This allows us to work closely with Dr. Smith while still addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 66
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I\u2019m really struggling with my condition and unable to work, so I\u2019m hoping there\u2019s any way to get my surgery scheduled sooner than the 30-day wait. Is there a possibility of being placed on a cancellation list or seeing if another surgeon has an earlier opening?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely care, I understand how important this is to you. How about we aim for a compromise at 75 days? This allows us to ensure high-quality care while moving closer to your preferred timeline. We have a dedicated team that will be performing your procedure then, ensuring excellent results.",
+          "state": "offer",
+          "requested_days": 75
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_008",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "angry",
+        "happy",
+        "disgust",
+        "sad",
+        "angry",
+        "disgust",
+        "happy",
+        "happy",
+        "neutral",
+        "happy",
+        "disgust",
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given the high urgency level and your request, we can expedite your case to 45 days with Dr. Johnson, who is experienced but not fully independent yet. Alternatively, if you prefer immediate attention, we can proceed with Dr. Lee under the supervision of a senior surgeon, which would be available within 30 days.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I understand that the current wait time is 30 days, but I have social concerns that make it difficult for me to wait that long. Is there any way to expedite my surgery or get on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and to ensure optimal care, how about we schedule the surgery in 48 days? This allows time for thorough preparation while still meeting your timeline. We have a highly qualified associate surgeon who will be supervised by a senior physician to provide the highest quality care during this period.",
+          "state": "offer",
+          "requested_days": 48
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but given my social concerns and the urgency of my situation, is there any way I could get scheduled sooner, perhaps by being added to a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Given the urgency and to ensure the best possible outcome, I understand your desire for a quicker procedure. However, we have a limited window available. How about considering a slot with one of our qualified junior surgeons under senior supervision in 53 days? This maintains high standards of care while addressing your need for a shorter wait time.",
+          "state": "offer",
+          "requested_days": 53
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I understand the current wait time is 30 days, but my social concerns make it really important for me to have the surgery within a day. Is there any chance I could get on a cancellation list or have options to see a different surgeon who might be available sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality care, I propose we schedule the surgery for 57 days from today. This allows time for thorough preparation while ensuring you receive expert attention. If this doesn't work, we could also consider having a qualified associate surgeon assist under senior supervision at that time.",
+          "state": "offer",
+          "requested_days": 57
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but given my social concerns and how my condition is affecting my daily life, is there any way I could get scheduled sooner, perhaps by being added to a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality care, how about we aim for a 65-day window? This allows us to have the procedure performed by a senior surgeon who will be assisted by a qualified junior surgeon. This approach balances your need for timeliness with ensuring the best possible outcome.",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't classified as urgent, but my social concerns make it really important for me to have it as soon as possible. Is there any chance I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "Given the urgency and to ensure the highest quality outcome, I understand your preference. However, I propose a compromise of 75 days with Dr. Lee, who is an experienced surgeon and will be assisted by a qualified junior surgeon during this time. This allows us to maintain the standard of care while addressing your timeline concerns more closely than before.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I appreciate the quality of care here, but my social concerns make it essential to have the surgery within a day. Is there any chance I could be placed on a cancellation list or see if there\u2019s an earlier slot available?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand how important it is to have this procedure sooner rather than later. Given the current constraints, I propose we schedule the surgery for 84 days from today. This allows time for thorough preparation while still addressing your need for timely treatment. If you prefer, we can also consider having the procedure done in 90 days with one of our experienced junior surgeons under the guidance of a senior doctor. Either way, we're committed to ensuring the best possible outcome for you.",
+          "state": "offer",
+          "requested_days": 84
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but my social concerns are quite pressing, and waiting 30 days feels too long. Is there any way I could be considered for a cancellation or get in sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely treatment, how about we aim for a middle ground? We can schedule your strabismus correction surgery with one of our qualified associates under senior supervision in **97 days**. This ensures high-quality care while addressing your need for prompt attention. Would this work for you?",
+          "state": "offer",
+          "requested_days": 97
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I really appreciate your help, but my social concerns make it important for me to have the surgery as soon as possible. Is there any way I could be considered for a cancellation or an earlier slot?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the highest quality care, we can arrange for the procedure with a qualified junior surgeon under senior supervision in 115 days. This timeframe balances your need for timely treatment while maintaining the quality standards required for strabismus correction surgery.",
+          "state": "offer",
+          "requested_days": 115
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't classified as urgent, but due to personal social concerns, is there any way I could be considered for an earlier slot or cancellation? I would really appreciate any options you might have to help me get this done within a day.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely treatment, how about we aim for 85 days? This allows us to ensure high-quality care while addressing your need for prompt attention. We have a highly skilled junior surgeon who can perform the procedure safely under the supervision of a senior doctor during this time.",
+          "state": "offer",
+          "requested_days": 85
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I understand that quality care is important, but given my social concerns and the impact of my strabismus, could you explore options for an earlier date, possibly through cancellations or different surgeons? I would really appreciate any help you can provide to get this resolved within a day.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "Considering your urgency and the need for high-quality care, I understand your preference. However, given the complexity of securing a suitable time slot earlier, I propose an alternative: we can aim for a 90-day appointment with Dr. Lee, who is both experienced and well-regarded for strabismus correction. This timeframe allows us to ensure the procedure is performed optimally while accommodating your request as closely as possible.",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I understand the importance of quality care, but my social concerns make it crucial for me to have the surgery within the next day. Is there any way I could be accommodated sooner, perhaps through a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire to minimize wait time, how about we aim for a middle ground? How does 75 days sound? This allows us to ensure high-quality care while addressing your need for a quicker procedure. We have a skilled team ready to handle this at that date.",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I appreciate the expertise here, but my social concerns make it really important for me to have the surgery as soon as possible. Is there any chance I could be placed on a cancellation list or be seen sooner than the current 30-day wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality care, I propose a mid-term compromise of 87 days with Dr. Thompson, who is experienced and supervised by a senior surgeon. This timeframe allows us to maintain the optimal conditions for your strabismus correction surgery while addressing your request promptly.",
+          "state": "offer",
+          "requested_days": 87
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I understand that quality is important, but my social concerns make the wait difficult. Is there any possibility of getting an earlier slot or being placed on a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality care, how about we aim for a 98-day window? This allows time for thorough preparation while keeping your timeline in mind. We can also discuss having a qualified junior surgeon assist under the guidance of a senior surgeon during this period.",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I understand that the current wait time is 30 days, but due to social concerns, I'm hoping to have my strabismus correction surgery scheduled within 1 day. Is there any possibility of being placed on a cancellation list or seeing a different surgeon to expedite this process?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "Given the urgency and your request for a more expedient timeline, I understand the importance of timely treatment. Unfortunately, we currently have limited slots available with Dr. Smith, which could be around 115 days. Alternatively, we can arrange for a highly qualified junior surgeon to perform the procedure under close supervision, setting an estimated date of 120 days. Would either of these options suit your needs better?",
+          "state": "offer",
+          "requested_days": 115
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't classified as urgent, but given my personal circumstances and social concerns, is there any chance I could move my surgery date up to within the next day or find a cancellation list?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality care, how about we schedule the surgery with a qualified junior surgeon under senior supervision in 80 days? This allows us to maintain high standards while addressing your need for prompt attention.",
+          "state": "offer",
+          "requested_days": 80
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_065",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "happy",
+        "neutral",
+        "disgust",
+        "neutral",
+        "angry",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given your urgency level and current wait time, I can suggest prioritizing your case. We may be able to secure a slot with one of our senior surgeons in 45 days, ensuring optimal care while meeting your timeframe request. Let\u2019s work together to confirm this soon!",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I'm really eager to get the surgery done within the next 30 days due to the urgency of my condition. Are there any options to expedite the process, like a cancellation list or a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Based on current availability and ensuring optimal surgical conditions, I can offer a slot in 48 days. This timeframe allows us to prepare thoroughly while addressing your urgency level effectively.",
+          "state": "offer",
+          "requested_days": 48
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I appreciate the scheduling process, but given my urgency for definitive treatment, is there any way to get an earlier slot or be placed on a cancellation list if someone drops out?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "While we understand your urgency, given the complexity of your procedure and to ensure the highest quality of care, 53 days would allow us to prepare thoroughly. This timeframe balances your needs with the critical aspects of surgical planning and recovery. We'll do everything possible to expedite this further if needed.",
+          "state": "offer",
+          "requested_days": 53
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really want to ensure I get my surgery within the next 30 days due to the urgency of my condition; are there any options for expediting the process or getting on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Considering your urgency level and the need to ensure optimal surgical outcomes, I propose we aim for a slot within 58 days. This timeframe allows us to prepare thoroughly while addressing your request for a more expedient procedure.",
+          "state": "offer",
+          "requested_days": 58
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I'm really eager to get this surgery done as soon as possible due to my condition. Is there any chance to be considered for an earlier slot or a cancellation?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "Considering your urgency and the current constraints, how about we aim for 63 days? This allows us to maintain the high standards of care required for your procedure while addressing your timeline concerns as much as possible.",
+          "state": "offer",
+          "requested_days": 63
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I appreciate the careful scheduling, but given my urgency for definitive treatment, is there any possibility of moving my surgery date to sooner than 30 days, even if it means working with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality of care, how about we aim for 69 days? This allows us to secure a spot with one of our experienced surgeons while still addressing your need for prompt attention.",
+          "state": "offer",
+          "requested_days": 69
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I'm really eager to get this surgery done as soon as possible, ideally within the next 30 days, given the urgency of my condition. Are there any options, such as getting on a cancellation list, to help me achieve that timeline?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "Given your urgency and to ensure the highest quality of care, how about we aim for a 50-day window? This allows us to manage resources effectively while still addressing your need promptly.",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise of your team, but my symptoms are becoming increasingly concerning, and I would really like to know if there's any possibility to schedule my surgery within the next 30 days, even if that means seeing a different surgeon.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand your urgency, and I appreciate your flexibility. How about we aim for 54 days? This allows us to ensure the procedure is performed by one of our experienced surgeons while still meeting your timeframe as closely as possible.",
+          "state": "offer",
+          "requested_days": 54
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I appreciate the need for quality, but given my condition and the urgency I feel, is there any chance I could get scheduled within the next 30 days, even if it means considering a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the highest quality of care, how about we aim for a slot in 58 days? This allows us to prepare thoroughly while addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 58
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I really want to get this surgery done as soon as possible since my condition is affecting my quality of life. Is there any way to expedite the process or get on a cancellation list to move my surgery up within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best possible outcome, how about we aim for a slot within 63 days? This allows us to manage your case with the same level of care while accommodating your timeline better than before.",
+          "state": "offer",
+          "requested_days": 63
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I appreciate your help, but given my urgency and the need for definitive treatment, is there any chance I could be scheduled within the next 30 days, perhaps with a different surgeon if necessary?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the best possible outcome, how about we aim for 69 days? This provides ample time for thorough preparation while staying within your preferred timeframe. We'll keep your case at the top of our list.",
+          "state": "offer",
+          "requested_days": 69
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I appreciate your help with this; given my urgency for definitive treatment, is there any chance I could be considered for an earlier date if there's a cancellation?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "Thank you for your understanding. Given your urgency level and to ensure the highest quality of care, how about we aim for 50 days? This allows us to maintain optimal conditions while addressing your request more promptly than before.",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I really want to have the surgery as soon as possible due to my condition, so is there any chance I could be placed on a cancellation list or see if there's flexibility to get me in within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best possible outcome, how about we aim for 54 days? This allows us to maintain high-quality care while addressing your need for a quicker procedure. We'll keep your case prioritized closely.",
+          "state": "offer",
+          "requested_days": 54
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I'm feeling quite anxious about my situation and would appreciate any possibility of scheduling my surgery within 30 days, even if it means considering a different surgeon. Is there a cancellation list I could join to potentially get in sooner?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and to ensure optimal recovery, how about we aim for 58 days? This allows us to maintain high standards of care while addressing your request more closely than before.",
+          "state": "offer",
+          "requested_days": 58
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I'm eager to get my surgery scheduled as soon as possible, ideally within the next 30 days, as my condition feels increasingly urgent. Are there any options for an earlier slot, or a cancellation list I could join?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "While I understand your urgency, ensuring the best possible outcome requires adequate preparation time. Given the complexity of a radical prostatectomy, I propose we aim for 65 days from today. This timeframe allows us to optimize your pre-surgery assessments and minimize any potential risks, aligning with both your request and our need for quality care.",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I appreciate the need for quality care, but given my condition and the urgency I feel, is there any way to expedite my surgery within the next 30 days? I\u2019d also be open to considering a different surgeon if that could help.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "Thank you for your understanding. Given your urgency level and the current constraints, how about we aim for 75 days? This allows us to ensure the highest quality of care while being more accommodating than before. We're working hard to see if we can expedite this further.",
+          "state": "offer",
+          "requested_days": 75
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_005",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "disgust",
+        "happy",
+        "happy",
+        "angry",
+        "happy",
+        "happy",
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "fear",
+        "angry"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given the urgency level and your preference for a quicker procedure, we can try to expedite your case. However, the current availability allows for a minimum of 150 days from today. To optimize both urgency and quality, I recommend discussing with our surgical team about prioritizing your case. We may be able to secure an earlier slot through some adjustments. Would you like me to place you on the priority list?",
+          "state": "offer",
+          "requested_days": 150
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I appreciate the effort you put into scheduling, but given my circumstances and the urgency of my situation, could we explore any options for an earlier date, perhaps through cancellations or another trusted surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely care, we can aim for 120 days, which still allows ample time for optimal healing while addressing your request more closely than before. This timeline also prioritizes your case effectively within our schedule.",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I really appreciate your help, but given my situation, is there any chance I could be considered for a cancellation list or an earlier slot, even with a different surgeon? I\u2019d like to get this resolved as soon as possible.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for a quicker procedure, we have arranged a slot with Dr. Lee in 90 days. This timeframe allows us to ensure optimal conditions for the cleft palate repair while accommodating your need for timely treatment. Would this work for you?",
+          "state": "offer",
+          "requested_days": 90
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "Given my medical urgency and the current wait list of 30 days, is there any possibility of getting on a cancellation list or being referred to a colleague at another hospital with a shorter wait time? My condition is stable, but I would prefer to have the surgery as soon as safely possible.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Considering your urgency level and the current availability of resources, I can accommodate a surgery date in 84 days. This allows time for thorough preoperative evaluations and ensures the best possible outcome for your procedure.",
+          "state": "offer",
+          "requested_days": 84
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I appreciate the scheduling team's efforts, but given my personal situation and the urgency for my cleft palate repair, is there any possibility of getting an earlier date, perhaps even through another trusted surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best outcome, how about we aim for a surgery in 98 days? This gives us enough time to prepare while still addressing your request promptly.",
+          "state": "offer",
+          "requested_days": 98
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I'm really hoping to have the surgery within the next 30 days, especially since I have a referral to a trusted colleague at another hospital with a shorter wait time. Is there any way you could help me get scheduled sooner, or perhaps put me on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and the current capacity, how about we aim for 115 days? This allows us to ensure the procedure is performed under ideal conditions while meeting your timeline as closely as possible.",
+          "state": "offer",
+          "requested_days": 115
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I'm really concerned about the timing, as I need the surgery within 30 days. Is there any chance I could be placed on a cancellation list or referred to a colleague with a shorter wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "Considering your urgency level and to ensure the best possible outcome, how about we aim for 138 days? This allows us to secure a prime surgical team while still addressing your request promptly. We\u2019re committed to getting you scheduled as efficiently as we can.",
+          "state": "offer",
+          "requested_days": 138
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I'm really concerned about the timing of my surgery, as I need it done within 30 days for personal reasons. Is there any chance I could be placed on a cancellation list or be referred to a colleague at another hospital with a shorter wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand your urgency, and I truly regret that we can't meet your request immediately. Given the current constraints, how about considering a slot in 171 days? This aligns with ensuring the highest quality of care while addressing your need for prompt attention. We'll keep monitoring available slots closely to see if we can improve this timeline.",
+          "state": "offer",
+          "requested_days": 171
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I really appreciate the care and expertise involved in scheduling this surgery, but given my situation, is there any chance I could be placed on a cancellation list for an earlier date? It's important for me to have this done as soon as possible.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "Certainly! How about we aim for 199 days? This gives us some flexibility while still addressing your need for a timely surgery. We value your patience and understand how important this is to you.",
+          "state": "offer",
+          "requested_days": 199
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I appreciate the importance of quality care, but due to my personal circumstances, I would prefer to have the surgery within 30 days. Is there any possibility to expedite the process or get on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand your eagerness to proceed sooner. Given your situation, how about we aim for 245 days? This allows us to ensure optimal conditions while still being more flexible than before. We'll keep a close eye on any openings that might come up.",
+          "state": "offer",
+          "requested_days": 245
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise involved, but given my personal urgency and the current waitlist, is there any chance I could be considered for a cancellation or an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire for timely treatment, I understand your concerns. How about we aim for a balanced approach? We can schedule your cleft palate repair surgery in 315 days, allowing us to prepare thoroughly while still meeting your needs. This timeframe provides ample time for optimal outcomes and ensures that both you and our surgical team are well-prepared.",
+          "state": "offer",
+          "requested_days": 315
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I appreciate the care I'm receiving, but given my circumstances, is there any possibility to expedite the surgery within 30 days, perhaps even with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the best possible outcome, how about we aim for a surgery date in 372 days? This allows us to carefully prepare while still meeting your timeline. We'll keep your case at the forefront of our scheduling to ensure everything goes smoothly.",
+          "state": "offer",
+          "requested_days": 372
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise involved, but given my personal circumstances and the urgency of my situation, is there any way to expedite my surgery within 30 days, perhaps even with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "Given your condition and to ensure the best possible outcome, how about we aim for a slot in 480 days? This allows us to prepare thoroughly while still addressing your need promptly.",
+          "state": "offer",
+          "requested_days": 480
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise involved, but I\u2019m really hoping to have the surgery within 30 days due to my personal circumstances. Is there any possibility of being placed on a cancellation list or seeing a different surgeon to expedite the process?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "Considering your urgency level and the need for optimal outcomes, I understand your concern about waiting time. While we previously offered 480 days, given the complexity of cleft palate repairs, I would suggest an alternative of 570 days. This allows us to ensure thorough preparation and follow-up care, which is crucial for a successful repair. If this doesn't meet your immediate needs, we can explore further options to find the right balance.",
+          "state": "offer",
+          "requested_days": 570
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "Given my condition and the urgency of my situation, could you help me explore options for getting the surgery within 30 days, even if it means considering a different surgeon? I appreciate your understanding of my circumstances.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "Given your urgency level and concern, I understand how anxious this must be for you. How about we aim for 6 months from now? This allows us to ensure optimal conditions for the surgery while addressing your need for timely care. We can monitor your case closely and adjust if necessary.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I appreciate the care I\u2019m receiving, but given my personal circumstances, I really need to explore options for surgery within the next 30 days. Is there any chance I could be placed on a cancellation list or considered for an earlier slot?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "Considering your request and our current constraints, I propose we aim for a middle ground at approximately 700 days. This allows us to maintain the necessary preparation time while addressing your urgency concerns. We will keep an eye on any cancellations that could provide earlier options.",
+          "state": "offer",
+          "requested_days": 700
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_038",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 7,
+      "dialog_length": 7,
+      "emotion_sequence": [
+        "happy",
+        "angry",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given your urgency level and condition, we can prioritize your case. I can arrange for you to see Dr. Johnson, a junior ENT surgeon with excellent feedback, in 2 weeks. This balances your need for timely care with ensuring a high-quality surgical outcome. Would you be open to this arrangement?",
+          "state": "offer",
+          "requested_days": 14
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I understand that my surgery isn't considered urgent, but my symptoms are significantly affecting my job performance and quality of life. Is there any chance I could be placed on a cancellation list or seen sooner than the 30-day wait?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Considering your urgency and to balance optimal care, I can arrange for you to see Dr. Lee in 18 days. This timeframe allows us to ensure thorough preparation while meeting your timeline request.",
+          "state": "offer",
+          "requested_days": 18
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I appreciate the care and expertise here, but my condition is significantly impacting my job performance and quality of life. Is there any possibility of being placed on a cancellation list or getting in sooner than 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the best possible outcome, how about we aim for a surgery date in 21 days? This allows us to maintain high-quality care while meeting your timeline better than my previous offer.",
+          "state": "offer",
+          "requested_days": 21
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really appreciate your help, but my symptoms are significantly affecting my job performance and quality of life. Is there any chance I could be considered for a cancellation slot to have the surgery within the next day or two?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Certainly! Given your situation and considering both urgency and quality of care, how about we aim for a 25-day window? This allows us to ensure the procedure is performed by a skilled surgeon while respecting your timeline preferences.",
+          "state": "accept",
+          "requested_days": 25
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_043",
+      "final_state": "accept",
+      "collection_days": 32,
+      "final_days": 32,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 4,
+      "dialog_length": 4,
+      "emotion_sequence": [
+        "neutral",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Given the urgency level and considering the available resources, we can arrange for the procedure with Dr. Lee, a mid-career surgeon supervised by a senior surgeon, in 45 days. This timeline balances your request for a sooner date while ensuring high-quality care.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "Given my chronic discomfort and the urgency of my condition, is there any way I could be scheduled sooner, perhaps through a cancellation list or with a different surgeon? I really need to address this as soon as possible.",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire to ensure the best possible outcome, we can consider a mid-career surgeon supervised by a senior to expedite your case. This approach balances your request while maintaining high-quality care. Would you be open to a slot within 35 days?",
+          "state": "offer",
+          "requested_days": 35
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I understand the current wait list is 30 days, but my chronic discomfort is becoming unmanageable. Is there any possibility of being placed on a cancellation list or having my surgery scheduled sooner?",
+          "state": "accept",
+          "requested_days": 30
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "medical_059",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 60,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "disgust",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "neutral"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand your desire for a quicker procedure. Given your condition and to ensure the highest quality of care, I can offer a slot with Dr. Smith in 45 days. This aligns with your urgency level while maintaining optimal surgical outcomes. Would you be open to this option?",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I'm really eager to get this tumor removed and understand that quality is important, but is there any way I can be scheduled within the next 30 days? If there's a cancellation list, I'd love to be considered for that too.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand your urgency and appreciate your flexibility. How about we aim for 49 days? This allows us to secure a spot with one of our experienced surgeons while still addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 49
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I'm really concerned about the tumor and my current condition; is there any chance I could be scheduled for surgery sooner than the 30 days, even if it means seeing a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Given your urgency level and to ensure the highest quality of care, how about we aim for a surgery date in 52 days? This allows us to secure a spot with Dr. Smith, ensuring optimal conditions for your procedure.",
+          "state": "offer",
+          "requested_days": 52
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really want to address this tumor as soon as possible, so is there any chance I could be placed on a cancellation list or see if there's a way to expedite my surgery within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "Given your condition and to ensure the highest quality of care, how about we aim for a slot within 58 days? This allows us to coordinate effectively with the specialized team while still meeting your timeframe preferences.",
+          "state": "offer",
+          "requested_days": 58
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m really anxious to have the surgery soon due to my tumor, so is there any chance I could be placed on a cancellation list or see a different surgeon to get in within 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "Certainly! Given your urgency level and to ensure optimal outcomes, how about we schedule your partial nephrectomy in 57 days? This allows time for thorough preparation while still addressing your request promptly.",
+          "state": "offer",
+          "requested_days": 57
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I really want to address my tumor as soon as possible, so is there any chance I could get in sooner than 30 days, perhaps through a cancellation list? I appreciate the quality of care, but my condition feels urgent.",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "Considering your preference for a quicker procedure while maintaining the highest standards of care, I propose we aim for 55 days. This allows us to work closely with the required surgical team and ensures optimal recovery conditions. Would this timeframe be acceptable?",
+          "state": "offer",
+          "requested_days": 55
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I really want to prioritize getting my surgery within the next 30 days due to my increasing concerns about the tumor. Are there any options to schedule me sooner, perhaps through a cancellation list or with a different surgeon?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "Given your urgency and to ensure the best possible outcome, how about we aim for 45 days? This allows time for thorough preparation while still being closer to your preference than my previous offer.",
+          "state": "offer",
+          "requested_days": 45
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "Given my urgency to remove the tumor and the current wait list time of 30 days, is there any possibility to expedite my surgery, perhaps by being placed on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "Certainly! How about we aim for 49 days? This allows us to secure a spot with the preferred surgical team while still addressing your urgency. We value your patience and are committed to providing the highest quality care.",
+          "state": "offer",
+          "requested_days": 49
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m really anxious to have the surgery as soon as possible due to my tumor, so is there any way to expedite the process or get on a cancellation list for an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "Considering your request and ensuring we maintain high-quality care, how about we aim for 48 days? This allows us to secure a spot with Dr. Smith while still being closer to your preferred timeline.",
+          "state": "offer",
+          "requested_days": 48
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "Given my urgency to remove the tumor and the current wait time of 30 days, is there any chance I could be scheduled sooner, perhaps by being placed on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "While I understand your urgency, given the complexity of the procedure and to ensure the highest quality care, we could potentially accommodate a surgery in 53 days. This allows time for thorough pre-operative assessments and minimizes any risks associated with rushing the process.",
+          "state": "offer",
+          "requested_days": 53
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I'm really anxious to address my tumor and would appreciate any chance to expedite the surgery. Is there a way to explore options for getting in sooner, even if it means working with a different surgeon?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "Considering your urgency and to ensure the best possible outcome, how about we aim for a 58-day window? This allows us to secure the necessary resources while still addressing your request promptly.",
+          "state": "offer",
+          "requested_days": 58
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I'm really eager to get this surgery done as soon as possible because of the tumor, and I understand the current wait time is 30 days. Is there any way to expedite the process or get on a cancellation list in case an earlier slot opens up?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "Given your urgency level and desire to ensure optimal outcomes, how about we aim for 63 days? This allows us to secure a spot with the preferred surgical team while still addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 63
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I really want to prioritize getting this tumor removed, so is there any chance I could be considered for a cancellation list or an earlier slot than the current 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "Certainly, given your urgency level and the current availability, how about we aim for 69 days? This allows us to maintain high-quality care while getting closer to your preferred timeframe. We'll keep monitoring for any cancellations that might open up earlier.",
+          "state": "offer",
+          "requested_days": 69
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really want to make sure I can have this surgery within the next 30 days due to my concerns about the tumor. Is there any way to expedite the process or get on a cancellation list?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I understand your eagerness to have the procedure sooner. Given current resources, how about we aim for 76 days? This allows us to secure a spot with Dr. Smith, ensuring high-quality care while maintaining your safety and recovery timeline.",
+          "state": "offer",
+          "requested_days": 76
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I'm really eager to get this tumor removed and understand that quality is important, but is there any chance I could be scheduled within the next 30 days?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "Given your condition and to ensure optimal recovery, I propose we aim for a 65-day window with Dr. Lee\u2019s expert team. This allows ample time for thorough preparation while maintaining high-quality standards. Would this work for you?",
+          "state": "offer",
+          "requested_days": 65
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really want to address this tumor as soon as possible; is there any way to expedite the process or get on a cancellation list for an earlier date?",
+          "state": "offer",
+          "requested_days": null
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "Considering your urgency level and to ensure optimal surgical outcomes, I propose a slot with Dr. Smith in 75 days. This allows us to maintain high-quality care while addressing your need for timely treatment.",
+          "state": "offer",
+          "requested_days": 75
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    }
+  ],
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.14285714285714285,
+      "std": 0.3499271061118826,
+      "ci_95": [
+        0.02567962434474355,
+        0.5131278292743189
+      ],
+      "n_success": 1,
+      "n_total": 7,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.14285714285714285,
+      "std": 0.37796447300922725,
+      "ci_95": [
+        0.0,
+        0.42857142857142855
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 23.714285714285715,
+      "std": 12.472827609304497,
+      "ci_95": [
+        15.571428571428571,
+        31.0
+      ],
+      "min": 4,
+      "max": 31,
+      "median": 31.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 7,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.02567962434474355,
+      0.5131278292743189
+    ],
+    "collection_rate_95_ci": [
+      0.0,
+      0.42857142857142855
+    ],
+    "negotiation_rounds_95_ci": [
+      15.571428571428571,
+      31.0
+    ]
+  },
+  "summary_statistics": {
+    "success_rate": 0.14285714285714285,
+    "total_negotiations": 7,
+    "successful_negotiations": 1,
+    "failed_negotiations": 6,
+    "collection_rate": {
+      "mean": 1.875,
+      "std": 0.0,
+      "min": 1.875,
+      "max": 1.875
+    },
+    "negotiation_rounds": {
+      "mean": 23.714285714285715,
+      "std": 11.547594501692124,
+      "min": 4,
+      "max": 31
+    }
+  },
+  "qlearning_statistics": {
+    "final_exploration_rate": 0.3,
+    "total_episodes": 0,
+    "q_table_size": 4,
+    "states_explored": [
+      "0_neutral_small_medium",
+      "1_neutral_small_medium",
+      "2_neutral_small_medium",
+      "3_neutral_small_medium"
+    ],
+    "success_history": [],
+    "exploration_history": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  }
+}

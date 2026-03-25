@@ -1,0 +1,102 @@
+{
+  "experiment_type": "coherence_emotion_optimization",
+  "model_type": "coherence_based",
+  "iterations": 1,
+  "scenarios_used": [
+    "disaster_001",
+    "disaster_002",
+    "disaster_003",
+    "disaster_004",
+    "disaster_005",
+    "disaster_006",
+    "disaster_007",
+    "disaster_008",
+    "disaster_009",
+    "disaster_010"
+  ],
+  "config": {
+    "model_creditor": "qwen-1.5b",
+    "model_debtor": "qwen-1.5b",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "victim",
+    "max_dialog_len": 30,
+    "coherence_weight": 0.8
+  },
+  "detailed_results": [],
+  "final_stats": {
+    "current_emotional_arc": [],
+    "negotiation_phase": "opening",
+    "arc_length": 0,
+    "last_emotion": "none"
+  },
+  "performance": {
+    "success_rate": 0.7,
+    "avg_collection_rate": 0.9523809523809523,
+    "avg_negotiation_rounds": 13.7,
+    "total_negotiations": 10,
+    "successful_negotiations": 7,
+    "failed_negotiations": 3
+  },
+  "analysis": {
+    "failure_breakdown": {
+      "breakdown": 3
+    },
+    "success_patterns": {
+      "avg_rounds_successful": 6.285714285714286,
+      "avg_rounds_failed": 31.0
+    }
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.7,
+      "std": 0.45825756949558405,
+      "ci_95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ],
+      "n_success": 7,
+      "n_total": 10,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.6666666666666666,
+      "std": 0.4714045207910317,
+      "ci_95": [
+        0.36666666666666664,
+        0.9
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 13.7,
+      "std": 12.31124147544295,
+      "ci_95": [
+        7.1,
+        21.40249999999996
+      ],
+      "min": 3,
+      "max": 31,
+      "median": 8.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 10,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.39677814746114537,
+      0.8922087325936989
+    ],
+    "collection_rate_95_ci": [
+      0.36666666666666664,
+      0.9
+    ],
+    "negotiation_rounds_95_ci": [
+      7.1,
+      21.40249999999996
+    ]
+  }
+}

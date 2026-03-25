@@ -1,0 +1,2169 @@
+{
+  "experiment_type": "evolutionary_bayesian_sequences",
+  "generations": 10,
+  "negotiations_per_generation": 24,
+  "generation_results": {
+    "generation_1": {
+      "stats": {
+        "generation": 1,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.8228772060353824,
+        "sequence_pool_size": 24
+      },
+      "success_rate": 0.8333333333333334,
+      "avg_days": 48.8,
+      "avg_rounds": 12.15,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "angry",
+            "neutral",
+            "fear",
+            "disgust",
+            "surprising",
+            "happy",
+            "happy",
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "neutral",
+            "neutral",
+            "surprising",
+            "happy",
+            "happy",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "sad",
+            "sad",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "disgust",
+            "surprising",
+            "surprising",
+            "surprising",
+            "surprising",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "surprising",
+            "angry",
+            "disgust",
+            "happy",
+            "sad",
+            "happy",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "angry",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "surprising",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "sad",
+            "sad",
+            "happy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "disgust",
+            "neutral",
+            "happy",
+            "happy",
+            "happy",
+            "surprising",
+            "surprising",
+            "surprising",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "angry",
+            "angry",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "happy",
+            "neutral",
+            "neutral",
+            "surprising",
+            "happy",
+            "neutral",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "fear",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        }
+      ]
+    },
+    "generation_2": {
+      "stats": {
+        "generation": 2,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.836574172856077,
+        "sequence_pool_size": 48
+      },
+      "success_rate": 0.875,
+      "avg_days": 49.333333333333336,
+      "avg_rounds": 12.619047619047619,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "fear",
+            "angry",
+            "sad",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "fear",
+            "happy",
+            "happy",
+            "neutral",
+            "fear",
+            "happy",
+            "happy",
+            "fear",
+            "happy",
+            "happy",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 14
+        },
+        {
+          "sequence": [
+            "fear",
+            "disgust",
+            "surprising",
+            "sad",
+            "happy",
+            "surprising",
+            "sad",
+            "sad",
+            "neutral",
+            "fear",
+            "disgust",
+            "happy",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 13
+        },
+        {
+          "sequence": [
+            "surprising",
+            "happy",
+            "neutral",
+            "angry",
+            "neutral",
+            "fear",
+            "neutral",
+            "disgust",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad",
+            "surprising",
+            "happy",
+            "disgust",
+            "surprising",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "neutral",
+            "angry",
+            "happy",
+            "neutral",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprising",
+            "surprising",
+            "fear",
+            "surprising",
+            "happy",
+            "sad",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "fear",
+            "disgust",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "angry",
+            "neutral",
+            "neutral",
+            "fear",
+            "fear",
+            "angry",
+            "angry",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "disgust",
+            "sad",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "fear",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "angry",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "disgust",
+            "happy",
+            "angry",
+            "disgust",
+            "surprising",
+            "angry",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 7
+        }
+      ]
+    },
+    "generation_3": {
+      "stats": {
+        "generation": 3,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.8008981463919933,
+        "sequence_pool_size": 72
+      },
+      "success_rate": 0.9166666666666666,
+      "avg_days": 42.18181818181818,
+      "avg_rounds": 12.954545454545455,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "angry",
+            "surprising",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "neutral",
+            "angry",
+            "neutral",
+            "neutral",
+            "disgust",
+            "disgust",
+            "disgust",
+            "happy",
+            "neutral",
+            "disgust",
+            "fear",
+            "surprising",
+            "neutral",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 15
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "surprising",
+            "neutral",
+            "neutral",
+            "fear",
+            "disgust",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "angry",
+            "angry",
+            "disgust",
+            "disgust",
+            "fear",
+            "fear",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "disgust",
+            "happy",
+            "sad",
+            "angry",
+            "neutral",
+            "sad",
+            "happy",
+            "happy",
+            "neutral",
+            "fear",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 11
+        },
+        {
+          "sequence": [
+            "happy",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "happy",
+            "neutral",
+            "sad",
+            "angry",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "sad",
+            "happy",
+            "neutral",
+            "fear",
+            "angry",
+            "neutral",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "disgust",
+            "happy",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "happy",
+            "disgust",
+            "disgust",
+            "sad",
+            "neutral",
+            "sad",
+            "angry",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "surprising",
+            "neutral",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        }
+      ]
+    },
+    "generation_4": {
+      "stats": {
+        "generation": 4,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.7752712808249496,
+        "sequence_pool_size": 96
+      },
+      "success_rate": 0.9166666666666666,
+      "avg_days": 32.40909090909091,
+      "avg_rounds": 16.318181818181817,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "sad",
+            "angry",
+            "neutral",
+            "sad",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "surprising",
+            "sad",
+            "neutral",
+            "disgust",
+            "surprising",
+            "neutral",
+            "angry",
+            "happy",
+            "happy",
+            "happy",
+            "happy",
+            "happy",
+            "fear",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "sad",
+            "neutral",
+            "disgust",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "surprising",
+            "surprising",
+            "happy",
+            "happy",
+            "surprising",
+            "surprising",
+            "happy",
+            "happy",
+            "angry",
+            "angry",
+            "sad",
+            "angry",
+            "neutral",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 15
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "surprising",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "surprising",
+            "surprising",
+            "sad",
+            "angry",
+            "neutral",
+            "sad",
+            "angry",
+            "neutral",
+            "happy",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "disgust",
+            "sad",
+            "happy",
+            "angry",
+            "disgust",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "surprising",
+            "surprising",
+            "angry",
+            "happy",
+            "neutral",
+            "fear",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "happy",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "fear",
+            "disgust",
+            "angry",
+            "happy",
+            "surprising",
+            "sad",
+            "sad",
+            "angry",
+            "sad",
+            "neutral",
+            "fear",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 12
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "happy",
+            "happy",
+            "happy",
+            "surprising",
+            "surprising",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        }
+      ]
+    },
+    "generation_5": {
+      "stats": {
+        "generation": 5,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.785164302075697,
+        "sequence_pool_size": 120
+      },
+      "success_rate": 0.875,
+      "avg_days": 46.333333333333336,
+      "avg_rounds": 10.380952380952381,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "angry",
+            "disgust",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "fear",
+            "neutral",
+            "fear",
+            "happy",
+            "angry",
+            "fear",
+            "angry",
+            "neutral",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "disgust",
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "surprising",
+            "neutral",
+            "happy",
+            "surprising",
+            "surprising",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "neutral",
+            "sad",
+            "angry",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "disgust",
+            "surprising",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "angry",
+            "sad",
+            "neutral",
+            "sad",
+            "sad",
+            "sad",
+            "happy",
+            "sad",
+            "happy",
+            "neutral",
+            "happy",
+            "surprising",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "disgust",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "neutral",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "surprising",
+            "happy",
+            "surprising",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        }
+      ]
+    },
+    "generation_6": {
+      "stats": {
+        "generation": 6,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.7688738873369747,
+        "sequence_pool_size": 144
+      },
+      "success_rate": 0.875,
+      "avg_days": 45.714285714285715,
+      "avg_rounds": 12.047619047619047,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "sad",
+            "angry",
+            "happy",
+            "happy",
+            "fear",
+            "happy",
+            "sad",
+            "happy",
+            "surprising",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 11
+        },
+        {
+          "sequence": [
+            "fear",
+            "surprising",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "fear",
+            "neutral",
+            "fear",
+            "happy",
+            "happy",
+            "surprising",
+            "sad",
+            "happy",
+            "angry",
+            "fear",
+            "surprising",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 12
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "fear",
+            "sad",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "neutral",
+            "neutral",
+            "fear",
+            "happy",
+            "sad",
+            "angry",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "sad",
+            "happy",
+            "angry",
+            "neutral",
+            "fear",
+            "neutral",
+            "fear",
+            "disgust",
+            "disgust",
+            "surprising",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 14
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "happy",
+            "fear",
+            "neutral",
+            "happy",
+            "angry",
+            "neutral",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "angry",
+            "neutral",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "disgust",
+            "disgust",
+            "surprising",
+            "neutral",
+            "happy",
+            "sad",
+            "happy",
+            "happy",
+            "happy",
+            "disgust",
+            "surprising",
+            "fear",
+            "happy",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "sad",
+            "happy",
+            "happy",
+            "neutral",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "fear",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        }
+      ]
+    },
+    "generation_7": {
+      "stats": {
+        "generation": 7,
+        "best_fitness": 0.0,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.6842897005615698,
+        "sequence_pool_size": 168
+      },
+      "success_rate": 0.875,
+      "avg_days": 48.095238095238095,
+      "avg_rounds": 10.571428571428571,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "disgust",
+            "sad",
+            "angry",
+            "neutral",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "fear",
+            "sad",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "fear",
+            "disgust",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "fear",
+            "neutral",
+            "fear",
+            "disgust",
+            "sad",
+            "sad",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "neutral",
+            "happy",
+            "surprising",
+            "fear",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 7
+        },
+        {
+          "sequence": [
+            "neutral",
+            "neutral",
+            "disgust",
+            "happy",
+            "surprising",
+            "sad",
+            "neutral",
+            "disgust",
+            "surprising",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "disgust",
+            "neutral",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "neutral",
+            "fear",
+            "happy",
+            "surprising",
+            "disgust",
+            "happy",
+            "sad",
+            "happy",
+            "sad",
+            "happy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "fear"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "happy",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "sad",
+            "angry",
+            "neutral",
+            "fear",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "angry",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        }
+      ]
+    },
+    "generation_8": {
+      "stats": {
+        "generation": 8,
+        "best_fitness": 3.3736741117612543,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.28113950931343784,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.674993899935669,
+        "sequence_pool_size": 192
+      },
+      "success_rate": 0.9583333333333334,
+      "avg_days": 40.65217391304348,
+      "avg_rounds": 12.391304347826088,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "fear",
+            "neutral",
+            "neutral",
+            "fear",
+            "sad",
+            "angry",
+            "neutral",
+            "disgust",
+            "happy",
+            "neutral",
+            "fear",
+            "disgust",
+            "surprising"
+          ],
+          "fitness": 3.3736741117612543,
+          "length": 13
+        },
+        {
+          "sequence": [
+            "neutral",
+            "fear",
+            "neutral",
+            "sad",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "disgust",
+            "disgust",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "happy",
+            "happy",
+            "surprising",
+            "surprising",
+            "neutral",
+            "surprising",
+            "neutral",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "happy",
+            "neutral",
+            "fear",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "surprising",
+            "neutral",
+            "neutral",
+            "fear",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "happy",
+            "happy",
+            "surprising",
+            "sad",
+            "neutral",
+            "fear",
+            "fear",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "neutral",
+            "happy",
+            "neutral",
+            "disgust",
+            "sad",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "disgust",
+            "fear",
+            "neutral",
+            "sad",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "fear",
+            "disgust",
+            "disgust",
+            "happy",
+            "neutral",
+            "neutral",
+            "happy",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "disgust",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        }
+      ]
+    },
+    "generation_9": {
+      "stats": {
+        "generation": 9,
+        "best_fitness": 3.3736741117612543,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.0,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.7273294000397694,
+        "sequence_pool_size": 216
+      },
+      "success_rate": 0.8333333333333334,
+      "avg_days": 29.2,
+      "avg_rounds": 11.65,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "disgust",
+            "disgust",
+            "fear",
+            "sad",
+            "happy",
+            "neutral",
+            "fear",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        },
+        {
+          "sequence": [
+            "fear",
+            "sad",
+            "sad",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "happy",
+            "surprising",
+            "sad",
+            "angry",
+            "neutral",
+            "sad",
+            "angry",
+            "sad",
+            "surprising",
+            "angry",
+            "happy",
+            "fear",
+            "fear",
+            "disgust",
+            "sad",
+            "angry"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "neutral",
+            "disgust",
+            "sad",
+            "happy",
+            "angry",
+            "fear",
+            "sad",
+            "angry",
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "fear",
+            "neutral",
+            "fear",
+            "neutral",
+            "happy",
+            "surprising",
+            "happy",
+            "neutral",
+            "neutral",
+            "surprising",
+            "neutral",
+            "happy",
+            "neutral",
+            "sad",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "surprising",
+            "sad"
+          ],
+          "fitness": 0.0,
+          "length": 2
+        },
+        {
+          "sequence": [
+            "sad",
+            "sad",
+            "angry",
+            "disgust",
+            "disgust",
+            "disgust",
+            "surprising",
+            "sad",
+            "happy",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "fear",
+            "happy",
+            "fear",
+            "surprising",
+            "neutral",
+            "disgust",
+            "disgust",
+            "sad",
+            "happy",
+            "neutral",
+            "neutral",
+            "disgust",
+            "disgust",
+            "fear",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "disgust",
+            "angry",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 3
+        },
+        {
+          "sequence": [
+            "neutral",
+            "sad",
+            "happy",
+            "neutral",
+            "surprising",
+            "neutral",
+            "sad",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 9
+        },
+        {
+          "sequence": [
+            "disgust",
+            "sad",
+            "angry",
+            "surprising",
+            "neutral",
+            "neutral",
+            "surprising",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 8
+        }
+      ]
+    },
+    "generation_10": {
+      "stats": {
+        "generation": 10,
+        "best_fitness": 3.3736741117612543,
+        "elite_count": 12,
+        "avg_elite_fitness": 0.16029816755265774,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "matrix_entropy": 1.7300057514843092,
+        "sequence_pool_size": 240
+      },
+      "success_rate": 0.8333333333333334,
+      "avg_days": 33.85,
+      "avg_rounds": 14.3,
+      "elite_sequences": [
+        {
+          "sequence": [
+            "sad",
+            "sad",
+            "angry",
+            "surprising",
+            "surprising",
+            "happy",
+            "neutral",
+            "fear",
+            "surprising",
+            "happy",
+            "happy",
+            "neutral",
+            "sad",
+            "sad"
+          ],
+          "fitness": 1.923578010631893,
+          "length": 14
+        },
+        {
+          "sequence": [
+            "sad",
+            "angry",
+            "neutral",
+            "disgust",
+            "neutral",
+            "sad",
+            "neutral",
+            "neutral",
+            "surprising",
+            "neutral",
+            "happy",
+            "neutral",
+            "sad",
+            "disgust",
+            "fear",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "fear",
+            "surprising",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "surprising",
+            "neutral",
+            "sad",
+            "neutral",
+            "disgust",
+            "fear",
+            "happy",
+            "neutral",
+            "neutral",
+            "sad",
+            "angry",
+            "neutral",
+            "surprising",
+            "sad",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "sad",
+            "happy",
+            "happy",
+            "surprising",
+            "neutral",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "sad",
+            "happy",
+            "disgust",
+            "sad",
+            "happy",
+            "neutral",
+            "surprising",
+            "fear",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 10
+        },
+        {
+          "sequence": [
+            "surprising",
+            "happy",
+            "neutral",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 5
+        },
+        {
+          "sequence": [
+            "neutral",
+            "happy",
+            "neutral",
+            "neutral",
+            "surprising",
+            "surprising"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "happy",
+            "angry",
+            "happy",
+            "neutral",
+            "happy",
+            "disgust"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        },
+        {
+          "sequence": [
+            "neutral",
+            "fear",
+            "disgust",
+            "sad",
+            "angry",
+            "neutral",
+            "sad",
+            "happy",
+            "neutral",
+            "sad",
+            "happy",
+            "sad",
+            "surprising",
+            "neutral",
+            "fear",
+            "neutral"
+          ],
+          "fitness": 0.0,
+          "length": 16
+        },
+        {
+          "sequence": [
+            "happy",
+            "disgust",
+            "sad",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 4
+        },
+        {
+          "sequence": [
+            "surprising",
+            "neutral",
+            "happy",
+            "fear",
+            "surprising",
+            "happy"
+          ],
+          "fitness": 0.0,
+          "length": 6
+        }
+      ]
+    }
+  },
+  "scenarios_used": [
+    "debt_001",
+    "debt_002",
+    "debt_003",
+    "debt_004",
+    "debt_005",
+    "debt_006",
+    "debt_007",
+    "debt_008",
+    "debt_009",
+    "debt_010",
+    "debt_011",
+    "debt_012",
+    "debt_013",
+    "debt_014",
+    "debt_015",
+    "debt_016",
+    "debt_017",
+    "debt_018",
+    "debt_019",
+    "debt_020",
+    "debt_021",
+    "debt_022",
+    "debt_023",
+    "debt_024",
+    "debt_025",
+    "debt_026",
+    "debt_027",
+    "debt_028",
+    "debt_029",
+    "debt_030",
+    "debt_031",
+    "debt_032",
+    "debt_033",
+    "debt_034",
+    "debt_035",
+    "debt_036",
+    "debt_037",
+    "debt_038",
+    "debt_039",
+    "debt_040",
+    "debt_041",
+    "debt_042",
+    "debt_043",
+    "debt_044",
+    "debt_045",
+    "debt_046",
+    "debt_047",
+    "debt_048",
+    "debt_049",
+    "debt_050",
+    "debt_051",
+    "debt_052",
+    "debt_053",
+    "debt_054",
+    "debt_055",
+    "debt_056",
+    "debt_057",
+    "debt_058",
+    "debt_059",
+    "debt_060",
+    "debt_061",
+    "debt_062",
+    "debt_063",
+    "debt_064",
+    "debt_065",
+    "debt_066",
+    "debt_067",
+    "debt_068",
+    "debt_069",
+    "debt_070",
+    "debt_071",
+    "debt_072",
+    "debt_073",
+    "debt_074",
+    "debt_075",
+    "debt_076",
+    "debt_077",
+    "debt_078",
+    "debt_079",
+    "debt_080"
+  ],
+  "final_stats": {
+    "generation": 10,
+    "best_fitness": 3.3736741117612543,
+    "elite_count": 12,
+    "avg_elite_fitness": 0.16029816755265774,
+    "current_emotion": "neutral",
+    "emotion_history": [],
+    "matrix_entropy": 1.7300057514843092,
+    "sequence_pool_size": 240,
+    "base_transition_matrix": [
+      [
+        0.3,
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.25
+      ],
+      [
+        0.25000000000000006,
+        0.25000000000000006,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002
+      ],
+      [
+        0.1,
+        0.1,
+        0.2,
+        0.15,
+        0.15,
+        0.1,
+        0.2
+      ],
+      [
+        0.2,
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.1,
+        0.2
+      ],
+      [
+        0.1,
+        0.1,
+        0.15,
+        0.15,
+        0.2,
+        0.1,
+        0.2
+      ],
+      [
+        0.15,
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.15,
+        0.2
+      ],
+      [
+        0.15,
+        0.15,
+        0.1,
+        0.15,
+        0.1,
+        0.1,
+        0.25
+      ]
+    ],
+    "current_transition_matrix": [
+      [
+        0.11991285723510842,
+        0.11969260945019593,
+        0.06995838634177785,
+        0.06630738426662437,
+        0.1352852878759255,
+        0.07562868940180326,
+        0.41321478542856477
+      ],
+      [
+        0.20558595760068765,
+        0.15366652952719567,
+        0.058149226857146866,
+        0.15555845031313076,
+        0.038487455706427205,
+        0.06084610003228522,
+        0.3277062799631266
+      ],
+      [
+        0.12530436061826947,
+        0.16748411759912019,
+        0.01972834022374071,
+        0.10547488196293961,
+        0.08551974561339643,
+        0.04529567529734404,
+        0.45119287868518965
+      ],
+      [
+        0.3303544715519585,
+        0.07413110576023604,
+        0.22741835318133588,
+        0.19509819553437696,
+        0.05856193485942006,
+        0.007646649588482448,
+        0.10678928952418996
+      ],
+      [
+        0.07691441093179426,
+        0.07965506244888178,
+        0.033807114645510776,
+        0.25725299032037746,
+        0.1880714996134808,
+        0.23841378417589043,
+        0.1258851378640646
+      ],
+      [
+        0.20265562669669834,
+        0.18836526939285086,
+        0.051237861036033325,
+        0.12286507513175852,
+        0.1316207697471665,
+        0.04428330157771323,
+        0.2589720964177793
+      ],
+      [
+        0.15033634410149177,
+        0.13902216725479,
+        0.03247318928634963,
+        0.2442246160709273,
+        0.15759908177131027,
+        0.132244718309104,
+        0.14409988320602707
+      ]
+    ],
+    "temperature_schedule": [
+      0.5,
+      0.2
+    ]
+  },
+  "final_best_sequence": {
+    "sequence": [
+      "fear",
+      "neutral",
+      "neutral",
+      "fear",
+      "sad",
+      "angry",
+      "neutral",
+      "disgust",
+      "happy",
+      "neutral",
+      "fear",
+      "disgust",
+      "surprising"
+    ],
+    "fitness": 3.3736741117612543,
+    "transition_matrix": [
+      [
+        0.11991285723510842,
+        0.11969260945019593,
+        0.06995838634177785,
+        0.06630738426662437,
+        0.1352852878759255,
+        0.07562868940180326,
+        0.41321478542856477
+      ],
+      [
+        0.20558595760068765,
+        0.15366652952719567,
+        0.058149226857146866,
+        0.15555845031313076,
+        0.038487455706427205,
+        0.06084610003228522,
+        0.3277062799631266
+      ],
+      [
+        0.12530436061826947,
+        0.16748411759912019,
+        0.01972834022374071,
+        0.10547488196293961,
+        0.08551974561339643,
+        0.04529567529734404,
+        0.45119287868518965
+      ],
+      [
+        0.3303544715519585,
+        0.07413110576023604,
+        0.22741835318133588,
+        0.19509819553437696,
+        0.05856193485942006,
+        0.007646649588482448,
+        0.10678928952418996
+      ],
+      [
+        0.07691441093179426,
+        0.07965506244888178,
+        0.033807114645510776,
+        0.25725299032037746,
+        0.1880714996134808,
+        0.23841378417589043,
+        0.1258851378640646
+      ],
+      [
+        0.20265562669669834,
+        0.18836526939285086,
+        0.051237861036033325,
+        0.12286507513175852,
+        0.1316207697471665,
+        0.04428330157771323,
+        0.2589720964177793
+      ],
+      [
+        0.15033634410149177,
+        0.13902216725479,
+        0.03247318928634963,
+        0.2442246160709273,
+        0.15759908177131027,
+        0.132244718309104,
+        0.14409988320602707
+      ]
+    ]
+  },
+  "overall_success_rate": 0.8791666666666667,
+  "avg_successful_days": 41.66824644549763,
+  "avg_successful_rounds": 12.554502369668246,
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.8791666666666667,
+      "std": 0.3259334884434076,
+      "ci_95": [
+        0.8318500890607975,
+        0.9145365216501872
+      ],
+      "n_success": 211,
+      "n_total": 240,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.40971986511257247,
+      "std": 0.31898989100718866,
+      "ci_95": [
+        0.37032403111892004,
+        0.44947481516053633
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.35714285714285715,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 14.783333333333333,
+      "std": 8.661155849051676,
+      "ci_95": [
+        13.708333333333334,
+        15.904166666666667
+      ],
+      "min": 3,
+      "max": 31,
+      "median": 13.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 240,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.8318500890607975,
+      0.9145365216501872
+    ],
+    "collection_rate_95_ci": [
+      0.37032403111892004,
+      0.44947481516053633
+    ],
+    "negotiation_rounds_95_ci": [
+      13.708333333333334,
+      15.904166666666667
+    ]
+  }
+}

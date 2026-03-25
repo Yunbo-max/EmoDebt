@@ -1,0 +1,60 @@
+{
+  "model_name": "dqn_as_creditor_vs_vanilla",
+  "model_data": {
+    "final_q_values": [],
+    "best_sequence": [
+      "neutral",
+      "surprising",
+      "disgust",
+      "happy",
+      "disgust",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "angry",
+      "sad",
+      "sad"
+    ],
+    "best_reward": 20.18936744765218,
+    "opponent_method": "vanilla",
+    "trained_as": "creditor"
+  },
+  "training_stats": {
+    "creditor_method": "dqn",
+    "debtor_method": "vanilla",
+    "training_scenarios": 80,
+    "training_time_minutes": 849.2616601586342,
+    "success_rate": 0.9125,
+    "final_performance": {
+      "success_rate": 0.9125,
+      "avg_collection_rate": 0.9964485032978184,
+      "avg_negotiation_rounds": 12.242009132420092,
+      "total_episodes": 240,
+      "successful_episodes": 219,
+      "failed_episodes": 21
+    },
+    "training_params": {
+      "creditor_model": "deepseek-chat",
+      "debtor_model": "deepseek-chat",
+      "max_dialog_len": 30,
+      "generations": 10,
+      "population_size": 20,
+      "mutation_rate": 0.1,
+      "crossover_rate": 0.7,
+      "negotiations_per_gen": 20,
+      "learning_rate": 0.0005,
+      "episodes": 240,
+      "episodes_per_scenario": 3,
+      "discount_factor": 0.95,
+      "exploration_rate": 0.9,
+      "exploration_decay": 0.995,
+      "batch_size": 32,
+      "replay_buffer_size": 5000,
+      "temperature": 1.0
+    }
+  },
+  "timestamp": "20260117_093227",
+  "saved_at": "2026-01-17T09:32:27.105133"
+}

@@ -1,0 +1,13 @@
+MODEL vs MODEL TESTING RESULTS
+==================================================
+
+Creditor Model: vanilla
+Debtor Model: hierarchical
+Test Scenarios: 10
+Iterations: 1
+Total Negotiations: 10
+
+Success Rate: 80.0% (95% CI: [49.0%, 94.3%])
+Average Successful Days: 24.0
+Average Rounds: 17.4
+Testing Time: 46.56 minutes

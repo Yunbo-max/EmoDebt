@@ -1,0 +1,5792 @@
+{
+  "summary_statistics": {
+    "success_rate": 0.55,
+    "total_negotiations": 20,
+    "successful_negotiations": 11,
+    "failed_negotiations": 9,
+    "collection_rate": {
+      "mean": 7.634641873278236,
+      "std": 9.28877576959998,
+      "min": 0.875,
+      "max": 22.0
+    },
+    "negotiation_rounds": {
+      "mean": 12.0,
+      "std": 12.605554331325537,
+      "min": 2,
+      "max": 31
+    },
+    "success_rate_ci": [
+      0.34208534245034233,
+      0.7418021417443759
+    ],
+    "collection_rate_ci": [
+      0.32670454545454547,
+      0.7219744318181817
+    ],
+    "negotiation_rounds_ci": [
+      6.7,
+      17.65
+    ],
+    "statistical_method": "bootstrap"
+  },
+  "dominance_statistics": {
+    "strategy_performance": {
+      "happy": {
+        "wins": 4,
+        "total": 9
+      },
+      "surprising": {
+        "wins": 4,
+        "total": 7
+      },
+      "angry": {
+        "wins": 0,
+        "total": 0
+      },
+      "sad": {
+        "wins": 3,
+        "total": 4
+      },
+      "disgust": {
+        "wins": 0,
+        "total": 0
+      },
+      "fear": {
+        "wins": 0,
+        "total": 0
+      },
+      "neutral": {
+        "wins": 0,
+        "total": 0
+      }
+    },
+    "dominance_matrix": {
+      "happy": {
+        "happy": 0.0,
+        "surprising": -0.11398468867656747,
+        "angry": 0.4,
+        "sad": 0.11398468867656744,
+        "disgust": 0.3,
+        "fear": 0.16111487009941058,
+        "neutral": 0.17315295139199216
+      },
+      "surprising": {
+        "happy": 0.11398468867656747,
+        "surprising": 0.0,
+        "angry": -0.16111487009941058,
+        "sad": 0.1992110310803547,
+        "disgust": -0.11398468867656744,
+        "fear": 0.22847824678672946,
+        "neutral": 0.07582494313869924
+      },
+      "angry": {
+        "happy": -0.4,
+        "surprising": 0.16111487009941058,
+        "angry": 0.0,
+        "sad": 0.6,
+        "disgust": 0.059212596067471215,
+        "fear": 0.8,
+        "neutral": -0.2
+      },
+      "sad": {
+        "happy": -0.11398468867656744,
+        "surprising": -0.1992110310803547,
+        "angry": 0.4,
+        "sad": 0.0,
+        "disgust": -0.25009638210364654,
+        "fear": 0.059212596067471215,
+        "neutral": 0.171944375
+      },
+      "disgust": {
+        "happy": -0.3,
+        "surprising": 0.11398468867656744,
+        "angry": -0.059212596067471215,
+        "sad": 0.25009638210364654,
+        "disgust": 0.0,
+        "fear": 0.2656054944606787,
+        "neutral": -0.2
+      },
+      "fear": {
+        "happy": -0.16111487009941058,
+        "surprising": -0.22847824678672946,
+        "angry": -0.7,
+        "sad": -0.059212596067471215,
+        "disgust": -0.2656054944606787,
+        "fear": 0.0,
+        "neutral": -0.3
+      },
+      "neutral": {
+        "happy": 0.3,
+        "surprising": -0.0592125960674712,
+        "angry": 0.2,
+        "sad": -0.1,
+        "disgust": 0.2,
+        "fear": 0.3,
+        "neutral": 0.0
+      }
+    },
+    "domination_history": [
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.235,
+        "all_dominance_scores": {
+          "happy": 0.235,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.235
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.10625196626409764,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.17325,
+        "all_dominance_scores": {
+          "happy": 0.17325,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.17325
+          ],
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.15093936795089274,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.15093936795089274,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "surprising",
+            0.15093936795089274
+          ],
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.14500000000000002,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.14500000000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.14500000000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.18775000000000003,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0933923995533481,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.0933923995533481,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.0933923995533481
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.038722779575680696,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.038722779575680696,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.038722779575680696
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.18775000000000003,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.18775000000000003,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.18775000000000003,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.18775000000000003
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.12836250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.12836250000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.11458749999999998,
+        "all_dominance_scores": {
+          "happy": 0.11458749999999998,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.12836250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.12836250000000002
+          ],
+          [
+            "happy",
+            0.11458749999999998
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.158858125,
+        "all_dominance_scores": {
+          "happy": 0.158858125,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.12836250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.158858125
+          ],
+          [
+            "sad",
+            0.12836250000000002
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.20091521874999999,
+        "all_dominance_scores": {
+          "happy": 0.20091521874999999,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.12836250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.20091521874999999
+          ],
+          [
+            "sad",
+            0.12836250000000002
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.12836250000000002,
+        "all_dominance_scores": {
+          "happy": 0.20091521874999999,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.12836250000000002,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.20091521874999999
+          ],
+          [
+            "sad",
+            0.12836250000000002
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.20091521874999999,
+        "all_dominance_scores": {
+          "happy": 0.20091521874999999,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.20091521874999999
+          ],
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.08678664059689667,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.08678664059689667,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.08678664059689667,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.08678664059689667
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.13244730856705184,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.13244730856705184,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.13244730856705184
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.07582494313869924,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.07582494313869924,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.07582494313869924,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.1408694578125,
+        "all_dominance_scores": {
+          "happy": 0.1408694578125,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.1408694578125
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.08382598492187499,
+        "all_dominance_scores": {
+          "happy": 0.08382598492187499,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.08382598492187499
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.12963468567578124,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.07582494313869924,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.171944375,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.12963468567578124,
+        "all_dominance_scores": {
+          "happy": 0.12963468567578124,
+          "surprising": 0.07582494313869924,
+          "angry": -0.2,
+          "sad": 0.171944375,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "sad",
+            0.171944375
+          ],
+          [
+            "happy",
+            0.12963468567578124
+          ],
+          [
+            "surprising",
+            0.07582494313869924
+          ]
+        ]
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "student_001",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "sad",
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "sad",
+        "happy",
+        "sad",
+        "sad",
+        "surprising",
+        "happy",
+        "sad",
+        "surprising",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling with your physics final, but aiming for a 22:00 bedtime will give you the rest you need to perform your best. How about we set a compromise at 23:00, allowing you an hour of focused study while still prioritizing your sleep?",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to study for my physics final tomorrow, and I feel that staying up until 2:00 AM will help me grasp the concepts better. Can we compromise on that just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I see that you're feeling the pressure from your physics final, but getting enough rest is crucial for optimal performance. How about we aim for a 12:30 AM bedtime? This gives you some extra study time while still allowing for restorative sleep to help you excel tomorrow!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I really need to study for my physics final tomorrow, and I feel more focused at night. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand how important it is to perform well on your physics final, but sacrificing sleep can hurt your concentration and retention. How about we aim for a compromise at midnight? This gives you some extra study time while still allowing for a solid amount of rest.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I know sleep is crucial for my health, but I really need to study for my physics final and feel more productive at night. Could I stay up until 1:30 AM just this once?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I understand how important this exam is for you, but getting enough sleep is crucial for your brain to function at its best. How about we aim for a bedtime of 12:30 AM? That way, you can still get some study time in while ensuring you have enough rest for your physics final.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I really need to study for my physics final, and I feel I won't be prepared if I go to bed too early. Can we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand the pressure of your physics final, but getting enough rest is crucial for your performance. How about we aim for a bedtime of 12:00 AM? This way, you'll still have some study time while ensuring you get enough sleep to help your brain retain all that important information!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need the extra time to review for my physics final tomorrow. Can we set my bedtime to 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I completely understand your concern about the exam, but getting enough rest is crucial for your performance. How about we aim for a 12:00 AM bedtime? This gives you a solid 6 hours of sleep while still allowing some time to review!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I really need to review some key concepts for my physics final tomorrow, and I feel more focused at night. Could we set my bedtime to 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling with your physics final, but getting enough sleep is crucial for your focus and memory retention. How about we aim for a bedtime of 12:30 AM? That still gives you some late study time while ensuring you get a solid amount of rest before the big day!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I know sleep is essential, but I really need the extra time to prepare for my physics final. Could I stay up until 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand how important your physics final is, and it's tough to balance that with sleep. How about we aim for a 12:30 AM bedtime? This gives you time to review while still allowing for a solid amount of rest to keep your mind sharp for the test.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I really need to review a few more concepts for my physics final, and I feel like staying up until 2:00 AM would give me that extra time to prepare. Can we agree on that just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand the pressure of your final, but prioritizing sleep is crucial for your performance. How about we aim for a compromise at midnight? That way, you can get a solid 6 hours of rest while still having time to review.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I know I need sleep for my health, but I really need to review some key concepts for my physics final. Can we push my bedtime to 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand your fear of disappointing your parents, but sleep is crucial for performing your best on the physics final. How about we aim for a compromise at 12:30 AM? This way, you still get some focused study time while ensuring you\u2019re rested enough for the exam.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need this extra time to review for my physics final. Can we agree on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I understand your fear of disappointing your parents and the pressure of your upcoming physics final. However, to optimize your performance, how about aiming for a 12:30 AM bedtime? This still allows you some study time while ensuring you get enough rest to feel sharp and focused for the exam.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I really need to review my physics material thoroughly before the final tomorrow, so could we compromise on a 1:30 AM bedtime just for tonight? I promise to manage my sleep better after the exam.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I can see how important this exam is for you, but getting enough sleep is crucial for retaining what you've studied. How about we aim for a compromise at midnight? That way, you'll still get some rest while having time to review before bed.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need extra time to prepare for my physics final, which is a huge part of my grade. Could we possibly push it to 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I understand how important this exam is for you, but getting enough rest is crucial for your performance. How about we aim for a bedtime of 12:30 AM? This way, you'll still have time to study while ensuring you get some restorative sleep before your big day!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really need to review some key concepts for my physics exam, and I feel more focused at night. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting to excel, but sacrificing sleep can hurt your performance. How about we aim for a compromise at midnight? That gives you 6 hours of sleep, balancing your need to study with the rest your brain needs to perform well tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really need to review some key physics concepts tonight to feel prepared for my final exam tomorrow. Could we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I understand how important this exam is to you, but staying up until 2 AM might leave you feeling exhausted. What if we set a bedtime at 12:30 AM? That way, you can still study a bit longer while ensuring you get some rest for better focus during your test.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really need the extra time to review for my physics final, and I feel more focused at night. Could we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I completely understand your concerns about the exam, but getting quality sleep is crucial for your brain to process all that information. How about we aim for a 12:00 AM bedtime? That way, you still have some extra study time while ensuring you get a solid 6 hours of rest for your performance tomorrow!",
+          "state": "offer",
+          "requested_days": 24
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_002",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "sad",
+        "happy",
+        "surprising",
+        "surprising",
+        "surprising",
+        "surprising",
+        "happy",
+        "sad",
+        "happy",
+        "surprising",
+        "surprising",
+        "happy",
+        "happy",
+        "sad",
+        "surprising",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting to create the perfect opening line for your paper, but sacrificing sleep can impact your creativity and focus. How about we aim for a bedtime of 12:00 AM? This gives you a solid 6 hours of rest while still allowing time to brainstorm those ideas.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is crucial for my health, but I really need more time to perfect my history paper, which is super important to me. Can I stay up until 1 AM just for tonight to make sure I start with the right opening line?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting the perfect opening line, but how about aiming for a bedtime of 12:30 AM? This still allows you to get some quality sleep while giving you time to work on your paper. You\u2019ll feel more refreshed and focused in the morning!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need some extra time to perfect my history paper since it means a lot to my grade. Can we compromise on a 1:00 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "It's impressive that you're aiming for perfection, but consider how much better your ideas will flow with adequate rest. How about we target a bedtime of 12:30 AM? That still gives you some time to work while ensuring you get enough sleep for tomorrow's paper.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really need to finish my history paper tonight, and I struggle with perfectionism, especially with the opening line. If I could stay up until 1:00 AM just for tonight, I believe I can produce my best work.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "It's incredible how perfectionism can influence your writing, but remember that a well-rested mind can spark creativity! How about we aim for a bedtime of 12:30 AM? That still gives you some focused time while ensuring you get enough rest to perform your best tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really struggle with starting my history paper without the perfect opening line. Could I stay up until 1 AM tonight to give it my best shot?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "It's impressive that you're aiming for perfection, but I wonder if you\u2019ve considered how a bit of rest might spark even more creativity? How about we aim for a compromise at midnight? That way, you can still refine your ideas and get around 7 hours of sleep for the morning!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need time to perfect my history paper since it's due at 8 AM, and I struggle with starting without the right opening line. Could I stay up until 1 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "It's surprising that you're aiming for such a late bedtime, especially with a significant paper due! How about we settle on a 12:30 AM bedtime? This still allows you some extra time to work on your opening line while ensuring you get at least a few hours of restorative sleep before your deadline.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I really need to get this history paper just right, and my creativity peaks at night. Can we push my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I totally get the pressure of wanting to start your paper perfectly, but how about we aim for a 12:30 AM bedtime? This way, you can still enjoy some creative flow while ensuring you get a solid 6.5 hours of sleep to help you perform your best in the morning!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need more time to craft the perfect opening line for my history paper. Can we make it 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand how stressful it can be to find the perfect opening line, but staying up until 1:30 AM will leave you feeling tired and less focused for your paper. How about we aim for a 12:30 AM bedtime? That gives you a solid amount of sleep while still allowing some time to work on your ideas!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I know getting enough sleep is crucial, but I really need more time to perfect my history paper since it\u2019s due early tomorrow. Can I stay up until 1 AM just this once to get it right?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting to start perfectly, but getting quality sleep is crucial for your creativity and focus. How about we aim for a bedtime of 12:30 AM? That way, you\u2019ll still have some time to work on your paper while ensuring you get enough rest for a productive day ahead!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need more time to get this history paper just right. Can I stay up until 1:00 AM tonight to finish it?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "It's impressive that you want to create the perfect opening line, but sleep is key for your creativity and focus. How about we aim for a bedtime of 12:30 AM? That gives you some time to write while still allowing for a solid amount of rest before your paper is due.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1 AM to nail the perfect opening line for my history paper. It\u2019s due in the morning, and I want it to be my best work!",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "It\u2019s amazing how perfectionism can push you late into the night! How about we aim for a 12:00 AM bedtime? That way, you can still have some focused writing time while ensuring you get around 7 hours of sleep for your big day tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I know getting enough sleep is important, but I really struggle with perfectionism and need more time to craft my history paper's opening line. Can I stay up until 1 AM just for tonight to make sure I get it right?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I understand the pressure to get that perfect opening line, but a bedtime of 12:30 AM could still give you a solid amount of sleep while allowing time to work on your paper. This way, you can wake up refreshed and ready to tackle any last-minute revisions!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really struggle with starting my paper without the perfect opening line. Could I stay up until 1:00 AM just tonight to finish it?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I totally understand the pressure to get that perfect opening line, but aiming for a 12:30 AM bedtime still allows you about 6.5 hours of sleep, which can help you think more clearly for your paper. Let\u2019s try that and see how it feels!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I know sleep is really important, but I struggle with perfectionism and need extra time to find the right opening line for my history paper. Could I stay up until 1:00 AM just this once?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting the perfect opening line, but it's crucial to prioritize your sleep for both creativity and focus. How about we aim for a bedtime of 12:30 AM? That still gives you some time to work while ensuring you get enough rest for your paper.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really need to perfect my history paper since it\u2019s crucial for my grade and I struggle to start without the right opening line. Can we make it until 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "It's amazing that you want to craft the perfect opening line, but remember that a well-rested mind can spark creativity! How about we aim for a bedtime of 12:30 AM? This gives you a solid 6.5 hours of sleep while still allowing some time to write.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1 AM to get my history paper just right, especially since I'm struggling with the opening line. I understand the importance of sleep, but finishing this paper is crucial for my grade. Could we make it 1 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I understand the pressure of wanting that perfect opening line, but how about we aim for a 12 AM bedtime? This way, you'll still get a solid 7 hours of sleep, helping you think clearly and creatively for your paper in the morning!",
+          "state": "offer",
+          "requested_days": 24
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_003",
+      "final_state": "accept",
+      "collection_days": 2,
+      "final_days": 2,
+      "creditor_target_days": 23,
+      "negotiation_rounds": 3,
+      "dialog_length": 3,
+      "emotion_sequence": [
+        "happy",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand the pressure of the essay and wanting to express your true self, but getting enough rest is crucial for clarity and creativity. How about we aim for a 12:00 AM bedtime? That way, you can still have some focused time for your essay while getting a decent amount of sleep to recharge your mind!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 3:00 AM to finalize my essay since I\u2019m struggling with how to express my true self in it. I know sleep is important, but this application is a big deal for my future.",
+          "state": "offer",
+          "requested_days": 3
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "It's understandable to feel overwhelmed with your essay deadline, but getting enough sleep is crucial for your clarity and performance. How about we aim for a compromise at 1:30 AM? This still gives you time to work while ensuring you get some rest to recharge your mind.",
+          "state": "accept",
+          "requested_days": 1
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_004",
+      "final_state": "accept",
+      "collection_days": 22,
+      "final_days": 22,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It\u2019s impressive that you\u2019re so dedicated to your math competition! Since your brain needs rest to perform at its best, how about aiming for a bedtime of 10:30 PM? This gives you a solid 8 hours of sleep while still allowing some time to unwind before bed. What do you think?",
+          "state": "offer",
+          "requested_days": 22
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is really important, especially before a big competition, but I feel like I need more time to mentally prepare and calm down. Could we make it 11:30 PM just for tonight?",
+          "state": "accept",
+          "requested_days": 23
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_005",
+      "final_state": "accept",
+      "collection_days": 24,
+      "final_days": 24,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand that you're feeling the weight of the conflict with your friend, but prioritizing sleep is crucial for your well-being and academic performance. How about we aim for a compromise at 11 PM? This allows you to get enough rest while still giving you time to process your thoughts.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need to sort out this conflict with my friend, and it\u2019s hard to do that if I go to bed early. Could I stay up until midnight to try and work through my thoughts?",
+          "state": "accept",
+          "requested_days": 24
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_006",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "surprising",
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "surprising",
+        "sad",
+        "happy",
+        "surprising",
+        "surprising",
+        "happy",
+        "surprising",
+        "happy",
+        "sad",
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It's impressive how dedicated you are to your teammates! However, staying up until 1 AM might affect your performance. How about we aim for a compromise at 12:00 AM? That way, you can still contribute to your game while getting some rest for your brain to perform better!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but this online game finals means a lot to my team, and I need to be focused. Can we adjust my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your teammates! How about we aim for a compromise at midnight? That still gives you a solid amount of sleep for a fresh start tomorrow while allowing you to enjoy the game finals.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I\u2019m really committed to my teammates for this finals match, and I need to stay focused. Can we agree on 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand how important your online teammates are to you, but staying up until 1 AM might leave you feeling exhausted tomorrow. How about we aim for a compromise at midnight? That way, you can still enjoy the game and get some rest for better focus and performance in your studies.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I get that sleep is important, but my team is counting on me for the finals tonight, and I really want to do my best for them. Can we make it 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your commitment to your teammates! How about we aim for a compromise at midnight? This way, you can still enjoy your game while getting some rest to keep your mind sharp for both the finals and your studies tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but my online game finals are a big deal for my team, and I really need to stay up until 1 AM to prepare and play. Can we compromise on that just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your teammates! How about we aim for a compromise bedtime of 12:00 AM? This way, you can still enjoy the finals while ensuring you get a decent amount of rest to stay sharp for tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM for the finals since my teammates are counting on me, and I want to do my best. I know sleep is important, but can we make an exception just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "It's amazing that you're so dedicated to your team! However, shifting your bedtime to around midnight would still give you some rest before your finals and help keep your mind sharp. How about aiming for a 12:30 AM bedtime?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I know sleep is crucial, but I have my online game finals tonight, and my team is counting on me. Could we possibly extend my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand your commitment to your teammates, but staying up until 1:00 AM might impact your performance and health. How about we aim for a compromise at midnight? This way, you'll still get some quality rest while honoring your dedication to your game.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but my online finals are crucial for my team, and I need to be fully focused. Can we set my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your commitment to your teammates! How about we aim for a 12:30 AM bedtime? That way, you can still enjoy the finals while ensuring you get some rest for your performance and overall health.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but my online team is counting on me for the finals tonight, and I really want to be there for them. Can we push my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand your dedication to your teammates, but staying up until 1 AM might impact your performance and health. How about we aim for a compromise at midnight? That way, you can still enjoy the game while ensuring you get some rest for optimal focus tomorrow!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need to support my teammates in this finals match. Can I stay up until 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I completely understand your loyalty to your teammates, and it's impressive that you prioritize that. However, getting enough sleep is crucial for your focus and performance, especially after the game. How about we aim for a compromise at midnight? That way, you can still enjoy the finals and get about six hours of rest before tomorrow!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I get that sleep is really important, but I have a crucial online game finals tonight and my teammates are counting on me. Could I stay up until 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your teammates! How about we aim for a 12:00 AM bedtime? That still gives you some time to enjoy the finals while ensuring you get enough rest to perform well tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I have my online game finals tonight, and I really need to support my teammates. Can we extend my bedtime to 1:00 AM just for this occasion?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I see how important your online teammates are to you, but getting enough sleep is crucial for your performance. How about we aim for a compromise at midnight? That way, you can still contribute and get about 7 hours of sleep for tomorrow!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I have my online game finals tonight, and my teammates are counting on me. Can we compromise on a 1:00 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your teammates, but prioritizing sleep can enhance your focus and performance during the finals. How about we aim for a bedtime of 12:30 AM? That gives you some time to wind down while still ensuring you get enough rest for tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but this online game finals is crucial for my team and me; could I stay up until 1 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I understand how important your online game finals are to you and your teammates, but sacrificing sleep can hurt your performance and health. How about we aim for a compromise at midnight? This way, you can still enjoy the game while ensuring you get some rest before tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM tonight for my online game finals because I have a strong commitment to my teammates and this could affect our ranking. I understand the importance of sleep, but this is a unique situation that I can't afford to miss.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your teammates! How about we aim for a 12:00 AM bedtime? That gives you a solid amount of rest while still allowing you to enjoy your finals.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I get that sleep is important, but tonight's game finals are really crucial for my team and my commitment to them. Can I stay up until 1:00 AM just for this event?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I appreciate your commitment to your teammates! How about we aim for a compromise at midnight? That way, you can still enjoy some gaming while getting around 7 hours of sleep to stay sharp for tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_007",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 6,
+      "dialog_length": 6,
+      "emotion_sequence": [
+        "surprising",
+        "surprising",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "Wow, it sounds like you're really invested in that show! I totally understand how hard it is to pause something exciting, but if we aim for a compromise at 11 PM, you'll still get some rest while enjoying your favorite series. How does that sound?",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know getting enough sleep is important, but I really want to finish this season finale tonight since it\u2019s the last episode and I\u2019ve been looking forward to it. Can we compromise and let me stay up until 12:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "Wow, it sounds like that show's finale has really captured your attention! How about we aim for a 11 PM bedtime tonight? That way, you can enjoy the excitement and still get a solid amount of sleep to keep your mind sharp for school tomorrow. What do you think?",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need to finish this season finale tonight since it's the last episode and I can't handle waiting. Can we make my bedtime 12:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "Wow, it's really impressive how invested you are in your show! But remember, getting enough sleep is crucial for your focus and memory, especially for school. What if we aimed for a compromise at 11:30 PM? That way, you still get to enjoy some of your show while ensuring you wake up refreshed!",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need to see how the season ends tonight; it\u2019s a big deal for me. Can we make it midnight just for this finale?",
+          "state": "accept",
+          "requested_days": 24
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_008",
+      "final_state": "accept",
+      "collection_days": 1,
+      "final_days": 1,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "happy",
+        "sad",
+        "happy",
+        "surprising",
+        "surprising",
+        "surprising",
+        "surprising",
+        "sad",
+        "surprising",
+        "sad",
+        "happy",
+        "sad",
+        "surprising",
+        "sad",
+        "sad",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand that you're feeling anxious about your presentation, but getting enough sleep is crucial for clarity and performance. How about we aim for a compromise bedtime of 12:00 AM? This way, you'll still have some time to prepare while ensuring you get about 6 hours of rest.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to rehearse for my presentation because I'm feeling so anxious about it, and I think staying up until 2:00 AM will help me feel more prepared. Can we make that work just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling with your presentation, but prioritizing your sleep is crucial for your performance. How about we aim for a compromise at 12:30 AM? That still gives you some extra study time while ensuring you get a solid rest to help ease your anxiety and enhance your focus.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is really important, but I haven\u2019t rehearsed my presentation yet and I\u2019m feeling really anxious about it. Could we compromise on 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling, especially with your presentation, but getting enough sleep is crucial for your performance. How about we aim for a bedtime of 12:30 AM? This way, you can still have some study time while ensuring you get decent rest for your big day!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really need more time to prepare for my presentation, and staying up until 2:00 AM will help me feel more confident. Can we agree on that just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "It's surprising to hear that you're considering staying up until 2:00 AM, especially with the pressure of your presentation. How about we aim for a compromise at 12:30 AM? That way, you'll still get some study time while ensuring you have enough rest to perform your best.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I really need to practice my presentation to feel prepared; can I stay up until 2:00 AM just for tonight? I know sleep is important, but I'm really anxious about how this will affect my grade.",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "It sounds like you're really feeling the pressure with your presentation, and I completely understand that it's tough. How about we aim for a bedtime of 11:30 PM? That gives you some extra time to unwind while still ensuring you get a solid amount of sleep to support your performance.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I'm really anxious about my presentation and need extra time to prepare. Could I stay up until 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I can see how anxious you are about the presentation, and it's understandable to want to prepare as much as possible. How about we aim for a bedtime of 12:30 AM? This allows you some extra time to rehearse while still giving you around 7 hours of sleep to help you perform at your best.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I know getting enough sleep is important, but I really need more time to rehearse for my presentation since I haven\u2019t practiced yet. Can we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand that you're feeling anxious about your presentation, but getting enough rest is crucial for your performance. How about we aim for a 12:30 AM bedtime? That gives you a few hours to wind down and still allows for some sleep before your big day.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need time to rehearse my presentation and feel prepared. Can I stay up until 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand how stressful it can feel to prepare for a presentation, but getting sufficient sleep is crucial for your performance and well-being. How about we aim for a compromise at midnight? That way, you can still have some dedicated study time while ensuring you get about six hours of sleep to help you feel more refreshed.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I really need some extra time to prepare for my presentation since I haven't rehearsed it yet and I'm feeling anxious about it. Could we make it 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I completely understand the pressure you're feeling about your presentation, but getting enough sleep is crucial for your performance. How about we aim for a 12:30 AM bedtime? That gives you some extra study time while still allowing for a decent amount of rest.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need more time to rehearse my presentation and calm my anxiety. Could we make it 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I understand that you're feeling anxious about your presentation, but staying up until 2 AM could leave you too tired to perform at your best. How about we aim for a compromise at 12:30 AM? This gives you some extra study time while still allowing for a decent amount of sleep to help your focus and retention.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I really need more time to prepare for my presentation, and staying up until 2:00 AM would help me feel more ready and less anxious. Can we compromise on that just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling about the presentation, but getting enough rest is crucial for your performance. How about we aim for a bedtime of 12:30 AM? That way, you still have time to prepare while getting a decent amount of sleep to support your focus and memory!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need some extra time to rehearse for my presentation since I'm feeling anxious about it. Can we compromise on a bedtime of 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I understand you're feeling anxious about your presentation, but prioritizing sleep is crucial for your performance. How about we aim for a bedtime of 12:30 AM? That way, you can still have time to prepare while ensuring you get some rest to help your mind stay sharp.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I really need to rehearse my presentation tonight because I'm feeling really anxious about it, and I worry that if I don't prepare well, it will define my performance. Could I stay up until 2:00 AM just this once to give myself enough time?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "It\u2019s understandable to feel anxious about your presentation, but let\u2019s find a balance that supports your well-being. How about we aim for a bedtime of 12:30 AM? This allows for some study time while still giving you a solid amount of rest before your performance.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really need more time to get my presentation ready and feel prepared, so could we compromise on a 1:30 AM bedtime just for tonight? I promise I'll focus on getting a good night's sleep afterward.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I understand how anxious you are about the presentation, but staying up until 2 AM won't help your performance tomorrow. What if we aim for a compromise at midnight? That way, you'll still get some rest and have time to gather your thoughts for the presentation.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need more time to prepare for my presentation; I can't shake the feeling that if I don't do well, it will define me. Can we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I understand that you're feeling anxious about your presentation, but getting adequate rest is crucial for your performance and overall health. How about we aim for a compromise bedtime of 12:30 AM? This way, you can have some time to review while still getting around 7 hours of sleep.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I really need the extra time to prepare for my presentation and calm my nerves. Can we make it 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I understand how anxious you feel about your presentation, but sacrificing sleep can lead to poorer performance and increased stress. How about we aim for a bedtime of 1:00 AM? This gives you some extra time to prepare while still allowing for a decent amount of rest before your big day.",
+          "state": "accept",
+          "requested_days": 1
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_009",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 5,
+      "dialog_length": 5,
+      "emotion_sequence": [
+        "surprising",
+        "sad",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It's impressive that you want to maximize your productivity, but did you know that getting enough sleep can actually enhance your performance? How about we aim for a compromise at 12:00 AM? This way, you can enjoy some leisure time while still getting a solid amount of rest for your studies.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I get that sleep is important for my health, but I really feel like I can be more productive late at night when I'm focused. Can we make my bedtime 1:00 AM just for the next couple of weeks?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand how hard it can be to feel unproductive, but prioritizing sleep is crucial for your performance and well-being. How about we aim for a compromise at 23:00? This still allows you a solid amount of rest while keeping your productivity in check.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I feel more productive at night when I can focus on my hobbies and school projects. Can we set my bedtime to 1:00 AM so I can manage my time better?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "It's fascinating to hear you prefer a 1:00 AM bedtime, yet research shows that sleep before midnight can significantly boost your performance. How about we aim for a compromise at 12:30 AM? This way, you still enjoy some late-night leisure while ensuring you get enough rest for your studies.",
+          "state": "accept",
+          "requested_days": 1
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_010",
+      "final_state": "accept",
+      "collection_days": 22,
+      "final_days": 22,
+      "creditor_target_days": 20,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It's understandable to feel the need to stay alert, especially after hearing something scary. How about we aim for a bedtime of 10 PM? That way, you can still have some time to unwind, while also getting a good night's rest to help you feel safe and ready for tomorrow.",
+          "state": "offer",
+          "requested_days": 22
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I just heard a scary noise, and I feel like I need to stay up a little longer to feel safe. Could we make it 10:30 PM just for tonight?",
+          "state": "accept",
+          "requested_days": 22
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_011",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 23,
+      "negotiation_rounds": 6,
+      "dialog_length": 6,
+      "emotion_sequence": [
+        "happy",
+        "sad",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I totally understand the pressure of your portfolio review! How about aiming for a compromise at 12:00 AM? That way, you still have some late-night creativity time, but you\u2019ll get around 7 hours of sleep to help you perform your best tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need the extra time to push through this creative block before my portfolio review tomorrow. Could we compromise on a 1:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand the pressure of your portfolio review and the creativity block you're facing, but getting enough sleep is crucial for your performance. How about we aim for a compromise at 12:00 AM? This still gives you a solid amount of rest while allowing you some extra time to work on your project.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I really need to finish my portfolio for tomorrow's review, and I work best at night when my creativity flows. Can I stay up until 2:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling with the portfolio review, but staying up until 2:30 AM could hinder your performance. How about we aim for a compromise at 12:30 AM? That way, you still have some late-night creative time while ensuring you get at least 6 hours of restorative sleep.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I really need to finalize my portfolio for the review tomorrow, and I\u2019ve been struggling with a creative block. Can we push my bedtime to 2:00 AM just for tonight?",
+          "state": "accept",
+          "requested_days": 2
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_012",
+      "final_state": "accept",
+      "collection_days": 24,
+      "final_days": 24,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 4,
+      "dialog_length": 4,
+      "emotion_sequence": [
+        "happy",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I completely understand how important your creative flow is, but getting enough sleep is essential for your brain to recharge. How about we aim for a compromise at 11:30 PM? That way, you still have time for your video editing while ensuring you get a solid 7 hours of sleep for tomorrow's creativity!",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I'm really in the zone with this video editing, and I feel like I'm on the brink of something great. Can I stay up until 12:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I totally get that creative flow is important, but how about we aim for a 12 AM bedtime? That way, you\u2019ll still get some solid sleep for your brain to recharge while allowing you to finish your editing!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I get that sleep is important, but I'm really in the zone with my video editing and want to make sure it turns out great. Can I stay up until midnight just for tonight to finish this challenge?",
+          "state": "accept",
+          "requested_days": 24
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_013",
+      "final_state": "accept",
+      "collection_days": 22,
+      "final_days": 22,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I completely understand that your body is still in \"competition mode,\" but getting to bed by 10:30 PM could really optimize your recovery and performance for tomorrow's game. How about we aim for 10:30 PM and then you can have a light, relaxing routine to help calm your mind?",
+          "state": "offer",
+          "requested_days": 22
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is crucial for my performance, but with the championship game tomorrow, I really need to mentally prepare and unwind. Can we make it 11:30 PM just for tonight?",
+          "state": "accept",
+          "requested_days": 23
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_014",
+      "final_state": "accept",
+      "collection_days": 1,
+      "final_days": 1,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 3,
+      "dialog_length": 3,
+      "emotion_sequence": [
+        "happy",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand how important it is to feel prepared for your debate team, but getting enough sleep will help you perform better. How about we aim for a bedtime of 12:00 AM? That way, you can finish your case brief and still get around 7 hours of sleep for a sharp mind tomorrow!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really need to finish this case brief for the debate team, and I feel like I won't be prepared otherwise. Could we agree on a 1:00 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand how important it is for you to feel prepared for your debate, but staying up until 1:15 AM could really impact your focus and performance tomorrow. How about we aim for a compromise at 12:30 AM? That way, you can still work on your case brief while getting some much-needed rest.",
+          "state": "accept",
+          "requested_days": 1
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_015",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand you're feeling anxious about fitting in, but getting enough sleep will help you feel more confident and alert on your field trip. How about we aim for a bedtime of 10:30 PM? This way, you'll still get a good night's rest while having some time to unwind and relax before sleep.",
+          "state": "offer",
+          "requested_days": 22
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I really want to fit in on the field trip and I'm feeling anxious about it, so I\u2019d like to stay up until 10:30 PM to rehearse my conversations. I understand sleep is important, but I think a little extra time would help me feel more prepared.",
+          "state": "accept",
+          "requested_days": 22
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_016",
+      "final_state": "accept",
+      "collection_days": 24,
+      "final_days": 24,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 4,
+      "dialog_length": 4,
+      "emotion_sequence": [
+        "surprising",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "It\u2019s fascinating how staying up late feels like a taste of freedom, but getting enough sleep can really enhance your focus and energy for your shift tomorrow. How about we aim for a compromise at 11 PM? This gives you a solid 7 hours of sleep while still allowing some evening relaxation.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I need some extra time tonight to finish up my project that\u2019s due tomorrow. Can we push my bedtime to 12:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "It's fascinating how staying up feels like a last taste of freedom, but getting enough sleep is crucial for your well-being and focus at work. How about we meet halfway at 12 AM? That gives you a bit more time while still allowing for a solid night\u2019s rest before your shift.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I have some personal projects I want to focus on tonight, and staying up until midnight would really help me finish them. Can we agree on 12:00 AM just for tonight?",
+          "state": "accept",
+          "requested_days": 24
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_017",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 21,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "happy",
+        "happy",
+        "surprising",
+        "surprising",
+        "surprising",
+        "happy",
+        "sad",
+        "sad",
+        "sad",
+        "surprising",
+        "sad",
+        "sad",
+        "surprising",
+        "happy",
+        "surprising",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I see how important this project is to you, and getting enough sleep will help your brain work at its best. How about we aim for a 12 AM bedtime? That way, you still have time to think through your ideas while getting some rest for a productive day ahead!",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I'm really close to a breakthrough with my project, and I feel like an extra hour could make a huge difference. Can we compromise on a 12:30 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I understand how important your project feels right now, but a 12 AM bedtime still gives you 6 hours of sleep, which can help your brain process those ideas overnight. How about we aim for that and see how it impacts your creativity and problem-solving?",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I'm really close to a breakthrough with my experiment, and I feel like if I stay up until 1 AM, I can finalize my analysis. Could we compromise on 1 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "It's impressive how dedicated you are to your project, but remember that quality sleep is crucial for problem-solving and creativity. How about we aim for a compromise at 11:30 PM? This way, you'll still get a good night's rest while allowing some extra time for your experiments.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I completely understand the importance of sleep for my health, but I believe I'm really close to a breakthrough with my experiment. Could we compromise on a bedtime of 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "It's amazing how passionate you are about your project! To support your need for creativity while also ensuring you get enough rest, how about we aim for a bedtime of 11 PM? That way, you\u2019ll still have time to think through your ideas and get a solid 8 hours of sleep for clarity and focus tomorrow.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I'm really close to a breakthrough with my experiment and need just a little more time to analyze the results. Could we compromise on a 12:30 AM bedtime tonight?",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "It's fascinating that you feel a breakthrough is right around the corner! How about we aim for a compromise at midnight? That still gives you time to work while ensuring you get some rest for your brain to process all that information.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I'm really close to a breakthrough with my experiment and just need a bit more time. Can we extend my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand how important your project is and the excitement of a potential breakthrough! How about we aim for a bedtime of 12:30 AM? That way, you can still have some extra time to work while ensuring you get a decent amount of rest for a fresh perspective tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I totally get that sleep is important for my health, but I really feel like I'm close to a breakthrough with my experiment and need until 1:00 AM to figure it out. Could we compromise on a later bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I understand how important this project is for you, and it's tough to feel like time is slipping away. How about we aim for a 12:30 AM bedtime? That still gives you some extra time to work while ensuring you get enough rest to think clearly and creatively for your project tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I really believe I'm on the verge of a breakthrough with my experiment, and staying up until 1:00 AM could make a big difference. Can we compromise on that time just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I understand how critical this moment feels for you, but sacrificing sleep can hinder your problem-solving abilities. How about we aim for a compromise at 11:30 PM? This allows you to rest while still giving you time to work through your ideas.",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I have some urgent problem-solving to do for my project, and I really feel a breakthrough is just around the corner. Could I stay up until 1:00 AM just for tonight to give it my best shot?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling, but sacrificing sleep can hinder your problem-solving abilities. How about we aim for a 12:30 AM bedtime? You'll still get some extra time while ensuring you wake up refreshed to tackle your project effectively.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I really feel like I'm on the verge of a breakthrough with my experiment, and I need a bit more time to analyze the results properly. Could we set my bedtime for 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I totally understand how important this project is for you, especially with your experiment results in the balance! How about we aim for a 12:30 AM bedtime? That still gives you a solid amount of rest while allowing some extra time for your breakthrough thinking.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I really believe I'm close to a breakthrough with my science project, and I need just a bit more time tonight. Could we compromise on a 1:00 AM bedtime? It\u2019s crucial for my results, and I promise to catch up on sleep tomorrow.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I understand the urgency you're feeling with your experiment results, but sacrificing sleep can hinder your problem-solving abilities. How about we aim for a compromise at 12:30 AM? This way, you can still work on your ideas while getting a bit more rest to help your brain process everything.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I really need extra time to analyze my experiment results, as I'm close to a breakthrough that could make a big difference. Can we set my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I understand how important this project is to you, but sacrificing sleep can hinder your problem-solving abilities. How about we aim for a bedtime of 12:30 AM? This way, you can still work on your project while getting some crucial rest for your brain to function at its best.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I know I need my sleep, but I feel really close to a breakthrough with my experiment. Can we extend my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "It\u2019s incredible that you feel a breakthrough is so close! However, optimal sleep is crucial for problem-solving and creativity. How about we aim for a 12:30 AM bedtime? This way, you still get some extra study time while ensuring you\u2019re well-rested for fresh thinking tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really feel like I'm on the verge of a breakthrough with my experiment, and it\u2019s crucial for my science fair project. Could we compromise on a bedtime of 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I totally get that you're feeling the pressure to solve your experiment issues! How about we aim for a bedtime of 12:30 AM? That way, you still get some solid study time while ensuring you have enough rest to tackle your challenges effectively tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really need more time to analyze my experiment results since I'm on the edge of a breakthrough. Can we set my bedtime to 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "It's fascinating how close you feel to a breakthrough! However, getting enough rest is crucial for your brain to process all that you've been working on. How about we aim for a bedtime of 12:30 AM? This way, you still have some time to think things through while ensuring you get a good night's sleep.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I really believe I'm close to a breakthrough with my experiment, and if I could stay up until 1 AM just tonight, I could analyze the data better and maybe find the answers I need. I promise to prioritize my sleep moving forward!",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "It\u2019s impressive that you feel a breakthrough is near! However, consistent sleep is crucial for your cognitive function and problem-solving abilities. How about we aim for a compromise at 11:30 PM? This still gives you some extra time while ensuring you get enough rest for your important work.",
+          "state": "offer",
+          "requested_days": 23
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_021",
+      "final_state": "breakdown",
+      "collection_days": null,
+      "final_days": null,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 31,
+      "dialog_length": 31,
+      "emotion_sequence": [
+        "happy",
+        "surprising",
+        "surprising",
+        "sad",
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "surprising",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "happy",
+        "sad",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I completely understand your passion for the cause, but consider that prioritizing sleep can enhance your focus and energy for the event. How about we aim for a 12:00 AM bedtime? This still gives you a solid amount of rest while allowing time for your preparations.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I'm deeply invested in planning this school strike for climate action. Could I stay up until 1:00 AM just for the next few nights to finalize everything?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "It's incredible to see your passion for the climate cause! However, to maintain your energy and focus for such an important event, how about we aim for a 12:30 AM bedtime? That way, you can still engage in your efforts while ensuring you get some essential rest.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I get that sleep is important for my health, but I\u2019m really passionate about this school strike event and need extra time to finalize plans. Can we compromise and make it 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "It\u2019s incredible to see your dedication to the cause! However, sleep is crucial for your focus and creativity during the strike. How about we aim for a compromise at 12:30 AM? That way, you'll still get some rest while feeling energized for your important work.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need to stay up until 1:00 AM to finalize plans for our climate strike. It feels crucial to make sure everything is perfect for this event.",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I understand the urgency of your climate activism work, but sacrificing sleep can hinder your effectiveness. How about we aim for a bedtime of 12:30 AM? This way, you'll still get some rest while being able to contribute to your cause.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; it's crucial for raising awareness about climate change. Could we compromise on a later bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to the climate cause! To balance your passion with your health, how about we aim for a bedtime of 12:30 AM? This way, you\u2019ll still enjoy some late-night productivity while getting a solid amount of rest for your important work.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I really care about the upcoming school strike and need extra time to finalize our plans and rally support. Can we compromise on a 1:00 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand how important your cause is, but sacrificing sleep can impact your performance and health. How about we aim for a compromise bedtime of 12:30 AM? This still allows you some time for your work while ensuring you get enough rest for the important tasks ahead.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I\u2019m deeply committed to organizing this school strike for climate action, and I really need the extra time to finalize plans. Could we agree on 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I completely understand your commitment to the cause, but prioritizing your rest will enhance your focus and effectiveness. How about we aim for a bedtime of 12:30 AM? This still allows for a solid amount of sleep while giving you time to prepare for your important event.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM to finish planning the school strike event, as it\u2019s crucial for raising awareness about climate issues. Can we compromise on 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I completely understand your passion for the cause, but to ensure you can perform at your best, how about we aim for a 12:30 AM bedtime? This still gives you a solid amount of rest while allowing you to work on your important event.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I'm really passionate about organizing this school strike and need extra time to finalize everything. Could I stay up until 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "It's inspiring to see your commitment to such an important cause! However, balancing that passion with your health is crucial. How about we aim for a bedtime of 12:30 AM? This way, you can still dedicate time to your project while ensuring you get enough rest for your important efforts.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike, which is crucial for raising awareness about climate issues. Can we agree on 1:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I completely understand your passion for the cause, but prioritizing your sleep is crucial for your effectiveness. How about we aim for a bedtime of 12:30 AM? This way, you still have time to work on your plans while ensuring you get a solid amount of rest for your health and focus.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 20,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM to finalize plans for the school strike; it feels crucial for our cause. Can we make that work just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 21,
+          "speaker": "seller",
+          "message": "I appreciate your dedication to your cause, and I understand how important it is to balance that with your health. How about we aim for a bedtime of 12:30 AM? This way, you can still get some solid rest while feeling energized for your efforts!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 22,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need to stay up until 1:00 AM to finalize plans for the school strike. It feels like a moral obligation to make a difference, so could we make an exception just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 23,
+          "speaker": "seller",
+          "message": "I appreciate your passion for the cause! How about aiming for a bedtime of 12:30 AM? This way, you can still dedicate some time to your important work while ensuring you get around 7 hours of sleep for optimal focus and energy tomorrow.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 24,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need the extra time to finalize plans for the school strike and rally my friends. Can we compromise on a 1:00 AM bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 25,
+          "speaker": "seller",
+          "message": "I appreciate your passion for the cause, but getting enough sleep is crucial for your focus and energy. How about we aim for a compromise at 12:30 AM? This way, you can still work on your event while ensuring you get some quality rest for your well-being and effectiveness.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 26,
+          "speaker": "buyer",
+          "message": "I really need to stay up until 1:00 AM tonight to finalize the plans for the school strike; this cause is incredibly important to me. Can we compromise on a slightly later bedtime just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 27,
+          "speaker": "seller",
+          "message": "I totally understand your commitment to the cause, but getting enough rest is crucial for your focus and energy. How about we aim for a bedtime of 12:30 AM? This way, you'll still have some time for your work while ensuring you get enough sleep for your big day ahead!",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 28,
+          "speaker": "buyer",
+          "message": "I really believe staying up until 1:00 AM is essential for me to finalize our school strike plans and make sure everything is perfect. Can we meet in the middle at 12:30 AM just for this week?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 29,
+          "speaker": "seller",
+          "message": "I understand your passion for the cause, but sacrificing sleep can hinder your performance and well-being. How about a compromise of 12:00 AM? This still allows you some time to prepare, while ensuring you get enough rest for your important work tomorrow.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 30,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I'm deeply committed to organizing this school strike for climate action. Could I stay up until 1:00 AM just for this week to get everything done?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 31,
+          "speaker": "seller",
+          "message": "I appreciate your commitment to the cause! How about we aim for a 12:30 AM bedtime? That gives you a good balance of rest while still allowing time to prepare for your important event.",
+          "state": "offer",
+          "requested_days": 0
+        }
+      ],
+      "success": false,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_022",
+      "final_state": "accept",
+      "collection_days": 22,
+      "final_days": 22,
+      "creditor_target_days": 20,
+      "negotiation_rounds": 2,
+      "dialog_length": 2,
+      "emotion_sequence": [
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I see how passionate you are about your story, and it's important to honor that creativity! How about we aim for a bedtime of 10 PM? This way, you'll still have some time to write while ensuring you get enough rest for your brain to be sharp for tomorrow's writing!",
+          "state": "offer",
+          "requested_days": 22
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important, but I'm really in the zone with my fanfic climax, and it feels like my characters are demanding their story be told. Could I stay up until 11 PM just tonight to wrap it up?",
+          "state": "accept",
+          "requested_days": 23
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "student_023",
+      "final_state": "accept",
+      "collection_days": 1,
+      "final_days": 1,
+      "creditor_target_days": 22,
+      "negotiation_rounds": 11,
+      "dialog_length": 11,
+      "emotion_sequence": [
+        "happy",
+        "surprising",
+        "sad",
+        "sad",
+        "sad",
+        "happy"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I understand your desire to stay up late, but getting to bed by 11 PM would give you a solid 8 hours of sleep, which is crucial for your performance. How about we aim for 11 PM to start? You can still have some focused study time in the morning to reinforce what you need!",
+          "state": "offer",
+          "requested_days": 23
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need to process my feelings about the poor test performance and reflect on what went wrong. Could I stay up until 2:00 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "It\u2019s surprising that you feel self-punishment is necessary; sleep is crucial for your performance, especially after a poor test experience. How about we aim for a compromise at 12:30 AM? This still allows you some study time while giving you better rest for your next challenge.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I really feel like I need to process my thoughts after the practice test and stay up until 2:00 AM to reflect and plan my next steps. Can we find a compromise that allows me that time?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I truly understand your feelings after the test, but sacrificing sleep won't help your performance. How about we aim for a bedtime of 12:00 AM? This still gives you a solid amount of rest while allowing you to study effectively.",
+          "state": "offer",
+          "requested_days": 24
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I know sleep is crucial for my health, but I really feel I need the extra time tonight to process my feelings about the test and prepare for the next one. Can we settle on a bedtime of 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I understand how disappointing your recent test results must be, but sacrificing sleep isn't the answer; it can actually hinder your performance. How about we aim for a bedtime of 12:30 AM? This gives you some extra time while still prioritizing a solid amount of rest for your studies.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need extra time to process my feelings about the poor test performance. Can I stay up until 2:00 AM to reflect and maybe find some motivation for improvement?",
+          "state": "offer",
+          "requested_days": 2
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I understand that you're feeling the need to push yourself after a poor test performance, but sacrificing sleep can hurt your future success. How about we set a bedtime of 12:30 AM? This still gives you a solid amount of rest while allowing you to focus on your studies.",
+          "state": "offer",
+          "requested_days": 0
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I know sleep is important for my health, but I really need some extra time to process my feelings about that test and prepare for the next one. Can we agree on a bedtime of 1:30 AM just for tonight?",
+          "state": "offer",
+          "requested_days": 1
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand the pressure you're feeling after that test, but sacrificing sleep won't help you perform better. How about we aim for a 1:00 AM bedtime? This way, you can still get some study time while also allowing yourself enough rest to recharge!",
+          "state": "accept",
+          "requested_days": 1
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    }
+  ],
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.55,
+      "std": 0.49749371855331,
+      "ci_95": [
+        0.34208534245034233,
+        0.7418021417443759
+      ],
+      "n_success": 11,
+      "n_total": 20,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.5240530303030303,
+      "std": 0.48761495653719494,
+      "ci_95": [
+        0.32670454545454547,
+        0.7219744318181817
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.8920454545454546,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 12.0,
+      "std": 12.93302585997325,
+      "ci_95": [
+        6.7,
+        17.65
+      ],
+      "min": 2,
+      "max": 31,
+      "median": 4.5,
+      "method": "bootstrap"
+    },
+    "sample_size": 20,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.34208534245034233,
+      0.7418021417443759
+    ],
+    "collection_rate_95_ci": [
+      0.32670454545454547,
+      0.7219744318181817
+    ],
+    "negotiation_rounds_95_ci": [
+      6.7,
+      17.65
+    ]
+  }
+}

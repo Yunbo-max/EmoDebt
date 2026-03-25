@@ -1,0 +1,110 @@
+{
+  "model_name": "evolutionary_as_creditor_vs_vanilla_20260105_103801",
+  "model_data": {
+    "transition_matrix": [
+      [
+        0.3,
+        0.2,
+        0.05,
+        0.1,
+        0.05,
+        0.05,
+        0.25
+      ],
+      [
+        0.25000000000000006,
+        0.25000000000000006,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002,
+        0.10000000000000002
+      ],
+      [
+        0.1,
+        0.1,
+        0.2,
+        0.15,
+        0.15,
+        0.1,
+        0.2
+      ],
+      [
+        0.2,
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.1,
+        0.2
+      ],
+      [
+        0.1,
+        0.1,
+        0.15,
+        0.15,
+        0.2,
+        0.1,
+        0.2
+      ],
+      [
+        0.15,
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.15,
+        0.2
+      ],
+      [
+        0.15,
+        0.15,
+        0.1,
+        0.15,
+        0.1,
+        0.1,
+        0.25
+      ]
+    ],
+    "best_sequence": [
+      "neutral",
+      "disgust",
+      "neutral",
+      "neutral",
+      "happy",
+      "sad"
+    ],
+    "best_fitness": 0.0,
+    "opponent_method": "vanilla",
+    "trained_as": "creditor"
+  },
+  "training_stats": {
+    "creditor_method": "evolutionary",
+    "debtor_method": "vanilla",
+    "training_scenarios": 10,
+    "training_time_minutes": 7.2057055552800495,
+    "success_rate": 1.0,
+    "final_performance": {},
+    "training_params": {
+      "creditor_model": "deepseek-chat",
+      "debtor_model": "deepseek-chat",
+      "max_dialog_len": 30,
+      "generations": 2,
+      "population_size": 2,
+      "mutation_rate": 0.15,
+      "crossover_rate": 0.8,
+      "negotiations_per_gen": 20,
+      "learning_rate": 0.6,
+      "episodes": 100,
+      "episodes_per_scenario": 5,
+      "discount_factor": 0.95,
+      "exploration_rate": 1.0,
+      "exploration_decay": 0.995,
+      "batch_size": 32,
+      "replay_buffer_size": 10000,
+      "temperature": 1.0
+    }
+  },
+  "timestamp": "20260105_103801",
+  "saved_at": "2026-01-05T10:38:01.142816"
+}

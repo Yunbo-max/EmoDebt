@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260104_094108",
+  "config": {
+    "dataset_type": "student",
+    "model_type": "gpt",
+    "iterations": 1,
+    "scenarios": 100,
+    "max_dialog_len": 30,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "threat",
+    "out_dir": "table2_ssd",
+    "debug": false
+  },
+  "results": {},
+  "timing_summary": {
+    "overall_runtime_seconds": 5.122493267059326,
+    "overall_runtime_formatted": "0m 5s",
+    "total_negotiations": 0,
+    "negotiations_per_hour": 0.0,
+    "dataset_timings": {
+      "student": "0.09m"
+    },
+    "start_time": "2026-01-04 09:41:03",
+    "end_time": "2026-01-04 09:41:08"
+  }
+}

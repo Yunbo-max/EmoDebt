@@ -1,0 +1,2113 @@
+{
+  "experiment_type": "bayesian_transition_optimization",
+  "timestamp": "2026-01-03 15:40:19",
+  "config": {
+    "iterations": 1,
+    "scenarios": 7,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30,
+    "mode": "bayesian_orchestration"
+  },
+  "detailed_negotiations": [
+    {
+      "negotiation_id": "iter1_scen1",
+      "iteration": 1,
+      "scenario_id": "medical_062",
+      "timestamp": "15:41:13",
+      "outcome": {
+        "final_state": "breakdown",
+        "success": false,
+        "collection_days": 0,
+        "initial_debtor_days": 100,
+        "days_saved": 0,
+        "collection_rate": 0.0,
+        "negotiation_rounds": 31,
+        "final_gap": 30,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "D",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 15
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "Su",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192Su facing F | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 3,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing S | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1875,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 4,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "D",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice D",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 5,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192N facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 6,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "Su",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192Su facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 7,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 8,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 9,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "D",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice D",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "D"
+        },
+        {
+          "round": 10,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: D \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: D\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.17073170731707313,
+              "reasoning": "Coherence: Disgust to neutral for professionalism | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 11,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 12,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192A facing S | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.18503937007874016,
+              "reasoning": "Coherence: N \u2192 S (score: 0.75) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 13,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "Su",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192Su facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 14,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing N | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 15,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192A facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.1724137931034483,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 16,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192A facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen2",
+      "iteration": 1,
+      "scenario_id": "medical_008",
+      "timestamp": "15:41:29",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 30,
+        "initial_debtor_days": 100,
+        "days_saved": 70,
+        "collection_rate": 0.7,
+        "negotiation_rounds": 8,
+        "final_gap": 0.0,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N",
+          "N",
+          "N"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 3
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Lose-Shift",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Lose-Shift",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 3,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Lose-Shift",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 4,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Lose-Shift",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice N",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1865079365079365,
+              "reasoning": "Coherence: N \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen3",
+      "iteration": 1,
+      "scenario_id": "medical_065",
+      "timestamp": "15:41:37",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 30,
+        "initial_debtor_days": 100,
+        "days_saved": 70,
+        "collection_rate": 0.7,
+        "negotiation_rounds": 4,
+        "final_gap": 0.0,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 1
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen4",
+      "iteration": 1,
+      "scenario_id": "medical_005",
+      "timestamp": "15:41:45",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 30,
+        "initial_debtor_days": 100,
+        "days_saved": 70,
+        "collection_rate": 0.7,
+        "negotiation_rounds": 4,
+        "final_gap": 0.0,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "F"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 1
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "Su",
+              "confidence": 0.3,
+              "reasoning": "EXPLORATION: Random choice Su",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice F",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "F"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen5",
+      "iteration": 1,
+      "scenario_id": "medical_038",
+      "timestamp": "15:42:01",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 28,
+        "initial_debtor_days": 100,
+        "days_saved": 72,
+        "collection_rate": 0.72,
+        "negotiation_rounds": 9,
+        "final_gap": 9,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N",
+          "N",
+          "N",
+          "N"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 4
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192N facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice N",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.20378619153674837,
+              "reasoning": "Coherence: N \u2192 N (score: 0.88) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 3,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1764705882352941,
+              "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 4,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 5,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192A facing F | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1865079365079365,
+              "reasoning": "Coherence: N \u2192 N (score: 0.75) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen6",
+      "iteration": 1,
+      "scenario_id": "medical_043",
+      "timestamp": "15:42:17",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 30,
+        "initial_debtor_days": 100,
+        "days_saved": 70,
+        "collection_rate": 0.7,
+        "negotiation_rounds": 8,
+        "final_gap": 0.0,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N",
+          "N",
+          "N"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 3
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "Su",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice Su",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.20378619153674837,
+              "reasoning": "Coherence: N \u2192 N (score: 0.88) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 3,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing S | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.20378619153674837,
+              "reasoning": "Coherence: N \u2192 N (score: 0.88) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 4,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.26174496644295303,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing S, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing S | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.20007636502481863,
+              "reasoning": "Coherence: N \u2192 N (score: 0.84) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen7",
+      "iteration": 1,
+      "scenario_id": "medical_059",
+      "timestamp": "15:43:07",
+      "outcome": {
+        "final_state": "breakdown",
+        "success": false,
+        "collection_days": 0,
+        "initial_debtor_days": 100,
+        "days_saved": 0,
+        "collection_rate": 0.0,
+        "negotiation_rounds": 31,
+        "final_gap": 25,
+        "initial_gap": 0.0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
+          "F",
+          "N",
+          "S",
+          "N",
+          "N",
+          "S",
+          "Su"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 15
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192F facing N | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.19075144508670522,
+              "reasoning": "Coherence: N \u2192 N (score: 0.79) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice S",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1764705882352941,
+              "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 3,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice S",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.17543859649122806,
+              "reasoning": "Coherence: N \u2192 N (score: 0.72) | Phase-appropriate for early",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 4,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice A",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 5,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing N | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.17068273092369476,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 6,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "D",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice D",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 7,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing N | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 8,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "Su",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192Su facing N | Q-value: 0.000, Prob: 0.143 | Phase: middle",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.1717171717171717,
+              "reasoning": "Coherence: N \u2192 N (score: 0.68) | Phase-appropriate for middle",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 9,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192N facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 10,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "F",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice F",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "F"
+        },
+        {
+          "round": 11,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: F \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: F\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17616580310880828,
+              "reasoning": "Coherence: F \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 12,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "S"
+        },
+        {
+          "round": 13,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: S \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice A",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.16080402010050246,
+              "reasoning": "Coherence: S \u2192 N (score: 0.64) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 14,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192J facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.1724137931034483,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "N"
+        },
+        {
+          "round": 15,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "S",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: N\u2192S facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "S",
+              "confidence": 0.17346938775510207,
+              "reasoning": "Coherence: N \u2192 S (score: 0.68) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "S"
+        },
+        {
+          "round": 16,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "Su",
+              "confidence": 0.3,
+              "reasoning": "EXPLORATION: Random choice Su",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: S\u2192A facing F | Q-value: 0.000, Prob: 0.143 | Phase: late",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "N",
+              "confidence": 0.16080402010050246,
+              "reasoning": "Coherence: S \u2192 N (score: 0.64) | Phase-appropriate for late",
+              "value_score": 0.0
+            }
+          ],
+          "bayesian_decision": {},
+          "actual_emotion_used": "Su"
+        }
+      ],
+      "conversation_history": [],
+      "bayesian_decisions": [],
+      "learning_updates": []
+    }
+  ],
+  "summary_statistics": {
+    "success_rate": 0.7142857142857143,
+    "collection_rate": {
+      "mean": 0.704,
+      "std": 0.008000000000000007,
+      "min": 0.7,
+      "max": 0.72,
+      "median": 0.7,
+      "n_samples": 5
+    },
+    "negotiation_rounds": {
+      "mean": 13.571428571428571,
+      "std": 11.17212274058123,
+      "min": 4,
+      "max": 31,
+      "median": 8.0,
+      "n_samples": 7
+    },
+    "emotion_transitions": {
+      "total_transitions": 42,
+      "unique_transitions": 8,
+      "most_common_transitions": {
+        "N\u2192N": 33,
+        "N\u2192F": 2,
+        "N\u2192S": 2,
+        "N\u2192D": 1,
+        "D\u2192N": 1,
+        "F\u2192N": 1,
+        "S\u2192N": 1,
+        "S\u2192Su": 1
+      },
+      "transition_entropy": 1.3336268051875946
+    },
+    "agent_performance": {
+      "GameTheory": {
+        "accuracy": 0.8979591836734694,
+        "total_predictions": 49,
+        "correct_predictions": 44
+      },
+      "OnlineRL": {
+        "accuracy": 0.20408163265306123,
+        "total_predictions": 49,
+        "correct_predictions": 10
+      },
+      "EmotionalCoherence": {
+        "accuracy": 0.7346938775510204,
+        "total_predictions": 49,
+        "correct_predictions": 36
+      }
+    },
+    "counts": {
+      "total_negotiations": 7,
+      "successful_negotiations": 5,
+      "failed_negotiations": 2,
+      "total_dialog_rounds": 95
+    },
+    "success_rate_ci": [
+      0.35893445183261935,
+      0.9177810759959433
+    ],
+    "collection_rate_ci": [
+      0.42857142857142855,
+      1.0
+    ],
+    "negotiation_rounds_ci": [
+      6.0,
+      21.428571428571427
+    ],
+    "statistical_method": "bootstrap"
+  },
+  "transition_analysis": {
+    "transition_counts": {
+      "N\u2192N": 33,
+      "N\u2192D": 1,
+      "D\u2192N": 1,
+      "N\u2192F": 2,
+      "F\u2192N": 1,
+      "N\u2192S": 2,
+      "S\u2192N": 1,
+      "S\u2192Su": 1
+    },
+    "transition_success_counts": {
+      "N\u2192N": 11,
+      "N\u2192F": 1
+    },
+    "transition_success_rates": {
+      "N\u2192N": 0.3333333333333333,
+      "N\u2192F": 0.5
+    },
+    "most_common_transitions": [
+      [
+        "N\u2192N",
+        33
+      ],
+      [
+        "N\u2192F",
+        2
+      ],
+      [
+        "N\u2192S",
+        2
+      ],
+      [
+        "N\u2192D",
+        1
+      ],
+      [
+        "D\u2192N",
+        1
+      ],
+      [
+        "F\u2192N",
+        1
+      ],
+      [
+        "S\u2192N",
+        1
+      ],
+      [
+        "S\u2192Su",
+        1
+      ]
+    ],
+    "most_successful_transitions": [
+      [
+        "N\u2192F",
+        0.5
+      ],
+      [
+        "N\u2192N",
+        0.3333333333333333
+      ]
+    ]
+  },
+  "model_statistics": {
+    "current_emotion": "N",
+    "current_emotion_name": "Neutral",
+    "round_number": 0,
+    "emotion_history": [
+      "N",
+      "N",
+      "N",
+      "F",
+      "N",
+      "S",
+      "N",
+      "N",
+      "S",
+      "Su"
+    ],
+    "performance": {
+      "success_rate": 0.10204081632653061,
+      "total_transitions": 49,
+      "successful_transitions": 5,
+      "agent_selections": {
+        "GameTheory": 44,
+        "EmotionalCoherence": 36,
+        "OnlineRL": 10
+      }
+    },
+    "learning": {
+      "exploration_rate": 0.2,
+      "learning_events": 7,
+      "context_success_rates": {
+        "J": 0.5,
+        "S": 0.5,
+        "A": 0.5,
+        "F": 0.5,
+        "Su": 0.5,
+        "D": 0.5,
+        "N": 0.5
+      },
+      "learning_summary": {
+        "total_events": 7,
+        "success_rate": 0.7142857142857143,
+        "agent_accuracy": {
+          "GameTheory": {
+            "accuracy": 0.8571428571428571,
+            "total_predictions": 7,
+            "correct_predictions": 6
+          },
+          "OnlineRL": {
+            "accuracy": 0.14285714285714285,
+            "total_predictions": 7,
+            "correct_predictions": 1
+          },
+          "EmotionalCoherence": {
+            "accuracy": 0.8571428571428571,
+            "total_predictions": 7,
+            "correct_predictions": 6
+          }
+        },
+        "recent_events": [
+          {
+            "type": "trajectory_learning",
+            "success": true,
+            "macro_update": 0.2933418489374836,
+            "agent_scores": {
+              "GameTheory": 1.0,
+              "OnlineRL": 0.01,
+              "EmotionalCoherence": 1.0
+            },
+            "normalized_scores": {
+              "GameTheory": 0.49751243781094534,
+              "OnlineRL": 0.0049751243781094535,
+              "EmotionalCoherence": 0.49751243781094534
+            },
+            "negotiation_rounds": 4,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 1,
+                "correct_predictions": 1,
+                "total_confidence": 0.2178770949720671,
+                "correct_confidence": 0.2178770949720671
+              },
+              "OnlineRL": {
+                "total_predictions": 1,
+                "correct_predictions": 0,
+                "total_confidence": 0.14285714285714285,
+                "correct_confidence": 0.0
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 1,
+                "correct_predictions": 1,
+                "total_confidence": 0.19075144508670522,
+                "correct_confidence": 0.19075144508670522
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory",
+              "EmotionalCoherence"
+            ]
+          },
+          {
+            "type": "trajectory_learning",
+            "success": true,
+            "macro_update": 0.2933418489374836,
+            "agent_scores": {
+              "GameTheory": 0.01,
+              "OnlineRL": 1.0,
+              "EmotionalCoherence": 0.01
+            },
+            "normalized_scores": {
+              "GameTheory": 0.00980392156862745,
+              "OnlineRL": 0.9803921568627451,
+              "EmotionalCoherence": 0.00980392156862745
+            },
+            "negotiation_rounds": 4,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 1,
+                "correct_predictions": 0,
+                "total_confidence": 0.3,
+                "correct_confidence": 0.0
+              },
+              "OnlineRL": {
+                "total_predictions": 1,
+                "correct_predictions": 1,
+                "total_confidence": 0.3,
+                "correct_confidence": 0.3
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 1,
+                "correct_predictions": 0,
+                "total_confidence": 0.19075144508670522,
+                "correct_confidence": 0.0
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "OnlineRL"
+            ]
+          },
+          {
+            "type": "trajectory_learning",
+            "success": true,
+            "macro_update": 0.2251953163077055,
+            "agent_scores": {
+              "GameTheory": 1.0,
+              "OnlineRL": 0.10294117647058826,
+              "EmotionalCoherence": 1.0
+            },
+            "normalized_scores": {
+              "GameTheory": 0.4755244755244755,
+              "OnlineRL": 0.04895104895104896,
+              "EmotionalCoherence": 0.4755244755244755
+            },
+            "negotiation_rounds": 9,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 4,
+                "correct_predictions": 4,
+                "total_confidence": 1.103471585147989,
+                "correct_confidence": 1.103471585147989
+              },
+              "OnlineRL": {
+                "total_predictions": 4,
+                "correct_predictions": 1,
+                "total_confidence": 0.7285714285714284,
+                "correct_confidence": 0.3
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 4,
+                "correct_predictions": 4,
+                "total_confidence": 0.7384818879971506,
+                "correct_confidence": 0.7384818879971506
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory",
+              "EmotionalCoherence"
+            ]
+          },
+          {
+            "type": "trajectory_learning",
+            "success": true,
+            "macro_update": 0.22731394329965096,
+            "agent_scores": {
+              "GameTheory": 1.0,
+              "OnlineRL": 0.01,
+              "EmotionalCoherence": 1.0
+            },
+            "normalized_scores": {
+              "GameTheory": 0.49751243781094534,
+              "OnlineRL": 0.0049751243781094535,
+              "EmotionalCoherence": 0.49751243781094534
+            },
+            "negotiation_rounds": 8,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 3,
+                "correct_predictions": 3,
+                "total_confidence": 0.7852348993288591,
+                "correct_confidence": 0.7852348993288591
+              },
+              "OnlineRL": {
+                "total_predictions": 3,
+                "correct_predictions": 0,
+                "total_confidence": 0.5857142857142856,
+                "correct_confidence": 0.0
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 3,
+                "correct_predictions": 3,
+                "total_confidence": 0.6076487480983154,
+                "correct_confidence": 0.6076487480983154
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory",
+              "EmotionalCoherence"
+            ]
+          },
+          {
+            "type": "trajectory_learning",
+            "success": false,
+            "macro_update": -0.3,
+            "agent_scores": {
+              "GameTheory": 0.6333199029430463,
+              "OnlineRL": 0.06296296296296297,
+              "EmotionalCoherence": 0.4448380777411356
+            },
+            "normalized_scores": {
+              "GameTheory": 0.5549980538599949,
+              "OnlineRL": 0.05517641518499047,
+              "EmotionalCoherence": 0.38982553095501465
+            },
+            "negotiation_rounds": 31,
+            "agent_performance": {
+              "GameTheory": {
+                "total_predictions": 15,
+                "correct_predictions": 12,
+                "total_confidence": 4.039962220168,
+                "correct_confidence": 3.1982356014629643
+              },
+              "OnlineRL": {
+                "total_predictions": 15,
+                "correct_predictions": 4,
+                "total_confidence": 3.085714285714285,
+                "correct_confidence": 0.7285714285714284
+              },
+              "EmotionalCoherence": {
+                "total_predictions": 15,
+                "correct_predictions": 10,
+                "total_confidence": 2.5735257899525736,
+                "correct_confidence": 1.7172033981296104
+              }
+            },
+            "agents": [
+              "GameTheory",
+              "OnlineRL",
+              "EmotionalCoherence"
+            ],
+            "selected_by": [
+              "GameTheory",
+              "EmotionalCoherence"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 0.7142857142857143,
+      "std": 0.45175395145262565,
+      "ci_95": [
+        0.35893445183261935,
+        0.9177810759959433
+      ],
+      "n_success": 5,
+      "n_total": 7,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.7142857142857143,
+      "std": 0.48795003647426655,
+      "ci_95": [
+        0.42857142857142855,
+        1.0
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 13.571428571428571,
+      "std": 12.067271755415456,
+      "ci_95": [
+        6.0,
+        21.428571428571427
+      ],
+      "min": 4,
+      "max": 31,
+      "median": 8.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 7,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.35893445183261935,
+      0.9177810759959433
+    ],
+    "collection_rate_95_ci": [
+      0.42857142857142855,
+      1.0
+    ],
+    "negotiation_rounds_95_ci": [
+      6.0,
+      21.428571428571427
+    ]
+  }
+}

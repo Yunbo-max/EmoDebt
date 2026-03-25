@@ -1,0 +1,283 @@
+{
+  "experiment_type": "gpt_orchestrator",
+  "timestamp": "2026-01-05 00:36:03",
+  "config": {
+    "iterations": 1,
+    "scenarios": 2,
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "max_dialog_len": 30,
+    "mode": "llm_reasoning_only"
+  },
+  "detailed_negotiations": [
+    {
+      "negotiation_id": "iter1_scen1",
+      "iteration": 1,
+      "scenario_id": "disaster_001",
+      "timestamp": "00:36:10",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 75,
+        "creditor_target_days": 90,
+        "collection_rate": 1.0,
+        "negotiation_rounds": 2,
+        "final_gap": 0,
+        "initial_gap": 0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "J"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 0
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "A",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice A",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "J",
+              "confidence": 0.1,
+              "reasoning": "Fallback: Neutral assessment [EXPLOITATION] (Score: 0.50)",
+              "value_score": 0.0
+            }
+          ],
+          "orchestrator_decision": {},
+          "actual_emotion_used": "J"
+        }
+      ],
+      "conversation_history": [],
+      "orchestrator_decisions": [],
+      "learning_updates": []
+    },
+    {
+      "negotiation_id": "iter1_scen2",
+      "iteration": 1,
+      "scenario_id": "disaster_002",
+      "timestamp": "00:36:24",
+      "outcome": {
+        "final_state": "accept",
+        "success": true,
+        "collection_days": 40,
+        "creditor_target_days": 45,
+        "collection_rate": 1.0,
+        "negotiation_rounds": 3,
+        "final_gap": 0,
+        "initial_gap": 0
+      },
+      "emotion_trajectory": {
+        "final_emotion_sequence": [
+          "J",
+          "J"
+        ],
+        "emotion_history": [],
+        "debtor_emotions": [],
+        "total_transitions": 1
+      },
+      "agent_predictions_history": [
+        {
+          "round": 1,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.2178770949720671,
+              "reasoning": "Pure WSLS: N \u2192 N (payoff: 3.90) | Facing N, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "J",
+              "confidence": 0.3,
+              "reasoning": "RL EXPLORATION: Random choice J",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "J",
+              "confidence": 0.1,
+              "reasoning": "Fallback: Neutral assessment [EXPLOITATION] (Score: 0.50)",
+              "value_score": 0.0
+            }
+          ],
+          "orchestrator_decision": {},
+          "actual_emotion_used": "J"
+        },
+        {
+          "round": 2,
+          "predictions": [
+            {
+              "agent_name": "GameTheory",
+              "recommended_emotion": "N",
+              "confidence": 0.28057553956834536,
+              "reasoning": "Pure WSLS: J \u2192 N (payoff: 3.90) | Facing F, Win-Stay",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "OnlineRL",
+              "recommended_emotion": "N",
+              "confidence": 0.14285714285714285,
+              "reasoning": "RL: J\u2192N facing F | Q-value: 0.000, Prob: 0.143 | Phase: early",
+              "value_score": 0.0
+            },
+            {
+              "agent_name": "EmotionalCoherence",
+              "recommended_emotion": "J",
+              "confidence": 0.1,
+              "reasoning": "Fallback: Neutral assessment [EXPLOITATION] (Score: 0.50)",
+              "value_score": 0.0
+            }
+          ],
+          "orchestrator_decision": {},
+          "actual_emotion_used": "J"
+        }
+      ],
+      "conversation_history": [],
+      "orchestrator_decisions": [],
+      "learning_updates": []
+    }
+  ],
+  "summary_statistics": {
+    "success_rate": 1.0,
+    "collection_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "n_samples": 2
+    },
+    "negotiation_rounds": {
+      "mean": 2.5,
+      "std": 0.5,
+      "min": 2,
+      "max": 3,
+      "median": 2.5,
+      "n_samples": 2
+    },
+    "emotion_transitions": {
+      "total_transitions": 1,
+      "unique_transitions": 1,
+      "most_common_transitions": {
+        "J\u2192J": 1
+      },
+      "transition_entropy": -0.0
+    },
+    "agent_performance": {
+      "GameTheory": {
+        "accuracy": 0.0,
+        "total_predictions": 3,
+        "correct_predictions": 0
+      },
+      "OnlineRL": {
+        "accuracy": 0.3333333333333333,
+        "total_predictions": 3,
+        "correct_predictions": 1
+      },
+      "EmotionalCoherence": {
+        "accuracy": 1.0,
+        "total_predictions": 3,
+        "correct_predictions": 3
+      }
+    },
+    "counts": {
+      "total_negotiations": 2,
+      "successful_negotiations": 2,
+      "failed_negotiations": 0,
+      "total_dialog_rounds": 5
+    },
+    "success_rate_ci": [
+      -0.3859292911256331,
+      1.0
+    ],
+    "collection_rate_ci": [
+      1.0,
+      1.0
+    ],
+    "negotiation_rounds_ci": [
+      2.0,
+      3.0
+    ],
+    "statistical_method": "bootstrap"
+  },
+  "gpt_usage": {
+    "name": "GPTOrchestrator",
+    "model": "gpt-4o-mini",
+    "total_calls": 3,
+    "cache_hits": 0,
+    "cache_rate": 0.0,
+    "optimization": "disabled",
+    "mode": "llm_reasoning_only"
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        -0.3859292911256331,
+        1.0
+      ],
+      "n_success": 2,
+      "n_total": 2,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1.0
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 2.5,
+      "std": 0.7071067811865476,
+      "ci_95": [
+        2.0,
+        3.0
+      ],
+      "min": 2,
+      "max": 3,
+      "median": 2.5,
+      "method": "bootstrap"
+    },
+    "sample_size": 2,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      -0.3859292911256331,
+      1.0
+    ],
+    "collection_rate_95_ci": [
+      1.0,
+      1.0
+    ],
+    "negotiation_rounds_95_ci": [
+      2.0,
+      3.0
+    ]
+  }
+}

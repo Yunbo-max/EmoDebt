@@ -1,0 +1,1105 @@
+{
+  "experiment_type": "model_vs_model_testing",
+  "creditor_model": {
+    "name": "hierarchical",
+    "training_stats": {
+      "creditor_method": "hierarchical",
+      "debtor_method": "vanilla",
+      "training_scenarios": 10,
+      "training_time_minutes": 135.52761051654815,
+      "success_rate": 0,
+      "final_performance": {},
+      "training_params": {
+        "creditor_model": "deepseek-chat",
+        "debtor_model": "deepseek-chat",
+        "max_dialog_len": 30,
+        "generations": 2,
+        "population_size": 20,
+        "mutation_rate": 0.12,
+        "crossover_rate": 0.8,
+        "negotiations_per_gen": 21,
+        "learning_rate": 0.7,
+        "episodes": 100,
+        "episodes_per_scenario": 5,
+        "discount_factor": 0.95,
+        "exploration_rate": 1.0,
+        "exploration_decay": 0.995,
+        "batch_size": 32,
+        "replay_buffer_size": 10000,
+        "temperature": 1.0
+      }
+    }
+  },
+  "debtor_model": {
+    "name": "vanilla",
+    "training_stats": {
+      "model_type": "vanilla",
+      "training": "none_required"
+    }
+  },
+  "test_scenarios": 10,
+  "iterations": 1,
+  "total_negotiations": 10,
+  "scenario_results": {
+    "iteration_1": [
+      {
+        "scenario_id": "debt_001",
+        "final_state": "accept",
+        "collection_days": 30,
+        "final_days": 30,
+        "creditor_target_days": 12,
+        "negotiation_rounds": 13,
+        "dialog_length": 13,
+        "emotion_sequence": [
+          "happy",
+          "disgust",
+          "neutral",
+          "neutral",
+          "neutral",
+          "angry",
+          "sad"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I appreciate your willingness to work on this, but 12 days is really what we need to keep things moving forward positively. Let's find a way to make that happen.",
+            "state": "offer",
+            "requested_days": 12
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I sincerely apologize. Given my client's bankruptcy and my current cash flow breakdown, I need to request a 159-day payment plan to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand your situation, but 159 days is completely unacceptable for this balance. I can move to 90 days, but that's still far longer than our standard terms.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and my cash flow has completely broken down, I need to request a realistic payment plan over approximately 159 days to fulfill this obligation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I understand your cash flow constraints, but 159 days is far too long. I can improve my position to 75 days for the full balance.",
+            "state": "offer",
+            "requested_days": 75
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I take full responsibility. Given my client\u2019s bankruptcy has frozen my receivables, I\u2019m requesting 159 days to pay the $15,700 so I can stabilize my cash flow and meet a realistic schedule.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I can move to 60 days, but that's a significant accommodation from our original terms.",
+            "state": "offer",
+            "requested_days": 60
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I sincerely apologize for the delay. Given that a major client's bankruptcy has frozen my receivables and halted my cash flow, I need to request an extended payment plan over 159 days to realistically settle the $15,700 balance.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I understand your situation, but 159 days is far too long. I can move to 45 days for the full $15,700.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I sincerely apologize for that. My business is facing a severe cash flow crisis due to a major client's bankruptcy, which has left me unable to meet the original terms.",
+            "state": "offer",
+            "requested_days": null
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I understand your cash flow challenges, but 159 days is completely unacceptable. I can move to 30 days for the full $15,700, which is a significant compromise from my initial position.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and my cash flow has completely broken down, I need to request a realistic payment plan over approximately 159 days to fulfill this obligation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I understand your cash flow challenges, but 159 days is far too long given the amount. I can work with you on 25 days to settle this balance.",
+            "state": "accept",
+            "requested_days": 25
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_010",
+        "final_state": "accept",
+        "collection_days": 24,
+        "final_days": 24,
+        "creditor_target_days": 12,
+        "negotiation_rounds": 5,
+        "dialog_length": 5,
+        "emotion_sequence": [
+          "happy",
+          "happy",
+          "fear"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I appreciate your willingness to work on this, and I'm optimistic we can find a solution. Let's aim to settle the full $15,700 within 16 days to close this account positively.",
+            "state": "offer",
+            "requested_days": 16
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the balance is due, but due to unexpected regulatory costs, my cash flow is temporarily disrupted; I can commit to paying the full $15,700 within 32 days to stabilize operations.",
+            "state": "offer",
+            "requested_days": 32
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I appreciate your willingness to work on this, but 32 days is quite a stretch from our 16-day proposal. How about we meet in the middle at 24 days to get this resolved positively?",
+            "state": "offer",
+            "requested_days": 24
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to unexpected regulatory costs causing a temporary cash flow disruption, I need to request an extension to 32 days to settle the $15,700 while ensuring my business can continue operating.",
+            "state": "offer",
+            "requested_days": 32
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "Given the regulatory challenges you've faced, I'm concerned about further delays, but I can move to 28 days to help accommodate your situation.",
+            "state": "accept",
+            "requested_days": 28
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_002",
+        "final_state": "accept",
+        "collection_days": 20,
+        "final_days": 20,
+        "creditor_target_days": 14,
+        "negotiation_rounds": 15,
+        "dialog_length": 15,
+        "emotion_sequence": [
+          "disgust",
+          "disgust",
+          "neutral",
+          "happy",
+          "surprising",
+          "neutral",
+          "sad",
+          "sad"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand supply chain issues can create challenges, but waiting 60 days for payment on this balance is simply too long. I can work with you on a more reasonable timeline, but I need to see a much more immediate commitment.",
+            "state": "offer",
+            "requested_days": 60
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the urgency of this debt, and I want to work with you. Given the supply chain disruption that impacted my cash flow, could we structure a payment plan over 71 days to ensure I can meet the obligations reliably?",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand your supply chain challenges, but 71 days is far too long for this balance. I can move to 45 days to show good faith.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand this balance is overdue, and I sincerely apologize for the delay. My business has been hit hard by supply chain issues, creating a chronic cash flow shortage, so I need to request a 71-day timeline to pay the $15,700 in full.",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I can offer 40 days for full payment, which is a significant reduction from our original position.",
+            "state": "offer",
+            "requested_days": 40
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I sincerely apologize for the delay. My business has faced significant supply chain disruptions, creating a chronic cash flow shortage that has made timely payment impossible.",
+            "state": "offer",
+            "requested_days": null
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but I'm confident we can find a more balanced solution\u2014how about we meet at 35 days for the full payment?",
+            "state": "offer",
+            "requested_days": 35
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a severe supply chain disruption, we're facing a chronic cash shortage; I need to request a 71-day timeline to settle the $15,700, as that's what our cash flow can realistically support.",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 71 days is far beyond our standard terms. Let's find a creative middle ground\u2014how about we meet at 30 days to help you navigate these supply chain challenges?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand the urgency of this debt, and I want to work with you. Given the supply chain disruption that impacted my cash flow, could we structure a realistic payment plan over the next 71 days?",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I can meet you at 25 days for the full payment, which is a significant move from my initial position.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a severe supply chain disruption, my cash flow is critically tight. I can commit to paying the full $15,700, but I need 71 days to stabilize operations and fulfill this obligation.",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I understand the supply chain challenges you're facing, but 71 days is too long for this balance. I can move to 20 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a severe supply chain disruption, my cash flow is critically strained. I can commit to paying the full $15,700, but I need 71 days to stabilize my operations and meet this obligation.",
+            "state": "offer",
+            "requested_days": 71
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I understand the supply chain challenges you're facing, but 71 days is too long for this balance. I can move to 18 days to help bridge this gap.",
+            "state": "accept",
+            "requested_days": 71
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_007",
+        "final_state": "accept",
+        "collection_days": 30,
+        "final_days": 30,
+        "creditor_target_days": 17,
+        "negotiation_rounds": 3,
+        "dialog_length": 3,
+        "emotion_sequence": [
+          "fear",
+          "disgust"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand your situation, but 45 days is far too long given the amount. I can work with you, but I need to see a much more committed timeline\u2014how about we aim for 30 days to settle this in full?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, but due to a key customer default, my cash flow has completely broken down. I need to request a 77-day timeline to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 77
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand your situation, but 77 days is far too long for this balance. I can move to 60 days, but that's still a significant extension from our terms.",
+            "state": "accept",
+            "requested_days": 77
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_006",
+        "final_state": "accept",
+        "collection_days": 25,
+        "final_days": 25,
+        "creditor_target_days": 18,
+        "negotiation_rounds": 15,
+        "dialog_length": 15,
+        "emotion_sequence": [
+          "neutral",
+          "sad",
+          "happy",
+          "surprising",
+          "angry",
+          "surprising",
+          "happy",
+          "happy"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges, but 45 days is too long given the legal stage. I can offer a 30-day payment window to resolve this.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, my cash flow is critically tight; I need 145 days to pay the $15,700 in full to avoid further disruption to my business.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges can create cash flow issues, but 145 days is far too long given the legal stage of this account. I can move to 90 days for the full $15,700.",
+            "state": "offer",
+            "requested_days": 90
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I take full responsibility. Given our seasonal downturn and chronic cash flow shortage, I need to request 145 days to pay the $15,700 in full, as that timeline is critical for stabilizing our operations.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 145 days is far too long given the legal stage we're in. I can move to 75 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 75
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand the debt is due, but given our seasonal downturn and chronic cash flow shortage, I\u2019d like to propose extending the payment over 145 days to ensure we can meet the terms reliably.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but let's find a middle ground that actually moves us forward\u2014how about we settle on 60 days?",
+            "state": "offer",
+            "requested_days": 60
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I want to resolve it. Given our seasonal downturn and chronic cash flow shortage, I need to propose a realistic payment plan over 145 days to ensure I can meet every installment.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges, but 145 days is unacceptable given the legal stage. I can move to 45 days for full settlement.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I want to resolve it. Given our seasonal downturn and chronic cash flow shortage, I need to propose a realistic schedule of $15,700 over 145 days to keep operations running while paying you back.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 145 days is simply too far from reality given the legal stage we're in. Let's find a middle ground\u2014how about we aim for 30 days to settle this?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I want to work with you on a solution. Given our seasonal downturn and chronic cash flow shortage, I need to propose a realistic payment plan over 145 days to ensure I can meet every installment.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 145 days is far too long given the legal stage we're in. I can move to 25 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but given our seasonal downturn and current cash flow shortage, I need to request a 145-day payment plan to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 145
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 145 days is far too long given the legal stage we're in. I can move to 22 days to help you through this seasonal downturn.",
+            "state": "accept",
+            "requested_days": 22
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_009",
+        "final_state": "accept",
+        "collection_days": 10,
+        "final_days": 10,
+        "creditor_target_days": 8,
+        "negotiation_rounds": 15,
+        "dialog_length": 15,
+        "emotion_sequence": [
+          "surprising",
+          "neutral",
+          "fear",
+          "surprising",
+          "sad",
+          "fear",
+          "happy",
+          "surprising"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand the natural disaster created real challenges, but we need to move this forward\u2014how about we settle this in 12 days to give you some breathing room while showing good faith?",
+            "state": "offer",
+            "requested_days": 12
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "Given the natural disaster impact and our ongoing cash flow challenges, I\u2019m hoping we can extend the payment terms to 165 days to ensure we can meet our obligations without further disruption.",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I understand the challenges you've faced, but 165 days is far beyond our standard terms. I can offer a significant reduction to 45 days for the full payment.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but given the natural disaster's severe impact on our cash flow, I need to request 165 days to pay the $15,700 so we can realistically meet our obligations without shutting down.",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "Given the circumstances, I can extend to 30 days for the full payment, but that's a significant accommodation from our original terms.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand the urgency of this debt, and I want to assure you I am committed to paying the full $15,700. Given the severe cash flow shortage caused by the natural disaster, I need to request a 165-day payment plan to realistically meet the obligation while keeping my community-focused business operational.",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "Given the extraordinary circumstances you've faced, I'm willing to make a significant move to 20 days for full resolution\u2014this is a substantial reduction from our position to help you get back on track.",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand this debt is important, and I want to honor it. Given the natural disaster that impacted our operations and our ongoing cash flow shortage, could we structure a realistic payment plan over 165 days?",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "Given the challenges you've faced, I can extend to 15 days for the full payment to help accommodate your situation.",
+            "state": "offer",
+            "requested_days": 15
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand the urgency of this debt, and I want to assure you I'm committed to paying the full $15,700. Given the severe cash flow shortage caused by the natural disaster, I need to request a 165-day payment plan to realistically meet this obligation while keeping my community-focused business operational.",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "Given the circumstances, I can move to 12 days for full payment, but we need to see progress much sooner than your request.",
+            "state": "offer",
+            "requested_days": 12
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but given the natural disaster's severe impact on our community-focused operations, we need extended terms to recover. Can we discuss a structured 165-day payment plan that aligns with our rebuilding cash flow?",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 165 days is far too long given the circumstances. I can move to 10 days to help you get this resolved quickly.",
+            "state": "offer",
+            "requested_days": 10
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand this debt is important, and I want to honor it. Given the severe impact of the natural disaster on our community-focused business and our ongoing cash flow shortage, I need to request a realistic 165-day payment plan to ensure we can meet our obligations without further disruption.",
+            "state": "offer",
+            "requested_days": 165
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I understand natural disasters create real challenges, but 165 days is far too long for a balance of this size. I can move to 90 days if we can agree on a firm payment plan today.",
+            "state": "accept",
+            "requested_days": 165
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_005",
+        "final_state": "accept",
+        "collection_days": 100,
+        "final_days": 100,
+        "creditor_target_days": 5,
+        "negotiation_rounds": 17,
+        "dialog_length": 17,
+        "emotion_sequence": [
+          "happy",
+          "happy",
+          "sad",
+          "happy",
+          "fear",
+          "neutral",
+          "happy",
+          "sad",
+          "sad"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I appreciate your willingness to work on this, and I'm optimistic we can find a solution. Let's aim to settle the full $15,700 within the next 10 days to put this behind us and support your business's recovery.",
+            "state": "offer",
+            "requested_days": 10
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the debt is overdue, and I want to be transparent\u2014our cash flow is tight due to a seasonal downturn, but I'm committed to paying the full $15,700. To manage this, I need about 107 days to set up a realistic payment schedule.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I appreciate your willingness to work on this, and I'm optimistic we can find a solution. How about we meet in the middle at 30 days to get this resolved?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to our seasonal downturn and chronic cash flow shortage, I need to request a 107-day timeline to settle the $15,700.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "Given the seasonal challenges you're facing, I can extend to 45 days to help ease the cash flow pressure while ensuring we resolve this promptly.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, my cash flow is critically tight; I can commit to paying the full $15,700 if we can extend the terms to 107 days.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 107 days is far too long given the circumstances. I can move to 60 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 60
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, I'm facing a chronic cash shortage and need to extend payments over 107 days to manage this responsibly.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "Given the seasonal challenges you've mentioned, I can extend to 75 days, but I'm concerned about further delays impacting your credit standing.",
+            "state": "offer",
+            "requested_days": 75
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, I'm facing a chronic cash flow shortage. I propose a realistic payment plan over 107 days to ensure I can fulfill this obligation.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "Given the seasonal challenges you've mentioned, I can extend to 90 days for full payment, which is a significant accommodation from our original terms.",
+            "state": "offer",
+            "requested_days": 90
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, my cash flow is critically tight; I need to propose a realistic payment schedule over 107 days to ensure I can meet the obligation without defaulting.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but I'm confident we can find a more balanced solution\u2014how about we meet at 95 days to get this resolved positively?",
+            "state": "offer",
+            "requested_days": 95
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand the balance is due, but due to a seasonal downturn, we're facing a chronic cash shortage. Could we extend the payment to 107 days with a structured schedule to ensure we meet our obligation?",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges can create cash flow issues, but 107 days is far too long for this balance. I can move to 100 days to show good faith, but that's my final position.",
+            "state": "offer",
+            "requested_days": 100
+          },
+          {
+            "turn": 16,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a seasonal downturn, I'm facing a chronic cash flow shortage. I need to propose a realistic payment schedule of 107 days for the $15,700 to ensure I can meet the obligation without jeopardizing operations.",
+            "state": "offer",
+            "requested_days": 107
+          },
+          {
+            "turn": 17,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges can create cash flow issues, but 107 days is too long for this balance. I can move to 105 days to show flexibility, but we need to work toward a much quicker resolution.",
+            "state": "accept",
+            "requested_days": 105
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_008",
+        "final_state": "accept",
+        "collection_days": 32,
+        "final_days": 32,
+        "creditor_target_days": 19,
+        "negotiation_rounds": 2,
+        "dialog_length": 2,
+        "emotion_sequence": [
+          "sad"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand the natural disaster has created real challenges, but we need to find a workable solution. I can move to a 30-day payment window to help ease the burden while ensuring we resolve this.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to the recent natural disaster, our cash flow is temporarily disrupted. I can commit to paying the full $15,700, but I need 34 days to ensure we can meet this without further operational strain.",
+            "state": "accept",
+            "requested_days": 34
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_003",
+        "final_state": "accept",
+        "collection_days": 133,
+        "final_days": 133,
+        "creditor_target_days": 20,
+        "negotiation_rounds": 15,
+        "dialog_length": 15,
+        "emotion_sequence": [
+          "angry",
+          "neutral",
+          "angry",
+          "happy",
+          "happy",
+          "fear",
+          "neutral",
+          "neutral"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I understand your situation, but 20 days is our standard for this amount. I can offer a slight extension to 25 days if you commit to a payment plan today.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I want to be transparent\u2014a key customer default has left us with a chronic cash flow shortage. Given our circumstances, I\u2019m hoping we can agree on a realistic payment schedule over the next 133 days to settle the $15,700.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I can move to 40 days, which is a significant compromise from our original position.",
+            "state": "offer",
+            "requested_days": 40
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Due to a key customer default, my cash flow is critically tight, so I need to propose a realistic payment plan over 133 days to ensure I can meet every installment.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I can move to 35 days, but that's already a significant compromise from our original position.",
+            "state": "offer",
+            "requested_days": 35
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. My business faced a sudden cash flow crisis when a key customer defaulted, which is why I need to propose a realistic payment plan over the next 133 days to ensure I can meet every installment.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 133 days is far too long for us. Let's find a workable middle ground\u2014how about we aim for 30 days to settle this?",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand this payment is overdue, and I want to be fully transparent\u2014a key customer\u2019s default has created a chronic cash flow shortage, making our current balance of $15,700 difficult to manage immediately. To honor this debt reliably, I need to propose a realistic schedule; could we structure payments over the next 133 days to align with my incoming receivables?",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 133 days is far too long for us. I can improve my position to 25 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I sincerely apologize\u2014our cash flow has been strained since a key customer defaulted, which has impacted our ability to meet the original terms. Given our current situation, I\u2019m hoping we can work out a realistic payment plan over 133 days to ensure we can fulfill this obligation without further disruption.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I understand your customer default situation, but 133 days is far too long given the amount. I can move to 22 days to help resolve this promptly.",
+            "state": "offer",
+            "requested_days": 22
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. My business experienced a significant cash flow disruption when a key customer defaulted, which is why I'm asking for a 133-day payment plan to get back on stable footing.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "I understand your position, but 133 days is far too long for this balance. I can move to 21 days to help resolve this promptly.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I take full responsibility. Given that a key customer default has left us with a chronic cash shortage, I need to propose a realistic schedule: paying the $15,700 over 133 days to keep our operations stable.",
+            "state": "offer",
+            "requested_days": 133
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "I understand your position, but 133 days is far beyond our standard terms. I can move to 20 days for the full $15,700, which is a significant compromise from our initial position.",
+            "state": "accept",
+            "requested_days": 133
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      },
+      {
+        "scenario_id": "debt_004",
+        "final_state": "accept",
+        "collection_days": 45,
+        "final_days": 45,
+        "creditor_target_days": 14,
+        "negotiation_rounds": 8,
+        "dialog_length": 8,
+        "emotion_sequence": [
+          "surprising",
+          "fear",
+          "neutral",
+          "neutral"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "I appreciate your creative thinking, but our standard terms require a much faster resolution. Let's find a middle ground\u2014how about settling this in 21 days?",
+            "state": "offer",
+            "requested_days": 21
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given our current cash flow breakdown from a seasonal downturn, I need to request 94 days to settle the full $15,700 so we can stabilize and meet our obligation.",
+            "state": "offer",
+            "requested_days": 94
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "Given the seasonal challenges you've mentioned, I can extend to 35 days, but that's already stretching our standard terms significantly.",
+            "state": "offer",
+            "requested_days": 35
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand the urgency, but due to a complete cash flow breakdown from a seasonal downturn, I need to request 94 days to pay the $15,700. Can we structure a realistic schedule based on my upcoming receivables?",
+            "state": "offer",
+            "requested_days": 94
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges, but 94 days is far beyond our policy. I can move to 45 days for the full $15,700, which is a significant concession from our original position.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I sincerely apologize for the delay. My business is in a critical cash flow crisis due to an unexpected seasonal downturn, and I need to request a 94-day payment plan to realistically settle the full $15,700.",
+            "state": "offer",
+            "requested_days": 94
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I understand seasonal challenges, but 94 days is far beyond our policy. I can extend to 60 days to help with cash flow, but that's a significant concession from our original terms.",
+            "state": "offer",
+            "requested_days": 94
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I sincerely apologize for the delay. Given our current cash flow breakdown from a severe seasonal downturn, I need to request a 94-day payment plan to realistically settle the full $15,700.",
+            "state": "accept",
+            "requested_days": 94
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla",
+        "creditor_model": "hierarchical",
+        "debtor_model": "vanilla",
+        "iteration": 1
+      }
+    ]
+  },
+  "performance": {
+    "success_rate": 1.0,
+    "avg_successful_days": 44.9,
+    "avg_negotiation_rounds": 10.8,
+    "successful_negotiations": 10,
+    "failed_negotiations": 0
+  },
+  "timing": {
+    "testing_time_minutes": 23.75493281284968,
+    "negotiations_per_minute": 0.4209651982088845
+  },
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        0.38019357860699765,
+        1.0
+      ],
+      "n_success": 10,
+      "n_total": 10,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.47919037176274015,
+      "std": 0.24893530985923668,
+      "ci_95": [
+        0.3282620927318296,
+        0.6197780231829574
+      ],
+      "min": 0.05,
+      "max": 0.8,
+      "median": 0.5333333333333333,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 10.8,
+      "std": 5.7115866641610396,
+      "ci_95": [
+        7.3,
+        14.0
+      ],
+      "min": 2,
+      "max": 17,
+      "median": 14.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 10,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      0.38019357860699765,
+      1.0
+    ],
+    "collection_rate_95_ci": [
+      0.3282620927318296,
+      0.6197780231829574
+    ],
+    "negotiation_rounds_95_ci": [
+      7.3,
+      14.0
+    ]
+  }
+}

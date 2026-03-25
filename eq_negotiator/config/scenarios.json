@@ -1,0 +1,52 @@
+[
+  {
+    "id": "debt_001",
+    "product": {
+      "type": "debt_collection",
+      "amount": 15000
+    },
+    "seller": {
+      "target_price": 30,
+      "min_price": 20,
+      "max_price": 60
+    },
+    "buyer": {
+      "target_price": 90,
+      "min_price": 60,
+      "max_price": 120
+    },
+    "metadata": {
+      "outstanding_balance": 15000,
+      "creditor_name": "ABC Collections",
+      "debtor_name": "John Doe",
+      "cash_flow_situation": "Irregular income",
+      "business_impact": "High impact on credit score",
+      "recovery_stage": "Early"
+    }
+  },
+  {
+    "id": "debt_002",
+    "product": {
+      "type": "debt_collection",
+      "amount": 25000
+    },
+    "seller": {
+      "target_price": 45,
+      "min_price": 30,
+      "max_price": 75
+    },
+    "buyer": {
+      "target_price": 120,
+      "min_price": 90,
+      "max_price": 150
+    },
+    "metadata": {
+      "outstanding_balance": 25000,
+      "creditor_name": "XYZ Bank",
+      "debtor_name": "Jane Smith",
+      "cash_flow_situation": "Steady income",
+      "business_impact": "Medium impact",
+      "recovery_stage": "Mid"
+    }
+  }
+]

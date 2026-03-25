@@ -1,0 +1,47 @@
+HIERARCHICAL EVOLUTIONARY BAYESIAN EXPERIMENT SUMMARY
+============================================================
+
+Timestamp: 2026-01-07 15:36:28
+Total Generations: 2
+Negotiations per Generation: 21
+Total Negotiations: 0
+Scenarios Used: 10
+
+HIERARCHICAL STRUCTURE:
+------------------------------
+positive: ['happy', 'surprising']
+negative: ['angry', 'disgust', 'fear']
+neutral: ['sad', 'neutral']
+
+PERFORMANCE METRICS:
+------------------------------
+Overall Success Rate: 0.0%
+Average Days (Successful): 0.0
+Average Rounds (Successful): 0.0
+Best Fitness: 15.904
+
+BEST EMOTIONAL SEQUENCE:
+------------------------------
+Sequence: ['angry', 'sad', 'surprising', 'happy', 'fear', 'fear']
+Fitness: 15.904
+
+FINAL HIERARCHICAL STATISTICS:
+------------------------------
+generation: 2
+best_fitness: 15.904361095553233
+best_sequence: ['angry', 'sad', 'surprising', 'happy', 'fear', 'fear']
+elite_count: 7
+total_sequences: 56
+group_matrix: [[0.4853333333333334, 0.2633333333333333, 0.25133333333333335], [0.1831111111111111, 0.4328888888888889, 0.384], [0.3151794871794872, 0.3151794871794872, 0.36964102564102563]]
+
+GROUP TRANSITION MATRIX:
+------------------------------
+positive -> positive: 0.485
+positive -> negative: 0.263
+positive -> neutral: 0.251
+negative -> positive: 0.183
+negative -> negative: 0.433
+negative -> neutral: 0.384
+neutral -> positive: 0.315
+neutral -> negative: 0.315
+neutral -> neutral: 0.370

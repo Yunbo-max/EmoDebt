@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260103_034810",
+  "config": {
+    "dataset_type": "disaster",
+    "model_type": "gpt",
+    "iterations": 1,
+    "scenarios": 20,
+    "max_dialog_len": 30,
+    "model_creditor": "qwen-7b",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "out_dir": "table1_7b",
+    "debug": false
+  },
+  "results": {},
+  "timing_summary": {
+    "overall_runtime_seconds": 80.61948418617249,
+    "overall_runtime_formatted": "1m 20s",
+    "total_negotiations": 0,
+    "negotiations_per_hour": 0.0,
+    "dataset_timings": {
+      "disaster": "1.34m"
+    },
+    "start_time": "2026-01-03 03:46:49",
+    "end_time": "2026-01-03 03:48:10"
+  }
+}

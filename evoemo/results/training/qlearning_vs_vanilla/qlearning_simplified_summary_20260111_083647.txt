@@ -1,0 +1,54 @@
+Q-LEARNING BASELINE EXPERIMENT SUMMARY
+============================================================
+
+Timestamp: 2026-01-11 08:36:48
+Total Episodes: 240
+Episodes per Scenario: 3
+Scenarios Used: 80
+Learning Rate: 0.15
+Discount Factor: 0.9
+Use Softmax: True
+Temperature: 1.2
+
+PERFORMANCE METRICS:
+------------------------------
+Overall Success Rate: 6.2%
+Average Days (Successful): 19.9
+Average Rounds (Successful): 11.1
+Best Reward: 17.15
+Final Avg Reward: -5.00
+
+BEST EMOTIONAL SEQUENCE:
+------------------------------
+Sequence: ['sad']
+Length: 1
+Reward: 17.15
+
+FINAL Q-LEARNING STATISTICS:
+------------------------------
+total_episodes: 240
+best_reward: 17.147580370607564
+avg_reward_last_10: -5.0
+reward_std_last_10: 0.0
+exploration_rate: 0.24023117526813917
+q_table_mean: -1.0478004960797263
+q_table_std: 0.05554607279950925
+q_table_max: -0.8608008349693947
+q_table_min: -1.1480915488169912
+transition_entropy: 1.9449758620962536
+emotion_history: []
+use_softmax: True
+temperature: 1.2
+
+TRANSITION MATRIX SUMMARY:
+------------------------------
+happy      -> disgust    (p=0.151)
+surprising -> neutral    (p=0.151)
+angry      -> disgust    (p=0.149)
+sad        -> neutral    (p=0.150)
+disgust    -> disgust    (p=0.153)
+fear       -> neutral    (p=0.153)
+neutral    -> disgust    (p=0.162)
+
+95% CONFIDENCE INTERVALS:
+------------------------------

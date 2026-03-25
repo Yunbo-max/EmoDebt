@@ -1,0 +1,882 @@
+{
+  "experiment_type": "strategic_dominance_emotion_optimization",
+  "model_type": "strategic_dominance",
+  "iterations": 1,
+  "scenarios_used": [
+    "debt_001",
+    "debt_002"
+  ],
+  "config": {
+    "model_creditor": "gpt-4o-mini",
+    "model_debtor": "gpt-4o-mini",
+    "debtor_emotion": "neutral",
+    "debtor_model_type": "vanilla",
+    "max_dialog_len": 30
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "debt_001",
+      "final_state": "accept",
+      "collection_days": 157,
+      "final_days": 157,
+      "creditor_target_days": 12,
+      "negotiation_rounds": 19,
+      "dialog_length": 19,
+      "emotion_sequence": [
+        "happy",
+        "sad",
+        "happy",
+        "happy",
+        "surprising",
+        "surprising",
+        "surprising",
+        "happy",
+        "sad",
+        "surprising"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate your honesty about the challenges you're facing. While I understand the need for flexibility, I believe we can aim for a resolution in 30 days. How does that sound?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing severe cash flow issues due to a recent client bankruptcy, so I need at least 159 days to stabilize my finances and meet this obligation. Can we agree on a payment plan that accommodates that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I truly empathize with your situation, but we need to resolve this more swiftly. How about we aim for 75 days for full payment?",
+          "state": "offer",
+          "requested_days": 75
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client's bankruptcy, so I need at least 159 days to stabilize and meet my obligations. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your openness, but we need to aim for a quicker resolution. How about we settle on 100 days for full payment?",
+          "state": "offer",
+          "requested_days": 100
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a cash flow breakdown due to a client\u2019s bankruptcy, so I would need at least 159 days to settle the outstanding balance realistically. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your situation and want to work together on this. How about we aim for 120 days to settle the outstanding balance?",
+          "state": "offer",
+          "requested_days": 120
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client's bankruptcy, so I\u2019d need at least 159 days to manage my payments realistically. Can we discuss a plan that accommodates this timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but 159 days feels quite extended. How about we aim for a resolution in 130 days instead?",
+          "state": "offer",
+          "requested_days": 130
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client\u2019s bankruptcy, so I would need at least 159 days to make this payment manageable. Can we work together on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I appreciate your situation and the challenges you're facing, but I need to ensure we resolve this promptly. Would you be able to meet me at 138 days for full payment?",
+          "state": "offer",
+          "requested_days": 138
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client\u2019s bankruptcy, so I need at least 159 days to restructure my finances and ensure I can meet my obligations. Can we discuss this payment timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I\u2019m truly amazed by the challenges you\u2019re facing due to your client\u2019s bankruptcy. How about we aim for a resolution at 145 days instead? That way, we can both move forward without further delays.",
+          "state": "offer",
+          "requested_days": 145
+        },
+        {
+          "turn": 14,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a complete cash flow breakdown due to recent client bankruptcies, so I need at least 159 days to settle the $15,700 balance. Can we agree on a payment plan that accommodates that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 15,
+          "speaker": "seller",
+          "message": "I appreciate your position, and I understand the challenges you're facing. How about we settle on 148 days for the full payment? That way, we can resolve this together in a timely manner.",
+          "state": "offer",
+          "requested_days": 148
+        },
+        {
+          "turn": 16,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a client bankruptcy that has impacted my receivables. I would greatly appreciate if we could extend the payment timeline to 159 days to help me stabilize my finances and meet my obligations.",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 17,
+          "speaker": "seller",
+          "message": "I understand the challenges you're facing, and it's disappointing to see how the situation has unfolded. However, I believe we can find a solution that works for both of us; would you be able to commit to 151 days for payment?",
+          "state": "offer",
+          "requested_days": 151
+        },
+        {
+          "turn": 18,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a complete cash flow breakdown due to a recent client bankruptcy, so I need at least 159 days to settle the outstanding balance. Can we negotiate on that timeline?",
+          "state": "offer",
+          "requested_days": 159
+        },
+        {
+          "turn": 19,
+          "speaker": "seller",
+          "message": "I'm surprised to hear you\u2019re suggesting 159 days; that\u2019s quite a stretch given the circumstances. How about we find a compromise at 155 days to expedite this process?",
+          "state": "accept",
+          "requested_days": 155
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    },
+    {
+      "scenario_id": "debt_002",
+      "final_state": "accept",
+      "collection_days": 69,
+      "final_days": 69,
+      "creditor_target_days": 14,
+      "negotiation_rounds": 13,
+      "dialog_length": 13,
+      "emotion_sequence": [
+        "sad",
+        "sad",
+        "surprising",
+        "happy",
+        "surprising",
+        "sad",
+        "sad"
+      ],
+      "dialog": [
+        {
+          "turn": 1,
+          "speaker": "seller",
+          "message": "I appreciate the challenges you're facing, but I believe we can work together to resolve this sooner. How does a 30-day timeline sound for full payment?",
+          "state": "offer",
+          "requested_days": 30
+        },
+        {
+          "turn": 2,
+          "speaker": "buyer",
+          "message": "I\u2019m facing chronic cash flow issues due to a supply chain disruption, so I would need at least 71 days to manage this payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 3,
+          "speaker": "seller",
+          "message": "I appreciate your challenges, but we really need to resolve this sooner. How about we settle on 42 days for payment?",
+          "state": "offer",
+          "requested_days": 42
+        },
+        {
+          "turn": 4,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule of 71 days due to ongoing supply chain disruptions affecting my cash flow. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 5,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but I'm surprised it\u2019s taking so long to settle this. How about we agree on 50 days to get this resolved?",
+          "state": "offer",
+          "requested_days": 50
+        },
+        {
+          "turn": 6,
+          "speaker": "buyer",
+          "message": "I\u2019m facing a chronic cash flow shortage due to supply chain disruptions, so I would need 71 days to settle the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 7,
+          "speaker": "seller",
+          "message": "I appreciate your willingness to discuss this. How about we aim for 56 days for the payment? This way, we can both move forward positively.",
+          "state": "offer",
+          "requested_days": 56
+        },
+        {
+          "turn": 8,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a chronic cash flow shortage due to supply chain disruptions, so I would need at least 71 days to manage this payment effectively. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 9,
+          "speaker": "seller",
+          "message": "I appreciate your situation, but 71 days seems quite lengthy given the circumstances. How about we aim for 60 days to help resolve this sooner?",
+          "state": "offer",
+          "requested_days": 60
+        },
+        {
+          "turn": 10,
+          "speaker": "buyer",
+          "message": "I can commit to a payment schedule over 71 days due to ongoing supply chain disruptions affecting my cash flow. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 11,
+          "speaker": "seller",
+          "message": "I understand the challenges you've faced with supply chain disruptions, but I need to ensure we settle this matter promptly. Could we agree on a timeline of 63 days for full payment?",
+          "state": "offer",
+          "requested_days": 63
+        },
+        {
+          "turn": 12,
+          "speaker": "buyer",
+          "message": "I\u2019m currently facing a chronic cash flow shortage due to supply chain disruptions, so I would need at least 71 days to manage the outstanding balance. Can we agree on that timeline?",
+          "state": "offer",
+          "requested_days": 71
+        },
+        {
+          "turn": 13,
+          "speaker": "seller",
+          "message": "I truly understand the challenges you're facing with the supply chain disruption, but I need to resolve this sooner. How about we aim for 67 days to settle the outstanding balance?",
+          "state": "accept",
+          "requested_days": 67
+        }
+      ],
+      "success": true,
+      "debtor_model_type": "vanilla"
+    }
+  ],
+  "summary_statistics": {
+    "success_rate": 1.0,
+    "total_negotiations": 2,
+    "successful_negotiations": 2,
+    "failed_negotiations": 0,
+    "collection_rate": {
+      "mean": 0.13966583587187298,
+      "std": 0.0632327148527647,
+      "min": 0.07643312101910828,
+      "max": 0.2028985507246377
+    },
+    "negotiation_rounds": {
+      "mean": 16.0,
+      "std": 3.0,
+      "min": 13,
+      "max": 19
+    }
+  },
+  "dominance_statistics": {
+    "strategy_performance": {
+      "happy": {
+        "wins": 0,
+        "total": 0
+      },
+      "surprising": {
+        "wins": 1,
+        "total": 1
+      },
+      "angry": {
+        "wins": 0,
+        "total": 0
+      },
+      "sad": {
+        "wins": 1,
+        "total": 1
+      },
+      "disgust": {
+        "wins": 0,
+        "total": 0
+      },
+      "fear": {
+        "wins": 0,
+        "total": 0
+      },
+      "neutral": {
+        "wins": 0,
+        "total": 0
+      }
+    },
+    "dominance_matrix": {
+      "happy": {
+        "happy": 0.0,
+        "surprising": -0.11398468867656747,
+        "angry": 0.4,
+        "sad": 0.11398468867656744,
+        "disgust": 0.3,
+        "fear": 0.16111487009941058,
+        "neutral": 0.3
+      },
+      "surprising": {
+        "happy": 0.11398468867656747,
+        "surprising": 0.0,
+        "angry": -0.16111487009941058,
+        "sad": 0.1992110310803547,
+        "disgust": -0.11398468867656744,
+        "fear": 0.22847824678672946,
+        "neutral": 0.10625196626409764
+      },
+      "angry": {
+        "happy": -0.4,
+        "surprising": 0.16111487009941058,
+        "angry": 0.0,
+        "sad": 0.6,
+        "disgust": 0.059212596067471215,
+        "fear": 0.8,
+        "neutral": -0.2
+      },
+      "sad": {
+        "happy": -0.11398468867656744,
+        "surprising": -0.1992110310803547,
+        "angry": 0.4,
+        "sad": 0.0,
+        "disgust": -0.25009638210364654,
+        "fear": 0.059212596067471215,
+        "neutral": 0.14500000000000002
+      },
+      "disgust": {
+        "happy": -0.3,
+        "surprising": 0.11398468867656744,
+        "angry": -0.059212596067471215,
+        "sad": 0.25009638210364654,
+        "disgust": 0.0,
+        "fear": 0.2656054944606787,
+        "neutral": -0.2
+      },
+      "fear": {
+        "happy": -0.16111487009941058,
+        "surprising": -0.22847824678672946,
+        "angry": -0.7,
+        "sad": -0.059212596067471215,
+        "disgust": -0.2656054944606787,
+        "fear": 0.0,
+        "neutral": -0.3
+      },
+      "neutral": {
+        "happy": 0.3,
+        "surprising": -0.0592125960674712,
+        "angry": 0.2,
+        "sad": -0.1,
+        "disgust": 0.2,
+        "fear": 0.3,
+        "neutral": 0.0
+      }
+    },
+    "domination_history": [
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.0592125960674712,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.0592125960674712,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "sad",
+            0.1
+          ],
+          [
+            "surprising",
+            0.0592125960674712
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.10625196626409764,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "happy",
+        "dominance_value": 0.3,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "surprising",
+        "dominance_value": 0.10625196626409764,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      },
+      {
+        "debtor_emotion": "neutral",
+        "selected_emotion": "sad",
+        "dominance_value": 0.1,
+        "all_dominance_scores": {
+          "happy": 0.3,
+          "surprising": 0.10625196626409764,
+          "angry": -0.2,
+          "sad": 0.1,
+          "disgust": -0.2,
+          "fear": -0.3,
+          "neutral": 0.0
+        },
+        "top_emotions": [
+          [
+            "happy",
+            0.3
+          ],
+          [
+            "surprising",
+            0.10625196626409764
+          ],
+          [
+            "sad",
+            0.1
+          ]
+        ]
+      }
+    ]
+  }
+}

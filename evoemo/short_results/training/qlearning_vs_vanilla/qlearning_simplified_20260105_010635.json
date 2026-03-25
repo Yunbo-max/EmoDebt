@@ -1,0 +1,481 @@
+{
+  "experiment_type": "q_learning_baseline",
+  "reward_function": "simplified",
+  "credit_assignment": "equal",
+  "total_episodes": 1,
+  "episodes_per_scenario": 1,
+  "learning_rate": 0.15,
+  "discount_factor": 0.9,
+  "use_softmax": true,
+  "temperature": 1.2,
+  "scenarios_used": [
+    "debt_001",
+    "debt_002",
+    "debt_003",
+    "debt_004",
+    "debt_005",
+    "debt_006",
+    "debt_007",
+    "debt_008",
+    "debt_009",
+    "debt_010",
+    "debt_011",
+    "debt_012",
+    "debt_013",
+    "debt_014",
+    "debt_015",
+    "debt_016",
+    "debt_017",
+    "debt_018",
+    "debt_019",
+    "debt_020"
+  ],
+  "episode_results": {
+    "episode_1": {
+      "scenario": "debt_001",
+      "success": true,
+      "final_days": 14,
+      "target_days": 12,
+      "rounds": 21,
+      "emotion_sequence": [
+        "disgust",
+        "surprising",
+        "neutral",
+        "sad",
+        "surprising",
+        "disgust",
+        "angry",
+        "angry",
+        "neutral",
+        "happy",
+        "sad"
+      ],
+      "total_reward": 13.666547138293952,
+      "reward_components": {
+        "R_base": 10.0,
+        "R_time": 0.0,
+        "R_rounds": 3.6665471382939514
+      },
+      "exploration_rate": 0.796,
+      "stats": {
+        "total_episodes": 1,
+        "best_reward": 13.666547138293952,
+        "avg_reward_last_10": 13.666547138293952,
+        "reward_std_last_10": 0.0,
+        "exploration_rate": 0.796,
+        "q_table_mean": 0.0494755229549819,
+        "q_table_std": 0.08337319545651563,
+        "q_table_max": 0.24645516448310467,
+        "q_table_min": -0.021111039423413105,
+        "transition_entropy": 1.943532053203757,
+        "current_emotion": "neutral",
+        "emotion_history": [],
+        "use_softmax": true,
+        "temperature": 1.2,
+        "reward_function": "simplified"
+      },
+      "negotiation_result": {
+        "scenario_id": "debt_001",
+        "final_state": "accept",
+        "collection_days": 14,
+        "final_days": 14,
+        "creditor_target_days": 12,
+        "negotiation_rounds": 21,
+        "dialog_length": 21,
+        "emotion_sequence": [
+          "disgust",
+          "surprising",
+          "neutral",
+          "sad",
+          "surprising",
+          "disgust",
+          "angry",
+          "angry",
+          "neutral",
+          "happy",
+          "sad"
+        ],
+        "dialog": [
+          {
+            "turn": 1,
+            "speaker": "seller",
+            "message": "Given the circumstances, I understand your cash flow challenges, but 30 days is too long for an account this overdue. I can accept 20 days for the full $15,700 to avoid further escalation.",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 2,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I sincerely apologize. Given my client\u2019s bankruptcy and my current cash flow breakdown, I need to request a payment plan over 159 days to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 3,
+            "speaker": "seller",
+            "message": "I appreciate your situation, but 159 days is far beyond reasonable\u2014I can offer 90 days to help bridge this gap.",
+            "state": "offer",
+            "requested_days": 90
+          },
+          {
+            "turn": 4,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and halted my cash flow, I need to request a payment plan over approximately 159 days to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 5,
+            "speaker": "seller",
+            "message": "Given the circumstances, we can meet you at 60 days for the full amount.",
+            "state": "offer",
+            "requested_days": 60
+          },
+          {
+            "turn": 6,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and my cash flow has completely broken down, I need to request a payment plan over 159 days to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 7,
+            "speaker": "seller",
+            "message": "I understand your situation is difficult, but 159 days is far beyond our standard terms. I can move to 45 days to help manage this unexpected cash flow issue.",
+            "state": "offer",
+            "requested_days": 45
+          },
+          {
+            "turn": 8,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and my cash flow has completely broken down, I need to request a payment plan over 159 days to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 9,
+            "speaker": "seller",
+            "message": "I understand client bankruptcy creates challenges, but 159 days is simply too long\u2014let's find a middle ground at 30 days to resolve this quickly.",
+            "state": "offer",
+            "requested_days": 30
+          },
+          {
+            "turn": 10,
+            "speaker": "buyer",
+            "message": "I understand this debt is important, and I want to work with you. Given that a client's bankruptcy has frozen my receivables and halted my cash flow, I need to propose a realistic payment schedule over 159 days to fulfill this obligation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 11,
+            "speaker": "seller",
+            "message": "I understand your situation, but 159 days is simply too long given the amount; I can come down to 25 days for the full $15,700.",
+            "state": "offer",
+            "requested_days": 25
+          },
+          {
+            "turn": 12,
+            "speaker": "buyer",
+            "message": "I understand this debt is important, and I want to fulfill it. Given that a client's bankruptcy has frozen my receivables and halted my cash flow, I need to request a 159-day payment plan to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 13,
+            "speaker": "seller",
+            "message": "159 days is completely unacceptable. I can move to 20 days, but that's my final offer before we escalate this matter.",
+            "state": "offer",
+            "requested_days": 20
+          },
+          {
+            "turn": 14,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I want to be transparent: a major client's bankruptcy has frozen my receivables, causing a complete cash flow breakdown. Given these circumstances, I need to request a realistic 159-day payment schedule to fulfill this $15,700 obligation.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 15,
+            "speaker": "seller",
+            "message": "We need this resolved immediately\u2014I can move to 18 days as a final courtesy before escalating.",
+            "state": "offer",
+            "requested_days": 18
+          },
+          {
+            "turn": 16,
+            "speaker": "buyer",
+            "message": "I understand this debt is important, and I want to be upfront: a client's bankruptcy has frozen my receivables, causing a complete cash flow breakdown. Given this, I need to propose a realistic schedule of 159 days to settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 17,
+            "speaker": "seller",
+            "message": "I understand your client's situation, but 159 days is far too long. I can move to 15 days for the full payment.",
+            "state": "offer",
+            "requested_days": 15
+          },
+          {
+            "turn": 18,
+            "speaker": "buyer",
+            "message": "I understand this debt is overdue, and I take full responsibility. Given that a client's bankruptcy has frozen my receivables and my cash flow has completely broken down, I need to request a payment plan over 159 days to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 19,
+            "speaker": "seller",
+            "message": "I appreciate your consistency, but 159 days is far too long for us to wait. I'm confident we can find a better middle ground\u2014how about we aim for 14 days?",
+            "state": "offer",
+            "requested_days": 14
+          },
+          {
+            "turn": 20,
+            "speaker": "buyer",
+            "message": "I understand this is overdue, and I sincerely apologize. Given my client's bankruptcy and my current cash flow breakdown, I need to request a 159-day payment plan to realistically settle the $15,700.",
+            "state": "offer",
+            "requested_days": 159
+          },
+          {
+            "turn": 21,
+            "speaker": "seller",
+            "message": "I understand the bankruptcy situation has created difficulties, but 159 days is simply too long to resolve this balance. I can extend to 13 days to help accommodate your cash flow challenges.",
+            "state": "accept",
+            "requested_days": 159
+          }
+        ],
+        "success": true,
+        "debtor_model_type": "vanilla"
+      }
+    }
+  },
+  "learning_curve": [
+    {
+      "episode": 1,
+      "reward": 13.666547138293952,
+      "success": true,
+      "exploration_rate": 0.796,
+      "q_table_mean": 0.0494755229549819,
+      "q_table_std": 0.08337319545651563
+    }
+  ],
+  "final_stats": {
+    "total_episodes": 1,
+    "best_reward": 13.666547138293952,
+    "avg_reward_last_10": 13.666547138293952,
+    "reward_std_last_10": 0.0,
+    "exploration_rate": 0.796,
+    "q_table_mean": 0.0494755229549819,
+    "q_table_std": 0.08337319545651563,
+    "q_table_max": 0.24645516448310467,
+    "q_table_min": -0.021111039423413105,
+    "transition_entropy": 1.943532053203757,
+    "current_emotion": "neutral",
+    "emotion_history": [],
+    "use_softmax": true,
+    "temperature": 1.2,
+    "reward_function": "simplified"
+  },
+  "final_q_table": [
+    [
+      0.018364095224351354,
+      0.017856295569523638,
+      0.022128826970358662,
+      0.20905069230611842,
+      0.006646559413080002,
+      -0.019693450849004614,
+      -0.014057720690492647
+    ],
+    [
+      -0.004886267462830754,
+      0.019293233061558387,
+      0.01541038297135018,
+      -0.011199869612023414,
+      0.20706888608691593,
+      0.016998877954198462,
+      0.20327138746160597
+    ],
+    [
+      0.01577807043259432,
+      0.024196449910293728,
+      0.20817763000465125,
+      -0.009847288626503326,
+      0.025214575374596798,
+      -0.01216569284581527,
+      0.22343873202547723
+    ],
+    [
+      0.027329237776009676,
+      0.24645516448310467,
+      0.021440004712915295,
+      -0.009165708529097401,
+      0.011589130144508566,
+      -0.0012225062730881744,
+      -0.012764800680406044
+    ],
+    [
+      0.016433092949922304,
+      0.18501836688379608,
+      0.19568599833150177,
+      0.027786559320634993,
+      -0.007006928561877919,
+      -0.005868273416670913,
+      -0.0013750244892449235
+    ],
+    [
+      0.02073739317414238,
+      -0.0010137414383406232,
+      -0.021111039423413105,
+      0.0031441083967560526,
+      0.02778514739156947,
+      0.022376629169210183,
+      0.0038319410065681837
+    ],
+    [
+      0.22100399317943745,
+      0.0021619569941690826,
+      0.017702457356862357,
+      0.2155127006993071,
+      0.019982225566667303,
+      0.02034106272388056,
+      0.016467072665283897
+    ]
+  ],
+  "final_transition_matrix": [
+    [
+      0.1406993029068692,
+      0.14063977628804716,
+      0.14114140865847838,
+      0.16493154470068153,
+      0.1393321145358018,
+      0.13630709449242429,
+      0.13694875841769763
+    ],
+    [
+      0.134531986253629,
+      0.13727024451748648,
+      0.13682679585524785,
+      0.1338260271612004,
+      0.16052204439675527,
+      0.13700803968811073,
+      0.16001486212757032
+    ],
+    [
+      0.13635835970515262,
+      0.13731831999477523,
+      0.16007130694473296,
+      0.13347737024057865,
+      0.13743487549808753,
+      0.13321974044292897,
+      0.16212002717374413
+    ],
+    [
+      0.14092274284062645,
+      0.16915522018371545,
+      0.1402328314320788,
+      0.13670145150377486,
+      0.1390863635559967,
+      0.13760932568226966,
+      0.13629206480153808
+    ],
+    [
+      0.13757116674115424,
+      0.1583217077268506,
+      0.15973541347863598,
+      0.13887893487407238,
+      0.1349100160271682,
+      0.13503809010088433,
+      0.13554467105123427
+    ],
+    [
+      0.14437350036415628,
+      0.14178016846263428,
+      0.13942544309713295,
+      0.1422722710489713,
+      0.1452239193513857,
+      0.1445708536608378,
+      0.1423538440148817
+    ],
+    [
+      0.1610838329141292,
+      0.1342302444074539,
+      0.13597988688908663,
+      0.16034838489729025,
+      0.13623846795777317,
+      0.13627921357002362,
+      0.1358399693642432
+    ]
+  ],
+  "best_sequence": [
+    "disgust",
+    "surprising",
+    "neutral",
+    "sad",
+    "surprising",
+    "disgust",
+    "angry",
+    "angry",
+    "neutral",
+    "happy",
+    "sad"
+  ],
+  "best_reward": 13.666547138293952,
+  "overall_success_rate": 1.0,
+  "avg_successful_days": 14.0,
+  "avg_successful_rounds": 21.0,
+  "final_avg_reward": 13.666547138293952,
+  "final_reward_std": 0.0,
+  "statistical_analysis": {
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        -0.96,
+        1.0
+      ],
+      "n_success": 1,
+      "n_total": 1,
+      "method": "wilson_score"
+    },
+    "collection_rate": {
+      "mean": 0.8571428571428571,
+      "std": 0.0,
+      "ci_95": [
+        0.8571428571428571,
+        0.8571428571428571
+      ],
+      "min": 0.8571428571428571,
+      "max": 0.8571428571428571,
+      "median": 0.8571428571428571,
+      "method": "bootstrap"
+    },
+    "negotiation_rounds": {
+      "mean": 21.0,
+      "std": 0.0,
+      "ci_95": [
+        21,
+        21
+      ],
+      "min": 21,
+      "max": 21,
+      "median": 21.0,
+      "method": "bootstrap"
+    },
+    "sample_size": 1,
+    "analysis_method": "bootstrap"
+  },
+  "confidence_intervals": {
+    "success_rate_95_ci": [
+      -0.96,
+      1.0
+    ],
+    "collection_rate_95_ci": [
+      0.8571428571428571,
+      0.8571428571428571
+    ],
+    "negotiation_rounds_95_ci": [
+      21,
+      21
+    ]
+  }
+}

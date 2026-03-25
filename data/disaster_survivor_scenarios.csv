@@ -1,0 +1,101 @@
+Case_ID,Disaster_Type,Survivor_Condition,Estimated_Survivor_Endurance(minutes),Rescue_Team_ETA(minutes),Critical_Needs,Key_Negotiation_Argument_By_RoboDog
+1,Earthquake,Trapped_leg_dehydration,90,120,Water, Painkillers,“Your body can last 90 minutes. A water drone arrives in 20. The breach team is on the 2nd floor, making sound you'll hear soon.”
+2,Urban_Fire,Burns_smoke_inhalation,45,90,Oxygen, Bandages,“Fire front passes in 10 min, then smoke clears. Aerial ladder is for you. Your son is safe at school and waiting.”
+3,Flash_Flood,Shock_hypothermia_risk,30,60,Life_Raft, Immersion_Suit,“Hypothermia in 30 min. Water peaks in 10 min then recedes. An auto-raft is 15 min away. Hold the horn, we'll hear you.”
+4,Landslide,Concussion_low_oxygen,120,180,Air_Vent, Heat_Pack,“O2 stable for 2+ hours. Digging at 0.5m/hour. Your dog survived and is whining outside the rubble.”
+5,Blizzard,Frostbite_starvation,180,240,Heat, Food, Antibiotics,“Storm breaks in 90 min, helicopter then. I can guide you to tune the RV engine for heat. Follow my light to find supplies.”
+6,Earthquake,Crush_syndrome_dust,60,200,IV_Fluids, Structural_Shoring,“Dust is settling. Kidney risk in 1 hour. A micro-bore is delivering IV fluids now to delay that clock.”
+7,Factory_Explosion,Internal_bleeding,40,150,Blood_Clotting_Agent, Pain_Relief,“Pressure with my arm now slows bleeding. Coagulant nanobots are en route. Your wife's message: 'I love you, fight!'”
+8,Forest_Fire,Dehydration_smoke,20,75,Fire_Retardant_Gel, Oxygen_Mask,“Critical next 20 min until wind shifts. Fire-retardant gel drop in 5 min. Crouch low, use my body as a heat shield.”
+9,Mine_Collapse,Methane_poisoning_weakness,90,300,O2_Scrubber, Stimulant,“O2 scrubber activated. Air safer in 2 min, resetting your clock. Ventilation duct being cleared. Your daughter drew your rescue.”
+10,Tsunami,Exposure_shark_risk,120,180,EPIRB, Strobe, Freshwater,“Ship on radar, 40 nautical miles. Shark deterrent field active. Drink condensation from my solar panel now.”
+11,Earthquake,Spinal_injury_paralysis,180,240,Spinal_Board, Steroids,“Movement is dangerous, but you're stable. A specialist team is roping down. They've done this 12 times. Your vitals are strong.”
+12,Urban_Fire,Smoke_inhalation_unconsciousness,15,45,Oxygen, Airways,“You will regain consciousness in under 10 min when O2 improves. I'm sealing the door crack. The ladder is at 11th floor.”
+13,Avalanche,Buried_hypoxia,30,90,Heat, Air_Pocket_Locator,“Your air pocket is good for 30 min. The probe team is 20 meters away and will reach you before it's critical.”
+14,Hurricane,Trapped_in_flooded_attic,180,300,Life_Jacket, Water,“The eye of the storm will bring 30 min of calm in 40 min. A boat can reach you then. The water below is not rising anymore.”
+15,Tornado,Pinned_by_debris_in_field,120,150,Extrication_Tools, IV,“The debris is stabilizing you. A field surgical unit is mobile and 30 min out. Your GPS signal is strong.”
+16,Chemical_Spill,Respiratory_distress,25,60,Antidote, Mask,“The plume is shifting away in 10 min. Fresh air will follow. An antidote auto-injector is coming via drone in 12 min.”
+17,Building_Collapse,Trapped_arm_crushed,90,130,Tourniquet, Pain_Relief,“Crush syndrome risk starts at 90 min. A tourniquet can be applied now to delay it. The cutting team is on-site.”
+18,Wildfire,Trapped_on_rock_outcrop,60,120,Fire_Shelter, Water,“The fire will burn past your rock in 25 min. A fire shelter is being dropped in 10. The rock will protect you from direct flame.”
+19,Mudslide,Partially_buried_chest_pressure,45,100,Breathing_Tube, Suction,“The pressure is constant, not increasing. A breathing tube can be inserted in 15 min to relieve it. Rescuers are digging from the side.”
+20,Volcanic_Ashfall,Breathing_difficulty_eye_damage,50,110,Mask, Eye_Rinse,“Ash fall will lessen in 20 min. A sealed mask is 5 min away via ground bot. Your position is clear for helicopter landing.”
+21,Earthquake,Diabetic_shock,30,80,Glucose, Insulin,“Your blood sugar is dropping. I can guide you to your kit 2 meters away. A medic is repelling down with glucose.”
+22,Snowstorm,Heart_attack_symptoms,40,100,Defibrillator, Aspirin,“Chest pain is manageable. An AED is coming via snowmobile in 25 min. Chew the aspirin in your coat pocket now.”
+23,Flood,Stuck_in_car_electrical_shock_risk,70,140,Insulated_Gloves, Cutters,“The car battery is dead, no shock risk. Water is rising slowly. A high-water vehicle is 40 min away. Conserve energy.”
+24,Industrial_Accident,Chemical_burns,60,180,Burn_Gel, Neutralizer,“The chemical is diluted now. A neutralizing wash is coming in 20 min. Your burn severity is treatable.”
+25,Earthquake,Postpartum_hemorrhage_trapped,35,100,Oxytocin, Blood_Expanders,“Bleeding is moderate. Uterine massage instructions can be given. A medevac with blood products is 25 min out.”
+26,Desert_Sandstorm,Dehydration_delirium,90,200,Water, Electrolytes,“You have enough body water for 90 min if you stay still. A rover with water is 60 min away. The storm will clear before then.”
+27,Cave_Collapse,Leg_stuck_falling_water,180,360,Water_Pump, Splint,“The water rise is slow. A pump can be set up in 60 min to control it. Your leg is numb but not losing circulation.”
+28,Urban_Riot,GSW_abdomen,50,120,Combat_Gauze, Chest_Seal,“The bleeding is contained for now. A tactical medic team is clearing the route, 35 min ETA. Pressure must be maintained.”
+29,Dam_Collapse,Swept_into_tree,120,180,Life_Vest, Rope,“The current is stable. You are secure in the tree. A rescue swimmer is upstream, preparing to reach you in 45 min.”
+30,Nuclear_Incident,Radiation_sickness_onset,300,480,Potassium_Iodide, Prussian_Blue,“Radiation levels are dropping. You have a 5-hour window before severe symptoms. Evacuation convoy is en route.”
+31,Earthquake,Elderly_hypothermia,120,150,Heating_Blanket, Hot_Drink,“Your core temp is low but stable. A heating blanket is 20 min away. The team is making direct progress to you.”
+32,Plane_Crash_Remote,Multiple_fractures_shock,90,240,Splints, Plasma,“You are in shock but responsive. A field hospital is being set up 1 km away. Plasma will be brought to you first.”
+33,Train_Derailment,Pinned_in_wreckage,150,220,Hydraulic_Spreaders, Oxygen,“The structure is stable. Hydraulic tools are on scene and will start on your section in 30 min. Oxygen is flowing to you.”
+34,Ship_Sinking_In_Ice,Immersion_hypothermia,45,120,Dry_Suit, Heater,“A helicopter with a winch is 30 min away. You must stay awake. I will engage conversation protocols and alertness checks.”
+35,Monsoon,Trapped_on_rooftop_cardiac_history,80,130,Nitroglycerin, Stabilization,“Your heart rhythm is erratic but not critical. A boat with a paramedic is 40 min away. Your medication is in your bag.”
+36,Earthquake,Child_trapped_scared,60,90,Comfort, Sedative,“You are very brave. Your mom is talking to me. She says to count my lights. The cutter sounds are them coming, not monsters.”
+37,Forest, Lost_hiker_sepsis_from_wound,200,300,Antibiotics, IV_Antibiotics,“The infection is early-stage. Broad-spectrum antibiotics are coming via drone in 45 min. They will halt its progress.”
+38,High-Rise_Scaffold_Collapse,Suspended_harness_injury,180,300,Trauma_Kit, Rope_Descent,“Your harness is intact. A rope descent team is assembling. It will take time, but you are secure. Focus on breathing.”
+39,Subway_Tunnel_Flood,Claustrophobia_panic,30,75,Anti-Anxiety, Communication,“The water is not rising above your chest. A pump is active. A rescue diver is in the tunnel, 20 min to you. Breathe with me.”
+40,Silo_Explosion,Grain_entrapment_suffocation,20,50,Air_Hose, Grain_Removal,“An air hose is being inserted now. It will give you 45 more minutes of air. Vibration tools are loosening the grain.”
+41,Earthquake,Neonatal_hypothermia,40,100,Incubator, Warmth,“The baby is cold but stable. Skin-to-skin contact instructions will be given. A portable incubator is coming via fastest route.”
+42,Alpine_Climbing,Fall_ledge_compound_fracture,120,280,Splint, Pain_Relief,“The ledge is stable. A helicopter mountain rescue team is the best in Europe. They are 2 hours out, which is within your window.”
+43,Riot,_Tear_gas_asthma_attack,15,40,Inhaler, Oxygen,“The gas is dispersing. Fresh air in 5 min. A medic with a nebulizer is fighting through the crowd to you.”
+44,Earthquake,Visually_impaired_disoriented,90,120,Guide, Reassurance,“I am your guide. The layout is mapped. I will describe every sound. The rescuers' voices will come from the left. Listen for them.”
+45,Offshore_Platform_Fire,Jumped_into_sea_burns,60,150,Flotation, Burn_Cooling,“You are floating. A fast rescue craft is 45 min away. Splash seawater on your burns intermittently. Help is coming.”
+46,Sinkhole,Swallowed_into_cavity,180,360,Rope_Ladder, Harness,“The cavity is stable. A rope system is being rigged. It's a technical process but doable. You have air and time.”
+47,Earthquake,Psychiatric_medication_withdrawal,100,160,Medication, Calming,“Withdrawal is distressing but not life-threatening in this window. Your specific medication has been located and is coming.”
+48,Remote_Mining_Camp,Appendicitis,300,480,Surgical_Kit, Antibiotics,“Pain will increase but rupture risk is low for the next 5 hours. A medevac jet is being dispatched from the city.”
+49,Bridge_Collapse,In_water_pierced_by_rebar,80,140,Bolt_Cutters, Blood_Clotting,“You are impaled but the rebar is stopping major blood loss. A diver with bolt cutters is 30 min out. Hold still.”
+50,Earthquake,Deaf_trapped_can't_hear_rescuers,150,200,Visual_Alerts, Vibration,“I will flash my lights when they are close. They know you are deaf and will use vibrations. Your partner is safe and informed.”
+51,Arctic_Expedition,_Frostbite_gangrene_risk,240,400,Antibiotics, Surgical_Debridement,“The gangrene line is not advancing rapidly. Strong antibiotics via injection in 90 min will contain it for evacuation.”
+52,Earthquake,Dialysis_patient_fluid_overload,70,120,Dialysis, Diuretics,“Fluid overload is manageable. A portable dialysis unit is being rushed here. Limit drinking. Your clinic sent your records.”
+53,Jungle,_Snake_bite,120,200,Antivenom, Immobilization,“The venom type is identified. The nearest antivenom is being delivered by a speedboat team. Keep the bite below heart level.”
+54,Earthquake,Terminal_illness_palliative_trapped,Variable,100,Morphine, Comfort,“The team knows your condition. Their goal is your comfort. They are bringing stronger pain relief and will prioritize dignity.”
+55,Space_Station_Leak,Oxygen_depletion,30,60,Patch_Kit, Backup_O2,“The leak is isolated to one module. Backup O2 tanks are being connected. You have 30 minutes of air in your suit. Repair crew is suiting up.”
+56,Earthquake,Service_dog_trapped_with_blind_owner,180,250,Water_Dog, Reassurance,“Your dog is alert but calm. He has water. He will bark when the team is 10 meters away. Trust him as always.”
+57,Ferry_Capsize,Trapped_in_air_pocket,90,180,Air_Supply, Marker_Buoy,“The air pocket is large. A supply hose is being fed down now. A surface marker shows your exact location to divers.”
+58,Earthquake,Pregnant_second_trimester,150,200,Fetal_Monitor, Hydration,“The baby's heartbeat is strong and normal on my scan. Your priority is to stay calm and hydrated for both of you.”
+59,Laboratory_Blast,_Radiation_contamination,180,360,Decontamination, Chelation,“You are contaminated but not at acute poisoning levels. A sealed decontamination pod is coming. Time is on your side.”
+60,Earthquake,Refugee_no_language,120,180,Translation, Pictograms,“I am connecting to a translator. The rescuers have pictogram cards. Your name is known. They are coming for you, [Name].”
+61,Hotels_Fire,Wheelchair_user_stuck_in_elevator,100,160,Elevator_Key, Respirator,“The elevator shaft is secure. The fire is below you. A specialized team with a elevator override key is coming.”
+62,Earthquake,Alone_with_infant,110,170,Formula, Diapers,“The infant is crying, which means breathing is good. Formula and diapers are in the aid package coming in 35 min. You are a good parent.”
+63,Oil_Rig_Spill,Inhalation_of_toxic_fumes,25,65,Oxygen_Hood, Antidote,“The fumes are dissipating with the wind change. A clean air hood is 8 minutes away via drone. Hold your breath intermittently.”
+64,Earthquake,Artist_trapped_with_hand_injury,130,190,Tetanus_Shot, Pain_Relief,“Your hand is injured but salvageable. A micro-surgeon is on the team. Think of the work you will do again. Protect it.”
+65,Remote_Island,_Acute_abdomen,240,360,Surgical_Team, Ultrasound,“Your symptoms suggest a non-perforated ulcer. IV fluids and meds are coming by seaplane to stabilize you for transport.”
+66,Earthquake,Student_with_final_exam_tomorrow,80,120,Reassurance, Communication,“Your school has been notified. The exam will be postponed. Your professor says your grade is safe. Just focus on now.”
+67,Collapsed_Mine,Tunnel_vision_psychosis,50,110,Calm_Communication, Sedative,“The walls are not closing in. My LiDAR shows a large space. The sounds are drills, not collapses. A mild sedative is coming.”
+68,Earthquake,Farmer_worried_about_livestock,140,200,Information, Reassurance,“Your barn is damaged but standing. Your neighbors have secured your animals. They are all alive. Your family is safe in town.”
+69,Airlock_Malfunction,Decompression_sickness_bends,40,100,Recompression, Oxygen,“The joint pain is from the bends. Breathing pure O2 now reduces severity. The rescue shuttle can re-pressurize in 60 min.”
+70,Earthquake,Chef_with_severe_laceration,75,130,Suture_Kit, Blood_Volume,“You have lost blood but not a critical volume. Direct pressure is working. A medic with a suture kit is 25 min away.”
+71,Deserted_Island,_Severe_sunstroke,60,150,Cooling, IV_Fluids,“Getting you to shade and cooling your neck now extends your window. A coast guard helicopter is refueling to reach you.”
+72,Earthquake,Writer_with_claustrophobia,55,100,Distraction, Narrative,“Tell me your story. Describe your book. Let's write the next paragraph in your head. The rescue will be the next chapter.”
+73,Chemical_Plant,_Acid_splash,40,90,Eye_Wash, Neutralizer,“The acid is diluted. Continuous eye irrigation is starting now via my spray. An ambulance with specialists is routed here.”
+74,Earthquake,Gardener_with_soil_allergy_asthma,30,80,Antihistamine, Inhaler,“The dust is settling. An antihistamine auto-injector is 12 min away. Your airway is partially open. Conserve breaths.”
+75,Deep_Sea_Submersible,Power_loss_hypothermia,300,600,Backup_Heat, CO2_Scrubber,“Backup systems are engaging slowly. The support ship has located you and is deploying a remote recovery vehicle.”
+76,Earthquake,Musician_with_hearing_aid_dead,100,150,Visual_Cues, Vibration,“Your hearing aids are out. I am your ears. I will translate all sounds into light patterns. Rescue sounds are pattern 'blue'.”
+77,Glacier_Crevasse_Fall,Leg_fracture_cold,220,400,Heated_Splint, Pain_Relief,“You are in a stable ice cave. A heated splint and hot drink are coming down on a line. A helicopter winch is the extraction plan.”
+78,Earthquake,Scientist_with_critical_research_data,90,140,Data_Backup, Reassurance,“The data drive in your pocket is intact. I have initiated a secure wireless backup to the cloud. Your work is safe.”
+79,Warzone,_GSW_chest_sucking_wound,20,50,Chest_Seal, Needle_Decompression,“Applying chest seal now. This stabilizes the lung. A medevac helicopter has a corridor and is 15 minutes out.”
+80,Earthquake,Elderly_couple_together,180,250,Comfort, Dual_Monitoring,“You are together. This is your strength. I am monitoring you both. The team knows there are two and is prepared.”
+81,Nuclear_Submarine,_CO2_buildup,200,350,CO2_Scrubber, O2_Candle,“The scrubber is being repaired. O2 candles will be lit to extend the atmosphere. The surface ship is above you.”
+82,Earthquake,Athlete_with_torn_ACL,130,190,Immobilization, Ice,“Your knee is stable if immobilized. I can guide you to brace it with debris. The priority is to not move it. Think of your comeback.”
+83,Forest, Bee_allergy_stung_multiple_times,15,35,EpiPen, Steroids,“Using your first EpiPen now. A second is coming via drone in 8 minutes. The reaction can be managed in this timeframe.”
+84,Earthquake,Programmer_in_server_room_fire,50,110,Fire_Suppression, Oxygen,“The server fire is isolated by doors. The suppression system will activate in the room in 5 min, clearing smoke.”
+85,Cave_Diving,_Lost_line_nitrogen_narcosis,40,100,Guide_Line, Buddy_Breathing,“Your narcosis will lessen as you ascend 5 meters. I am projecting a virtual guideline to the entrance. Follow it slowly.”
+86,Earthquake,Child_with_autism_non-verbal,70,120,Soothing_Routine, Favorite_Character,“I am playing the theme song from [Favorite Show]. The rescuers are the good guys coming to help. Deep pressure is coming.”
+87,Hot_Air_Balloon_Crash,_Basket_dragging,90,180,Anchor, Cutters,“The basket will snag on the upcoming ridge in 10 min, stopping the drag. A ground team is racing to that point.”
+88,Earthquake,Doctor_trapped_without_glasses,110,170,Enlarged_Interface, Guidance,“I am projecting all information in large, high-contrast text. I will be your eyes. Describe symptoms, I will analyze.”
+89,Antarctica,_Fell_through_ice,10,45,Ice_Screw, Heated_Blanket,“You have 10 minutes of functional movement. An ice screw and rope are 5 min away. Kick slowly to keep the hole open.”
+90,Earthquake,Veteran_with_PTSD,65,110,Grounding_Techniques, Remembrance,“The rumbling is an earthquake, not artillery. The dust is from concrete, not sand. The voices you will hear are American rescuers.”
+91,Skyscraper_Window_Cleaner,_Cable_snapped,180,300,Secondary_Cable, Net,“The secondary safety cable held. The platform is tilted but secure. A rooftop team is rigging a net and winch system.”
+92,Earthquake,Archivist_in_basement_flood,140,220,Water_Pump, Dehumidifier,“The water is seeping, not pouring. A pump will be lowered in 50 min. The most fragile documents are on the high shelves, safe.”
+93,Safari,_Charged_by_elephant_in_tree,60,150,Distraction, Deterrent,“The elephant is losing interest. A ranger vehicle is making noise to draw it away. Stay still. You are safe in the tree.”
+94,Earthquake,Engineer_can_hear_structure_creaking,80,130,Structural_Sensor, Reassurance,“My sensors show the creaks are non-critical settling. The main load-bearing columns are intact. Your analysis is correct.”
+95,Marathon,_Runner_collapse_heat_stroke,20,60,Cooling, IV,“Pouring water on you now. Core temp will start to drop in 5 min. An IV medic is on a bike, 4 min away. You trained for this.”
+96,Earthquake,Postman_with_undelivered_medicine,100,160,Recipient_Notification, Rerouting,“The recipient has been notified. Their medicine is being rerouted from a pharmacy. Your duty is complete. Now save yourself.”
+97,Underwater_Hotel,_Ruptured_aquarium,30,80,Emergency_Mask, Evacuation_Route,“The breach is contained. Emergency breathing masks are dropping from the ceiling now. Follow the illuminated floor path.”
+98,Earthquake,Teenager_live_streaming,55,100,Communication, Audience_Support,“Your stream is down, but your followers have alerted authorities with your last coordinates. They are posting support. You are not alone.”
+99,Geothermal_Plant,_Steam_burns,70,140,Cooling_Gel, Pain_Relief,“The steam exposure was brief. Cooling gel application now prevents deeper damage. A burn unit is on standby for your arrival.”
+100,Earthquake,Everyone's_someone,Variable,Variable,Hope, Connection,“You matter to someone. They do not know you are here, but they would want you to fight. We will find them together when we get out.”

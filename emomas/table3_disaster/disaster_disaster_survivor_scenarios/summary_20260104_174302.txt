@@ -1,0 +1,16 @@
+VANILLA BASELINE EXPERIMENT SUMMARY
+==================================================
+
+Experiment Type: Vanilla Baseline (Pure LLM Negotiation)
+Total Negotiations: 20
+Success Rate: 100.0% (95% CI: [56.2%, 100.0%])
+Collection Rate: 1.000 (95% CI: [1.000, 1.000])
+Negotiation Rounds: 10.1 (95% CI: [6.8, 13.9])
+
+FAILURE BREAKDOWN:
+
+Model Configuration:
+  Creditor Model: qwen-1.5b
+  Debtor Model: gpt-4o-mini
+  Emotion Strategy: None (Pure LLM)
+  Max Dialog Length: 30
