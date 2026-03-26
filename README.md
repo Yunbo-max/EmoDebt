@@ -3,7 +3,8 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.21080-b31b1b.svg)](https://arxiv.org/abs/2503.21080)
-[![AAMAS 2026](https://img.shields.io/badge/AAMAS-2026-green.svg)](https://aamas2026.org/)
+[![AAMAS 2026](https://img.shields.io/badge/AAMAS-2026-green.svg)](https://cyprusconferences.org/aamas2026/accepted-research-track/)
+[![Demo](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow.svg)](https://huggingface.co/spaces/Yunbo/EmoDebt)
 
 > **Accepted at AAMAS 2026** — 25th International Conference on Autonomous Agents and Multiagent Systems, May 25-29, 2026, Paphos, Cyprus.
 
